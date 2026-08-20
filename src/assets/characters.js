@@ -456,6 +456,18 @@ const characters = [
     bgColor: '#f57f17', // Gold / Amber (Wolverine)
     fontFamily: 'Wolverine',
   },
+  {
+    id: 39,
+    name: 'Shang-Chi',
+    originalName: 'Xu Shang-Chi',
+    photo: '/shang-chi.png',
+    description: 'A master martial artist trained from childhood as a lethal assassin by his father, Wenwu, leader of the Ten Rings. Breaking free to forge his own destiny, Shang-Chi harnessed the mystical dragon power of Ta Lo and the ancient Ten Rings to defeat the Dweller-in-Darkness and safeguard Earth.',
+    powers: 'Master of martial arts and wushu weaponry, Chi manipulation, mastery of the mystical Ten Rings (granting superhuman strength, concussive energy blasts, telekinetic ring control, enhanced longevity, and mystical shields).',
+    birth: 'c. 1996 (Foshan / Ta Lo lineage, China)',
+    death: 'Alive (Avenger & Guardian of the Ten Rings)',
+    bgColor: '#b71c1c', // Dragon Scale Crimson (Shang-Chi)
+    fontFamily: 'Shang-Chi',
+  },
 ];
 
 export default characters;

@@ -80,6 +80,8 @@ const moviePosters = {
   'X2: X-Men United': '/movies/wolverine.jpg',
   'X-Men: The Last Stand': '/movies/wolverine.jpg',
   'X-Men: Days of Future Past': '/movies/wolverine.jpg',
+  'Shang-Chi and the Legend of the Ten Rings': '/movies/shang-chi.jpg',
+  'Shang-Chi': '/shang-chi.png',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -477,6 +479,13 @@ const characterMovieTimeline = {
       { title: 'Deadpool & Wolverine', year: 2024, note: 'MCU Multiverse debut alongside Deadpool' },
     ],
   },
+  'Shang-Chi': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, note: 'Origin, mastery of the Ten Rings and battle for Ta Lo' },
+      { title: 'What If...?', year: 2023, note: 'Alternate universe appearances' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -544,6 +553,7 @@ const movieEvents = {
   'Logan': 'An aging Logan protects Laura on a final heroic mission.',
   'X-Men: Days of Future Past': 'Wolverine travels back in time to alter mutant history.',
   'X-Men: Apocalypse': 'Mutants face the ancient conqueror Apocalypse.',
+  'Shang-Chi and the Legend of the Ten Rings': 'Shang-Chi embraces his mother\'s legacy, wields the Ten Rings, and defeats the Dweller-in-Darkness.',
 };
 
 
