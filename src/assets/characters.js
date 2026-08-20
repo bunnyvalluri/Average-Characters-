@@ -2028,6 +2028,126 @@ const characters = [
     bgColor: '#424242', // S.H.I.E.L.D. Charcoal (Jasper Sitwell)
     fontFamily: 'American Captain',
   },
+  {
+    id: 170,
+    name: 'Miles Morales',
+    originalName: 'Miles Gonzalo Morales',
+    photo: '/miles-morales.png',
+    description: 'A gifted Brooklyn teenager who was bitten by an Alchemax genetically modified radioactive spider. Taking up the mantle of Spider-Man with guidance from Peter Parker across the multiverse, Miles defends his city and the entire Web of Life and Destiny with unyielding heart and courage.',
+    powers: 'Superhuman strength, speed, agility, wall-crawling, precognitive Spider-Sense, bio-electrokinesis (Venom Blast / Venom Strike), camouflage cloaking (invisibility), and web-slinging mastery.',
+    birth: 'October 14, 2004 (Brooklyn, New York)',
+    death: 'Alive (Protector of the Multiverse and Brooklyn)',
+    bgColor: '#b71c1c', // Crimson Black (Miles Morales)
+    fontFamily: 'Spider-Man',
+  },
+  {
+    id: 171,
+    name: 'Jessica Jones',
+    originalName: 'Jessica Campbell Jones-Cage',
+    photo: '/jessica-jones.png',
+    description: 'A tough, sharp-witted private investigator operating Alias Investigations in Hell\'s Kitchen. Endowed with superhuman strength after a childhood chemical accident, she overcame the insidious psychic control of Kilgrave and united with the Defenders to protect the vulnerable.',
+    powers: 'Superhuman physical strength, durability, accelerated healing factor, enhanced jumping/gliding, expert investigative detective, and formidable street combatant.',
+    birth: 'c. 1985 (New York City, New York)',
+    death: 'Alive (Private Investigator, Defender of Hell\'s Kitchen)',
+    bgColor: '#37474f', // Noir Slate (Jessica Jones)
+    fontFamily: 'Avengers',
+  },
+  {
+    id: 172,
+    name: 'Luke Cage',
+    originalName: 'Carl Lucas / Power Man',
+    photo: '/luke-cage.png',
+    description: 'Wrongfully convicted and subjected to experimental cellular regeneration in Seagate Prison, Carl Lucas gained titanium-dense, bulletproof skin and superhuman strength. Reborn as Luke Cage, he defends the streets of Harlem and stands as the unbreakable rock of the Defenders and Avengers.',
+    powers: 'Impenetrable, bulletproof and blast-resistant skin, superhuman strength, accelerated tissue regeneration, enhanced stamina, master street-brawler, and inspiring community leader.',
+    birth: 'c. 1980 (Savannah, Georgia)',
+    death: 'Alive (Defender of Harlem, Leader of Harlem\'s Paradise)',
+    bgColor: '#f57f17', // Harlem Amber Gold (Luke Cage)
+    fontFamily: 'Avengers',
+  },
+  {
+    id: 173,
+    name: 'Iron Fist',
+    originalName: 'Daniel Thomas "Danny" Rand',
+    photo: '/iron-fist.png',
+    description: 'The sole survivor of a plane crash in the Himalayas, Danny Rand was taken in by warrior monks in the mystical hidden city of K\'un-Lun. After plunging his fists into the molten heart of the dragon Shou-Lao the Undying, he earned the sacred title and power of the Immortal Iron Fist.',
+    powers: 'Channeling mystical Chi into focused superhuman strikes (The Iron Fist), master of K\'un-Lun martial arts, enhanced agility, bio-energetic healing via Chi, and acrobatics.',
+    birth: 'April 1, 1991 (New York City, New York)',
+    death: 'Alive (Immortal Iron Fist, Defender of New York)',
+    bgColor: '#2e7d32', // K\'un-Lun Jade (Iron Fist)
+    fontFamily: 'Shang-Chi',
+  },
+  {
+    id: 174,
+    name: 'Carnage',
+    originalName: 'Cletus Kasady',
+    photo: '/carnage.png',
+    description: 'A sadistic serial killer who merged at the cellular level with the crimson spawn of the Venom symbiote during a lethal breakout from San Quentin. Unhinged and driven purely by chaos and bloodlust, Carnage possesses powers that far surpass Venom and Spider-Man combined.',
+    powers: 'Superior superhuman strength and speed, shapeshifting crimson tendrils, lethal weapon generation (axes, blades, spikes), biomass absorption, wall-crawling, accelerated cellular regeneration, and immunity to Spider-Sense.',
+    birth: 'c. 1965 (Brooklyn, New York)',
+    death: 'October 2021 (Decapitated and consumed by Venom in San Francisco)',
+    bgColor: '#b71c1c', // Crimson Blood Symbiote (Carnage)
+    fontFamily: 'Venom',
+  },
+  {
+    id: 175,
+    name: 'Nightcrawler',
+    originalName: 'Kurt Wagner',
+    photo: '/nightcrawler.png',
+    description: 'A German-born mutant with demonic blue fur, a prehensile tail, and glowing yellow eyes, who nonetheless possesses a deeply gentle, spiritual, and noble heart. Nightcrawler can instantly teleport through the sulfurous Brimstone Dimension in the blink of an eye with his signature "BAMF!" sound.',
+    powers: 'Instant line-of-sight teleportation via the Brimstone Dimension, prehensile gripping tail, wall-crawling, superhuman agility and reflexes, night vision, and master fencing swordsman.',
+    birth: 'c. 1980 (Winzeldorf, Bavaria, Germany)',
+    death: 'Alive (X-Men frontline mutant hero)',
+    bgColor: '#311b92', // Velvet Indigo (Nightcrawler)
+    fontFamily: 'Avengers',
+  },
+  {
+    id: 176,
+    name: 'Juggernaut',
+    originalName: 'Cain Marko',
+    photo: '/juggernaut.png',
+    description: 'The towering stepbrother of Professor Charles Xavier, Cain Marko discovered the mystical Crimson Gem of Cyttorak in a forgotten temple. Transformed into the unstoppable Juggernaut, his colossal physical force cannot be stopped by any physical barrier or earthly army once set in motion.',
+    powers: 'Virtually limitless superhuman strength, unstoppable kinetic momentum, complete physical invulnerability, mystical force field generation, and telepathic immunity via dome helmet.',
+    birth: 'c. 1975 (Berkeley, California)',
+    death: 'Alive (Unstoppable powerhouse and force of nature)',
+    bgColor: '#bf360c', // Crimson Bronze (Juggernaut)
+    fontFamily: 'Hulk',
+  },
+  {
+    id: 177,
+    name: 'Beta Ray Bill',
+    originalName: 'Beta Ray Bill',
+    photo: '/beta-ray-bill.png',
+    description: 'A fierce yet noble cybernetically augmented warrior chosen as the cyber-champion of the Korbinite race to protect them from universal destruction. Proving pure of heart and worthy to lift Mjolnir in combat against Thor, Odin bestowed upon Bill his own enchanted uru war-hammer, Stormbreaker.',
+    powers: 'Cyborg Korbinite physiology granting superhuman physical strength matching Thor, godlike endurance, weather and lightning manipulation, flight, and energy projection via Stormbreaker.',
+    birth: 'Ancient era (Korbin Galaxy)',
+    death: 'Alive (Cosmic Champion of the Korbinites)',
+    bgColor: '#e65100', // Korbin Gold (Beta Ray Bill)
+    fontFamily: 'Thor',
+  },
+  {
+    id: 178,
+    name: 'Galactus',
+    originalName: 'Galan of Taa',
+    photo: '/galactus.png',
+    description: 'The sole survivor of the multiverse that existed before the Big Bang, reborn as the celestial cosmic titan Galactus. As the Devourer of Worlds, he serves as an inevitable force of cosmic equilibrium, consuming the life-energies of planets and empowering heralds with the boundless Power Cosmic.',
+    powers: 'Mastery of the Power Cosmic, godlike reality and energy manipulation, planetary matter transmutation, size and density alteration, cosmic telepathy, and bestowal of cosmic powers unto heralds.',
+    birth: 'Pre-Big Bang Universe (Planet Taa)',
+    death: 'Immortal (Primordial Cosmic Entity)',
+    bgColor: '#6a1b9a', // Celestial Violet (Galactus)
+    fontFamily: 'Avengers',
+  },
+  {
+    id: 179,
+    name: 'Bullseye',
+    originalName: 'Benjamin "Dex" Poindexter / Lester',
+    photo: '/bullseye.png',
+    description: 'A psychopathic lethal assassin blessed with an uncanny innate superpower: infallible marksman accuracy that turns any everyday household object into a fatal, armor-piercing projectile. As Wilson Fisk\'s primary enforcer and Daredevil\'s sworn rival, his spine was surgically reconstructed with cogmium steel.',
+    powers: 'Flawless projectile accuracy and trajectory prediction, master martial artist, peak human athletic agility, adamantium/cogmium-reinforced skeletal spine, and lethal weapon improvisation.',
+    birth: 'c. 1984 (Brooklyn / North Carolina)',
+    death: 'Alive (Lethal mercenary and contract assassin)',
+    bgColor: '#263238', // Assassin Charcoal (Bullseye)
+    fontFamily: 'Daredevil',
+  },
 ];
 
 export default characters;

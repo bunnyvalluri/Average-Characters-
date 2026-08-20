@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import CharacterInfo from './CharacterInfo';
 import { useColorTheme } from '../ColorThemeContext';
 
-const CATEGORIES = [
-  { id: 'all', label: 'All Heroes (169)' },
+const getCategories = (count = 179) => [
+  { id: 'all', label: `All Heroes (${count})` },
   { id: 'endgame', label: 'Endgame (Battle & Heist)' },
   { id: 'avengers', label: 'Avengers' },
   { id: 'guardians', label: 'Guardians' },
@@ -58,7 +58,8 @@ const getCategoryForCharacter = (char) => {
     name.includes('abomination') || name.includes('gorr') || name.includes('high evolutionary') ||
     name.includes('ebony maw') || name.includes('cull obsidian') || name.includes('proxima midnight') ||
     name.includes('corvus glaive') || name.includes('alexander pierce') || name.includes('akihiko') ||
-    name.includes('jasper sitwell') || name.includes('justin hammer')
+    name.includes('jasper sitwell') || name.includes('justin hammer') || name.includes('carnage') ||
+    name.includes('juggernaut') || name.includes('bullseye')
   ) {
     return 'villains';
   }
@@ -76,7 +77,8 @@ const getCategoryForCharacter = (char) => {
     name.includes('wolverine') || name.includes('deadpool') || name.includes('cyclops') ||
     name.includes('storm') || name.includes('jean grey') || name.includes('professor x') ||
     name.includes('magneto') || name.includes('rogue') || name.includes('gambit') ||
-    name.includes('colossus') || name.includes('cable') || desc.includes('mutant')
+    name.includes('colossus') || name.includes('cable') || name.includes('nightcrawler') ||
+    desc.includes('mutant')
   ) {
     return 'xmen';
   }
@@ -86,7 +88,8 @@ const getCategoryForCharacter = (char) => {
     name.includes('thena') || name.includes('sersi') || name.includes('makkari') ||
     name.includes('druig') || name.includes('phastos') || name.includes('kingo') ||
     name.includes('ajak') || name.includes('gilgamesh') || name.includes('silver surfer') ||
-    name.includes('ego') || name.includes('clea') || name.includes('america chavez')
+    name.includes('ego') || name.includes('clea') || name.includes('america chavez') ||
+    name.includes('galactus') || name.includes('beta ray bill')
   ) {
     return 'cosmic';
   }
@@ -283,7 +286,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         {/* Category Filter Pills */}
         <div className="flex items-center justify-between flex-wrap gap-2 mb-3">
           <div className="flex items-center gap-2 overflow-x-auto pb-1 hide-scrollbar max-w-full">
-            {CATEGORIES.map((cat) => (
+            {getCategories(characters?.length || 179).map((cat) => (
               <button
                 key={cat.id}
                 onClick={() => setSelectedCategory(cat.id)}
