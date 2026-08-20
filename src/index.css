@@ -370,6 +370,46 @@
   font-family: 'Sersi';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
 }
+@font-face {
+  font-family: 'Mighty Thor';
+  src: url('./assets/fonts/Thor.ttf');
+}
+@font-face {
+  font-family: 'U.S. Agent';
+  src: url('./assets/fonts/American Captain.ttf');
+}
+@font-face {
+  font-family: 'Ghost';
+  src: url('./assets/fonts/Ant Man.otf');
+}
+@font-face {
+  font-family: 'Happy Hogan';
+  src: url('./assets/fonts/Iron Man.otf');
+}
+@font-face {
+  font-family: 'Maria Hill';
+  src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+}
+@font-face {
+  font-family: 'Kraglin';
+  src: url('./assets/fonts/Star Lord.ttf');
+}
+@font-face {
+  font-family: 'Makkari';
+  src: url('./assets/fonts/Captain Marvel.otf');
+}
+@font-face {
+  font-family: 'Druig';
+  src: url('./assets/fonts/Dr Strange.ttf');
+}
+@font-face {
+  font-family: 'Phastos';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
+@font-face {
+  font-family: 'Kingo';
+  src: url('./assets/fonts/Captain Marvel.otf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;

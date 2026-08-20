@@ -1092,6 +1092,126 @@ const characters = [
     bgColor: '#00695c', // Eternal Emerald Green (Sersi)
     fontFamily: 'Sersi',
   },
+  {
+    id: 92,
+    name: 'Mighty Thor',
+    originalName: 'Dr. Jane Foster',
+    photo: '/mighty-thor.png',
+    description: 'A brilliant world-renowned astrophysicist and Thor\'s former love who was diagnosed with terminal cancer. Called by the shattered fragments of Mjolnir in New Asgard, Jane was deemed worthy, transforming into the Mighty Thor and heroically sacrificing her life to save the universe from Gorr.',
+    powers: 'Godlike Asgardian physiology, superhuman strength, flight, lightning manipulation, tactical Mjolnir fragment projectile control, and genius-level astrophysics intellect.',
+    birth: 'c. 1980 (Los Angeles, California)',
+    death: '2024 (Gates of Eternity, ascended to Valhalla)',
+    bgColor: '#c2185b', // Mighty Rose / Asgardian Crimson (Mighty Thor)
+    fontFamily: 'Mighty Thor',
+  },
+  {
+    id: 93,
+    name: 'U.S. Agent',
+    originalName: 'John F. Walker',
+    photo: '/us-agent.png',
+    description: 'A decorated three-time Medal of Honor U.S. Army veteran appointed as the new Captain America by the government. Consuming the Super-Soldier Serum, John Walker\'s intense patriotic drive was tested before he found redemption as U.S. Agent and a vital enforcer on the Thunderbolts.',
+    powers: 'Super-Soldier enhanced physical conditioning (superhuman strength, speed, reflexes, and durability), master combat marksman, tactical shield wielder, and elite military martial artist.',
+    birth: 'c. 1988 (Custer, Georgia)',
+    death: 'Alive (U.S. Agent & Thunderbolts Operative)',
+    bgColor: '#b71c1c', // Patriotic Navy Crimson (U.S. Agent)
+    fontFamily: 'U.S. Agent',
+  },
+  {
+    id: 94,
+    name: 'Ghost',
+    originalName: 'Ava Starr',
+    photo: '/ghost.png',
+    description: 'The daughter of quantum physicist Elihas Starr who was irradiated in a catastrophic quantum explosion as a child, rendering her cells in perpetual flux. Recruited as a covert S.H.I.E.L.D. ghost assassin, Ava stabilized her condition and now deploys her lethal phasing abilities with the Thunderbolts.',
+    powers: 'Quantum phasing (passing through solid matter, intangibility, invisibility, phase shifting), quantum energy bursts, enhanced combat reflexes, and stealth assassination mastery.',
+    birth: 'c. 1987 (Argentina / United States)',
+    death: 'Alive (Quantum Operative & Thunderbolts Member)',
+    bgColor: '#455a64', // Quantum Phantom Slate (Ghost)
+    fontFamily: 'Ghost',
+  },
+  {
+    id: 95,
+    name: 'Happy Hogan',
+    originalName: 'Harold Joseph "Happy" Hogan',
+    photo: '/happy-hogan.png',
+    description: 'Tony Stark\'s closest confidant, former boxer, and longtime Head of Security for Stark Industries. A guardian and mentor to Peter Parker through the trials of Mysterio and the Multiverse, Happy remains the loyal emotional anchor of the Stark legacy.',
+    powers: 'Expert heavyweight boxer and martial artist, master of Stark security protocols and asset protection, seasoned marksman, tactical pilot, and expert logistics coordinator.',
+    birth: 'c. 1969 (Queens, New York)',
+    death: 'Alive (Head of Stark Security & Avenger Ally)',
+    bgColor: '#37474f', // Stark Executive Charcoal (Happy Hogan)
+    fontFamily: 'Happy Hogan',
+  },
+  {
+    id: 96,
+    name: 'Maria Hill',
+    originalName: 'Maria Hill',
+    photo: '/maria-hill.png',
+    description: 'The razor-sharp Deputy Director of S.H.I.E.L.D. and Nick Fury\'s right hand who helped coordinate the Avengers Initiative from the Helicarrier bridge. A master tactical operative who defended the world through the Fall of S.H.I.E.L.D. and the Skrull insurgence.',
+    powers: 'Master spy and intelligence analyst, elite marksman and dual-pistol combatant, black-ops tactical commander, martial artist, and master of advanced military tech.',
+    birth: 'April 4, 1982 (Chicago, Illinois)',
+    death: '2026 (Moscow, Russia, assassinated by Gravik)',
+    bgColor: '#263238', // S.H.I.E.L.D. Tactical Navy (Maria Hill)
+    fontFamily: 'Maria Hill',
+  },
+  {
+    id: 97,
+    name: 'Kraglin',
+    originalName: 'Kraglin Obfonteri',
+    photo: '/kraglin.png',
+    description: 'Yondu Udonta\'s fiercely loyal first mate aboard the Eclector who inherited Yondu\'s cybernetic fin and Yaka Arrow. Through discipline and heart on Knowhere, Kraglin mastered the whistling arrow to save innocent lives and become an official Guardian of the Galaxy.',
+    powers: 'Whistle-controlled Yaka Arrow mastery, master starship pilot, Ravager combat weapons specialist, master mechanic, and tactical frontline defender.',
+    birth: 'c. 1978 (Extraterrestrial)',
+    death: 'Alive (Guardian of the Galaxy on Knowhere)',
+    bgColor: '#8d6e63', // Ravager Leather Brown (Kraglin)
+    fontFamily: 'Kraglin',
+  },
+  {
+    id: 98,
+    name: 'Makkari',
+    originalName: 'Makkari',
+    photo: '/makkari.png',
+    description: 'The super-speedster scout of the Eternals and the fastest being in the Marvel Universe. Utilizing her cosmic sonic vibrations and profound speed, Makkari explores forgotten civilizations and stood on the frontlines to halt the Celestial Emergence.',
+    powers: 'Cosmic super-speed (capable of circling the Earth in seconds, generating supersonic shockwaves and sonic booms), enhanced cosmic physiology, and vibrations-based sensory perception.',
+    birth: 'World Forge (Cosmic Synthetic Eternal)',
+    death: 'Immortal (Cosmic Speedster on the Domo)',
+    bgColor: '#ad1457', // Cosmic Crimson Velocity (Makkari)
+    fontFamily: 'Makkari',
+  },
+  {
+    id: 99,
+    name: 'Druig',
+    originalName: 'Druig',
+    photo: '/druig.png',
+    description: 'An enigmatic Eternal gifted with the cosmic power to control the minds of countless beings simultaneously. Disillusioned by centuries of human conflict, Druig created a peaceful secluded commune in the Amazon rainforest before uniting with the Eternals to save Earth.',
+    powers: 'Mass telepathic mind control (controlling hundreds of minds across great distances), psionic mental shields, cosmic energy manipulation, and expert hand-to-hand combatant.',
+    birth: 'World Forge (Cosmic Synthetic Eternal)',
+    death: 'Immortal (Eternal Mind Master on the Domo)',
+    bgColor: '#212121', // Amazonian Shadow Black (Druig)
+    fontFamily: 'Druig',
+  },
+  {
+    id: 100,
+    name: 'Phastos',
+    originalName: 'Phastos',
+    photo: '/phastos.png',
+    description: 'The cosmic master inventor and tech visionary of the Eternals who secretly advanced human technology for millennia. Living a peaceful life with his husband and son in Chicago, Phastos forged the Uni-Mind engine that enabled the Eternals to save humanity from Tiamut.',
+    powers: 'Cosmic technopathy and matter engineering (manifesting complex machinery, photon blasters, energy traps, and force fields out of golden cosmic light), genius intellect, and immortality.',
+    birth: 'World Forge (Cosmic Synthetic Eternal)',
+    death: 'Immortal (Master Inventor on the Domo)',
+    bgColor: '#455a64', // Celestial Forge Slate (Phastos)
+    fontFamily: 'Phastos',
+  },
+  {
+    id: 101,
+    name: 'Kingo',
+    originalName: 'Kingo',
+    photo: '/kingo.png',
+    description: 'A charismatic Eternal who channeled his cosmic projectile powers into becoming a celebrated multi-generational Bollywood megastar and director. Armed with golden cosmic finger blasters and unmatched flair, Kingo brings joy and battle prowess to his cosmic family.',
+    powers: 'Cosmic energy projectile projection (charging and firing lethal explosive cosmic blasts from his hands and fingertips), enhanced physical conditioning, and master martial artist.',
+    birth: 'World Forge (Cosmic Synthetic Eternal)',
+    death: 'Immortal (Bollywood Star & Eternal Guardian)',
+    bgColor: '#e65100', // Bollywood Radiant Amber (Kingo)
+    fontFamily: 'Kingo',
+  },
 ];
 
 export default characters;

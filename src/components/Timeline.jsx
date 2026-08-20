@@ -159,6 +159,19 @@ const moviePosters = {
   'Mobius': '/mobius.png',
   'Sersi': '/sersi.png',
   'Eternals': '/sersi.png',
+  'Mighty Thor': '/mighty-thor.png',
+  'U.S. Agent': '/us-agent.png',
+  'Ghost': '/ghost.png',
+  'Happy Hogan': '/happy-hogan.png',
+  'Maria Hill': '/maria-hill.png',
+  'Kraglin': '/kraglin.png',
+  'Makkari': '/makkari.png',
+  'Druig': '/druig.png',
+  'Phastos': '/phastos.png',
+  'Kingo': '/kingo.png',
+  'The Falcon and the Winter Soldier': '/falcon.png',
+  'Secret Invasion': '/maria-hill.png',
+  'The Guardians of the Galaxy Holiday Special': '/kraglin.png',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -1039,6 +1052,95 @@ const characterMovieTimeline = {
       { title: 'Avengers: Secret Wars', year: 2027, note: 'Rescued from Arishem to defend the Multiverse' },
     ],
   },
+  'Mighty Thor': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor', year: 2011, note: 'Astrophysicist who discovers Thor in New Mexico' },
+      { title: 'Thor: The Dark World', year: 2013, note: 'Host to the Aether (Reality Stone) on Asgard' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Rocket extracts Reality Stone in 2013 Asgard' },
+      { title: 'Thor: Love and Thunder', year: 2022, note: 'Wields reconstructed Mjolnir as the Mighty Thor & enters Valhalla' },
+    ],
+  },
+  'U.S. Agent': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'The Falcon and the Winter Soldier', year: 2021, note: 'Appointed new Captain America, takes serum & becomes U.S. Agent' },
+      { title: 'Thunderbolts*', year: 2025, note: 'Field operative on the covert Thunderbolts team' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Defends Earth against multiversal threats' },
+    ],
+  },
+  'Ghost': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Ant-Man and the Wasp', year: 2018, note: 'Quantum-phasing antagonist healed by Janet van Dyne' },
+      { title: 'Thunderbolts*', year: 2025, note: 'Master of stealth phasing on the Thunderbolts' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Infiltration and tactical combat support' },
+    ],
+  },
+  'Happy Hogan': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Iron Man', year: 2008, note: 'Tony Stark\'s bodyguard, chauffeur, and trusted friend' },
+      { title: 'Iron Man 2', year: 2010, note: 'Boxes Hammer security alongside Black Widow' },
+      { title: 'Iron Man 3', year: 2013, note: 'Injured in Chinese Theatre bombing by Extremis soldier' },
+      { title: 'Spider-Man: Homecoming', year: 2017, note: 'Oversees Peter Parker\'s Avengers mentorship' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Attends Tony Stark\'s funeral & comforts Morgan' },
+      { title: 'Spider-Man: Far From Home', year: 2019, note: 'Flies Stark jet to London to aid Peter Parker' },
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Offers sanctuary to Peter & Aunt May' },
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Interviews Wade Wilson for the Avengers' },
+    ],
+  },
+  'Maria Hill': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'The Avengers', year: 2012, note: 'Deputy Director of S.H.I.E.L.D. on the Helicarrier' },
+      { title: 'Captain America: The Winter Soldier', year: 2014, note: 'Rescues Steve, Sam, and Natasha during HYDRA takeover' },
+      { title: 'Avengers: Age of Ultron', year: 2015, note: 'Coordinates Avengers headquarters in upstate New York' },
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Dusted by the Snap alongside Nick Fury' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Restored to life at Tony Stark\'s funeral' },
+      { title: 'Spider-Man: Far From Home', year: 2019, note: 'Investigates Elementals in Europe (as Soren)' },
+      { title: 'Secret Invasion', year: 2023, note: 'Investigates rebel Skrulls in Moscow' },
+    ],
+  },
+  'Kraglin': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Guardians of the Galaxy', year: 2014, note: 'Yondu\'s first mate during Battle of Xandar' },
+      { title: 'Guardians of the Galaxy Vol. 2', year: 2017, note: 'Inherits Yondu\'s cybernetic fin and Yaka Arrow' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Arrives via Ravager portal for the Battle of Earth' },
+      { title: 'Thor: Love and Thunder', year: 2022, note: 'Travels with Thor and the Guardians' },
+      { title: 'The Guardians of the Galaxy Holiday Special', year: 2022, note: 'Celebrates Christmas on Knowhere' },
+      { title: 'Guardians of the Galaxy Vol. 3', year: 2023, note: 'Masters the Yaka Arrow to save Knowhere & joins new Guardians' },
+    ],
+  },
+  'Makkari': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Super-speed scout explores the Domo & battles Ikaris to save Earth' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic speedster traversing multiversal Battleworld' },
+    ],
+  },
+  'Druig': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Mind controller protects his Amazonian commune & stops the Emergence' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Psychic defense across parallel dimensions' },
+    ],
+  },
+  'Phastos': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Master engineer creates the Uni-Mind bracelets to stop Tiamut' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic technology builder defending reality' },
+    ],
+  },
+  'Kingo': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Bollywood star wielding golden cosmic finger blasters' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic warrior fighting for the universe' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -1178,6 +1280,19 @@ const movieEvents = {
   'Mobius': 'Mobius navigates TVA temporal records and guides Loki to his glorious purpose.',
   'Sersi': 'Sersi transmutes planetary matter and leads the Eternals to save humanity.',
   'Eternals': 'Immortal cosmic heroes emerge from the shadows to protect humanity from Celestial extinction.',
+  'Mighty Thor': 'Jane Foster wields the cracked Mjolnir, commanding thunder and lightning to stop Gorr.',
+  'U.S. Agent': 'John Walker wields custom vibranium shields and Super-Soldier strength on the Thunderbolts.',
+  'Ghost': 'Ava Starr phases through walls and shifts through quantum frequencies with deadly precision.',
+  'Happy Hogan': 'Happy Hogan coordinates Stark Industries logistics, protecting Peter Parker and the Avengers.',
+  'Maria Hill': 'Maria Hill commands intelligence networks and S.H.I.E.L.D. tactical strikes from the bridge.',
+  'Kraglin': 'Kraglin whistles the legendary Yaka Arrow, defending Knowhere with the Guardians.',
+  'Makkari': 'Makkari shatters the sound barrier with cosmic speed, outmaneuvering celestial threats.',
+  'Druig': 'Druig channels mass telepathic psionic waves to pacify armies and safeguard humanity.',
+  'Phastos': 'Phastos constructs luminous golden cosmic engines and weapons to protect Earth.',
+  'Kingo': 'Kingo fires explosive golden cosmic projectiles with cinematic theatricality.',
+  'The Falcon and the Winter Soldier': 'Sam Wilson and Bucky Barnes dismantle the Flag Smashers as Sam becomes Captain America.',
+  'Secret Invasion': 'Nick Fury uncovers a clandestine rebel Skrull infiltration on Earth.',
+  'The Guardians of the Galaxy Holiday Special': 'Mantis and Drax kidnap Kevin Bacon to give Peter Quill the ultimate Christmas.',
 };
 
 
