@@ -210,6 +210,26 @@
   font-family: 'Silver Surfer';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
 }
+@font-face {
+  font-family: 'Mister Fantastic';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
+@font-face {
+  font-family: 'Human Torch';
+  src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf');
+}
+@font-face {
+  font-family: 'Gambit';
+  src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+}
+@font-face {
+  font-family: 'Namor';
+  src: url('./assets/fonts/Renegade Fonts - HelaBasic 600.otf');
+}
+@font-face {
+  font-family: 'Green Goblin';
+  src: url('./assets/fonts/Spider Man.TTF');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;

@@ -104,6 +104,11 @@ const moviePosters = {
   'Silver Surfer': '/movies/silver-surfer.jpg',
   'Fantastic 4: Rise of the Silver Surfer': '/movies/silver-surfer.jpg',
   'The Fantastic Four: First Steps': '/movies/silver-surfer.jpg',
+  'Mister Fantastic': '/movies/mister-fantastic.jpg',
+  'Human Torch': '/movies/human-torch.jpg',
+  'Gambit': '/movies/gambit.jpg',
+  'Namor': '/movies/namor.jpg',
+  'Green Goblin': '/movies/green-goblin.jpg',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -628,6 +633,56 @@ const characterMovieTimeline = {
       { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic guardian across Battleworld' },
     ],
   },
+  'Mister Fantastic': {
+    beforeMCU: [
+      { title: 'Fantastic Four', year: 2005, note: 'Ioan Gruffudd as Reed Richards' },
+      { title: 'Fantastic 4: Rise of the Silver Surfer', year: 2007, note: 'Confronts the Silver Surfer & Galactus' },
+    ],
+    mcu: [
+      { title: 'Doctor Strange in the Multiverse of Madness', year: 2022, note: 'Earth-838 Illuminati member (John Krasinski)' },
+      { title: 'The Fantastic Four: First Steps', year: 2025, note: 'Pedro Pascal stars as MCU Reed Richards' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Battles Doctor Doom across realities' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Rebuilds the multiverse' },
+    ],
+  },
+  'Human Torch': {
+    beforeMCU: [
+      { title: 'Fantastic Four', year: 2005, note: 'Chris Evans as Johnny Storm' },
+      { title: 'Fantastic 4: Rise of the Silver Surfer', year: 2007, note: 'Swaps powers with teammates' },
+    ],
+    mcu: [
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Chris Evans reprises Johnny Storm in the Void' },
+      { title: 'The Fantastic Four: First Steps', year: 2025, note: 'Joseph Quinn stars as MCU Johnny Storm' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiverse battle for survival' },
+    ],
+  },
+  'Gambit': {
+    beforeMCU: [
+      { title: 'X-Men Origins: Wolverine', year: 2009, note: 'Taylor Kitsch as Remy LeBeau' },
+    ],
+    mcu: [
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Channing Tatum debuts as Gambit in the Void Resistance' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Kinetic showdown across Battleworld' },
+    ],
+  },
+  'Namor': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Black Panther: Wakanda Forever', year: 2022, note: 'Tenoch Huerta debuts as K\'uk\'ulkan, King of Talokan' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Talokan allies against multiversal threats' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Defends Earth and ocean realms' },
+    ],
+  },
+  'Green Goblin': {
+    beforeMCU: [
+      { title: 'Spider-Man', year: 2002, note: 'Willem Dafoe\'s legendary debut as Norman Osborn' },
+      { title: 'Spider-Man 2', year: 2004, note: 'Haunts Harry Osborn as a mirror hallucination' },
+      { title: 'Spider-Man 3', year: 2007, note: 'The legacy of the Goblin formula' },
+    ],
+    mcu: [
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Pulled into the MCU; destroys Aunt May and battles Peter Parker' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -717,6 +772,12 @@ const movieEvents = {
   'Silver Surfer': 'Norrin Radd traverses galaxies carrying the Power Cosmic.',
   'Fantastic 4: Rise of the Silver Surfer': 'The Silver Surfer prepares Earth for Galactus before defying his master.',
   'The Fantastic Four: First Steps': 'The Fantastic Four confront Galactus and the Silver Surfer in an alternate 1960s world.',
+  'Mister Fantastic': 'Reed Richards stretches his genius and body to solve impossible multiversal anomalies.',
+  'Human Torch': 'Johnny Storm blazes through skies unleashing supernova fire blasts.',
+  'Gambit': 'Remy LeBeau turns playing cards into explosive kinetic weapons with lethal precision.',
+  'Namor': 'The Feathered Serpent God commands oceans and floods surface cities to protect Talokan.',
+  'Green Goblin': 'Norman Osborn terrorizes Spider-Man with deadly pumpkin bombs and razor-sharp intellect.',
+  'Spider-Man': 'Peter Parker discovers with great power comes great responsibility and battles the Green Goblin.',
 };
 
 

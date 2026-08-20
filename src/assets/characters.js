@@ -612,6 +612,66 @@ const characters = [
     bgColor: '#455a64', // Chrome Silver (Silver Surfer)
     fontFamily: 'Silver Surfer',
   },
+  {
+    id: 52,
+    name: 'Mister Fantastic',
+    originalName: 'Dr. Reed Richards',
+    photo: '/mister-fantastic.png',
+    description: 'Widely acknowledged as the smartest man alive, Dr. Reed Richards gained supreme cellular elasticity after exposure to cosmic rays. Leading the Fantastic Four, he solves the most complex multiversal mysteries through visionary scientific innovation.',
+    powers: 'Super-genius level intellect across physics, malleable cellular plasticity and shape-shifting elasticity, superhuman blunt-force durability, and interdimensional technology engineering.',
+    birth: 'Central City, California',
+    death: 'Active in Multiverse (Leader of the Fantastic Four & Illuminati)',
+    bgColor: '#0d47a1', // Fantastic Royal Blue (Mister Fantastic)
+    fontFamily: 'Mister Fantastic',
+  },
+  {
+    id: 53,
+    name: 'Human Torch',
+    originalName: 'Jonathan "Johnny" Storm',
+    photo: '/human-torch.png',
+    description: 'The daring and thrill-seeking member of the Fantastic Four who can engulf his entire body in fiery plasma, achieve supersonic flight, and unleash supernova-level heat with his rallying cry: "Flame on!".',
+    powers: 'Pyrokinesis and fiery plasma transformation, supersonic flight via thermal thrust, Nova Flame generation reaching 1,000,000°F, thermokinesis, and complete heat immunity.',
+    birth: 'Long Island, New York',
+    death: 'Active in Multiverse (Fantastic Four & Void Resistance)',
+    bgColor: '#d84315', // Solar Flare Orange (Human Torch)
+    fontFamily: 'Human Torch',
+  },
+  {
+    id: 54,
+    name: 'Gambit',
+    originalName: 'Remy Etienne LeBeau',
+    photo: '/gambit.png',
+    description: 'A smooth-talking Cajun mutant thief and former member of the New Orleans Thieves Guild. Gambit possesses the mutant power to charge inanimate objects with explosive bio-kinetic energy, turning playing cards and his bo staff into lethal projectiles.',
+    powers: 'Mutant bio-kinetic energy conversion and explosive charging, master card thrower, master bō staff combatant (savate martial arts), superhuman agility, and hypnotic charm.',
+    birth: 'New Orleans, Louisiana',
+    death: 'Alive (Void Resistance Fighter & X-Man)',
+    bgColor: '#ad1457', // Kinetic Magenta (Gambit)
+    fontFamily: 'Gambit',
+  },
+  {
+    id: 55,
+    name: 'Namor',
+    originalName: 'Ch\'ah Toh Almehen / K\'uk\'ulkan',
+    photo: '/namor.png',
+    description: 'The mutant king of the subterranean underwater realm of Talokan, revered as the Feathered Serpent God K\'uk\'ulkan. Blessed with ankle wings for supersonic flight and immense aquatic power, Namor fiercely defends his empire from the surface.',
+    powers: 'Ankle-wing supersonic flight, superhuman aquatic and terrestrial strength, aquatic respiration, vibranium spear mastery, marine animal telepathy, and centuries-long longevity.',
+    birth: 'c. 1571 (Yucatán / Talokan)',
+    death: 'Alive (King of Talokan & Feathered Serpent God)',
+    bgColor: '#00695c', // Talokan Ocean Emerald (Namor)
+    fontFamily: 'Namor',
+  },
+  {
+    id: 56,
+    name: 'Green Goblin',
+    originalName: 'Dr. Norman Virgil Osborn',
+    photo: '/green-goblin.png',
+    description: 'The brilliant CEO and founder of Oscorp Technologies whose sanity was shattered after testing an unstable performance-enhancing chemical serum. Armed with his Goblin Glider and pumpkin bombs, he is Spider-Man\'s most cunning and sadistic arch-nemesis.',
+    powers: 'Superhuman strength, agility, reflexes, and enhanced durability matching Spider-Man, genius-level chemistry and aeronautics engineer, Goblin Glider mastery, Razor Bats, and Pumpkin Bombs.',
+    birth: 'c. 1957 (Queens, New York)',
+    death: 'Deceased (Earth-96283) / Cured (Earth-616 Multiverse incursion)',
+    bgColor: '#2e7d32', // Goblin Emerald Green (Green Goblin)
+    fontFamily: 'Green Goblin',
+  },
 ];
 
 export default characters;
