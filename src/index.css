@@ -5,634 +5,780 @@
 @font-face {
   font-family: 'Avengers';
   src: url('./assets/fonts/Avengers.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Avengers3D';
   src: url('./assets/fonts/Avengers 3D.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'American Captain';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Iron Man';
   src: url('./assets/fonts/Iron Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Thor';
   src: url('./assets/fonts/Thor.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Hulk';
   src: url('./assets/fonts/Hulk.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Black Widow';
   src: url('./assets/fonts/Black Widow.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Hawkeye';
   src: url('./assets/fonts/Hawkeye.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Scarlet Witch';
   src: url('./assets/fonts/Wanda.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Vision';
   src: url('./assets/fonts/Vision.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Captain Marvel';
   src: url('./assets/fonts/Captain Marvel.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Doctor Strange';
   src: url('./assets/fonts/Dr Strange.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Black Panther';
   src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Spider-Man';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ant-Man';
   src: url('./assets/fonts/Ant Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'War Machine';
   src: url('./assets/fonts/Iron Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Falcon';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Winter Soldier';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Gamora';
   src: url('./assets/fonts/Gamora.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Nebula';
   src: url('./assets/fonts/Guardians.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Star-Lord';
   src: url('./assets/fonts/Star Lord.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Rocket Raccoon';
   src: url('./assets/fonts/Rocket Raccoon.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Groot';
   src: url('./assets/fonts/Groot.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Drax the Destroyer';
   src: url('./assets/fonts/Hulk.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Mantis';
   src: url('./assets/fonts/Mighty Mantis Personal Use Without Watermark.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Okoye';
   src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Wong';
   src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Valkyrie';
   src: url('./assets/fonts/Thor.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ancient One';
   src: url('./assets/fonts/Dr Strange.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Nick Fury';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Pepper Potts';
   src: url('./assets/fonts/Iron Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Thanos';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Deadpool';
   src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Venom';
   src: url('./assets/fonts/RW-leichenhaus.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Loki';
   src: url('./assets/fonts/ARB 85 Poster Script JAN-39 FRE.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Hela';
   src: url('./assets/fonts/Renegade Fonts - HelaBasic 600.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ultron';
   src: url('./assets/fonts/AgeOfUltron-W7on.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Quicksilver';
   src: url('./assets/fonts/Avengers.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Wolverine';
   src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Shang-Chi';
   src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Moon Knight';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Daredevil';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Punisher';
   src: url('./assets/fonts/Punishment.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Magneto';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Blade';
   src: url('./assets/fonts/Renegade Fonts - HelaBasic 600.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Doctor Doom';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ghost Rider';
   src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Professor X';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Captain Carter';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'She-Hulk';
   src: url('./assets/fonts/Hulk.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ms. Marvel';
   src: url('./assets/fonts/Captain Marvel.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Silver Surfer';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Mister Fantastic';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Human Torch';
   src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Gambit';
   src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Namor';
   src: url('./assets/fonts/Renegade Fonts - HelaBasic 600.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Green Goblin';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Doctor Octopus';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Invisible Woman';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'The Thing';
   src: url('./assets/fonts/Hulk.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Cable';
   src: url('./assets/fonts/Punishment.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Colossus';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Storm';
   src: url('./assets/fonts/Captain Marvel.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Cyclops';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Jean Grey';
   src: url('./assets/fonts/Renegade Fonts - HelaBasic 600.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Rogue';
   src: url('./assets/fonts/Gamora.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Kingpin';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Kate Bishop';
   src: url('./assets/fonts/Hawkeye.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Yelena Belova';
   src: url('./assets/fonts/Black Widow.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Shuri';
   src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'America Chavez';
   src: url('./assets/fonts/Dr Strange.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Adam Warlock';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Korg';
   src: url('./assets/fonts/Thor.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Red Guardian';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Monica Rambeau';
   src: url('./assets/fonts/Captain Marvel.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ironheart';
   src: url('./assets/fonts/Iron Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Cassie Lang';
   src: url('./assets/fonts/Ant Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Echo';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Taskmaster';
   src: url('./assets/fonts/Black Widow.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Agatha Harkness';
   src: url('./assets/fonts/Wanda.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Kang the Conqueror';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Abomination';
   src: url('./assets/fonts/Hulk.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Yondu Udonta';
   src: url('./assets/fonts/Star Lord.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Wenwu';
   src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Gorr the God Butcher';
   src: url('./assets/fonts/Renegade Fonts - HelaBasic 600.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Hercules';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'High Evolutionary';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ikaris';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Thena';
   src: url('./assets/fonts/Captain Marvel.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Sentry';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Mobius';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Sersi';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Mighty Thor';
   src: url('./assets/fonts/Thor.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'U.S. Agent';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ghost';
   src: url('./assets/fonts/Ant Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Happy Hogan';
   src: url('./assets/fonts/Iron Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Maria Hill';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Kraglin';
   src: url('./assets/fonts/Star Lord.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Makkari';
   src: url('./assets/fonts/Captain Marvel.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Druig';
   src: url('./assets/fonts/Dr Strange.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Phastos';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Kingo';
   src: url('./assets/fonts/Captain Marvel.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Odin';
   src: url('./assets/fonts/Thor.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Heimdall';
   src: url('./assets/fonts/Thor.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Gilgamesh';
   src: url('./assets/fonts/Hulk.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ajak';
   src: url('./assets/fonts/Captain Marvel.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Sprite';
   src: url('./assets/fonts/Wanda.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Starfox';
   src: url('./assets/fonts/Star Lord.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Clea';
   src: url('./assets/fonts/Dr Strange.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Xialing';
   src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Pip the Troll';
   src: url('./assets/fonts/Guardians.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Grandmaster';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Collector';
   src: url('./assets/fonts/Guardians.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ego the Living Planet';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Miek';
   src: url('./assets/fonts/Hulk.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Cosmo';
   src: url('./assets/fonts/Star Lord.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Howard the Duck';
   src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Trevor Slattery';
   src: url('./assets/fonts/Iron Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Morris';
   src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Kahhori';
   src: url('./assets/fonts/Captain Marvel.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Baron Zemo';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Arnim Zola';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Red Skull';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Crossbones';
   src: url('./assets/fonts/Punishment.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Batroc';
   src: url('./assets/fonts/American Captain.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Killmonger';
   src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'M\'Baku';
   src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Nakia';
   src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ayo';
   src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Lady Sif';
   src: url('./assets/fonts/Thor.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Karl Mordo';
   src: url('./assets/fonts/Dr Strange.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Black Bolt';
   src: url('./assets/fonts/Captain Marvel.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'The Watcher';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Strange Supreme';
   src: url('./assets/fonts/Dr Strange.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Infinity Ultron';
   src: url('./assets/fonts/AgeOfUltron-W7on.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Mysterio';
   src: url('./assets/fonts/Dr Strange.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Vulture';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Electro';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Sandman';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Lizard';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Katy Chen';
   src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Darcy Lewis';
   src: url('./assets/fonts/Thor.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Jimmy Woo';
   src: url('./assets/fonts/Ant Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ned Leeds';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'MJ';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Aunt May';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'J. Jonah Jameson';
   src: url('./assets/fonts/Spider Man.TTF');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Ronan the Accuser';
   src: url('./assets/fonts/Guardians.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Kaecilius';
   src: url('./assets/fonts/Dr Strange.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Yellowjacket';
   src: url('./assets/fonts/Ant Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Whiplash';
   src: url('./assets/fonts/Iron Man.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Justin Hammer';
   src: url('./assets/fonts/Iron Man.otf');
+  font-display: swap;
 }
-/* index.css or App.css */
-.hide-scrollbar::-webkit-scrollbar {
-  display: none;
+/* Performance Optimizations & Modern Styles */
+:root {
+  --theme-color: #b71c1c;
+  color-scheme: dark;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.hide-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;     /* Firefox */
-}
-footer {
-  background: linear-gradient(90deg, #222 0%, #444 100%);
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  font-weight: 500;
-  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
-  margin-top: 2rem;
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #09090b;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -640,7 +786,8 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: #242424;
+  background-color: #09090b;
+  color: #ffffff;
 }
 
 #root {
@@ -654,67 +801,37 @@ body {
   overflow-x: hidden;
 }
 
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-h1 {
-  font-size: clamp(1.75rem, 4vw + 1rem, 2.5rem);
-  line-height: 1.1;
+/* GPU Compositing Layers */
+.gpu-layer {
+  transform: translateZ(0);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
 }
 
-h2 {
-  font-family: myFont;
+/* Custom Marvel Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+::-webkit-scrollbar-track {
+  background: #111115;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
 }
