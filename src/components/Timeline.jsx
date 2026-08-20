@@ -83,6 +83,10 @@ const moviePosters = {
   'Shang-Chi and the Legend of the Ten Rings': '/movies/shang-chi.jpg',
   'Shang-Chi': '/shang-chi.png',
   'Moon Knight': '/movies/moon-knight.jpg',
+  'Daredevil': '/movies/daredevil.jpg',
+  'Punisher': '/movies/punisher.jpg',
+  'The Punisher': '/movies/punisher.jpg',
+  'Daredevil: Born Again': '/movies/daredevil.jpg',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -494,6 +498,31 @@ const characterMovieTimeline = {
       { title: 'What If...?', year: 2023, note: 'Alternate universe appearances' },
     ],
   },
+  'Daredevil': {
+    beforeMCU: [
+      { title: 'Daredevil', year: 2003, note: 'Ben Affleck feature film' },
+      { title: 'Daredevil', year: 2015, note: 'Acclaimed 3-season Netflix series (Charlie Cox)' },
+      { title: 'The Defenders', year: 2017, note: 'Team-up with Jessica Jones, Luke Cage, Iron Fist' },
+    ],
+    mcu: [
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Appears as Peter Parker\'s defense attorney' },
+      { title: 'She-Hulk: Attorney at Law', year: 2022, note: 'Team-up and romance in Los Angeles' },
+      { title: 'Echo', year: 2024, note: 'Battle with Maya Lopez' },
+      { title: 'Daredevil: Born Again', year: 2025, note: 'MCU headlining return series' },
+    ],
+  },
+  'Punisher': {
+    beforeMCU: [
+      { title: 'The Punisher', year: 1989, note: 'Dolph Lundgren film' },
+      { title: 'The Punisher', year: 2004, note: 'Thomas Jane film' },
+      { title: 'Punisher: War Zone', year: 2008, note: 'Ray Stevenson film' },
+      { title: 'Daredevil', year: 2016, note: 'Season 2 introduction (Jon Bernthal)' },
+      { title: 'The Punisher', year: 2017, note: '2-season Netflix series' },
+    ],
+    mcu: [
+      { title: 'Daredevil: Born Again', year: 2025, note: 'MCU reunion and return with Matt Murdock' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -563,6 +592,9 @@ const movieEvents = {
   'X-Men: Apocalypse': 'Mutants face the ancient conqueror Apocalypse.',
   'Shang-Chi and the Legend of the Ten Rings': 'Shang-Chi embraces his mother\'s legacy, wields the Ten Rings, and defeats the Dweller-in-Darkness.',
   'Moon Knight': 'Marc Spector and Steven Grant unlock Khonshu\'s power to defeat Arthur Harrow and Ammit.',
+  'Daredevil': 'Matt Murdock battles Wilson Fisk and defends Hell\'s Kitchen with relentless determination.',
+  'The Punisher': 'Frank Castle uncovers military conspiracies and dispenses brutal justice to the underworld.',
+  'Daredevil: Born Again': 'Matt Murdock and Frank Castle collide in a high-stakes battle for New York City.',
 };
 
 

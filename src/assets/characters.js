@@ -480,6 +480,30 @@ const characters = [
     bgColor: '#37474f', // Slate Lunar Grey (Moon Knight)
     fontFamily: 'Moon Knight',
   },
+  {
+    id: 41,
+    name: 'Daredevil',
+    originalName: 'Matthew Michael "Matt" Murdock',
+    photo: '/daredevil.png',
+    description: 'A blind defense attorney from Hell\'s Kitchen whose remaining senses were amplified to superhuman levels after a childhood toxic accident. Striking fear into criminal empires as the Man Without Fear, Matt Murdock relentlessly defends his city in the courtroom by day and on the rooftops by night.',
+    powers: '360-degree radar sense (echolocation & spatial awareness), superhuman senses (hearing, scent, touch, taste), master martial artist (ninjutsu, boxing, stick fighting), master acrobat, peak human physical conditioning, and dual custom billy clubs.',
+    birth: 'October 12, 1984 (Hell\'s Kitchen, Manhattan, New York)',
+    death: 'Alive (The Man Without Fear & active defender of New York)',
+    bgColor: '#b71c1c', // Devil Crimson Red (Daredevil)
+    fontFamily: 'Daredevil',
+  },
+  {
+    id: 42,
+    name: 'Punisher',
+    originalName: 'Francis David "Frank" Castle',
+    photo: '/punisher.png',
+    description: 'A decorated Force Recon Marine veteran who waged a relentless one-man war on crime after his family was murdered in Central Park. Armed with lethal military combat mastery and his iconic skull emblem, Frank Castle delivers ruthless retribution to criminals without mercy.',
+    powers: 'Master military combat tactician, master marksman and sniper, elite hand-to-hand combatant (Marine Corps Martial Arts), high pain tolerance, expert in guerrilla warfare, infiltration, and heavy weaponry.',
+    birth: 'c. 1980 (Queens, New York)',
+    death: 'Alive (The Punisher & active vigilante)',
+    bgColor: '#212121', // Tactical Black (Punisher)
+    fontFamily: 'Punisher',
+  },
 ];
 
 export default characters;

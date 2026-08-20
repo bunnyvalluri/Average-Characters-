@@ -166,6 +166,14 @@
   font-family: 'Moon Knight';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
 }
+@font-face {
+  font-family: 'Daredevil';
+  src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+}
+@font-face {
+  font-family: 'Punisher';
+  src: url('./assets/fonts/Punishment.otf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
