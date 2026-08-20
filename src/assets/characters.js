@@ -468,6 +468,18 @@ const characters = [
     bgColor: '#b71c1c', // Dragon Scale Crimson (Shang-Chi)
     fontFamily: 'Shang-Chi',
   },
+  {
+    id: 40,
+    name: 'Moon Knight',
+    originalName: 'Marc Spector / Steven Grant',
+    photo: '/moon-knight.png',
+    description: 'A former mercenary living with Dissociative Identity Disorder who was resurrected by the ancient Egyptian Moon God Khonshu. Embodying the avatars of Moon Knight and Mr. Knight, he delivers brutal lunar justice and protects the travelers of the night.',
+    powers: 'Superhuman strength, agility, and accelerated healing empowered by lunar phases, avatar of Khonshu, master marksman and martial artist, crescent dart mastery, mystical suit summoning, and gliding cloaks.',
+    birth: 'March 9, 1987 (Chicago, Illinois)',
+    death: 'Alive (Avatar of Khonshu & Fist of Vengeance)',
+    bgColor: '#37474f', // Slate Lunar Grey (Moon Knight)
+    fontFamily: 'Moon Knight',
+  },
 ];
 
 export default characters;

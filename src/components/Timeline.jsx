@@ -82,6 +82,7 @@ const moviePosters = {
   'X-Men: Days of Future Past': '/movies/wolverine.jpg',
   'Shang-Chi and the Legend of the Ten Rings': '/movies/shang-chi.jpg',
   'Shang-Chi': '/shang-chi.png',
+  'Moon Knight': '/movies/moon-knight.jpg',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -486,6 +487,13 @@ const characterMovieTimeline = {
       { title: 'What If...?', year: 2023, note: 'Alternate universe appearances' },
     ],
   },
+  'Moon Knight': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Moon Knight', year: 2022, note: 'Disney+ series, battles Arthur Harrow & Ammit' },
+      { title: 'What If...?', year: 2023, note: 'Alternate universe appearances' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -554,6 +562,7 @@ const movieEvents = {
   'X-Men: Days of Future Past': 'Wolverine travels back in time to alter mutant history.',
   'X-Men: Apocalypse': 'Mutants face the ancient conqueror Apocalypse.',
   'Shang-Chi and the Legend of the Ten Rings': 'Shang-Chi embraces his mother\'s legacy, wields the Ten Rings, and defeats the Dweller-in-Darkness.',
+  'Moon Knight': 'Marc Spector and Steven Grant unlock Khonshu\'s power to defeat Arthur Harrow and Ammit.',
 };
 
 

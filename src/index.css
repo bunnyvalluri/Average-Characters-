@@ -162,6 +162,10 @@
   font-family: 'Shang-Chi';
   src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
 }
+@font-face {
+  font-family: 'Moon Knight';
+  src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
