@@ -1,11 +1,11 @@
 // src/components/Timeline.jsx
-import React, { memo } from 'react';
-import { motion } from 'framer-motion';
-import { moviePosters, characterMovieTimeline, movieEvents } from '../assets/timelineData';
+import React, { memo, useState, useEffect, useCallback } from 'react';
+import { moviePosters, characterMovieTimeline, movieEvents, movieTrailers } from '../assets/timelineData';
 
-const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamily }) => {
+const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamily, onPlayTrailer }) => {
   const posterSrc = moviePosters[movie.title] || '/avengers.png';
   const eventDesc = movieEvents[movie.title];
+  const trailerId = movieTrailers[movie.title];
 
   return (
     <div className="w-full relative mb-8 sm:mb-12">
@@ -15,7 +15,12 @@ const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamil
         {isLeft ? (
           <div className="flex flex-row-reverse items-center gap-4 md:gap-6 max-w-[44%] text-right pr-4 z-10 w-full">
             <div className="flex flex-col items-end w-full group">
-              <div className="relative overflow-hidden rounded-xl shadow-xl border-2 border-white/30 bg-black/40 mb-3 transition-transform duration-300 group-hover:scale-105">
+              <div
+                onClick={() => trailerId && onPlayTrailer(movie.title, trailerId)}
+                className={`relative overflow-hidden rounded-xl shadow-xl border-2 border-white/30 bg-black/40 mb-3 transition-all duration-300 group-hover:scale-105 ${
+                  trailerId ? 'cursor-pointer' : ''
+                }`}
+              >
                 <img
                   src={posterSrc}
                   alt={movie.title}
@@ -23,16 +28,38 @@ const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamil
                   decoding="async"
                   className="w-24 sm:w-28 md:w-32 h-auto max-h-44 object-cover"
                 />
+                {trailerId && (
+                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <div className="w-9 h-9 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-lg border border-white/40">
+                      <svg className="w-4 h-4 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  </div>
+                )}
               </div>
+
               <span
                 className="text-lg md:text-xl lg:text-2xl font-bold leading-snug text-white drop-shadow-sm"
                 style={{ fontFamily }}
               >
                 {movie.title}
               </span>
-              <span className="inline-block px-2.5 py-0.5 mt-1 rounded-full text-xs font-bold bg-white/15 text-white border border-white/20">
-                {movie.year}
-              </span>
+
+              <div className="flex items-center gap-2 mt-1">
+                <span className="inline-block px-2.5 py-0.5 rounded-full text-xs font-bold bg-white/15 text-white border border-white/20">
+                  {movie.year}
+                </span>
+                {trailerId && (
+                  <button
+                    onClick={() => onPlayTrailer(movie.title, trailerId)}
+                    className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-red-600/80 hover:bg-red-600 text-white border border-red-400/40 cursor-pointer transition-all active:scale-95 shadow-sm"
+                  >
+                    <span>▶ Trailer</span>
+                  </button>
+                )}
+              </div>
+
               {eventDesc && (
                 <p className="text-xs md:text-sm text-gray-300 italic mt-2 leading-relaxed max-w-sm">
                   {eventDesc}
@@ -64,7 +91,12 @@ const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamil
         {!isLeft ? (
           <div className="flex flex-row items-center gap-4 md:gap-6 max-w-[44%] text-left pl-4 z-10 w-full">
             <div className="flex flex-col items-start w-full group">
-              <div className="relative overflow-hidden rounded-xl shadow-xl border-2 border-white/30 bg-black/40 mb-3 transition-transform duration-300 group-hover:scale-105">
+              <div
+                onClick={() => trailerId && onPlayTrailer(movie.title, trailerId)}
+                className={`relative overflow-hidden rounded-xl shadow-xl border-2 border-white/30 bg-black/40 mb-3 transition-all duration-300 group-hover:scale-105 ${
+                  trailerId ? 'cursor-pointer' : ''
+                }`}
+              >
                 <img
                   src={posterSrc}
                   alt={movie.title}
@@ -72,16 +104,38 @@ const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamil
                   decoding="async"
                   className="w-24 sm:w-28 md:w-32 h-auto max-h-44 object-cover"
                 />
+                {trailerId && (
+                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <div className="w-9 h-9 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-lg border border-white/40">
+                      <svg className="w-4 h-4 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  </div>
+                )}
               </div>
+
               <span
                 className="text-lg md:text-xl lg:text-2xl font-bold leading-snug text-white drop-shadow-sm"
                 style={{ fontFamily }}
               >
                 {movie.title}
               </span>
-              <span className="inline-block px-2.5 py-0.5 mt-1 rounded-full text-xs font-bold bg-white/15 text-white border border-white/20">
-                {movie.year}
-              </span>
+
+              <div className="flex items-center gap-2 mt-1">
+                <span className="inline-block px-2.5 py-0.5 rounded-full text-xs font-bold bg-white/15 text-white border border-white/20">
+                  {movie.year}
+                </span>
+                {trailerId && (
+                  <button
+                    onClick={() => onPlayTrailer(movie.title, trailerId)}
+                    className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-red-600/80 hover:bg-red-600 text-white border border-red-400/40 cursor-pointer transition-all active:scale-95 shadow-sm"
+                  >
+                    <span>▶ Trailer</span>
+                  </button>
+                )}
+              </div>
+
               {eventDesc && (
                 <p className="text-xs md:text-sm text-gray-300 italic mt-2 leading-relaxed max-w-sm">
                   {eventDesc}
@@ -114,13 +168,26 @@ const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamil
 
         {/* Mobile Content Card */}
         <div className="flex flex-row items-start gap-3 sm:gap-4 bg-black/40 border border-white/15 p-3.5 sm:p-4 rounded-2xl w-full backdrop-blur-md shadow-lg">
-          <img
-            src={posterSrc}
-            alt={movie.title}
-            loading="lazy"
-            decoding="async"
-            className="w-16 sm:w-20 h-auto max-h-28 object-cover rounded-lg shadow-md border border-white/20 flex-shrink-0"
-          />
+          <div
+            onClick={() => trailerId && onPlayTrailer(movie.title, trailerId)}
+            className="relative flex-shrink-0 cursor-pointer"
+          >
+            <img
+              src={posterSrc}
+              alt={movie.title}
+              loading="lazy"
+              decoding="async"
+              className="w-16 sm:w-20 h-auto max-h-28 object-cover rounded-lg shadow-md border border-white/20"
+            />
+            {trailerId && (
+              <span className="absolute bottom-1 right-1 bg-red-600 text-white p-1 rounded-full shadow">
+                <svg className="w-2.5 h-2.5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </span>
+            )}
+          </div>
+
           <div className="flex flex-col items-start min-w-0 flex-1">
             <span
               className="text-base sm:text-lg font-bold leading-tight break-words text-white"
@@ -128,9 +195,19 @@ const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamil
             >
               {movie.title}
             </span>
-            <span className="inline-block px-2 py-0.5 mt-1 rounded text-[11px] font-semibold bg-white/10 text-gray-200">
-              {movie.year}
-            </span>
+            <div className="flex items-center gap-2 mt-1">
+              <span className="inline-block px-2 py-0.5 rounded text-[11px] font-semibold bg-white/10 text-gray-200">
+                {movie.year}
+              </span>
+              {trailerId && (
+                <button
+                  onClick={() => onPlayTrailer(movie.title, trailerId)}
+                  className="px-2 py-0.5 rounded text-[10px] font-bold bg-red-600 text-white"
+                >
+                  ▶ Watch Trailer
+                </button>
+              )}
+            </div>
             {eventDesc && (
               <p className="text-xs text-gray-300 italic mt-1.5 leading-relaxed">
                 {eventDesc}
@@ -151,15 +228,44 @@ const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamil
 TimelineCard.displayName = 'TimelineCard';
 
 const Timeline = ({ character }) => {
-  if (!character) return null;
+  const [activeTrailer, setActiveTrailer] = useState(null);
 
-  const timelineData = characterMovieTimeline[character.name] || { beforeMCU: [], mcu: [] };
+  const timelineData = character ? (characterMovieTimeline[character.name] || { beforeMCU: [], mcu: [] }) : { beforeMCU: [], mcu: [] };
   const beforeMCUMovies = timelineData.beforeMCU || [];
   const mcuMovies = timelineData.mcu || [];
-  const color = character.bgColor || '#b71c1c';
-  const fontFamily = character.fontFamily || 'Avengers';
+  const color = character?.bgColor || '#b71c1c';
+  const fontFamily = character?.fontFamily || 'Avengers';
 
   const totalAppearances = beforeMCUMovies.length + mcuMovies.length;
+
+  const handlePlayTrailer = useCallback((title, trailerId) => {
+    setActiveTrailer({ title, trailerId });
+  }, []);
+
+  const handleCloseTrailer = useCallback(() => {
+    setActiveTrailer(null);
+  }, []);
+
+  // Escape key support
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        setActiveTrailer(null);
+      }
+    };
+    if (activeTrailer) {
+      window.addEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = '';
+    };
+  }, [activeTrailer]);
+
+  if (!character) return null;
 
   return (
     <section
@@ -182,7 +288,7 @@ const Timeline = ({ character }) => {
             {character.name} Timeline
           </h2>
           <p className="text-gray-300 text-xs sm:text-sm md:text-base mt-2 max-w-lg">
-            Chronological cinematic journey and key pivotal events across Marvel sagas.
+            Chronological cinematic journey and key pivotal events across Marvel sagas. Click any movie or trailer button to stream trailer.
           </p>
         </div>
 
@@ -214,6 +320,7 @@ const Timeline = ({ character }) => {
                     sectionType="beforeMCU"
                     color={color}
                     fontFamily={fontFamily}
+                    onPlayTrailer={handlePlayTrailer}
                   />
                 ))}
               </div>
@@ -243,6 +350,7 @@ const Timeline = ({ character }) => {
                     sectionType="mcu"
                     color={color}
                     fontFamily={fontFamily}
+                    onPlayTrailer={handlePlayTrailer}
                   />
                 ))}
               </div>
@@ -254,6 +362,49 @@ const Timeline = ({ character }) => {
           ) : null}
         </div>
       </div>
+
+      {/* Timeline Trailer Modal */}
+      {activeTrailer && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/85 backdrop-blur-xl animate-fadeIn"
+          onClick={handleCloseTrailer}
+        >
+          <div
+            className="relative w-full max-w-4xl bg-[#121218] border border-white/20 rounded-3xl overflow-hidden shadow-2xl flex flex-col"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between px-5 py-4 border-b border-white/10 bg-white/5">
+              <div className="flex items-center gap-3">
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-red-600 text-white uppercase tracking-wider">
+                  Official Trailer
+                </span>
+                <h3 className="text-base sm:text-xl font-bold text-white truncate max-w-md sm:max-w-xl">
+                  {activeTrailer.title}
+                </h3>
+              </div>
+              <button
+                onClick={handleCloseTrailer}
+                className="p-2 text-gray-400 hover:text-white rounded-full bg-white/5 hover:bg-white/15 transition-colors"
+                aria-label="Close trailer modal"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            <div className="relative w-full bg-black aspect-video">
+              <iframe
+                className="w-full h-full"
+                src={`https://www.youtube-nocookie.com/embed/${activeTrailer.trailerId}?autoplay=1&rel=0&modestbranding=1`}
+                title={`${activeTrailer.title} Official Trailer`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

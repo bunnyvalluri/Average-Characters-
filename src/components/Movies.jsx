@@ -1,5 +1,5 @@
 // src/components/Movies.jsx
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { mcuMoviesCatalog } from '../assets/timelineData';
 import { useColorTheme } from '../ColorThemeContext';
 
@@ -8,7 +8,27 @@ const PHASES = ['All', 'Phase 1', 'Phase 2', 'Phase 3', 'Phase 4', 'Phase 5'];
 const Movies = () => {
   const [selectedPhase, setSelectedPhase] = useState('All');
   const [movieQuery, setMovieQuery] = useState('');
+  const [activeTrailerMovie, setActiveTrailerMovie] = useState(null);
   const { color } = useColorTheme();
+
+  // Close trailer modal on Escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        setActiveTrailerMovie(null);
+      }
+    };
+    if (activeTrailerMovie) {
+      window.addEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = '';
+    };
+  }, [activeTrailerMovie]);
 
   const filteredMovies = useMemo(() => {
     return mcuMoviesCatalog.filter((m) => {
@@ -22,6 +42,14 @@ const Movies = () => {
     });
   }, [selectedPhase, movieQuery]);
 
+  const openTrailer = useCallback((movie) => {
+    setActiveTrailerMovie(movie);
+  }, []);
+
+  const closeTrailer = useCallback(() => {
+    setActiveTrailerMovie(null);
+  }, []);
+
   return (
     <section
       id="movies-section"
@@ -31,8 +59,8 @@ const Movies = () => {
       <div className="text-center max-w-3xl mb-8">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-xs font-semibold text-gray-300 mb-3 backdrop-blur-md">
           <span>Marvel Cinematic Universe</span>
-          <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
-          <span>Phase 1 - 5 Archive</span>
+          <span className="w-1.5 h-1.5 rounded-full bg-rose-500 animate-pulse"></span>
+          <span>Official HD Trailers Available</span>
         </div>
         <h2
           className="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-3 tracking-wide drop-shadow-md"
@@ -41,7 +69,7 @@ const Movies = () => {
           Marvel Movies Vault
         </h2>
         <p className="text-sm sm:text-base text-gray-300 leading-relaxed max-w-xl mx-auto">
-          Explore blockbuster films across the Infinity Saga and Multiverse Saga. Filter by Phase or search by title.
+          Explore blockbuster films across Phase 1 to Phase 5. Click on any movie card to watch its official HD trailer!
         </p>
       </div>
 
@@ -53,7 +81,7 @@ const Movies = () => {
             <button
               key={phase}
               onClick={() => setSelectedPhase(phase)}
-              className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all duration-200 border whitespace-nowrap ${
+              className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all duration-200 border whitespace-nowrap cursor-pointer ${
                 selectedPhase === phase
                   ? 'bg-white text-black border-white shadow-lg scale-105'
                   : 'bg-black/30 hover:bg-white/10 text-gray-300 border-white/15'
@@ -84,14 +112,16 @@ const Movies = () => {
         </div>
       </div>
 
-      {/* Movies Grid */}
+      {/* Movies Grid with Trailer Action */}
       {filteredMovies.length > 0 ? (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-5 w-full">
           {filteredMovies.map((movie) => (
             <div
               key={movie.id}
-              className="group bg-black/40 hover:bg-black/60 rounded-2xl p-3 flex flex-col justify-between border border-white/10 hover:border-white/30 transition-all duration-300 backdrop-blur-md shadow-xl hover:-translate-y-1 hover:shadow-2xl"
+              onClick={() => openTrailer(movie)}
+              className="group bg-black/40 hover:bg-black/60 rounded-2xl p-3 flex flex-col justify-between border border-white/10 hover:border-white/35 transition-all duration-300 backdrop-blur-md shadow-xl hover:-translate-y-1.5 hover:shadow-2xl cursor-pointer select-none"
             >
+              {/* Poster Container with Play Icon Overlay */}
               <div className="w-full overflow-hidden rounded-xl bg-black/60 aspect-[2/3] relative mb-2.5">
                 <img
                   src={movie.poster}
@@ -100,11 +130,23 @@ const Movies = () => {
                   decoding="async"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <span className="absolute top-2 right-2 px-2 py-0.5 rounded-md bg-black/70 backdrop-blur-md text-[10px] font-bold text-white border border-white/20">
+                
+                {/* Year Badge */}
+                <span className="absolute top-2 right-2 px-2 py-0.5 rounded-md bg-black/75 backdrop-blur-md text-[10px] font-bold text-white border border-white/20 z-10">
                   {movie.year}
                 </span>
+
+                {/* Hover Play Button Overlay */}
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-center justify-center backdrop-blur-[2px]">
+                  <div className="w-12 h-12 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-2xl transform scale-75 group-hover:scale-100 transition-transform duration-200 border border-white/40">
+                    <svg className="w-6 h-6 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </div>
+                </div>
               </div>
 
+              {/* Card Meta & Trailer Button */}
               <div className="flex flex-col flex-1 justify-between">
                 <div>
                   <span className="text-[10px] font-bold uppercase tracking-wider text-amber-400 block mb-0.5">
@@ -115,9 +157,17 @@ const Movies = () => {
                   </h3>
                 </div>
 
-                <p className="text-[11px] text-gray-400 mt-1.5 line-clamp-2 leading-relaxed font-normal">
-                  {movie.description}
-                </p>
+                <div className="mt-2 pt-2 border-t border-white/10 flex items-center justify-between">
+                  <span className="text-[11px] text-gray-400 font-medium truncate">
+                    {movie.hero}
+                  </span>
+                  <span className="inline-flex items-center gap-1 text-[11px] text-red-400 font-semibold group-hover:text-red-300">
+                    <span>Trailer</span>
+                    <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </span>
+                </div>
               </div>
             </div>
           ))}
@@ -131,6 +181,76 @@ const Movies = () => {
           >
             Clear Filters
           </button>
+        </div>
+      )}
+
+      {/* Official HD Trailer Modal */}
+      {activeTrailerMovie && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/85 backdrop-blur-xl animate-fadeIn"
+          onClick={closeTrailer}
+        >
+          <div
+            className="relative w-full max-w-4xl bg-[#121218] border border-white/20 rounded-3xl overflow-hidden shadow-2xl flex flex-col transform transition-all duration-300"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div className="flex items-center justify-between px-5 py-4 border-b border-white/10 bg-white/5">
+              <div className="flex items-center gap-3">
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-red-600 text-white uppercase tracking-wider">
+                  Official Trailer
+                </span>
+                <h3 className="text-base sm:text-xl font-bold text-white truncate max-w-md sm:max-w-xl">
+                  {activeTrailerMovie.title} ({activeTrailerMovie.year})
+                </h3>
+              </div>
+              <button
+                onClick={closeTrailer}
+                className="p-2 text-gray-400 hover:text-white rounded-full bg-white/5 hover:bg-white/15 transition-colors"
+                aria-label="Close trailer modal"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            {/* 16:9 HD Video Container */}
+            <div className="relative w-full bg-black aspect-video">
+              {activeTrailerMovie.trailerId ? (
+                <iframe
+                  className="w-full h-full"
+                  src={`https://www.youtube-nocookie.com/embed/${activeTrailerMovie.trailerId}?autoplay=1&rel=0&modestbranding=1`}
+                  title={`${activeTrailerMovie.title} Official Trailer`}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              ) : (
+                <div className="w-full h-full flex flex-col items-center justify-center text-gray-400 p-6 text-center">
+                  <p className="text-base font-semibold text-white mb-2">Trailer Preview Unavailable</p>
+                  <p className="text-sm">Please check back soon for the official trailer stream.</p>
+                </div>
+              )}
+            </div>
+
+            {/* Modal Footer Description */}
+            <div className="p-4 sm:p-5 bg-black/40 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-t border-white/10">
+              <div className="flex-1">
+                <span className="text-xs font-bold text-amber-400 uppercase tracking-wider block mb-1">
+                  {activeTrailerMovie.phase} • Starring {activeTrailerMovie.hero}
+                </span>
+                <p className="text-xs sm:text-sm text-gray-300 leading-relaxed font-normal">
+                  {activeTrailerMovie.description}
+                </p>
+              </div>
+              <button
+                onClick={closeTrailer}
+                className="px-4 py-2 bg-white text-black font-semibold text-xs sm:text-sm rounded-xl hover:bg-gray-200 transition-colors flex-shrink-0 cursor-pointer"
+              >
+                Done Watching
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </section>

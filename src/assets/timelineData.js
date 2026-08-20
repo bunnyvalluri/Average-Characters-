@@ -1755,34 +1755,42 @@ export const movieEvents = {
 };
 
 export const mcuMoviesCatalog = [
-  { id: 'im1', title: 'Iron Man', year: 2008, phase: 'Phase 1', poster: '/movies/iron-man.jpg', hero: 'Iron Man', description: 'Tony Stark builds an armored suit and becomes the superhero Iron Man.' },
-  { id: 'hulk08', title: 'The Incredible Hulk', year: 2008, phase: 'Phase 1', poster: '/movies/the-incredible-hulk.jpg', hero: 'Hulk', description: 'Bruce Banner desperately seeks a cure for the gamma radiation that fuels the Hulk.' },
-  { id: 'im2', title: 'Iron Man 2', year: 2010, phase: 'Phase 1', poster: '/movies/iron-man-2.jpg', hero: 'Iron Man', description: 'Tony Stark faces pressure from the government and a vengeful Ivan Vanko.' },
-  { id: 'thor1', title: 'Thor', year: 2011, phase: 'Phase 1', poster: '/movies/thor.jpg', hero: 'Thor', description: 'The arrogant God of Thunder is cast out of Asgard to live among humans on Earth.' },
-  { id: 'ca1', title: 'Captain America: The First Avenger', year: 2011, phase: 'Phase 1', poster: '/movies/the-first-avenger.jpg', hero: 'Captain America', description: 'Steve Rogers is transformed into Captain America to battle Red Skull and HYDRA.' },
-  { id: 'av1', title: 'The Avengers', year: 2012, phase: 'Phase 1', poster: '/movies/the-avengers.jpg', hero: 'Avengers', description: 'Earth’s Mightiest Heroes team up to stop Loki and his alien army from invading Earth.' },
-  { id: 'im3', title: 'Iron Man 3', year: 2013, phase: 'Phase 2', poster: '/movies/iron-man-3.jpg', hero: 'Iron Man', description: 'Tony Stark confronts the enigmatic Mandarin and uncovers the Extremis conspiracy.' },
-  { id: 'thor2', title: 'Thor: The Dark World', year: 2013, phase: 'Phase 2', poster: '/movies/the-dark-world.jpg', hero: 'Thor', description: 'Thor embarks on a perilous journey to defeat Malekith and the Dark Elves.' },
-  { id: 'ca2', title: 'Captain America: The Winter Soldier', year: 2014, phase: 'Phase 2', poster: '/movies/the-winter-soldier.jpg', hero: 'Captain America', description: 'Steve Rogers teams with Black Widow and Falcon to uncover a conspiracy inside S.H.I.E.L.D.' },
-  { id: 'gotg1', title: 'Guardians of the Galaxy', year: 2014, phase: 'Phase 2', poster: '/movies/guardians-of-the-galaxy.jpg', hero: 'Guardians', description: 'A ragtag band of galactic outlaws must unite to stop Ronan from destroying Xandar.' },
-  { id: 'av2', title: 'Avengers: Age of Ultron', year: 2015, phase: 'Phase 2', poster: '/movies/age-of-ultron.jpg', hero: 'Avengers', description: 'The Avengers battle Ultron, a rogue AI hellbent on human extinction.' },
-  { id: 'ant1', title: 'Ant-Man', year: 2015, phase: 'Phase 2', poster: '/movies/ant-man.jpg', hero: 'Ant-Man', description: 'Master thief Scott Lang dons the Ant-Man suit to stage a high-stakes heist.' },
-  { id: 'ca3', title: 'Captain America: Civil War', year: 2016, phase: 'Phase 3', poster: '/movies/civil-war.jpg', hero: 'Avengers', description: 'Political pressure splinters the Avengers into opposing factions led by Cap and Iron Man.' },
-  { id: 'ds1', title: 'Doctor Strange', year: 2016, phase: 'Phase 3', poster: '/movies/dr-strange.jpg', hero: 'Doctor Strange', description: 'A neurosurgeon unlocks the Mystic Arts after a devastating car crash.' },
-  { id: 'gotg2', title: 'Guardians of the Galaxy Vol. 2', year: 2017, phase: 'Phase 3', poster: '/movies/guardians-of-the-galaxy-2.jpg', hero: 'Guardians', description: 'The Guardians unravel the mystery of Peter Quill’s true celestial parentage.' },
-  { id: 'sp1', title: 'Spider-Man: Homecoming', year: 2017, phase: 'Phase 3', poster: '/movies/spiderman-homecoming.jpg', hero: 'Spider-Man', description: 'Peter Parker navigates high school life while fighting the sinister Vulture.' },
-  { id: 'thor3', title: 'Thor: Ragnarok', year: 2017, phase: 'Phase 3', poster: '/movies/ragnarok.jpg', hero: 'Thor', description: 'Imprisoned on Sakaar, Thor must race against time to prevent Hela from destroying Asgard.' },
-  { id: 'bp1', title: 'Black Panther', year: 2018, phase: 'Phase 3', poster: '/movies/black-panther.jpg', hero: 'Black Panther', description: 'T’Challa ascends as King of Wakanda and faces a fierce challenge from Killmonger.' },
-  { id: 'av3', title: 'Avengers: Infinity War', year: 2018, phase: 'Phase 3', poster: '/movies/infinity-war.jpg', hero: 'Avengers', description: 'The Avengers and Guardians unite in a desperate bid to stop Thanos from collecting all six Infinity Stones.' },
-  { id: 'ant2', title: 'Ant-Man and the Wasp', year: 2018, phase: 'Phase 3', poster: '/movies/ant-man-and-the-wasp.jpg', hero: 'Ant-Man', description: 'Scott Lang and Hope van Dyne venture into the Quantum Realm.' },
-  { id: 'cm1', title: 'Captain Marvel', year: 2019, phase: 'Phase 3', poster: '/movies/captain-marvel.jpg', hero: 'Captain Marvel', description: 'Carol Danvers uncovers her past and becomes one of the universe’s most powerful champions.' },
-  { id: 'av4', title: 'Avengers: Endgame', year: 2019, phase: 'Phase 3', poster: '/movies/endgame.jpg', hero: 'Avengers', description: 'The surviving Avengers execute a temporal heist to reverse Thanos’ catastrophic snap.' },
-  { id: 'sp2', title: 'Spider-Man: Far From Home', year: 2019, phase: 'Phase 3', poster: '/movies/far-from-home.jpg', hero: 'Spider-Man', description: 'Peter Parker faces new elemental threats and Mysterio on a European school trip.' },
-  { id: 'bw1', title: 'Black Widow', year: 2021, phase: 'Phase 4', poster: '/movies/black-widow.jpg', hero: 'Black Widow', description: 'Natasha Romanoff confronts the darkest parts of her ledger and the Red Room.' },
-  { id: 'sc1', title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, phase: 'Phase 4', poster: '/movies/shang-chi.jpg', hero: 'Shang-Chi', description: 'Shang-Chi confronts his past and the clandestine Ten Rings organization.' },
-  { id: 'sp3', title: 'Spider-Man: No Way Home', year: 2021, phase: 'Phase 4', poster: '/movies/no-way-home.jpg', hero: 'Spider-Man', description: 'Multiversal villains arrive in Peter Parker’s world after a spell goes awry.' },
-  { id: 'dp3', title: 'Deadpool & Wolverine', year: 2024, phase: 'Phase 5', poster: '/movies/deadpool-&-wolverine.jpg', hero: 'Deadpool', description: 'Deadpool joins forces with a reluctant Wolverine to save the Multiverse.' }
+  { id: 'im1', title: 'Iron Man', year: 2008, phase: 'Phase 1', poster: '/movies/iron-man.jpg', hero: 'Iron Man', trailerId: '8ugaeA-nMTc', description: 'Tony Stark builds an armored suit and becomes the superhero Iron Man.' },
+  { id: 'hulk08', title: 'The Incredible Hulk', year: 2008, phase: 'Phase 1', poster: '/movies/the-incredible-hulk.jpg', hero: 'Hulk', trailerId: 'xbqNb2PFKKA', description: 'Bruce Banner desperately seeks a cure for the gamma radiation that fuels the Hulk.' },
+  { id: 'im2', title: 'Iron Man 2', year: 2010, phase: 'Phase 1', poster: '/movies/iron-man-2.jpg', hero: 'Iron Man', trailerId: 'wKtcmiifycU', description: 'Tony Stark faces pressure from the government and a vengeful Ivan Vanko.' },
+  { id: 'thor1', title: 'Thor', year: 2011, phase: 'Phase 1', poster: '/movies/thor.jpg', hero: 'Thor', trailerId: 'JOddp-nlNvQ', description: 'The arrogant God of Thunder is cast out of Asgard to live among humans on Earth.' },
+  { id: 'ca1', title: 'Captain America: The First Avenger', year: 2011, phase: 'Phase 1', poster: '/movies/the-first-avenger.jpg', hero: 'Captain America', trailerId: 'JerVrbLldXw', description: 'Steve Rogers is transformed into Captain America to battle Red Skull and HYDRA.' },
+  { id: 'av1', title: 'The Avengers', year: 2012, phase: 'Phase 1', poster: '/movies/the-avengers.jpg', hero: 'Avengers', trailerId: 'eOrNdBpGMv8', description: 'Earth’s Mightiest Heroes team up to stop Loki and his alien army from invading Earth.' },
+  { id: 'im3', title: 'Iron Man 3', year: 2013, phase: 'Phase 2', poster: '/movies/iron-man-3.jpg', hero: 'Iron Man', trailerId: 'Ke1Y3P9D0Bc', description: 'Tony Stark confronts the enigmatic Mandarin and uncovers the Extremis conspiracy.' },
+  { id: 'thor2', title: 'Thor: The Dark World', year: 2013, phase: 'Phase 2', poster: '/movies/the-dark-world.jpg', hero: 'Thor', trailerId: 'npvJ9FTgZbM', description: 'Thor embarks on a perilous journey to defeat Malekith and the Dark Elves.' },
+  { id: 'ca2', title: 'Captain America: The Winter Soldier', year: 2014, phase: 'Phase 2', poster: '/movies/the-winter-soldier.jpg', hero: 'Captain America', trailerId: '7SlILk2WMTI', description: 'Steve Rogers teams with Black Widow and Falcon to uncover a conspiracy inside S.H.I.E.L.D.' },
+  { id: 'gotg1', title: 'Guardians of the Galaxy', year: 2014, phase: 'Phase 2', poster: '/movies/guardians-of-the-galaxy.jpg', hero: 'Guardians', trailerId: 'd96cjJhvlMA', description: 'A ragtag band of galactic outlaws must unite to stop Ronan from destroying Xandar.' },
+  { id: 'av2', title: 'Avengers: Age of Ultron', year: 2015, phase: 'Phase 2', poster: '/movies/age-of-ultron.jpg', hero: 'Avengers', trailerId: 'tmeOjFno6Do', description: 'The Avengers battle Ultron, a rogue AI hellbent on human extinction.' },
+  { id: 'ant1', title: 'Ant-Man', year: 2015, phase: 'Phase 2', poster: '/movies/ant-man.jpg', hero: 'Ant-Man', trailerId: 'pWdKf3MneyI', description: 'Master thief Scott Lang dons the Ant-Man suit to stage a high-stakes heist.' },
+  { id: 'ca3', title: 'Captain America: Civil War', year: 2016, phase: 'Phase 3', poster: '/movies/civil-war.jpg', hero: 'Avengers', trailerId: 'dKrVegVI0Us', description: 'Political pressure splinters the Avengers into opposing factions led by Cap and Iron Man.' },
+  { id: 'ds1', title: 'Doctor Strange', year: 2016, phase: 'Phase 3', poster: '/movies/dr-strange.jpg', hero: 'Doctor Strange', trailerId: 'HSzx-zryEgM', description: 'A neurosurgeon unlocks the Mystic Arts after a devastating car crash.' },
+  { id: 'gotg2', title: 'Guardians of the Galaxy Vol. 2', year: 2017, phase: 'Phase 3', poster: '/movies/guardians-of-the-galaxy-2.jpg', hero: 'Guardians', trailerId: 'dW1BIid8Osg', description: 'The Guardians unravel the mystery of Peter Quill’s true celestial parentage.' },
+  { id: 'sp1', title: 'Spider-Man: Homecoming', year: 2017, phase: 'Phase 3', poster: '/movies/spiderman-homecoming.jpg', hero: 'Spider-Man', trailerId: 'U0D338862RE', description: 'Peter Parker navigates high school life while fighting the sinister Vulture.' },
+  { id: 'thor3', title: 'Thor: Ragnarok', year: 2017, phase: 'Phase 3', poster: '/movies/ragnarok.jpg', hero: 'Thor', trailerId: 'ue80QwXMRHg', description: 'Imprisoned on Sakaar, Thor must race against time to prevent Hela from destroying Asgard.' },
+  { id: 'bp1', title: 'Black Panther', year: 2018, phase: 'Phase 3', poster: '/movies/black-panther.jpg', hero: 'Black Panther', trailerId: 'xjDjIWPwcPU', description: 'T’Challa ascends as King of Wakanda and faces a fierce challenge from Killmonger.' },
+  { id: 'av3', title: 'Avengers: Infinity War', year: 2018, phase: 'Phase 3', poster: '/movies/infinity-war.jpg', hero: 'Avengers', trailerId: '6ZfuNTqbG8Y', description: 'The Avengers and Guardians unite in a desperate bid to stop Thanos from collecting all six Infinity Stones.' },
+  { id: 'ant2', title: 'Ant-Man and the Wasp', year: 2018, phase: 'Phase 3', poster: '/movies/ant-man-and-the-wasp.jpg', hero: 'Ant-Man', trailerId: '8_rTIAOohas', description: 'Scott Lang and Hope van Dyne venture into the Quantum Realm.' },
+  { id: 'cm1', title: 'Captain Marvel', year: 2019, phase: 'Phase 3', poster: '/movies/captain-marvel.jpg', hero: 'Captain Marvel', trailerId: 'Z1BCujX3pw8', description: 'Carol Danvers uncovers her past and becomes one of the universe’s most powerful champions.' },
+  { id: 'av4', title: 'Avengers: Endgame', year: 2019, phase: 'Phase 3', poster: '/movies/endgame.jpg', hero: 'Avengers', trailerId: 'TcMBFSGVi1c', description: 'The surviving Avengers execute a temporal heist to reverse Thanos’ catastrophic snap.' },
+  { id: 'sp2', title: 'Spider-Man: Far From Home', year: 2019, phase: 'Phase 3', poster: '/movies/far-from-home.jpg', hero: 'Spider-Man', trailerId: 'Nt9L1jCKGnE', description: 'Peter Parker faces new elemental threats and Mysterio on a European school trip.' },
+  { id: 'bw1', title: 'Black Widow', year: 2021, phase: 'Phase 4', poster: '/movies/black-widow.jpg', hero: 'Black Widow', trailerId: 'ybji16u608U', description: 'Natasha Romanoff confronts the darkest parts of her ledger and the Red Room.' },
+  { id: 'sc1', title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, phase: 'Phase 4', poster: '/movies/shang-chi.jpg', hero: 'Shang-Chi', trailerId: '8YjFbMbfXaQ', description: 'Shang-Chi confronts his past and the clandestine Ten Rings organization.' },
+  { id: 'sp3', title: 'Spider-Man: No Way Home', year: 2021, phase: 'Phase 4', poster: '/movies/no-way-home.jpg', hero: 'Spider-Man', trailerId: 'JfVOs4VSpmA', description: 'Multiversal villains arrive in Peter Parker’s world after a spell goes awry.' },
+  { id: 'dp3', title: 'Deadpool & Wolverine', year: 2024, phase: 'Phase 5', poster: '/movies/deadpool-&-wolverine.jpg', hero: 'Deadpool', trailerId: '73_1biulkYk', description: 'Deadpool joins forces with a reluctant Wolverine to save the Multiverse.' }
 ];
 
-export default { moviePosters, characterMovieTimeline, movieEvents, mcuMoviesCatalog };
+export const movieTrailers = mcuMoviesCatalog.reduce((acc, movie) => {
+  if (movie.trailerId) {
+    acc[movie.title] = movie.trailerId;
+  }
+  return acc;
+}, {});
+
+export default { moviePosters, characterMovieTimeline, movieEvents, mcuMoviesCatalog, movieTrailers };
+
 
