@@ -91,6 +91,10 @@ const moviePosters = {
   'Blade': '/movies/blade.jpg',
   'Blade II': '/movies/blade.jpg',
   'Blade: Trinity': '/movies/blade.jpg',
+  'Doctor Doom': '/movies/doctor-doom.jpg',
+  'Fantastic Four': '/movies/doctor-doom.jpg',
+  'Ghost Rider': '/movies/ghost-rider.jpg',
+  'Ghost Rider: Spirit of Vengeance': '/movies/ghost-rider.jpg',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -551,6 +555,25 @@ const characterMovieTimeline = {
       { title: 'Deadpool & Wolverine', year: 2024, note: 'Legendary return in the Void resistance team' },
     ],
   },
+  'Doctor Doom': {
+    beforeMCU: [
+      { title: 'Fantastic Four', year: 2005, note: 'Julian McMahon as Doctor Doom' },
+      { title: 'Fantastic 4: Rise of the Silver Surfer', year: 2007, note: 'Steals the Silver Surfer\'s board' },
+    ],
+    mcu: [
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Robert Downey Jr. makes his MCU debut as Doctor Doom' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Sovereign God Emperor of Battleworld' },
+    ],
+  },
+  'Ghost Rider': {
+    beforeMCU: [
+      { title: 'Ghost Rider', year: 2007, note: 'Nicolas Cage as Johnny Blaze' },
+      { title: 'Ghost Rider: Spirit of Vengeance', year: 2011, note: 'Battles Roarke in Eastern Europe' },
+    ],
+    mcu: [
+      { title: 'Midnight Sons', year: 2026, note: 'Spiritual protector assembling with Marvel supernatural heroes' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -627,6 +650,10 @@ const movieEvents = {
   'Blade': 'The Daywalker hunts down vampire syndicates to protect humanity from the shadows.',
   'Blade II': 'Blade forms a temporary truce with the Bloodpack to stop the Reaper strain.',
   'Blade: Trinity': 'Blade battles Drake alongside the Nightstalkers.',
+  'Doctor Doom': 'Victor Von Doom harnesses science and sorcery to establish Latverian dominance.',
+  'Fantastic Four': 'Doom gains metallic skin and electrical powers during a cosmic storm.',
+  'Ghost Rider': 'Johnny Blaze unleashes the Penance Stare and purges the wicked with hellfire.',
+  'Ghost Rider: Spirit of Vengeance': 'The Spirit of Vengeance defends a boy from demonic corruption.',
 };
 
 

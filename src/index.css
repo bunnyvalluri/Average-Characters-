@@ -182,6 +182,14 @@
   font-family: 'Blade';
   src: url('./assets/fonts/Renegade Fonts - HelaBasic 600.otf');
 }
+@font-face {
+  font-family: 'Doctor Doom';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
+@font-face {
+  font-family: 'Ghost Rider';
+  src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;

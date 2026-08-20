@@ -528,6 +528,30 @@ const characters = [
     bgColor: '#c62828', // Blood Red / Daywalker Crimson (Blade)
     fontFamily: 'Blade',
   },
+  {
+    id: 45,
+    name: 'Doctor Doom',
+    originalName: 'Victor Von Doom',
+    photo: '/doctor-doom.png',
+    description: 'The supreme monarch of Latveria and one of the greatest scientific minds and sorcerers in existence. Combining unparalleled scientific genius with mastery of the mystic arts, Doctor Doom rules with an iron will, determined to bring universal order under his sovereign domain.',
+    powers: 'Genius-level scientific intellect, master of dark sorcery and mystic arts, titanium-alloy powered armor granting superhuman strength, force fields, energy blasts, flight, techno-magic technopathy, and time-travel technology.',
+    birth: 'Haasenstadt, Latveria',
+    death: 'Immortal Sovereign (Lord of Latveria & Multiverse Emperor)',
+    bgColor: '#1b5e20', // Emerald Green (Doctor Doom)
+    fontFamily: 'Doctor Doom',
+  },
+  {
+    id: 46,
+    name: 'Ghost Rider',
+    originalName: 'Johnathon "Johnny" Blaze',
+    photo: '/ghost-rider.png',
+    description: 'A motorcycle stunt performer who bonded with the demonic Spirit of Vengeance after making a pact with Mephisto to save his father. Armed with hellfire chains and the legendary Hell Cycle, Ghost Rider scours the earth punishing evil and consuming the souls of the guilty with his Penance Stare.',
+    powers: 'Hellfire projection and manipulation, Penance Stare (forces victims to experience the pain of all their sins), enchanted indestructible hellfire chain, supernatural Hell Cycle traversal, superhuman strength, invulnerability, and immortality.',
+    birth: 'Waukegan, Illinois',
+    death: 'Immortal (Spirit of Vengeance)',
+    bgColor: '#e65100', // Hellfire Orange (Ghost Rider)
+    fontFamily: 'Ghost Rider',
+  },
 ];
 
 export default characters;
