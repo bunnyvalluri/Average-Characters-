@@ -972,6 +972,126 @@ const characters = [
     bgColor: '#2e7d32', // Gamma Moss Green (Abomination)
     fontFamily: 'Abomination',
   },
+  {
+    id: 82,
+    name: 'Yondu Udonta',
+    originalName: 'Yondu Udonta',
+    photo: '/yondu.png',
+    description: 'The Centaurian leader of an exiled clan of Ravagers who abducted young Peter Quill from Earth. Raising Quill with tough love while shielding him from Ego, Yondu commanded the lethal whistle-controlled Yaka Arrow and made the ultimate sacrifice to save his adoptive son, receiving a full Ravager funeral.',
+    powers: 'Whistle-controlled cybernetic Yaka Arrow mastery (extreme aerodynamic agility and lethal velocity), enhanced Centaurian physiology, master starship pilot, tactical combatant, and Ravager captain leadership.',
+    birth: 'Centauri IV (Extraterrestrial)',
+    death: '2014 (Ego\'s Planet, sacrificed himself to save Peter Quill)',
+    bgColor: '#0288d1', // Centaurian Blue (Yondu)
+    fontFamily: 'Yondu Udonta',
+  },
+  {
+    id: 83,
+    name: 'Wenwu',
+    originalName: 'Xu Wenwu (The Mandarin)',
+    photo: '/wenwu.png',
+    description: 'The legendary immortal warrior and founder of the Ten Rings organization who conquered empires across a thousand years. Wielding the mythical Ten Rings, Wenwu built a vast criminal empire before falling in love with Ying Li of Ta Lo, later passing the rings to his son Shang-Chi.',
+    powers: 'Immortality and superhuman physical attributes granted by the Ten Rings, telekinetic projectile ring control, concussive energy blasts, mystical force fields, and supreme mastery of ancient martial arts.',
+    birth: 'c. 1000 AD (China)',
+    death: '2024 (Ta Lo, sacrificed his soul to save Shang-Chi from the Dweller-in-Darkness)',
+    bgColor: '#b71c1c', // Ten Rings Crimson (Wenwu)
+    fontFamily: 'Wenwu',
+  },
+  {
+    id: 84,
+    name: 'Gorr the God Butcher',
+    originalName: 'Gorr',
+    photo: '/gorr.png',
+    description: 'A humble, devoted father whose world was devastated by famine and whose prayers were mocked by his callous god Rapu. Bonded with the primordial All-Black Necrosword, Gorr swore a galactic vow to butcher every god across the cosmos until choosing love over vengeance at Eternity.',
+    powers: 'Wielder of the All-Black Necrosword (summoning infinite shadow monsters, dark tendrils, and necro-blades), shadow realm teleportation, superhuman god-killing strength, invulnerability, and regenerative resilience.',
+    birth: 'Nameless Desert Planet',
+    death: '2024 (Gates of Eternity, resurrected his daughter Love before dying)',
+    bgColor: '#37474f', // Shadow Realm Obsidian (Gorr)
+    fontFamily: 'Gorr the God Butcher',
+  },
+  {
+    id: 85,
+    name: 'Hercules',
+    originalName: 'Heracles / Hercules Panhellenios',
+    photo: '/hercules.png',
+    description: 'The Olympian God of Strength and favored champion son of Zeus. Dispatched from Omnipotence City by his father to make mortals fear gods once again after Thor struck Zeus with his own Thunderbolt, Hercules prepares to prove his Olympian might.',
+    powers: 'Olympian godlike strength exceeding mortal limits, superhuman physical durability and invulnerability, centuries-long immortality, master hand-to-hand combatant, and golden mace mastery.',
+    birth: 'c. 1200 BC (Mount Olympus / Omnipotence City)',
+    death: 'Immortal (Olympian God of Strength)',
+    bgColor: '#f57f17', // Olympian Gold (Hercules)
+    fontFamily: 'Hercules',
+  },
+  {
+    id: 86,
+    name: 'High Evolutionary',
+    originalName: 'Herbert Edgar Wyndham',
+    photo: '/high-evolutionary.png',
+    description: 'A ruthless scientific megalomaniac obsessed with engineering the "perfect society" by force. The founder of Orgocorp and creator of Counter-Earth, the Sovereign, and Rocket Raccoon, he manipulates gravitational forces and genetic codes to play God.',
+    powers: 'Gravity manipulation and concussive kinetic force beams via cybernetic implants, supreme mastery of genetic engineering and bio-cybernetics, force fields, and starship command.',
+    birth: 'Counter-Earth / OrgoCity',
+    death: 'Imprisoned in Knowhere (Defeated by the Guardians of the Galaxy)',
+    bgColor: '#6a1b9a', // Orgocorp Cyber Violet (High Evolutionary)
+    fontFamily: 'High Evolutionary',
+  },
+  {
+    id: 87,
+    name: 'Ikaris',
+    originalName: 'Ikaris',
+    photo: '/ikaris.png',
+    description: 'The tactically formidable and primary powerhouse of the Eternals, created by Arishem the Judge to protect humanity from Deviants for 7,000 years. Torn between his love for Sersi and his unyielding cosmic duty to the Celestial Emergence, Ikaris flew into the sun in profound remorse.',
+    powers: 'Cosmic energy eye beams (superheated concussive optical lasers), supersonic cosmic flight, Class 100+ superhuman strength, cellular immortality, and master aerial hand-to-hand combatant.',
+    birth: 'World Forge (Cosmic Synthetic Eternal)',
+    death: '2024 (Flew into the Sun in penance after stopping the Emergence)',
+    bgColor: '#0d47a1', // Celestial Cobalt Blue (Ikaris)
+    fontFamily: 'Ikaris',
+  },
+  {
+    id: 88,
+    name: 'Thena',
+    originalName: 'Thena',
+    photo: '/thena.png',
+    description: 'The fierce and legendary goddess of war among the Eternals who fought alongside Gilgamesh across millennia. Manifesting glowing cosmic energy weapons from thin air, Thena battles the psychological toll of Mahd Wy\'ry while fiercely defending her family and the cosmos.',
+    powers: 'Cosmic energy weapon manifestation (swords, spears, shields, and halberds formed of crystallized golden cosmic light), superhuman agility, superhuman strength, centuries of master martial arts combat, and tactical leadership.',
+    birth: 'World Forge (Cosmic Synthetic Eternal)',
+    death: 'Immortal (Guardian of the Cosmos on the Domo)',
+    bgColor: '#fbc02d', // Cosmic Gold (Thena)
+    fontFamily: 'Thena',
+  },
+  {
+    id: 89,
+    name: 'Sentry',
+    originalName: 'Robert "Bob" Reynolds',
+    photo: '/sentry.png',
+    description: 'A mild-mannered man imbued with a chemical compound that granted him the power of one million exploding suns. Battling an internal malevolent cosmic shadow known as The Void, Bob Reynolds is one of the most overwhelmingly powerful beings in existence.',
+    powers: 'Power of one million exploding suns, godlike physical strength, absolute invulnerability, faster-than-light flight, photokinesis, energy projection, matter manipulation, and emergence of the reality-shattering Void.',
+    birth: 'c. 1985 (United States)',
+    death: 'Immortal (The Sentry & The Void)',
+    bgColor: '#f9a825', // Solar Sun Gold (Sentry)
+    fontFamily: 'Sentry',
+  },
+  {
+    id: 90,
+    name: 'Mobius',
+    originalName: 'Don / Mobius M. Mobius',
+    photo: '/mobius.png',
+    description: 'A dedicated senior analyst at the Time Variance Authority who specialized in investigating dangerous multiversal variants. Befriending Loki and seeing through the deception of the Time-Keepers, Mobius helped rebuild the TVA into a force for timeline preservation.',
+    powers: 'Master temporal investigator and interrogator, mastery of TVA technology (TemPads, Time Sticks, reset charges), expert strategist, time-loop navigation, and profound emotional empathy.',
+    birth: 'c. 1970 (Cleveland, Ohio / Variant timeline)',
+    death: 'Alive (Retired to the Sacred Timeline in Cleveland, Ohio)',
+    bgColor: '#8d6e63', // TVA Archive Khaki Brown (Mobius)
+    fontFamily: 'Mobius',
+  },
+  {
+    id: 91,
+    name: 'Sersi',
+    originalName: 'Sersi',
+    photo: '/sersi.png',
+    description: 'An empathetic Eternal living on Earth as a museum curator in London who possesses the cosmic power of matter transmutation. Appointed the Prime Eternal by Ajak, Sersi channeled the Uni-Mind to transmute the newborn Celestial Tiamut into inert marble and save humanity.',
+    powers: 'Cosmic matter transmutation (transforming any inanimate matter into wood, water, gold, or stone on contact), Prime Eternal cosmic link to Arishem, Uni-Mind channeling, and immortality.',
+    birth: 'World Forge (Cosmic Synthetic Eternal)',
+    death: 'Immortal (Prime Eternal & Earth Protector)',
+    bgColor: '#00695c', // Eternal Emerald Green (Sersi)
+    fontFamily: 'Sersi',
+  },
 ];
 
 export default characters;

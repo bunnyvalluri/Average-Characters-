@@ -330,6 +330,46 @@
   font-family: 'Abomination';
   src: url('./assets/fonts/Hulk.ttf');
 }
+@font-face {
+  font-family: 'Yondu Udonta';
+  src: url('./assets/fonts/Star Lord.ttf');
+}
+@font-face {
+  font-family: 'Wenwu';
+  src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
+}
+@font-face {
+  font-family: 'Gorr the God Butcher';
+  src: url('./assets/fonts/Renegade Fonts - HelaBasic 600.otf');
+}
+@font-face {
+  font-family: 'Hercules';
+  src: url('./assets/fonts/American Captain.ttf');
+}
+@font-face {
+  font-family: 'High Evolutionary';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
+@font-face {
+  font-family: 'Ikaris';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
+@font-face {
+  font-family: 'Thena';
+  src: url('./assets/fonts/Captain Marvel.otf');
+}
+@font-face {
+  font-family: 'Sentry';
+  src: url('./assets/fonts/American Captain.ttf');
+}
+@font-face {
+  font-family: 'Mobius';
+  src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+}
+@font-face {
+  font-family: 'Sersi';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;

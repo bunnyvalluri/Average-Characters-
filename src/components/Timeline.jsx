@@ -148,6 +148,17 @@ const moviePosters = {
   'Ant-Man and the Wasp: Quantumania': '/movies/ant-man.jpg',
   'Loki Season 1': '/movies/loki.jpg',
   'Loki Season 2': '/movies/loki.jpg',
+  'Yondu Udonta': '/yondu.png',
+  'Wenwu': '/wenwu.png',
+  'Gorr the God Butcher': '/gorr.png',
+  'Hercules': '/hercules.png',
+  'High Evolutionary': '/high-evolutionary.png',
+  'Ikaris': '/ikaris.png',
+  'Thena': '/thena.png',
+  'Sentry': '/sentry.png',
+  'Mobius': '/mobius.png',
+  'Sersi': '/sersi.png',
+  'Eternals': '/sersi.png',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -960,6 +971,74 @@ const characterMovieTimeline = {
       { title: 'She-Hulk: Attorney at Law', year: 2022, note: 'Paroled client represented by Jen Walters, retreats to Kamar-Taj' },
     ],
   },
+  'Yondu Udonta': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Guardians of the Galaxy', year: 2014, note: 'Hunts Peter Quill & helps defeat Ronan the Accuser on Xandar' },
+      { title: 'Guardians of the Galaxy Vol. 2', year: 2017, note: 'Whistles his Yaka Arrow, saves Rocket & sacrifices his life for Peter Quill' },
+      { title: 'Guardians of the Galaxy Vol. 3', year: 2023, note: 'Spiritual vision memory inspiring Kraglin on Knowhere' },
+    ],
+  },
+  'Wenwu': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, note: 'Commands the Ten Rings for 1,000 years, opens Dark Gate & saves Shang-Chi' },
+    ],
+  },
+  'Gorr the God Butcher': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor: Love and Thunder', year: 2022, note: 'Wields the All-Black Necrosword across galaxies & reaches Eternity' },
+    ],
+  },
+  'Hercules': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor: Love and Thunder', year: 2022, note: 'Dispatched by Zeus from Omnipotence City to hunt Thor' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Olympian powerhouse clashes across Battleworld' },
+    ],
+  },
+  'High Evolutionary': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Guardians of the Galaxy Vol. 3', year: 2023, note: 'Creator of Rocket Raccoon & Sovereign, defeated on Counter-Earth' },
+    ],
+  },
+  'Ikaris': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Tactical leader of the Eternals, laser eye powerhouse & defends Celestial Emergence' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiversal Celestial warrior return' },
+    ],
+  },
+  'Thena': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Goddess of war manifesting golden light weapons across millennia' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic war hero assembling with Earth\'s Mightiest Heroes' },
+    ],
+  },
+  'Sentry': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thunderbolts*', year: 2025, note: 'Bob Reynolds manifests the overwhelming power of one million exploding suns' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Cosmic powerhouse contending with multiversal incursion forces' },
+    ],
+  },
+  'Mobius': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Loki Season 1', year: 2021, note: 'Senior TVA analyst who interrogates and befriends Loki' },
+      { title: 'Loki Season 2', year: 2023, note: 'Saves the Temporal Loom and retires to the Sacred Timeline in Cleveland' },
+    ],
+  },
+  'Sersi': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Prime Eternal channels the Uni-Mind to transmute Tiamut into marble' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Rescued from Arishem to defend the Multiverse' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -1088,6 +1167,17 @@ const movieEvents = {
   'WandaVision': 'Wanda Maximoff creates a suburban reality in Westview, awakening her full Scarlet Witch identity.',
   'Agatha All Along': 'Agatha gathers a coven to brave the perilous trials of the Witches\' Road.',
   'Ant-Man and the Wasp: Quantumania': 'The Ant-Family is pulled into the Quantum Realm and confronts Kang the Conqueror.',
+  'Yondu Udonta': 'Yondu wipes out enemy platoons with his whistling Yaka Arrow and saves Peter Quill.',
+  'Wenwu': 'Wenwu channels the ancient Ten Rings to conquer realms and protect his family.',
+  'Gorr the God Butcher': 'Gorr wields the All-Black Necrosword to avenge his fallen daughter and challenge all gods.',
+  'Hercules': 'The Olympian Prince of Power prepares to unleash divine fury across the cosmos.',
+  'High Evolutionary': 'The High Evolutionary manipulates gravity and genetics in his maniacal pursuit of perfection.',
+  'Ikaris': 'Ikaris soars through skies discharging lethal optical cosmic beams for the Celestials.',
+  'Thena': 'Thena manifests crystalline golden cosmic weapons, slaughtering Deviant hordes.',
+  'Sentry': 'Bob Reynolds harnesses the power of one million exploding suns while battling The Void.',
+  'Mobius': 'Mobius navigates TVA temporal records and guides Loki to his glorious purpose.',
+  'Sersi': 'Sersi transmutes planetary matter and leads the Eternals to save humanity.',
+  'Eternals': 'Immortal cosmic heroes emerge from the shadows to protect humanity from Celestial extinction.',
 };
 
 
