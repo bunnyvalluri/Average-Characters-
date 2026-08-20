@@ -270,6 +270,66 @@
   font-family: 'Kingpin';
   src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
 }
+@font-face {
+  font-family: 'Kate Bishop';
+  src: url('./assets/fonts/Hawkeye.ttf');
+}
+@font-face {
+  font-family: 'Yelena Belova';
+  src: url('./assets/fonts/Black Widow.ttf');
+}
+@font-face {
+  font-family: 'Shuri';
+  src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+}
+@font-face {
+  font-family: 'America Chavez';
+  src: url('./assets/fonts/Dr Strange.ttf');
+}
+@font-face {
+  font-family: 'Adam Warlock';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
+@font-face {
+  font-family: 'Korg';
+  src: url('./assets/fonts/Thor.ttf');
+}
+@font-face {
+  font-family: 'Red Guardian';
+  src: url('./assets/fonts/American Captain.ttf');
+}
+@font-face {
+  font-family: 'Monica Rambeau';
+  src: url('./assets/fonts/Captain Marvel.otf');
+}
+@font-face {
+  font-family: 'Ironheart';
+  src: url('./assets/fonts/Iron Man.otf');
+}
+@font-face {
+  font-family: 'Cassie Lang';
+  src: url('./assets/fonts/Ant Man.otf');
+}
+@font-face {
+  font-family: 'Echo';
+  src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+}
+@font-face {
+  font-family: 'Taskmaster';
+  src: url('./assets/fonts/Black Widow.ttf');
+}
+@font-face {
+  font-family: 'Agatha Harkness';
+  src: url('./assets/fonts/Wanda.ttf');
+}
+@font-face {
+  font-family: 'Kang the Conqueror';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
+@font-face {
+  font-family: 'Abomination';
+  src: url('./assets/fonts/Hulk.ttf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;

@@ -120,6 +120,34 @@ const moviePosters = {
   'X-Men: Dark Phoenix': '/movies/jean-grey.jpg',
   'Rogue': '/movies/rogue.jpg',
   'Kingpin': '/movies/kingpin.jpg',
+  'Kate Bishop': '/kate-bishop.png',
+  'Yelena Belova': '/yelena-belova.png',
+  'Shuri': '/shuri.png',
+  'America Chavez': '/america-chavez.png',
+  'Adam Warlock': '/adam-warlock.png',
+  'Doctor Strange in the Multiverse of Madness': '/movies/dr-strange.jpg',
+  'Black Panther: Wakanda Forever': '/movies/black-panther.jpg',
+  'Guardians of the Galaxy Vol. 3': '/movies/guardians-of-the-galaxy-2.jpg',
+  'Thunderbolts*': '/yelena-belova.png',
+  'Young Avengers': '/ms-marvel.png',
+  'Avengers: Doomsday': '/movies/endgame.jpg',
+  'Avengers: Secret Wars': '/movies/infinity-war.jpg',
+  'Korg': '/korg.png',
+  'Red Guardian': '/red-guardian.png',
+  'Monica Rambeau': '/monica-rambeau.png',
+  'Ironheart': '/ironheart.png',
+  'Cassie Lang': '/cassie-lang.png',
+  'Echo': '/echo.png',
+  'Taskmaster': '/taskmaster.png',
+  'Agatha Harkness': '/agatha-harkness.png',
+  'Kang the Conqueror': '/kang.png',
+  'Abomination': '/abomination.png',
+  'Thor: Love and Thunder': '/movies/thor.jpg',
+  'WandaVision': '/scarlet-witch.png',
+  'Agatha All Along': '/agatha-harkness.png',
+  'Ant-Man and the Wasp: Quantumania': '/movies/ant-man.jpg',
+  'Loki Season 1': '/movies/loki.jpg',
+  'Loki Season 2': '/movies/loki.jpg',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -805,6 +833,133 @@ const characterMovieTimeline = {
       { title: 'Daredevil: Born Again', year: 2025, note: 'Mayor of New York City in total urban conflict with vigilantes' },
     ],
   },
+  'Kate Bishop': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Hawkeye', year: 2021, note: 'Teams up with Clint Barton & defeats Kingpin' },
+      { title: 'The Marvels', year: 2023, note: 'Recruited by Kamala Khan for the Young Avengers' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Young Avengers assembly against Doctor Doom' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiversal battle for reality' },
+    ],
+  },
+  'Yelena Belova': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Black Widow', year: 2021, note: 'Reunites with Natasha to destroy the Red Room & free the Widows' },
+      { title: 'Hawkeye', year: 2021, note: 'Hunts Clint Barton, confronts Kate Bishop & uncovers the truth of Natasha\'s sacrifice' },
+      { title: 'Thunderbolts*', year: 2025, note: 'Leads the team of anti-heroes and reformed operatives' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Fights alongside the Avengers against multiversal threats' },
+    ],
+  },
+  'Shuri': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Black Panther', year: 2018, note: 'Designs vibranium tech & suits for T\'Challa' },
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Attempts to extract the Mind Stone from Vision' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Returns in the Battle of Earth' },
+      { title: 'Black Panther: Wakanda Forever', year: 2022, note: 'Synthesizes Heart-Shaped Herb & becomes the Black Panther' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Wakandan forces unite with the Avengers' },
+    ],
+  },
+  'America Chavez': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Doctor Strange in the Multiverse of Madness', year: 2022, note: 'Hunted across realities, unlocks control of star portals & joins Kamar-Taj' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Multiversal transit and combat support' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Traverses Battleworld and alternate timelines' },
+    ],
+  },
+  'Adam Warlock': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Guardians of the Galaxy Vol. 2', year: 2017, note: 'Post-credits cocoon tease created by Ayesha' },
+      { title: 'Guardians of the Galaxy Vol. 3', year: 2023, note: 'Hatched to hunt the Guardians, redeems himself & joins the new team' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic powerhouse in the battle for the universe' },
+    ],
+  },
+  'Korg': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor: Ragnarok', year: 2017, note: 'Sakaar gladiator revolution & friendship with Thor' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'New Asgard gamer & Battle of Earth warrior' },
+      { title: 'Thor: Love and Thunder', year: 2022, note: 'Narrates Thor\'s cosmic journey & battles Gorr' },
+    ],
+  },
+  'Red Guardian': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Black Widow', year: 2021, note: 'Reunites with his surrogate daughters to destroy the Red Room' },
+      { title: 'Thunderbolts*', year: 2025, note: 'Super-soldier powerhouse on the anti-hero team' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Defends Earth alongside global heroes' },
+    ],
+  },
+  'Monica Rambeau': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Captain Marvel', year: 2019, note: 'Young Monica helps Carol Danvers choose her suit colors in 1995' },
+      { title: 'WandaVision', year: 2021, note: 'Crosses the Westview Hex boundary and gains photon energy powers' },
+      { title: 'The Marvels', year: 2023, note: 'Repairs the cosmic tear and crosses into an alternate X-Men universe' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiversal reunion and photon powerhouse' },
+    ],
+  },
+  'Ironheart': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Black Panther: Wakanda Forever', year: 2022, note: 'Builds vibranium detector & creates Ironheart Mark II armor' },
+      { title: 'Ironheart', year: 2025, note: 'Clash between advanced technology and dark magic in Chicago' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Young Avengers assembly against Doctor Doom' },
+    ],
+  },
+  'Cassie Lang': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Ant-Man', year: 2015, note: 'Saved by Scott Lang from Yellowjacket' },
+      { title: 'Ant-Man and the Wasp', year: 2018, note: 'Encourages Scott to be a hero' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Emotional reunion with Scott after the 5-year Blip' },
+      { title: 'Ant-Man and the Wasp: Quantumania', year: 2023, note: 'Builds Quantum satellite & fights Kang as Stature' },
+      { title: 'Young Avengers', year: 2026, note: 'Recruited into the next generation of Avengers' },
+    ],
+  },
+  'Echo': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Hawkeye', year: 2021, note: 'Leads the Tracksuit Mafia, confronts Clint Barton & shoots Kingpin' },
+      { title: 'Echo', year: 2024, note: 'Reconnects with Choctaw ancestry, heals trauma & defends Tamaha' },
+      { title: 'Daredevil: Born Again', year: 2025, note: 'New York City vigilante alliances' },
+    ],
+  },
+  'Taskmaster': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Black Widow', year: 2021, note: 'Dreykov\'s mind-controlled mimicry assassin, freed by Natasha' },
+      { title: 'Thunderbolts*', year: 2025, note: 'Photographic reflex combat specialist for the Thunderbolts' },
+    ],
+  },
+  'Agatha Harkness': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'WandaVision', year: 2021, note: 'Disguised as Agnes in Westview, unlocks the Scarlet Witch prophecy' },
+      { title: 'Agatha All Along', year: 2024, note: 'Walks the legendary Witches\' Road to reclaim her stolen magic' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Ancient sorcery in the battle for the multiverse' },
+    ],
+  },
+  'Kang the Conqueror': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Loki Season 1', year: 2021, note: 'He Who Remains presides at the Citadel at the End of Time' },
+      { title: 'Ant-Man and the Wasp: Quantumania', year: 2023, note: 'Kang the Conqueror wages temporal war in the Quantum Realm' },
+      { title: 'Loki Season 2', year: 2023, note: 'Victor Timely and multiversal Loom containment' },
+    ],
+  },
+  'Abomination': {
+    beforeMCU: [
+      { title: 'The Incredible Hulk', year: 2008, note: 'Emil Blonsky undergoes gamma mutation and rampages in Harlem' },
+    ],
+    mcu: [
+      { title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, note: 'Cage fight training partner with Wong in Macau' },
+      { title: 'She-Hulk: Attorney at Law', year: 2022, note: 'Paroled client represented by Jen Walters, retreats to Kamar-Taj' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -912,6 +1067,27 @@ const movieEvents = {
   'X-Men: Dark Phoenix': 'Jean Grey is consumed by the cosmic Phoenix Force, threatening humanity and mutants.',
   'Rogue': 'Anna Marie absorbs superhuman abilities with a single touch, fighting on the frontlines.',
   'Kingpin': 'Wilson Fisk rules New York City\'s underworld and political sphere with an iron fist.',
+  'Kate Bishop': 'Kate Bishop masters archery and trick arrows, stopping the Tracksuit Mafia and Kingpin.',
+  'Yelena Belova': 'Yelena destroys the Red Room, frees minds worldwide, and leads the Thunderbolts.',
+  'Shuri': 'Shuri embraces the Black Panther legacy, synthesizing the herb and defending Wakanda.',
+  'America Chavez': 'America punches star portals across dimensions, mastering her cosmic powers at Kamar-Taj.',
+  'Adam Warlock': 'Adam breaks free from his cocoon, discovers compassion, and defends the cosmos.',
+  'Thunderbolts*': 'A misfit squad of covert operatives and anti-heroes unite under Yelena Belova.',
+  'Guardians of the Galaxy Vol. 3': 'The Guardians risk everything on Counter-Earth to save Rocket and welcome Adam Warlock.',
+  'Korg': 'Korg leads the Sakaaran gladiator uprising and loyally chronicles Thor\'s divine triumphs.',
+  'Red Guardian': 'Alexei Shostakov smashes through prison walls and fights alongside his daughters in the Thunderbolts.',
+  'Monica Rambeau': 'Monica absorbs cosmic energies, ascending as Photon and traversing multiversal tears.',
+  'Ironheart': 'Riri Williams engineers high-altitude Ironheart armor and unleashes repulsor firepower.',
+  'Cassie Lang': 'Cassie Lang shrinks and expands exponentially as Stature, fighting for the oppressed.',
+  'Echo': 'Maya Lopez channels Choctaw ancestral warrior spirits to overcome Wilson Fisk.',
+  'Taskmaster': 'Antonia Dreykov mimics any combat style instantaneously with lethal photographic reflexes.',
+  'Agatha Harkness': 'Agatha Harkness commands ancient dark sorcery and journeys down the Witches\' Road.',
+  'Kang the Conqueror': 'Kang commands chrono-technology to conquer infinite timelines across the Multiverse.',
+  'Abomination': 'Emil Blonsky merges gamma-powered physical brutality with Kamar-Taj inner peace.',
+  'Thor: Love and Thunder': 'Thor, Mighty Thor, and Valkyrie journey to Omnipotence City and confront Gorr the God Butcher.',
+  'WandaVision': 'Wanda Maximoff creates a suburban reality in Westview, awakening her full Scarlet Witch identity.',
+  'Agatha All Along': 'Agatha gathers a coven to brave the perilous trials of the Witches\' Road.',
+  'Ant-Man and the Wasp: Quantumania': 'The Ant-Family is pulled into the Quantum Realm and confronts Kang the Conqueror.',
 };
 
 
