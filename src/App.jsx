@@ -115,8 +115,16 @@ function Home() {
           <p className="text-gray-400 text-center">
             Designed with Marvel Cinematic Universe Data. All trademarks and characters belong to Marvel Studios.
           </p>
-          <div className="text-gray-400">
-            © 2025 Shubhang &bunnyvalluri
+          <div className="text-gray-300">
+            © 2025{' '}
+            <a
+              href="https://valluri-rahul-portfolio.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-yellow-400 font-semibold transition-colors underline decoration-dotted decoration-white/40 hover:decoration-yellow-400"
+            >
+              VALLURI RAHUL
+            </a>
           </div>
         </div>
       </footer>
