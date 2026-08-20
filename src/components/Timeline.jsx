@@ -172,6 +172,16 @@ const moviePosters = {
   'The Falcon and the Winter Soldier': '/falcon.png',
   'Secret Invasion': '/maria-hill.png',
   'The Guardians of the Galaxy Holiday Special': '/kraglin.png',
+  'Odin': '/odin.png',
+  'Heimdall': '/heimdall.png',
+  'Gilgamesh': '/gilgamesh.png',
+  'Ajak': '/ajak.png',
+  'Sprite': '/sprite.png',
+  'Starfox': '/starfox.png',
+  'Clea': '/clea.png',
+  'Xialing': '/xialing.png',
+  'Pip the Troll': '/pip-the-troll.png',
+  'Grandmaster': '/grandmaster.png',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -1141,6 +1151,79 @@ const characterMovieTimeline = {
       { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic warrior fighting for the universe' },
     ],
   },
+  'Odin': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor', year: 2011, note: 'Allfather who banishes Thor to Earth to learn humility' },
+      { title: 'Thor: The Dark World', year: 2013, note: 'Defends Asgard against Malekith and the Dark Elves' },
+      { title: 'Thor: Ragnarok', year: 2017, note: 'Passes peacefully in Norway, revealing Hela\'s prophecy' },
+    ],
+  },
+  'Heimdall': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor', year: 2011, note: 'All-seeing guardian operates the Bifrost Observatory' },
+      { title: 'Thor: The Dark World', year: 2013, note: 'Destroys Dark Elf stealth vessel with dual daggers' },
+      { title: 'Avengers: Age of Ultron', year: 2015, note: 'Appears in Thor\'s apocalyptic Water of Sights vision' },
+      { title: 'Thor: Ragnarok', year: 2017, note: 'Hides Asgardian citizens from Hela and leads them to the Statesman' },
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Summons dark magic to transport Hulk to Earth before being killed by Thanos' },
+      { title: 'Thor: Love and Thunder', year: 2022, note: 'Welcomes Jane Foster into Valhalla' },
+    ],
+  },
+  'Gilgamesh': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Strongest Eternal with golden gauntlets, protects Thena across centuries' },
+    ],
+  },
+  'Ajak': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Prime Eternal healer who decides to save Earth from Celestial Emergence' },
+    ],
+  },
+  'Sprite': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Illusionist who spins myths for humanity, granted mortality by Sersi' },
+    ],
+  },
+  'Starfox': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Prince of Titan and brother of Thanos joins the Domo with Pip the Troll' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiversal cosmic champion assembling across reality' },
+    ],
+  },
+  'Clea': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Doctor Strange in the Multiverse of Madness', year: 2022, note: 'Rips reality open to enlist Doctor Strange in fixing an incursion' },
+      { title: 'Doctor Strange 3', year: 2026, note: 'Explores the Dark Dimension alongside Stephen Strange' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Dark Dimension sorcery on Battleworld' },
+    ],
+  },
+  'Xialing': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, note: 'Master of the rope dart, defends Ta Lo & takes over the Ten Rings' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Commands the Ten Rings organization in global defense' },
+    ],
+  },
+  'Pip the Troll': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Teleporting cosmic companion and herald to Eros of Titan' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Spatial teleporter for multiversal heroes' },
+    ],
+  },
+  'Grandmaster': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor: Ragnarok', year: 2017, note: 'Host of the Contest of Champions on Sakaar' },
+      { title: 'Thor: Love and Thunder', year: 2022, note: 'Eccentric Elder of the Universe in the cosmos' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -1293,6 +1376,16 @@ const movieEvents = {
   'The Falcon and the Winter Soldier': 'Sam Wilson and Bucky Barnes dismantle the Flag Smashers as Sam becomes Captain America.',
   'Secret Invasion': 'Nick Fury uncovers a clandestine rebel Skrull infiltration on Earth.',
   'The Guardians of the Galaxy Holiday Special': 'Mantis and Drax kidnap Kevin Bacon to give Peter Quill the ultimate Christmas.',
+  'Odin': 'Odin Borson commands the Odinforce, uniting the Nine Realms under Asgardian peace.',
+  'Heimdall': 'Heimdall watches over the cosmos with all-seeing eyes and wields the Hofund sword.',
+  'Gilgamesh': 'Gilgamesh delivers devastating cosmic-infused punches to protect Thena and humanity.',
+  'Ajak': 'Ajak channels celestial regeneration to heal wounds and guide the Eternals.',
+  'Sprite': 'Sprite weaves radiant holographic illusions, creating the ancient myths of humankind.',
+  'Starfox': 'Eros of Titan charms cosmic beings and journeys through star systems with Pip the Troll.',
+  'Clea': 'Clea slices through the fabric of reality with Dark Dimension sorcery.',
+  'Xialing': 'Xialing strikes with lethal rope-dart agility and commands the global Ten Rings army.',
+  'Pip the Troll': 'Pip the Troll opens instant spacetime teleportation portals across galaxies.',
+  'Grandmaster': 'The Grandmaster orchestrates gladiatorial spectacles and cosmic synth melodies on Sakaar.',
 };
 
 

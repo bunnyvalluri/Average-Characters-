@@ -1212,6 +1212,126 @@ const characters = [
     bgColor: '#e65100', // Bollywood Radiant Amber (Kingo)
     fontFamily: 'Kingo',
   },
+  {
+    id: 102,
+    name: 'Odin',
+    originalName: 'Odin Borson (Allfather)',
+    photo: '/odin.png',
+    description: 'The former King of Asgard, protector of the Nine Realms, and father of Thor, Hela, and Loki. Wielding Gungnir and the Odinforce, he defeated the Frost Giants, united the cosmos, and brought peace to the realms across millennia before passing peacefully in Norway.',
+    powers: 'Odinforce mastery (limitless divine magical energy manipulation, reality warping, and enchantment casting), godlike Asgardian superhuman strength, invulnerability, and Gungnir spear mastery.',
+    birth: 'c. 3000 BC (Asgard)',
+    death: '2017 (Tønsberg, Norway, dissolved into cosmic starlight to enter Valhalla)',
+    bgColor: '#fbc02d', // Allfather Royal Gold (Odin)
+    fontFamily: 'Odin',
+  },
+  {
+    id: 103,
+    name: 'Heimdall',
+    originalName: 'Heimdall',
+    photo: '/heimdall.png',
+    description: 'The all-seeing, all-hearing protector of the realm of Asgard and guardian of the Bifrost Bridge. Armed with the Hofund sword, Heimdall could perceive everything across the Nine Realms and used his final breath to summon dark magic to send Hulk to Earth to warn the Avengers.',
+    powers: 'All-sight and all-hearing sensory perception across the Nine Realms, Bifrost dark magic summoning, master swordsman, superhuman Asgardian strength, and Hofund sword mastery.',
+    birth: 'c. 1000 BC (Asgard)',
+    death: '2018 (Statesman starship, sacrificed himself to send Hulk to Earth)',
+    bgColor: '#c99700', // Bifrost Amber Gold (Heimdall)
+    fontFamily: 'Heimdall',
+  },
+  {
+    id: 104,
+    name: 'Gilgamesh',
+    originalName: 'Gilgamesh',
+    photo: '/gilgamesh.png',
+    description: 'The physically strongest Eternal and fiercely devoted protector of Thena who stood by her side during centuries of Mahd Wy\'ry. Channeling cosmic energy into glowing golden exoskeletal gauntlets, Gilgamesh\'s devastating punches crushed Deviants across Earth\'s history.',
+    powers: 'Superhuman physical strength exceeding all Eternals, cosmic energy exo-skeleton gauntlets, high durability, immortality, and master hand-to-hand brawler.',
+    birth: 'World Forge (Cosmic Synthetic Eternal)',
+    death: '2024 (Amazon Rainforest, sacrificed his life protecting Thena from Kro)',
+    bgColor: '#5d4037', // Earth Bronze Brown (Gilgamesh)
+    fontFamily: 'Gilgamesh',
+  },
+  {
+    id: 105,
+    name: 'Ajak',
+    originalName: 'Ajak',
+    photo: '/ajak.png',
+    description: 'The spiritual matriarch and original leader of the Eternals who possessed the divine power of cellular regeneration and healing. Blessed with direct communication with Arishem the Judge, Ajak grew to love humanity and sought to stop the Celestial Emergence before her tragic betrayal.',
+    powers: 'Cellular regeneration and mass biological healing of organic beings, Prime Eternal cosmic link to the Celestial Arishem, cosmic energy manipulation, and immortality.',
+    birth: 'World Forge (Cosmic Synthetic Eternal)',
+    death: '2024 (South Dakota, betrayed by Ikaris to Deviants)',
+    bgColor: '#004d40', // Celestial Turquoise Emerald (Ajak)
+    fontFamily: 'Ajak',
+  },
+  {
+    id: 106,
+    name: 'Sprite',
+    originalName: 'Sprite',
+    photo: '/sprite.png',
+    description: 'An Eternal eternally trapped in the body of a 12-year-old child whose cosmic gift was spinning lifelike three-dimensional illusions and storytelling that inspired human mythologies. Yearning for a mortal life, Sprite was granted humanity by Sersi via the Uni-Mind.',
+    powers: 'Advanced 3D holographic illusion projection (creating realistic light-based duplicates, landscapes, and auditory illusions), intangibility cloaking, and dagger combat.',
+    birth: 'World Forge (Cosmic Synthetic Eternal)',
+    death: 'Alive (Transformed into a mortal human by Sersi in 2024)',
+    bgColor: '#33691e', // Emerald Illusion Olive (Sprite)
+    fontFamily: 'Sprite',
+  },
+  {
+    id: 107,
+    name: 'Starfox',
+    originalName: 'Eros of Titan',
+    photo: '/starfox.png',
+    description: 'The charismatic Royal Prince of Titan, brother of Thanos, and cosmic adventurer who roams the galaxy alongside Pip the Troll. An Eternal who possesses the power to manipulate emotional states and charm allies, Eros arrived on the Domo to help the remaining Eternals rescue their family.',
+    powers: 'Cosmic emotional manipulation (stimulating the pleasure centers of other beings\' brains to pacify or charm), cosmic energy control, telepathy, and immortality.',
+    birth: 'Titan / World Forge (Eternal Prince)',
+    death: 'Immortal (Royal Prince of Titan & Cosmic Hero)',
+    bgColor: '#d81b60', // Titanian Rose Red (Starfox)
+    fontFamily: 'Starfox',
+  },
+  {
+    id: 108,
+    name: 'Clea',
+    originalName: 'Clea',
+    photo: '/clea.png',
+    description: 'A formidable sorceress from the Dark Dimension and the niece of Dormammu. Armed with a dark mystical blade capable of cutting through reality, Clea sought out Doctor Stephen Strange on Earth to travel together into the Multiverse and resolve a catastrophic incursion.',
+    powers: 'Mastery of Dark Dimension sorcery, reality slicing (cutting dimensional portals into multiversal tears), energy bolts, telekinesis, and flight.',
+    birth: 'Dark Dimension',
+    death: 'Alive (Sorceress of the Dark Dimension)',
+    bgColor: '#6a1b9a', // Dark Dimension Violet (Clea)
+    fontFamily: 'Clea',
+  },
+  {
+    id: 109,
+    name: 'Xialing',
+    originalName: 'Xu Xialing',
+    photo: '/xialing.png',
+    description: 'Wenwu\'s formidable daughter and Shang-Chi\'s sister who secretly mastered martial arts in the shadows of the Ten Rings compound. Founding the underground Golden Daggers Club in Macau, Xialing joined her brother to save Ta Lo before taking over the Ten Rings organization as its new Supreme Leader.',
+    powers: 'Supreme martial arts mastery, lethal rope dart combat specialist, dragon scale armor and weapon combat, tactical mastermind, and leader of the Ten Rings army.',
+    birth: 'c. 2000 (Hunan Province, China)',
+    death: 'Alive (Supreme Leader of the Ten Rings)',
+    bgColor: '#880e4f', // Golden Daggers Magenta (Xialing)
+    fontFamily: 'Xialing',
+  },
+  {
+    id: 110,
+    name: 'Pip the Troll',
+    originalName: 'Pip Gofern',
+    photo: '/pip-the-troll.png',
+    description: 'A boisterous, beer-drinking intergalactic companion and herald to Prince Eros (Starfox). Armed with an ancient teleportation orb and unmatched sarcasm, Pip jauntily heralds the arrival of royal cosmic champions across star systems.',
+    powers: 'Spacetime teleportation (instantaneous spatial transit across star systems via mystical teleportation space spheres), superhuman alien endurance, and expert star pilot.',
+    birth: 'Laxidaza (Extraterrestrial)',
+    death: 'Alive (Herald to Prince Eros on the Domo)',
+    bgColor: '#558b2f', // Trollish Moss Green (Pip the Troll)
+    fontFamily: 'Pip the Troll',
+  },
+  {
+    id: 111,
+    name: 'Grandmaster',
+    originalName: 'En Dwi Gast',
+    photo: '/grandmaster.png',
+    description: 'An ancient, flamboyant Elder of the Universe and the hedonistic ruler of the junkyard planet Sakaar. The eccentric host of the gladiatorial Contest of Champions who pitted the Hulk against Thor, the Grandmaster revels in cosmic games, synth music, and melting his detractors with the melt stick.',
+    powers: 'Virtual immortality and ancient cosmic longevity, supreme mastery of advanced Sakaaran technology, melting staff weapon mastery, and multiversal gamesmanship.',
+    birth: 'Dawn of the Universe (Elder of the Universe)',
+    death: 'Alive (Elder of the Universe & Sakaaran Overlord)',
+    bgColor: '#00838f', // Sakaaran Neon Cyan / Gold (Grandmaster)
+    fontFamily: 'Grandmaster',
+  },
 ];
 
 export default characters;

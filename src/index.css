@@ -410,6 +410,46 @@
   font-family: 'Kingo';
   src: url('./assets/fonts/Captain Marvel.otf');
 }
+@font-face {
+  font-family: 'Odin';
+  src: url('./assets/fonts/Thor.ttf');
+}
+@font-face {
+  font-family: 'Heimdall';
+  src: url('./assets/fonts/Thor.ttf');
+}
+@font-face {
+  font-family: 'Gilgamesh';
+  src: url('./assets/fonts/Hulk.ttf');
+}
+@font-face {
+  font-family: 'Ajak';
+  src: url('./assets/fonts/Captain Marvel.otf');
+}
+@font-face {
+  font-family: 'Sprite';
+  src: url('./assets/fonts/Wanda.ttf');
+}
+@font-face {
+  font-family: 'Starfox';
+  src: url('./assets/fonts/Star Lord.ttf');
+}
+@font-face {
+  font-family: 'Clea';
+  src: url('./assets/fonts/Dr Strange.ttf');
+}
+@font-face {
+  font-family: 'Xialing';
+  src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
+}
+@font-face {
+  font-family: 'Pip the Troll';
+  src: url('./assets/fonts/Guardians.ttf');
+}
+@font-face {
+  font-family: 'Grandmaster';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
