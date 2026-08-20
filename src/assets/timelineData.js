@@ -456,6 +456,13 @@ export const moviePosters = {
   'Bullseye': '/bullseye.png',
   'Daredevil (2003)': '/movies/daredevil.jpg',
   'Daredevil Season 3': '/movies/daredevil.jpg',
+  'Spider-Gwen': '/spider-gwen.png',
+  'Ghost-Spider': '/spider-gwen.png',
+  'Nova': '/nova.png',
+  'Elektra': '/elektra.png',
+  'Elektra (2005)': '/elektra.png',
+  'Kraven the Hunter': '/kraven.png',
+  'Kraven the Hunter (2024)': '/kraven.png',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -2032,6 +2039,47 @@ export const characterMovieTimeline = {
       { title: 'Daredevil: Born Again', year: 2025, note: 'Returns with reinforced spine as a lethal wild card in New York City' },
     ],
   },
+  'Spider-Gwen': {
+    beforeMCU: [
+      { title: 'Spider-Man: Into the Spider-Verse', year: 2018, note: 'Drummer Gwen Stacy arrives from Earth-65 to aid Miles Morales' },
+      { title: 'Spider-Man: Across the Spider-Verse', year: 2023, note: 'Joins the Spider-Society and forms a rebel team to rescue Miles' },
+      { title: 'Spider-Man: Beyond the Spider-Verse', year: 2026, note: 'Leads the multiversal spider-alliance in the trilogy climax' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiversal web-warrior joining Battleworld defenders' },
+    ],
+  },
+  'Nova': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Guardians of the Galaxy', year: 2014, note: 'Nova Corps and Rhomann Dey defend Xandar from Ronan' },
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Thanos decimates Xandar, leaving Richard Rider as the final Nova Centurion' },
+      { title: 'Nova', year: 2026, note: 'Inherits the full Nova Force and Xandarian Worldmind' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic powerhouse assembling against multiversal destruction' },
+    ],
+  },
+  'Elektra': {
+    beforeMCU: [
+      { title: 'Daredevil (2003)', year: 2003, note: 'Jennifer Garner debuts as the fierce Greek assassin' },
+      { title: 'Elektra (2005)', year: 2005, note: 'Protects Abby and Mark Miller from the Hand' },
+      { title: 'Daredevil Season 2', year: 2016, note: 'Élodie Yung portrays Elektra battling the Hand alongside Matt Murdock' },
+      { title: 'The Defenders', year: 2017, note: 'Resurrected as the Black Sky, clashes with the Defenders beneath Midland Circle' },
+    ],
+    mcu: [
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Jennifer Garner reprises Elektra in the Void resistance alliance' },
+      { title: 'Daredevil: Born Again', year: 2025, note: 'The lethal shadow warrior returns in New York' },
+    ],
+  },
+  'Kraven the Hunter': {
+    beforeMCU: [
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Multiversal rift silhouette attempting to cross into the MCU' },
+      { title: 'Kraven the Hunter (2024)', year: 2024, note: 'Aaron Taylor-Johnson stars as Sergei Kravinoff, apex predator of the wild' },
+    ],
+    mcu: [
+      { title: 'Spider-Man 4', year: 2026, note: 'Hunts Spider-Man through the concrete jungle of New York' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Primal predator on Battleworld' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -2280,6 +2328,13 @@ export const movieEvents = {
   'The Fantastic Four: First Steps': 'Galactus descends upon Earth demanding cosmic tribute from the Fantastic Four.',
   'Bullseye': 'Benjamin Poindexter transforms every household item into a fatal projectile with unerring aim.',
   'Daredevil Season 3': 'Special Agent Dex is manipulated by Wilson Fisk into becoming Bullseye, terrorizing the Bulletin and Hell’s Kitchen.',
+  'Spider-Gwen': 'Gwen Stacy travels across the multiverse with superhuman agility, rhythm, and interdimensional web-slinging.',
+  'Ghost-Spider': 'Ghost-Spider navigates parallel universes to protect the Web of Life and Destiny with Miles Morales.',
+  'Nova': 'Richard Rider unleashes the boundless Nova Force as the lone cosmic guardian of Xandar.',
+  'Elektra': 'Elektra Natchios wields her dual okinawan sai with lethal precision as the ultimate living weapon.',
+  'Elektra (2005)': 'Elektra defends innocent lives against mystical Hand assassins in a fierce battle of honor.',
+  'Kraven the Hunter': 'Sergei Kravinoff stalks his prey as an unstoppable apex hunter with superhuman feral ferocity.',
+  'Kraven the Hunter (2024)': 'Sergei Kravinoff is transformed into an apex predator who embraces his savage connection with nature.',
 };
 
 export const mcuMoviesCatalog = [

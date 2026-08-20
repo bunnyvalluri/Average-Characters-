@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import CharacterInfo from './CharacterInfo';
 import { useColorTheme } from '../ColorThemeContext';
 
-const getCategories = (count = 179) => [
+const getCategories = (count = 183) => [
   { id: 'all', label: `All Heroes (${count})` },
   { id: 'endgame', label: 'Endgame (Battle & Heist)' },
   { id: 'avengers', label: 'Avengers' },
@@ -59,7 +59,7 @@ const getCategoryForCharacter = (char) => {
     name.includes('ebony maw') || name.includes('cull obsidian') || name.includes('proxima midnight') ||
     name.includes('corvus glaive') || name.includes('alexander pierce') || name.includes('akihiko') ||
     name.includes('jasper sitwell') || name.includes('justin hammer') || name.includes('carnage') ||
-    name.includes('juggernaut') || name.includes('bullseye')
+    name.includes('juggernaut') || name.includes('bullseye') || name.includes('kraven')
   ) {
     return 'villains';
   }
@@ -89,7 +89,7 @@ const getCategoryForCharacter = (char) => {
     name.includes('druig') || name.includes('phastos') || name.includes('kingo') ||
     name.includes('ajak') || name.includes('gilgamesh') || name.includes('silver surfer') ||
     name.includes('ego') || name.includes('clea') || name.includes('america chavez') ||
-    name.includes('galactus') || name.includes('beta ray bill')
+    name.includes('galactus') || name.includes('beta ray bill') || name.includes('nova')
   ) {
     return 'cosmic';
   }

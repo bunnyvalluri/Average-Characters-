@@ -2148,6 +2148,54 @@ const characters = [
     bgColor: '#263238', // Assassin Charcoal (Bullseye)
     fontFamily: 'Daredevil',
   },
+  {
+    id: 180,
+    name: 'Spider-Gwen',
+    originalName: 'Gwendolyne Maxine "Gwen" Stacy / Ghost-Spider',
+    photo: '/spider-gwen.png',
+    description: 'A spirited teenage drummer from Earth-65 who was bitten by a radioactive spider instead of Peter Parker. Donning an iconic hooded white-and-pink suit as Spider-Woman (later Ghost-Spider), Gwen travels across dimensions using a multiversal dimensional travel watch alongside Miles Morales and the Spider-Society.',
+    powers: 'Superhuman strength, speed, agility, equilibrium, wall-crawling, precognitive Spider-Sense, dimensional travel via interdimensional gateway watch, master acrobat, and skilled drummer/musician.',
+    birth: 'c. 2003 (Forest Hills, Queens, Earth-65)',
+    death: 'Alive (Multiversal Web-Warrior, Earth-65 & Earth-616)',
+    bgColor: '#ec407a', // Ghost-Spider Pink & Cyan (Spider-Gwen)
+    fontFamily: 'Spider-Man',
+  },
+  {
+    id: 181,
+    name: 'Nova',
+    originalName: 'Richard "Rich" Rider / Nova Prime',
+    photo: '/nova.png',
+    description: 'A high school student randomly chosen by the dying alien Rhomann Dey to inherit the mantle of Nova and the power of the Nova Corps. Channeling the entire boundless Nova Force and the living supercomputer Xandarian Worldmind, Richard Rider defends the cosmos as Nova Prime, saving the universe from the Annihilation Wave.',
+    powers: 'Full Nova Force channeling (near-limitless cosmic energy projection, shields, and absorption), superhuman physical strength matching Thor/Hulk, faster-than-light interstellar flight, gravimetric pulse manipulation, and tactical guidance from the Xandarian Worldmind.',
+    birth: 'c. 1976 (Hempstead, New York)',
+    death: 'Alive (Nova Prime, Cosmic Guardian & Avengers Ally)',
+    bgColor: '#fbc02d', // Nova Corps Gold & Blue (Nova)
+    fontFamily: 'Guardians',
+  },
+  {
+    id: 182,
+    name: 'Elektra',
+    originalName: 'Elektra Natchios',
+    photo: '/elektra.png',
+    description: 'A lethal Greek assassin trained by Stick in the Chaste and resurrected by the ancient Hand as the prophesied ultimate living weapon known as the Black Sky. A complex warrior caught between shadow and honor, she shares an eternal passionate bond with Matt Murdock and has donned the mantle of the Woman Without Fear.',
+    powers: 'Master assassin in ninjutsu, kenjutsu, and global martial arts, Olympic-level athleticism and stealth, superhuman pain tolerance, master of twin okinawan sai and katana, and resurrected Chi vitality.',
+    birth: 'c. 1985 (Greece)',
+    death: 'Alive (Resurrected Black Sky, Defender & Woman Without Fear)',
+    bgColor: '#b71c1c', // Crimson Sai Red (Elektra)
+    fontFamily: 'Daredevil',
+  },
+  {
+    id: 183,
+    name: 'Kraven the Hunter',
+    originalName: 'Sergei Nikolaevich Kravinoff',
+    photo: '/kraven.png',
+    description: 'A Russian aristocrat and the world\'s most formidable big-game hunter who views Spider-Man as the ultimate quarry. Empowered by mystical jungle elixirs and herbal potions granting superhuman physical attributes and enhanced primal senses, Kraven fights with pure barehanded martial ferocity and tactical tracking genius.',
+    powers: 'Superhuman physical strength, speed, stamina, and agility via mystical Calypso jungle potions, enhanced predatory senses, master big-game tracker and tactician, lethal unarmed combatant, and master of nerve strikes and traps.',
+    birth: 'c. 1960 (Volgograd / Stalingrad, Russia)',
+    death: 'Alive (Apex Predator of the Sinister Six)',
+    bgColor: '#e65100', // Jungle Ochre / Savage Amber (Kraven)
+    fontFamily: 'Spider-Man',
+  },
 ];
 
 export default characters;
