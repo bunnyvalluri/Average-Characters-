@@ -217,6 +217,26 @@ export const moviePosters = {
   'Yellowjacket': '/yellowjacket.png',
   'Whiplash': '/whiplash.png',
   'Justin Hammer': '/justin-hammer.png',
+  'Ebony Maw': '/ebony-maw.png',
+  'Cull Obsidian': '/cull-obsidian.png',
+  'Proxima Midnight': '/proxima-midnight.png',
+  'Corvus Glaive': '/corvus-glaive.png',
+  'Peggy Carter': '/peggy-carter.png',
+  'Howard Stark': '/howard-stark.png',
+  'Edwin Jarvis': '/edwin-jarvis.png',
+  'Frigga': '/frigga.png',
+  'Morgan Stark': '/morgan-stark.png',
+  'Hank Pym': '/hank-pym.png',
+  'Janet van Dyne': '/janet-van-dyne.png',
+  'Alexander Pierce': '/alexander-pierce.png',
+  'Harley Keener': '/harley-keener.png',
+  'Thunderbolt Ross': '/thunderbolt-ross.png',
+  'General Thunderbolt Ross': '/thunderbolt-ross.png',
+  'Queen Ramonda': '/queen-ramonda.png',
+  'Akihiko': '/akihiko.png',
+  'Laura Barton': '/laura-barton.png',
+  'Jasper Sitwell': '/jasper-sitwell.png',
+  'Agent Jasper Sitwell': '/jasper-sitwell.png',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -1550,6 +1570,146 @@ export const characterMovieTimeline = {
       { title: 'Iron Man 2', year: 2010, note: 'CEO of Hammer Industries who arms Ivan Vanko and War Machine' },
     ],
   },
+  'Ebony Maw': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Captures Doctor Strange and wields telekinetic mastery before being expelled into space' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Commands Thanos\' vanguard in the Battle of Earth before disintegrating in Stark\'s snap' },
+    ],
+  },
+  'Cull Obsidian': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Invades New York and Wakanda, losing his arm to Wong\'s portal' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Battles Korg and Drax before being crushed by Giant-Man and dusted in the snap' },
+    ],
+  },
+  'Proxima Midnight': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Ambushes Wanda and Vision in Scotland and leads the Outrider army in Wakanda' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Leads Thanos\' frontline forces in the Battle of Earth before dusting with Thanos' },
+    ],
+  },
+  'Corvus Glaive': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Infiltrates Shuri\'s lab in Wakanda to extract the Mind Stone before being slain by Vision' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Serves as field commander in the Battle of Earth, impaled by Okoye and disintegrated' },
+    ],
+  },
+  'Peggy Carter': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Captain America: The First Avenger', year: 2011, note: 'SSR agent who mentors Steve Rogers and leads the Howling Commandos' },
+      { title: 'Captain America: The Winter Soldier', year: 2014, note: 'Elderly former S.H.I.E.L.D. Director visited by Steve Rogers in hospital' },
+      { title: 'Avengers: Age of Ultron', year: 2015, note: 'Appears in Steve\'s Wanda-induced vision of a post-war victory dance' },
+      { title: 'Ant-Man', year: 2015, note: '1989 S.H.I.E.L.D. Triskelion meeting when Hank Pym resigns' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Steve glimpses her in 1970 Camp Lehigh, later returning to the past to share their promised dance' },
+    ],
+  },
+  'Howard Stark': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Iron Man', year: 2008, note: 'Tony Stark\'s legendary industrialist father seen in archive tribute' },
+      { title: 'Iron Man 2', year: 2010, note: 'Leaves hidden film reels and atomic model unlocking Tony\'s new element' },
+      { title: 'Captain America: The First Avenger', year: 2011, note: 'Develops Cap\'s vibranium shield and aids Project Rebirth' },
+      { title: 'Ant-Man', year: 2015, note: 'Witnesses Hank Pym\'s resignation at S.H.I.E.L.D. Triskelion in 1989' },
+      { title: 'Captain America: Civil War', year: 2016, note: 'Assassinated alongside Maria Stark by the Winter Soldier in 1991' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Tony shares an emotional conversation about fatherhood with Howard in 1970 Camp Lehigh' },
+    ],
+  },
+  'Edwin Jarvis': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Endgame', year: 2019, note: 'Howard Stark\'s faithful butler who drives Howard to Camp Lehigh and interacts with Tony Stark' },
+    ],
+  },
+  'Frigga': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor', year: 2011, note: 'Queen Mother of Asgard who protects the Odinsleep and defends the throne' },
+      { title: 'Thor: The Dark World', year: 2013, note: 'Heroically defends Jane Foster against Malekith and Kurse before her tragic death' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Recognizes time-traveling Thor from 2023 and imparts loving wisdom restoring his confidence' },
+    ],
+  },
+  'Morgan Stark': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Endgame', year: 2019, note: 'Tony Stark and Pepper Potts\' daughter who says "I love you 3000" and eats cheeseburgers with Happy' },
+    ],
+  },
+  'Hank Pym': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Ant-Man', year: 2015, note: 'Recruits Scott Lang to steal back the Yellowjacket suit from Darren Cross' },
+      { title: 'Ant-Man and the Wasp', year: 2018, note: 'Builds the Quantum Tunnel to rescue Janet van Dyne from the Quantum Realm' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Steve Rogers steals Pym Particles from young Hank\'s 1970 lab; attends Tony\'s funeral' },
+      { title: 'Ant-Man and the Wasp: Quantumania', year: 2023, note: 'Commands hyper-evolved ant civilization to dismantle Kang\'s empire' },
+    ],
+  },
+  'Janet van Dyne': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Ant-Man and the Wasp', year: 2018, note: 'Rescued from 30 years in the Quantum Realm by Hank Pym' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Restored from the Snap, attends Tony Stark\'s lakefront memorial' },
+      { title: 'Ant-Man and the Wasp: Quantumania', year: 2023, note: 'Guides the Ant-Family through the Quantum Realm against Kang the Conqueror' },
+    ],
+  },
+  'Alexander Pierce': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Captain America: The Winter Soldier', year: 2014, note: 'Secret HYDRA leader orchestrating Project Insight before being killed by Nick Fury' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Confronts Tony Stark and S.H.I.E.L.D. agents in 2012 Stark Tower demanding the Tesseract' },
+    ],
+  },
+  'Harley Keener': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Iron Man 3', year: 2013, note: 'Helps stranded Tony Stark in Rose Hill repair the Mark 42 and battle Extremis' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Grown young adult standing reverently at Tony Stark\'s memorial' },
+    ],
+  },
+  'Thunderbolt Ross': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'The Incredible Hulk', year: 2008, note: 'General Ross relentlessly pursues Bruce Banner with military forces and the Abomination' },
+      { title: 'Captain America: Civil War', year: 2016, note: 'Presents the Sokovia Accords to the Avengers and imprisons rogue heroes in the Raft' },
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Orders Rhodey to arrest Steve Rogers\' faction before Rhodey defies him' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Stands solemnly among world leaders at Tony Stark\'s memorial' },
+      { title: 'Black Widow', year: 2021, note: 'Leads federal manhunt across Norway and Morocco to apprehend fugitive Natasha Romanoff' },
+    ],
+  },
+  'Queen Ramonda': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Black Panther', year: 2018, note: 'Queen Mother of Wakanda who flees to Jabari land with the Heart-Shaped Herb to save T\'Challa' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Reunited in the royal palace with T\'Challa and Shuri celebrating the victory' },
+      { title: 'Black Panther: Wakanda Forever', year: 2022, note: 'Ruler of Wakanda who defends her nation against global powers before sacrificing her life' },
+    ],
+  },
+  'Akihiko': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Endgame', year: 2019, note: 'Yakuza syndicate boss who engages in a fierce rain-soaked katana duel against Ronin in Tokyo' },
+    ],
+  },
+  'Laura Barton': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Age of Ultron', year: 2015, note: 'Welcomes the fugitive Avengers to her peaceful farm safehouse' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Her sudden dusting with the Barton children triggers Clint\'s dark transformation into Ronin' },
+    ],
+  },
+  'Agent Jasper Sitwell': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor', year: 2011, note: 'S.H.I.E.L.D. agent at the crater site guarding Mjolnir' },
+      { title: 'The Avengers', year: 2012, note: 'Monitors the Helicarrier bridge during Loki\'s invasion' },
+      { title: 'Captain America: The Winter Soldier', year: 2014, note: 'Revealed as HYDRA operative, interrogated on rooftop before Winter Soldier kills him' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Elevator scene where Steve Rogers whispers "Hail Hydra" to Sitwell to retrieve Loki\'s scepter' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -1752,6 +1912,24 @@ export const movieEvents = {
   'Yellowjacket': 'Darren Cross shrinks into subatomic frequencies with lethal plasma stingers.',
   'Whiplash': 'Ivan Vanko slices titanium armor with dual electrified Arc Reactor plasma whips.',
   'Justin Hammer': 'Justin Hammer orchestrates high-tech military contracts and weaponized drone armies.',
+  'Ebony Maw': 'Ebony Maw bends matter telekinetically and leads the vanguard of Thanos in the Battle of Earth.',
+  'Cull Obsidian': 'Cull Obsidian smashes through battle lines with heavy biomechanical chain-hammers.',
+  'Proxima Midnight': 'Proxima Midnight commands Thanos’ elite warriors wielding a star-forged energy spear.',
+  'Corvus Glaive': 'Corvus Glaive leads tactical assaults with an indestructible atom-splitting immortal glaive.',
+  'Peggy Carter': 'Peggy Carter builds the foundations of S.H.I.E.L.D. and shares a final victory dance with Steve.',
+  'Howard Stark': 'Howard Stark pioneers Arc Reactor technology and shares a heartwarming reunion with Tony in 1970.',
+  'Edwin Jarvis': 'Edwin Jarvis drives Howard Stark with loyal British wit and tactical elegance.',
+  'Frigga': 'Frigga heals Thor’s spirit with maternal wisdom and master Asgardian sorcery.',
+  'Morgan Stark': 'Morgan Stark warms Tony’s heart with "I love you 3000" and playful genius.',
+  'Hank Pym': 'Dr. Hank Pym pioneers quantum Pym Particle science and commands advanced ant armies.',
+  'Janet van Dyne': 'Janet van Dyne survives thirty years in the Quantum Realm and heals quantum anomalies.',
+  'Alexander Pierce': 'Alexander Pierce commands covert HYDRA operations from the highest halls of global defense.',
+  'Harley Keener': 'Harley Keener honors his mentor Tony Stark with young inventor ingenuity.',
+  'Thunderbolt Ross': 'General Thunderbolt Ross commands global military forces and enforces the Sokovia Accords.',
+  'Queen Ramonda': 'Queen Ramonda guides Wakanda through grief and triumph with regal moral courage.',
+  'Akihiko': 'Akihiko commands the Tokyo underworld until confronted in a lethal duel by Ronin.',
+  'Laura Barton': 'Laura Barton supports Clint and the Avengers from their peaceful family farmstead.',
+  'Jasper Sitwell': 'Agent Jasper Sitwell manages high-security intelligence operations across S.H.I.E.L.D. and HYDRA.',
 };
 
 export const mcuMoviesCatalog = [
@@ -1770,14 +1948,14 @@ export const mcuMoviesCatalog = [
   { id: 'ca3', title: 'Captain America: Civil War', year: 2016, phase: 'Phase 3', poster: '/movies/civil-war.jpg', hero: 'Avengers', trailerId: 'dKrVegVI0Us', description: 'Political pressure splinters the Avengers into opposing factions led by Cap and Iron Man.' },
   { id: 'ds1', title: 'Doctor Strange', year: 2016, phase: 'Phase 3', poster: '/movies/dr-strange.jpg', hero: 'Doctor Strange', trailerId: 'HSzx-zryEgM', description: 'A neurosurgeon unlocks the Mystic Arts after a devastating car crash.' },
   { id: 'gotg2', title: 'Guardians of the Galaxy Vol. 2', year: 2017, phase: 'Phase 3', poster: '/movies/guardians-of-the-galaxy-2.jpg', hero: 'Guardians', trailerId: 'dW1BIid8Osg', description: 'The Guardians unravel the mystery of Peter Quill’s true celestial parentage.' },
-  { id: 'sp1', title: 'Spider-Man: Homecoming', year: 2017, phase: 'Phase 3', poster: '/movies/spiderman-homecoming.jpg', hero: 'Spider-Man', trailerId: 'U0D338862RE', description: 'Peter Parker navigates high school life while fighting the sinister Vulture.' },
+  { id: 'sp1', title: 'Spider-Man: Homecoming', year: 2017, phase: 'Phase 3', poster: '/movies/spiderman-homecoming.jpg', hero: 'Spider-Man', trailerId: '39udgGPyYMg', description: 'Peter Parker navigates high school life while fighting the sinister Vulture.' },
   { id: 'thor3', title: 'Thor: Ragnarok', year: 2017, phase: 'Phase 3', poster: '/movies/ragnarok.jpg', hero: 'Thor', trailerId: 'ue80QwXMRHg', description: 'Imprisoned on Sakaar, Thor must race against time to prevent Hela from destroying Asgard.' },
   { id: 'bp1', title: 'Black Panther', year: 2018, phase: 'Phase 3', poster: '/movies/black-panther.jpg', hero: 'Black Panther', trailerId: 'xjDjIWPwcPU', description: 'T’Challa ascends as King of Wakanda and faces a fierce challenge from Killmonger.' },
   { id: 'av3', title: 'Avengers: Infinity War', year: 2018, phase: 'Phase 3', poster: '/movies/infinity-war.jpg', hero: 'Avengers', trailerId: '6ZfuNTqbG8Y', description: 'The Avengers and Guardians unite in a desperate bid to stop Thanos from collecting all six Infinity Stones.' },
   { id: 'ant2', title: 'Ant-Man and the Wasp', year: 2018, phase: 'Phase 3', poster: '/movies/ant-man-and-the-wasp.jpg', hero: 'Ant-Man', trailerId: '8_rTIAOohas', description: 'Scott Lang and Hope van Dyne venture into the Quantum Realm.' },
   { id: 'cm1', title: 'Captain Marvel', year: 2019, phase: 'Phase 3', poster: '/movies/captain-marvel.jpg', hero: 'Captain Marvel', trailerId: 'Z1BCujX3pw8', description: 'Carol Danvers uncovers her past and becomes one of the universe’s most powerful champions.' },
   { id: 'av4', title: 'Avengers: Endgame', year: 2019, phase: 'Phase 3', poster: '/movies/endgame.jpg', hero: 'Avengers', trailerId: 'TcMBFSGVi1c', description: 'The surviving Avengers execute a temporal heist to reverse Thanos’ catastrophic snap.' },
-  { id: 'sp2', title: 'Spider-Man: Far From Home', year: 2019, phase: 'Phase 3', poster: '/movies/far-from-home.jpg', hero: 'Spider-Man', trailerId: 'Nt9L1jCKGnE', description: 'Peter Parker faces new elemental threats and Mysterio on a European school trip.' },
+  { id: 'sp2', title: 'Spider-Man: Far From Home', year: 2019, phase: 'Phase 3', poster: '/movies/far-from-home.jpg', hero: 'Spider-Man', trailerId: 'DYYtuKyMtY8', description: 'Peter Parker faces new elemental threats and Mysterio on a European school trip.' },
   { id: 'bw1', title: 'Black Widow', year: 2021, phase: 'Phase 4', poster: '/movies/black-widow.jpg', hero: 'Black Widow', trailerId: 'ybji16u608U', description: 'Natasha Romanoff confronts the darkest parts of her ledger and the Red Room.' },
   { id: 'sc1', title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, phase: 'Phase 4', poster: '/movies/shang-chi.jpg', hero: 'Shang-Chi', trailerId: '8YjFbMbfXaQ', description: 'Shang-Chi confronts his past and the clandestine Ten Rings organization.' },
   { id: 'sp3', title: 'Spider-Man: No Way Home', year: 2021, phase: 'Phase 4', poster: '/movies/no-way-home.jpg', hero: 'Spider-Man', trailerId: 'JfVOs4VSpmA', description: 'Multiversal villains arrive in Peter Parker’s world after a spell goes awry.' },

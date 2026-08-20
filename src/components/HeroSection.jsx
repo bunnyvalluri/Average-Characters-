@@ -5,7 +5,8 @@ import CharacterInfo from './CharacterInfo';
 import { useColorTheme } from '../ColorThemeContext';
 
 const CATEGORIES = [
-  { id: 'all', label: 'All Heroes (151)' },
+  { id: 'all', label: 'All Heroes (169)' },
+  { id: 'endgame', label: 'Endgame (Battle & Heist)' },
   { id: 'avengers', label: 'Avengers' },
   { id: 'guardians', label: 'Guardians' },
   { id: 'xmen', label: 'X-Men & Mutants' },
@@ -13,10 +14,37 @@ const CATEGORIES = [
   { id: 'cosmic', label: 'Cosmic & Multiverse' },
 ];
 
+const ENDGAME_HERO_NAMES = new Set([
+  'iron man', 'captain america', 'thor', 'hulk', 'black widow', 'hawkeye',
+  'war machine', 'ant-man', 'rocket raccoon', 'nebula', 'captain marvel',
+  'thanos', 'spider-man', 'doctor strange', 'black panther', 'wasp',
+  'star-lord', 'gamora', 'drax the destroyer', 'mantis', 'groot',
+  'scarlet witch', 'winter soldier', 'falcon', 'valkyrie', 'wong',
+  'okoye', 'shuri', "m'baku", 'pepper potts', 'korg', 'miek', 'kraglin',
+  'howard the duck', 'ancient one', 'red skull', 'crossbones', 'ned leeds',
+  'aunt may', 'happy hogan', 'maria hill', 'nick fury', 'cassie lang',
+  'loki', 'mighty thor', 'ebony maw', 'cull obsidian', 'proxima midnight',
+  'corvus glaive', 'peggy carter', 'howard stark', 'edwin jarvis', 'frigga',
+  'morgan stark', 'hank pym', 'dr. hank pym', 'janet van dyne', 'alexander pierce',
+  'harley keener', 'thunderbolt ross', 'general thunderbolt ross', 'queen ramonda',
+  'akihiko', 'laura barton', 'jasper sitwell', 'agent jasper sitwell'
+]);
+
+const isEndgameCharacter = (char) => {
+  if (!char) return false;
+  const name = char.name.toLowerCase();
+  return (
+    ENDGAME_HERO_NAMES.has(name) ||
+    name.includes('endgame') ||
+    (char.description || '').toLowerCase().includes('endgame') ||
+    (char.description || '').toLowerCase().includes('battle of earth') ||
+    (char.description || '').toLowerCase().includes('time heist')
+  );
+};
+
 // Helper to categorize characters by name/powers
 const getCategoryForCharacter = (char) => {
   const name = char.name.toLowerCase();
-  const powers = (char.powers || '').toLowerCase();
   const desc = (char.description || '').toLowerCase();
 
   if (
@@ -27,7 +55,10 @@ const getCategoryForCharacter = (char) => {
     name.includes('lizard') || name.includes('ronan') || name.includes('kaecilius') ||
     name.includes('yellowjacket') || name.includes('whiplash') || name.includes('zemo') ||
     name.includes('red skull') || name.includes('crossbones') || name.includes('kingpin') ||
-    name.includes('abomination') || name.includes('gorr') || name.includes('high evolutionary')
+    name.includes('abomination') || name.includes('gorr') || name.includes('high evolutionary') ||
+    name.includes('ebony maw') || name.includes('cull obsidian') || name.includes('proxima midnight') ||
+    name.includes('corvus glaive') || name.includes('alexander pierce') || name.includes('akihiko') ||
+    name.includes('jasper sitwell') || name.includes('justin hammer')
   ) {
     return 'villains';
   }
@@ -127,6 +158,9 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
   const filteredRoster = useMemo(() => {
     if (selectedCategory === 'all') {
       return characters;
+    }
+    if (selectedCategory === 'endgame') {
+      return characters.filter((c) => isEndgameCharacter(c));
     }
     return characters.filter((c) => getCategoryForCharacter(c) === selectedCategory);
   }, [characters, selectedCategory]);

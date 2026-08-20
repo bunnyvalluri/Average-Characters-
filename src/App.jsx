@@ -128,17 +128,22 @@ function Landing() {
       <video
         ref={videoRef}
         className="w-full h-full object-contain md:object-cover z-0 select-none pointer-events-none"
-        src="/landing.mp4"
         autoPlay
         muted={muted}
         playsInline
-        preload="metadata"
+        webkit-playsinline="true"
+        preload="auto"
         controls={false}
         disablePictureInPicture
+        disableRemotePlayback
         loop={false}
         onEnded={handleVideoEnd}
         onPlay={() => setIsPlaying(true)}
-      />
+        style={{ transform: 'translateZ(0)', willChange: 'transform' }}
+      >
+        <source src="/landing-mobile.mp4" type="video/mp4" media="(max-width: 768px)" />
+        <source src="/landing.mp4" type="video/mp4" />
+      </video>
 
       {/* Tap to play overlay fallback for mobile */}
       {!isPlaying && (
@@ -161,16 +166,17 @@ function Landing() {
       <div className="absolute top-4 sm:top-8 right-4 sm:right-8 z-20">
         <button
           onClick={handleEnterClick}
-          className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-semibold bg-black/60 hover:bg-black/80 text-white border border-white/20 rounded-xl backdrop-blur-md transition-all shadow-lg active:scale-95 cursor-pointer"
+          className="px-4 py-2 sm:px-6 sm:py-3 text-xs sm:text-sm md:text-base font-bold bg-black/70 hover:bg-black/90 text-white border border-white/30 rounded-xl backdrop-blur-md transition-all shadow-xl active:scale-95 cursor-pointer flex items-center gap-1.5"
         >
-          Explore Heroes ➔
+          <span>Explore Heroes</span>
+          <span>➔</span>
         </button>
       </div>
 
       {/* Mute/Unmute button top left */}
       <button
         onClick={handleMuteToggle}
-        className="absolute top-4 sm:top-8 left-4 sm:left-8 z-20 p-2.5 sm:p-3 bg-black/60 hover:bg-black/80 text-white border border-white/20 transition-all rounded-full backdrop-blur-md shadow-lg active:scale-95 cursor-pointer"
+        className="absolute top-4 sm:top-8 left-4 sm:left-8 z-20 p-2.5 sm:p-3 bg-black/70 hover:bg-black/90 text-white border border-white/30 transition-all rounded-full backdrop-blur-md shadow-xl active:scale-95 cursor-pointer"
         aria-label={muted ? 'Unmute video' : 'Mute video'}
       >
         {muted ? (
