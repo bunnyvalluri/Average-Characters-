@@ -530,6 +530,86 @@
   font-family: 'Black Bolt';
   src: url('./assets/fonts/Captain Marvel.otf');
 }
+@font-face {
+  font-family: 'The Watcher';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
+@font-face {
+  font-family: 'Strange Supreme';
+  src: url('./assets/fonts/Dr Strange.ttf');
+}
+@font-face {
+  font-family: 'Infinity Ultron';
+  src: url('./assets/fonts/AgeOfUltron-W7on.ttf');
+}
+@font-face {
+  font-family: 'Mysterio';
+  src: url('./assets/fonts/Dr Strange.ttf');
+}
+@font-face {
+  font-family: 'Vulture';
+  src: url('./assets/fonts/Spider Man.TTF');
+}
+@font-face {
+  font-family: 'Electro';
+  src: url('./assets/fonts/Spider Man.TTF');
+}
+@font-face {
+  font-family: 'Sandman';
+  src: url('./assets/fonts/Spider Man.TTF');
+}
+@font-face {
+  font-family: 'Lizard';
+  src: url('./assets/fonts/Spider Man.TTF');
+}
+@font-face {
+  font-family: 'Katy Chen';
+  src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
+}
+@font-face {
+  font-family: 'Darcy Lewis';
+  src: url('./assets/fonts/Thor.ttf');
+}
+@font-face {
+  font-family: 'Jimmy Woo';
+  src: url('./assets/fonts/Ant Man.otf');
+}
+@font-face {
+  font-family: 'Ned Leeds';
+  src: url('./assets/fonts/Spider Man.TTF');
+}
+@font-face {
+  font-family: 'MJ';
+  src: url('./assets/fonts/Spider Man.TTF');
+}
+@font-face {
+  font-family: 'Aunt May';
+  src: url('./assets/fonts/Spider Man.TTF');
+}
+@font-face {
+  font-family: 'J. Jonah Jameson';
+  src: url('./assets/fonts/Spider Man.TTF');
+}
+@font-face {
+  font-family: 'Ronan the Accuser';
+  src: url('./assets/fonts/Guardians.ttf');
+}
+@font-face {
+  font-family: 'Kaecilius';
+  src: url('./assets/fonts/Dr Strange.ttf');
+}
+@font-face {
+  font-family: 'Yellowjacket';
+  src: url('./assets/fonts/Ant Man.otf');
+}
+@font-face {
+  font-family: 'Whiplash';
+  src: url('./assets/fonts/Iron Man.otf');
+}
+@font-face {
+  font-family: 'Justin Hammer';
+  src: url('./assets/fonts/Iron Man.otf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;

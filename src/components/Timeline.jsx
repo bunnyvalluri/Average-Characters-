@@ -202,6 +202,26 @@ const moviePosters = {
   'Lady Sif': '/lady-sif.png',
   'Karl Mordo': '/mordo.png',
   'Black Bolt': '/black-bolt.png',
+  'The Watcher': '/the-watcher.png',
+  'Strange Supreme': '/strange-supreme.png',
+  'Infinity Ultron': '/infinity-ultron.png',
+  'Mysterio': '/mysterio.png',
+  'Vulture': '/vulture.png',
+  'Electro': '/electro.png',
+  'Sandman': '/sandman.png',
+  'Lizard': '/lizard.png',
+  'Katy Chen': '/katy.png',
+  'Darcy Lewis': '/darcy-lewis.png',
+  'Jimmy Woo': '/jimmy-woo.png',
+  'Ned Leeds': '/ned-leeds.png',
+  'MJ': '/mj.png',
+  'Aunt May': '/aunt-may.png',
+  'J. Jonah Jameson': '/jj-jameson.png',
+  'Ronan the Accuser': '/ronan.png',
+  'Kaecilius': '/kaecilius.png',
+  'Yellowjacket': '/yellowjacket.png',
+  'Whiplash': '/whiplash.png',
+  'Justin Hammer': '/justin-hammer.png',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -1394,6 +1414,147 @@ const characterMovieTimeline = {
       { title: 'Doctor Strange in the Multiverse of Madness', year: 2022, note: 'Illuminati King of Attilan who defeated Thanos with his voice' },
     ],
   },
+  'The Watcher': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'What If...? Season 1', year: 2021, note: 'Observes the Multiverse & gathers the Guardians of the Multiverse' },
+      { title: 'What If...? Season 2', year: 2023, note: 'Guides Captain Carter and Kahhori through multiversal anomalies' },
+      { title: 'What If...? Season 3', year: 2024, note: 'Preserves the tapestry of infinite realities' },
+    ],
+  },
+  'Strange Supreme': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'What If...? Season 1', year: 2021, note: 'Absorbs eldritch demons & helps defeat Infinity Ultron' },
+      { title: 'What If...? Season 2', year: 2023, note: 'Builds the Universe Forge before finding redemption' },
+    ],
+  },
+  'Infinity Ultron': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'What If...? Season 1', year: 2021, note: 'Claims all six Infinity Stones and wages war across the Multiverse' },
+    ],
+  },
+  'Mysterio': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Spider-Man: Far From Home', year: 2019, note: 'Deploys illusion drones across Europe and frames Peter Parker' },
+    ],
+  },
+  'Vulture': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Spider-Man: Homecoming', year: 2017, note: 'Operates high-tech Chitauri weapons ring with exo-wingsuit' },
+    ],
+  },
+  'Electro': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Absorbs Arc Reactor power at the Statue of Liberty before being cured' },
+    ],
+  },
+  'Sandman': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Granular sand titan battles Spider-Men before receiving cure' },
+    ],
+  },
+  'Lizard': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Cross-species reptile battles across New York before receiving cure' },
+    ],
+  },
+  'Katy Chen': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, note: 'Master archer lands decisive dragon-arrow shot in Ta Lo' },
+    ],
+  },
+  'Darcy Lewis': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor', year: 2011, note: 'Aids Jane Foster and tasers Thor in New Mexico' },
+      { title: 'Thor: The Dark World', year: 2013, note: 'Investigates gravitational anomalies in London' },
+      { title: 'WandaVision', year: 2021, note: 'Discovers the sitcom broadcast signal of the Westview Hex' },
+      { title: 'Thor: Love and Thunder', year: 2022, note: 'Visits Jane Foster in hospital' },
+    ],
+  },
+  'Jimmy Woo': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Ant-Man and the Wasp', year: 2018, note: 'FBI agent monitoring Scott Lang\'s house arrest' },
+      { title: 'WandaVision', year: 2021, note: 'Leads FBI missing person investigation into Westview' },
+      { title: 'Ant-Man and the Wasp: Quantumania', year: 2023, note: 'Catches up with Scott Lang in San Francisco' },
+    ],
+  },
+  'Ned Leeds': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Spider-Man: Homecoming', year: 2017, note: 'Acts as Guy in the Chair to track the Vulture' },
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Creates distraction on school bus in New York' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Reunites with Peter Parker at Midtown High' },
+      { title: 'Spider-Man: Far From Home', year: 2019, note: 'Travels across Europe and helps fight elementals' },
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Uses Sling Ring magic to summon multiversal Spider-Men' },
+    ],
+  },
+  'MJ': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Spider-Man: Homecoming', year: 2017, note: 'Midtown High academic decathlon team captain' },
+      { title: 'Spider-Man: Far From Home', year: 2019, note: 'Deduces Spider-Man\'s identity and defeats drone in London' },
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Stands with Peter Parker at the Statue of Liberty' },
+    ],
+  },
+  'Aunt May': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Captain America: Civil War', year: 2016, note: 'Welcomes Tony Stark to Queens apartment' },
+      { title: 'Spider-Man: Homecoming', year: 2017, note: 'Discovers Peter Parker is Spider-Man' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Attends Tony Stark\'s memorial service' },
+      { title: 'Spider-Man: Far From Home', year: 2019, note: 'Organizes F.E.A.S.T. charity event' },
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Inspires Peter to cure villains with immortal moral words' },
+    ],
+  },
+  'J. Jonah Jameson': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Spider-Man: Far From Home', year: 2019, note: 'Broadcasts doctored video framing Spider-Man' },
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Daily Bugle news anchor covering multiversal supervillains' },
+    ],
+  },
+  'Ronan the Accuser': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Guardians of the Galaxy', year: 2014, note: 'Wields Power Stone to attack Xandar before being destroyed' },
+      { title: 'Captain Marvel', year: 1995, note: 'Commands Starforce Accusers against Earth' },
+    ],
+  },
+  'Kaecilius': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Doctor Strange', year: 2016, note: 'Summons the Dark Dimension to Hong Kong' },
+    ],
+  },
+  'Yellowjacket': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Ant-Man', year: 2015, note: 'Darren Cross pilots Yellowjacket suit in fight against Scott Lang' },
+      { title: 'Ant-Man and the Wasp: Quantumania', year: 2023, note: 'Reborn as M.O.D.O.K. in the Quantum Realm' },
+    ],
+  },
+  'Whiplash': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Iron Man 2', year: 2010, note: 'Attacks Monaco Grand Prix and commands Hammer combat drones' },
+    ],
+  },
+  'Justin Hammer': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Iron Man 2', year: 2010, note: 'CEO of Hammer Industries who arms Ivan Vanko and War Machine' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -1576,6 +1737,26 @@ const movieEvents = {
   'Lady Sif': 'Lady Sif wields Asgardian steel and shield mastery to defend the Nine Realms.',
   'Karl Mordo': 'Karl Mordo channels the Mystic Arts and Vaulting Boots to purge reckless sorcery.',
   'Black Bolt': 'Black Bolt unleashes devastating quasi-sonic destruction with the whisper of a word.',
+  'The Watcher': 'Uatu the Watcher observes the tapestry of infinite realities and guides cosmic champions.',
+  'Strange Supreme': 'Strange Supreme channels absorbed demonic powers to contain multiversal threats.',
+  'Infinity Ultron': 'Infinity Ultron harnesses all six Infinity Stones to shatter universe boundaries.',
+  'Mysterio': 'Quentin Beck projects hyper-realistic holographic illusions to deceive the world.',
+  'Vulture': 'Adrian Toomes commands Chitauri turbine wings and scavenging black-market syndicates.',
+  'Electro': 'Max Dillon surges with pure golden bio-electricity and Arc Reactor amplification.',
+  'Sandman': 'Flint Marko shifts between granular sandstorms and colossal earth constructs.',
+  'Lizard': 'Dr. Curt Connors unleashes primal reptilian strength and regenerative genetics.',
+  'Katy Chen': 'Katy Chen lands critical dragon-scale archery shots to safeguard Ta Lo.',
+  'Darcy Lewis': 'Dr. Darcy Lewis decodes electromagnetic anomaly signals and Westview broadcasts.',
+  'Jimmy Woo': 'Agent Jimmy Woo leads federal task forces with sharp deduction and sleight-of-hand.',
+  'Ned Leeds': 'Ned Leeds opens multiversal Sling Ring portals and provides tactical support.',
+  'MJ': 'Michelle Jones deciphers high-stakes mysteries with unmatched deductive intellect.',
+  'Aunt May': 'May Parker inspires heroes with her profound humanitarian empathy and moral wisdom.',
+  'J. Jonah Jameson': 'J. Jonah Jameson broadcasts fiery Daily Bugle headlines across New York City.',
+  'Ronan the Accuser': 'Ronan the Accuser channels the Cosmi-Rod and Power Stone across galactic campaigns.',
+  'Kaecilius': 'Kaecilius folds physical space and draws dark immortality from the Dark Dimension.',
+  'Yellowjacket': 'Darren Cross shrinks into subatomic frequencies with lethal plasma stingers.',
+  'Whiplash': 'Ivan Vanko slices titanium armor with dual electrified Arc Reactor plasma whips.',
+  'Justin Hammer': 'Justin Hammer orchestrates high-tech military contracts and weaponized drone armies.',
 };
 
 
