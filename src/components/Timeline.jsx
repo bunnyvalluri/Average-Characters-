@@ -513,228 +513,157 @@ const movieEvents = {
 
 
 const Timeline = ({ character }) => {
-  const [activeTab, setActiveTab] = useState('all'); // 'all', 'mcu', 'before'
-
   // Get timeline data for the character
   const timelineData = characterMovieTimeline[character.name] || { beforeMCU: [], mcu: [] };
   const beforeMCUMovies = timelineData.beforeMCU || [];
   const mcuMovies = timelineData.mcu || [];
-  const color = character.bgColor || '#e50914';
+  const color = character.bgColor || '#2A1B5E';
   const fontFamily = character.fontFamily || 'Avengers';
 
-  const allMovies = [
-    ...beforeMCUMovies.map(m => ({ ...m, sectionType: 'beforeMCU' })),
-    ...mcuMovies.map(m => ({ ...m, sectionType: 'mcu' }))
-  ];
+  // Helper function to render a movie entry
+  const renderMovieEntry = (movie, isLeft, index, sectionType) => (
+    <motion.div
+      key={`${movie.title}-${movie.year}-${sectionType}-${index}`}
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: Math.min(index * 0.08, 0.8), duration: 0.4 }}
+      className={`w-full relative mb-6 sm:mb-8 md:mb-12`}
+    >
+      {/* Desktop Layout (md and up): Alternating Left/Right */}
+      <div className="hidden md:flex justify-between items-center w-full relative">
+        {isLeft ? (
+          <div className="flex flex-row-reverse items-center gap-4 max-w-[45%] text-right pr-4 z-10 w-full">
+            <div className="flex flex-col items-end w-full bg-black/80 border border-white/20 p-4 sm:p-5 rounded-2xl backdrop-blur-md shadow-2xl text-white">
+              <img
+                src={moviePosters[movie.title] || '/avengers.png'}
+                alt={movie.title}
+                className="w-20 sm:w-24 md:w-28 h-auto max-h-40 object-cover rounded-xl shadow-md border-2 border-white mb-2"
+                style={{ background: '#fff' }}
+                loading="lazy"
+              />
+              <span className="text-base md:text-lg lg:text-xl font-bold leading-snug text-white" style={{ fontFamily }}>{movie.title}</span>
+              <span className="text-sm md:text-base text-yellow-400 font-semibold mb-1">{movie.year}</span>
+              {movieEvents[movie.title] && (
+                <span className="text-xs md:text-sm text-gray-200 italic leading-relaxed">{movieEvents[movie.title]}</span>
+              )}
+              {movie.note && <span className="text-xs text-gray-300 italic mt-1 font-medium">{movie.note}</span>}
+            </div>
+          </div>
+        ) : <div className="max-w-[45%] w-full"></div>}
 
-  const displayedMovies = activeTab === 'mcu' 
-    ? mcuMovies.map(m => ({ ...m, sectionType: 'mcu' }))
-    : activeTab === 'before'
-    ? beforeMCUMovies.map(m => ({ ...m, sectionType: 'beforeMCU' }))
-    : allMovies;
+        {/* Center Node on Desktop */}
+        <span
+          className="absolute left-1/2 -translate-x-1/2 w-6 h-6 md:w-8 md:h-8 rounded-full border-4 border-white shadow-lg z-20 flex items-center justify-center transition-transform duration-300 hover:scale-110"
+          style={{ background: sectionType === 'mcu' ? color : '#bbb', borderColor: '#fff', boxShadow: `0 0 0 ${sectionType === 'mcu' ? '6px' : '4px'} ${sectionType === 'mcu' ? color + '33' : '#bbb3'}, 0 2px 8px #0002`, transition: 'background 0.6s cubic-bezier(0.4,0,0.2,1), box-shadow 0.6s cubic-bezier(0.4,0,0.2,1)' }}
+        >
+          <span className="block w-2 h-2 md:w-3 md:h-3 bg-white rounded-full"></span>
+        </span>
+
+        {!isLeft ? (
+          <div className="flex flex-row items-center gap-4 max-w-[45%] text-left pl-4 z-10 w-full">
+            <div className="flex flex-col items-start w-full bg-black/80 border border-white/20 p-4 sm:p-5 rounded-2xl backdrop-blur-md shadow-2xl text-white">
+              <img
+                src={moviePosters[movie.title] || '/avengers.png'}
+                alt={movie.title}
+                className="w-20 sm:w-24 md:w-28 h-auto max-h-40 object-cover rounded-xl shadow-md border-2 border-white mb-2"
+                style={{ background: '#fff' }}
+                loading="lazy"
+              />
+              <span className="text-base md:text-lg lg:text-xl font-bold leading-snug text-white" style={{ fontFamily }}>{movie.title}</span>
+              <span className="text-sm md:text-base text-yellow-400 font-semibold mb-1">{movie.year}</span>
+              {movieEvents[movie.title] && (
+                <span className="text-xs md:text-sm text-gray-200 italic leading-relaxed">{movieEvents[movie.title]}</span>
+              )}
+              {movie.note && <span className="text-xs text-gray-300 italic mt-1 font-medium">{movie.note}</span>}
+            </div>
+          </div>
+        ) : <div className="max-w-[45%] w-full"></div>}
+      </div>
+
+      {/* Mobile Layout (< md): Single column with line on left */}
+      <div className="flex md:hidden items-start relative pl-9 sm:pl-12 w-full">
+        {/* Node on left */}
+        <span
+          className="absolute left-1 sm:left-2 top-4 w-5 h-5 rounded-full border-2 border-white shadow-md z-20 flex items-center justify-center"
+          style={{ background: sectionType === 'mcu' ? color : '#bbb', borderColor: '#fff' }}
+        >
+          <span className="block w-1.5 h-1.5 bg-white rounded-full"></span>
+        </span>
+
+        {/* Content Card on mobile */}
+        <div className="flex flex-row items-start gap-3 sm:gap-4 bg-black/80 border border-white/20 p-3.5 sm:p-4 rounded-2xl w-full backdrop-blur-md shadow-2xl text-white">
+          <img
+            src={moviePosters[movie.title] || '/avengers.png'}
+            alt={movie.title}
+            className="w-16 sm:w-20 h-auto max-h-24 object-cover rounded-lg shadow-sm border border-white/20 flex-shrink-0"
+            style={{ background: '#fff' }}
+            loading="lazy"
+          />
+          <div className="flex flex-col items-start min-w-0 flex-1">
+            <span className="text-sm sm:text-base font-bold leading-snug break-words text-white" style={{ fontFamily }}>{movie.title}</span>
+            <span className="text-xs sm:text-sm text-yellow-400 font-semibold mt-0.5">{movie.year}</span>
+            {movieEvents[movie.title] && (
+              <span className="text-[11px] sm:text-xs text-gray-200 italic mt-1 leading-relaxed">{movieEvents[movie.title]}</span>
+            )}
+            {movie.note && <span className="text-[10px] sm:text-xs text-gray-300 italic mt-1">{movie.note}</span>}
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  );
 
   return (
-    <section id="timeline-section" className="w-full py-12 sm:py-16 px-3 sm:px-6 lg:px-12 relative">
-      <div className="max-w-4xl mx-auto">
-        
-        {/* Section Header */}
-        <div className="text-center mb-8 sm:mb-12">
-          <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/10 text-xs font-semibold uppercase tracking-wider text-gray-300 mb-3 border border-white/10 backdrop-blur-md">
-            <span>Cinematic History</span>
-          </div>
-          <h2
-            className="text-3xl sm:text-4xl md:text-5xl font-black uppercase tracking-wide text-white"
-            style={{
-              fontFamily,
-              textShadow: `0 4px 20px ${color}66`,
-            }}
-          >
+    <section className="w-full flex justify-center py-8 sm:py-12 px-3 sm:px-6 md:px-10">
+      <div className="w-full max-w-4xl relative">
+        <div className="flex justify-center items-center mb-6 sm:mb-10">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center tracking-wide text-white px-6 py-2.5 bg-black/60 backdrop-blur-md rounded-2xl border border-white/15 shadow-2xl inline-block" style={{ fontFamily }}>
             {character.name} Timeline
-          </h2>
-          <p className="text-sm sm:text-base text-gray-400 mt-2 max-w-xl mx-auto font-sans">
-            Chronological journey across cinematic universes, solo adventures, and team-up sagas.
-          </p>
-
-          {/* Filter Tabs */}
-          <div className="flex flex-wrap items-center justify-center gap-2 mt-6 font-sans">
-            <button
-              onClick={() => setActiveTab('all')}
-              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all border cursor-pointer ${
-                activeTab === 'all'
-                  ? 'text-white border-white/40 shadow-lg'
-                  : 'text-gray-400 bg-white/5 border-white/10 hover:bg-white/10 hover:text-white'
-              }`}
-              style={{
-                backgroundColor: activeTab === 'all' ? color : undefined,
-              }}
-            >
-              All Appearances ({allMovies.length})
-            </button>
-
-            {mcuMovies.length > 0 && (
-              <button
-                onClick={() => setActiveTab('mcu')}
-                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all border cursor-pointer ${
-                  activeTab === 'mcu'
-                    ? 'text-white border-white/40 shadow-lg'
-                    : 'text-gray-400 bg-white/5 border-white/10 hover:bg-white/10 hover:text-white'
-                }`}
-                style={{
-                  backgroundColor: activeTab === 'mcu' ? color : undefined,
-                }}
-              >
-                MCU Canon ({mcuMovies.length})
-              </button>
-            )}
-
-            {beforeMCUMovies.length > 0 && (
-              <button
-                onClick={() => setActiveTab('before')}
-                className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all border cursor-pointer ${
-                  activeTab === 'before'
-                    ? 'text-white border-white/40 shadow-lg'
-                    : 'text-gray-400 bg-white/5 border-white/10 hover:bg-white/10 hover:text-white'
-                }`}
-                style={{
-                  backgroundColor: activeTab === 'before' ? color : undefined,
-                }}
-              >
-                Pre-MCU / Legacy ({beforeMCUMovies.length})
-              </button>
-            )}
-          </div>
+          </h1>
         </div>
 
         {/* Timeline Container */}
-        {displayedMovies.length === 0 ? (
-          <div className="text-center py-12 bg-white/5 rounded-2xl border border-white/10 p-6">
-            <p className="text-gray-400 text-sm sm:text-base">
-              No appearances recorded in this category for {character.name}.
-            </p>
-          </div>
-        ) : (
-          <div className="relative font-sans">
-            
-            {/* Timeline Spine: Left-aligned on Mobile (< md), Centered on Desktop (>= md) */}
-            <div
-              className="absolute top-0 bottom-0 w-1 bg-gradient-to-b from-white/30 via-white/20 to-transparent left-5 sm:left-7 md:left-1/2 md:-translate-x-1/2 z-0"
-              style={{
-                boxShadow: `0 0 12px ${color}44`,
-              }}
-            />
+        <div className="relative flex flex-col items-center mt-4 sm:mt-8 w-full" style={{ minHeight: '100px' }}>
+          {/* Vertical line centered for Desktop */}
+          <div className="hidden md:block absolute left-1/2 top-0 -translate-x-1/2 h-full w-1 bg-white/40 z-0" style={{ minHeight: '100%' }}></div>
+          
+          {/* Vertical line on the left for Mobile */}
+          <div className="md:hidden absolute left-3.5 sm:left-4.5 top-0 h-full w-0.5 bg-white/40 z-0" style={{ minHeight: '100%' }}></div>
 
-            {/* Timeline Items */}
-            <div className="space-y-6 sm:space-y-8 md:space-y-12">
-              {displayedMovies.map((movie, idx) => {
-                const isLeft = idx % 2 === 0;
-                const isMCU = movie.sectionType === 'mcu';
-                const poster = moviePosters[movie.title] || '/avengers.png';
-                const eventLore = movieEvents[movie.title];
-
-                return (
-                  <motion.div
-                    key={`${movie.title}-${movie.year}-${idx}`}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: '-50px' }}
-                    transition={{ duration: 0.4, delay: Math.min(idx * 0.05, 0.3) }}
-                    className="relative flex items-center md:justify-between w-full group"
-                  >
-                    
-                    {/* Desktop Left Side Card */}
-                    <div className="hidden md:block md:w-[44%]">
-                      {isLeft && (
-                        <div className="bg-white/[0.06] hover:bg-white/[0.12] border border-white/10 hover:border-white/25 rounded-2xl p-4 sm:p-5 backdrop-blur-md shadow-xl transition-all duration-300 text-right group-hover:scale-[1.02]">
-                          <div className="flex flex-row-reverse items-start gap-4">
-                            <img
-                              src={poster}
-                              alt={movie.title}
-                              className="w-20 h-28 object-cover rounded-xl border border-white/20 shadow-md flex-shrink-0 bg-black/50"
-                              loading="lazy"
-                            />
-                            <div className="flex-1">
-                              <div className="inline-block px-2.5 py-0.5 rounded-full text-xs font-bold mb-1.5"
-                                   style={{
-                                     backgroundColor: isMCU ? `${color}33` : 'rgba(255,255,255,0.1)',
-                                     color: isMCU ? '#ff9999' : '#e0e0e0',
-                                     border: `1px solid ${isMCU ? color : 'rgba(255,255,255,0.2)'}`,
-                                   }}>
-                                {movie.year} {isMCU ? '• MCU' : '• Legacy'}
-                              </div>
-                              <h3 className="text-lg font-bold text-white leading-tight mb-1" style={{ fontFamily }}>
-                                {movie.title}
-                              </h3>
-                              {eventLore && (
-                                <p className="text-xs text-gray-300 leading-relaxed line-clamp-3">
-                                  {eventLore}
-                                </p>
-                              )}
-                              {movie.note && (
-                                <span className="inline-block text-[11px] text-yellow-300/90 font-medium mt-1">
-                                  ★ {movie.note}
-                                </span>
-                              )}
-                            </div>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Timeline Spine Node Indicator */}
-                    <div
-                      className="absolute left-5 sm:left-7 md:left-1/2 -translate-x-1/2 w-7 h-7 sm:w-8 sm:h-8 rounded-full border-4 border-[#0d0e15] shadow-lg z-10 flex items-center justify-center transition-transform duration-300 group-hover:scale-125"
-                      style={{
-                        backgroundColor: isMCU ? color : '#718096',
-                        boxShadow: `0 0 16px ${isMCU ? color : '#718096'}aa`,
-                      }}
-                    >
-                      <div className="w-2 h-2 rounded-full bg-white" />
-                    </div>
-
-                    {/* Mobile Card (all items) / Desktop Right Side Card */}
-                    <div className="w-full pl-12 sm:pl-16 md:pl-0 md:w-[44%]">
-                      {/* For Desktop: show only if !isLeft. For Mobile: always show! */}
-                      <div className={`bg-white/[0.06] hover:bg-white/[0.12] border border-white/10 hover:border-white/25 rounded-2xl p-3.5 sm:p-5 backdrop-blur-md shadow-xl transition-all duration-300 text-left group-hover:scale-[1.02] ${isLeft ? 'md:hidden' : 'block'}`}>
-                        <div className="flex items-start gap-3.5 sm:gap-4">
-                          <img
-                            src={poster}
-                            alt={movie.title}
-                            className="w-16 h-24 sm:w-20 sm:h-28 object-cover rounded-xl border border-white/20 shadow-md flex-shrink-0 bg-black/50"
-                            loading="lazy"
-                          />
-                          <div className="flex-1 min-w-0">
-                            <div className="inline-block px-2 py-0.5 rounded-full text-[11px] sm:text-xs font-bold mb-1"
-                                 style={{
-                                   backgroundColor: isMCU ? `${color}33` : 'rgba(255,255,255,0.1)',
-                                   color: isMCU ? '#ff9999' : '#e0e0e0',
-                                   border: `1px solid ${isMCU ? color : 'rgba(255,255,255,0.2)'}`,
-                                 }}>
-                              {movie.year} {isMCU ? '• MCU' : '• Legacy'}
-                            </div>
-                            <h3 className="text-base sm:text-lg font-bold text-white leading-tight mb-1 truncate" style={{ fontFamily }}>
-                              {movie.title}
-                            </h3>
-                            {eventLore && (
-                              <p className="text-xs sm:text-sm text-gray-300 leading-relaxed line-clamp-3">
-                                {eventLore}
-                              </p>
-                            )}
-                            {movie.note && (
-                              <span className="inline-block text-[11px] text-yellow-300/90 font-medium mt-1">
-                                ★ {movie.note}
-                              </span>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                  </motion.div>
-                );
-              })}
+          {/* Before MCU section */}
+          {beforeMCUMovies.length > 0 && (
+            <div className="w-full flex flex-col items-center">
+              <h2 className="text-base sm:text-lg md:text-xl font-bold mb-6 mt-2 text-center text-white px-5 py-1.5 rounded-full bg-black/70 backdrop-blur-md border border-white/20 shadow-lg inline-block" style={{ fontFamily }}>
+                Before MCU
+              </h2>
+              <div className="w-full">
+                {beforeMCUMovies.map((movie, idx) => {
+                  const isLeft = idx % 2 === 0;
+                  return renderMovieEntry(movie, isLeft, idx, 'beforeMCU');
+                })}
+              </div>
+              <hr className="w-1/2 border-t border-white/30 my-6 sm:my-8" />
             </div>
-          </div>
-        )}
+          )}
+
+          {/* MCU section */}
+          {mcuMovies.length > 0 ? (
+            <div className="w-full flex flex-col items-center">
+              <h2 className="text-base sm:text-lg md:text-xl font-bold mb-6 mt-2 text-center text-white px-5 py-1.5 rounded-full bg-black/70 backdrop-blur-md border border-white/20 shadow-lg inline-block" style={{ fontFamily }}>
+                MCU Appearances
+              </h2>
+              <div className="w-full">
+                {mcuMovies.map((movie, idx) => {
+                  const isLeft = idx % 2 === 0;
+                  return renderMovieEntry(movie, isLeft, idx, 'mcu');
+                })}
+              </div>
+            </div>
+          ) : beforeMCUMovies.length === 0 ? (
+            <div className="text-center text-base sm:text-lg font-medium text-white bg-black/60 px-6 py-3 rounded-xl border border-white/10 mt-8">
+              No cinematic appearances recorded for this character.
+            </div>
+          ) : null}
+        </div>
       </div>
     </section>
   );

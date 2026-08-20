@@ -1,54 +1,30 @@
 // src/components/HeroSection.jsx
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import CharacterInfo from './CharacterInfo';
 import { useColorTheme } from '../ColorThemeContext';
 
-const HeroSection = ({
-  currentCharacter,
-  setCurrentCharacterIdx,
-  currentCharacterIdx,
-  characters,
-  onExploreTimeline,
-  onExploreMovies,
-}) => {
-  const { setColor, color } = useColorTheme();
-  const thumbnailScrollRef = useRef(null);
+const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacterIdx, characters }) => {
+  const { setColor } = useColorTheme();
 
   // Update color theme context when character changes
   useEffect(() => {
-    if (currentCharacter?.bgColor) {
-      setColor(currentCharacter.bgColor);
-    }
+    setColor(currentCharacter.bgColor);
   }, [currentCharacter, setColor]);
 
-  // Keyboard navigation for desktop (Left / Right arrow keys)
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
-      if (e.key === 'ArrowRight') {
-        handleNextCharacter();
-      } else if (e.key === 'ArrowLeft') {
-        handlePrevCharacter();
-      }
-    };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentCharacterIdx, characters.length]);
-
-  // Scroll active thumbnail into view
-  useEffect(() => {
-    if (thumbnailScrollRef.current) {
-      const activeEl = thumbnailScrollRef.current.children[currentCharacterIdx];
-      if (activeEl) {
-        activeEl.scrollIntoView({
-          behavior: 'smooth',
-          inline: 'center',
-          block: 'nearest',
-        });
-      }
-    }
-  }, [currentCharacterIdx]);
+  // Helper to get prev/next character names
+  const getPrevCharacter = () => {
+    const prevId = currentCharacter.id === 1 ? characters.length : currentCharacter.id - 1;
+    return characters[prevId - 1];
+  };
+  const getNextCharacter = () => {
+    const nextId = currentCharacter.id % characters.length + 1;
+    return characters[nextId - 1];
+  };
+  const getNextNextCharacter = () => {
+    const nextId = getNextCharacter().id % characters.length + 1;
+    return characters[nextId - 1];
+  };
 
   const handleNextCharacter = () => {
     setCurrentCharacterIdx((currentCharacterIdx + 1) % characters.length);
@@ -58,178 +34,105 @@ const HeroSection = ({
     setCurrentCharacterIdx((currentCharacterIdx - 1 + characters.length) % characters.length);
   };
 
-  const getPrevCharacter = () => {
-    const prevId = currentCharacterIdx === 0 ? characters.length - 1 : currentCharacterIdx - 1;
-    return characters[prevId];
-  };
-
-  const getNextCharacter = () => {
-    const nextId = (currentCharacterIdx + 1) % characters.length;
-    return characters[nextId];
-  };
-
   return (
-    <section className="relative w-full min-h-[calc(100vh-5rem)] flex flex-col justify-between items-center overflow-hidden pt-4 sm:pt-6 pb-6 px-3 sm:px-6 lg:px-12">
-      
-      {/* Background Dynamic Ambient Radial Glow */}
-      <div
-        className="absolute inset-0 pointer-events-none transition-all duration-700 ease-out"
-        style={{
-          background: `radial-gradient(circle at 50% 40%, ${color}33 0%, transparent 70%)`,
-        }}
-      />
-
-      {/* Ghost Background Character Names (Desktop & Large Tablets) */}
-      <div className="hidden lg:flex absolute inset-0 items-center justify-between pointer-events-none select-none opacity-10 font-black text-6xl xl:text-8xl uppercase tracking-widest text-white px-8 z-0">
-        <span className="truncate max-w-[28%]">{getPrevCharacter()?.name}</span>
-        <span className="truncate max-w-[35%] text-center" style={{ color }}>{currentCharacter?.name}</span>
-        <span className="truncate max-w-[28%] text-right">{getNextCharacter()?.name}</span>
+    <div className="relative flex flex-col lg:flex-row items-center justify-center min-h-[65vh] sm:min-h-[75vh] lg:min-h-[85vh] px-3 sm:px-6 md:px-12 lg:px-16 w-full max-w-7xl mx-auto py-6">
+      {/* Background Character Names (Desktop and large tablets) */}
+      <div className="hidden md:flex absolute inset-0 justify-between items-center text-gray-500 opacity-20 text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold uppercase pointer-events-none select-none z-0 w-full px-4 overflow-hidden">
+        <span className="text-center w-1/3 truncate leading-tight">{getPrevCharacter().name}</span>
+        <span className="text-white drop-shadow-lg w-1/3 text-center opacity-25 leading-tight truncate">{currentCharacter.name}</span>
+        <span className="text-center w-1/3 truncate leading-tight">{getNextCharacter().name}</span>
       </div>
 
-      {/* Main Content Area */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto flex-1 flex flex-col md:flex-row items-center justify-center gap-6 lg:gap-12 my-auto">
-        
-        {/* Left Chevron Button (Desktop / Tablet) */}
-        <div className="hidden md:flex items-center justify-center z-20">
+      {/* Main Content Row: Arrows, Image, Info */}
+      <div className="flex flex-col lg:flex-row items-center justify-center w-full z-10 gap-6 lg:gap-8">
+        {/* Desktop Left Arrow */}
+        <div className="hidden lg:flex items-center justify-center w-12 lg:w-16 flex-shrink-0">
           <button
-            type="button"
             onClick={handlePrevCharacter}
-            className="w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/10 hover:bg-white/20 active:scale-90 text-white text-2xl flex items-center justify-center backdrop-blur-md border border-white/15 shadow-xl transition-all duration-200 focus:outline-none cursor-pointer"
-            aria-label={`Previous character: ${getPrevCharacter()?.name}`}
+            className="flex items-center justify-center w-12 h-12 bg-white/10 hover:bg-white/25 text-white text-2xl rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white/40 z-20 border-none shadow-lg backdrop-blur-md"
+            aria-label="Previous character"
+            style={{ userSelect: 'none' }}
           >
-            &#10094;
+            <span className="drop-shadow-lg">&#60;</span>
           </button>
         </div>
 
-        {/* Character Image Container */}
-        <div className="w-full md:w-1/2 flex items-center justify-center relative min-h-[300px] xs:min-h-[340px] sm:min-h-[400px] md:min-h-[480px] lg:min-h-[550px]">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={currentCharacter.id}
-              initial={{ opacity: 0, scale: 0.85, x: 50 }}
-              animate={{ opacity: 1, scale: 1, x: 0 }}
-              exit={{ opacity: 0, scale: 0.85, x: -50 }}
-              transition={{ duration: 0.4, ease: 'easeOut' }}
-              className="relative flex items-center justify-center w-full h-full"
-            >
-              {/* Backlight halo */}
-              <div
-                className="absolute w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full blur-3xl opacity-50 -z-10 transition-all duration-700"
-                style={{ backgroundColor: color }}
-              />
-
-              <img
+        {/* Character Image & Mobile Navigation Container */}
+        <div className="relative flex flex-col items-center justify-center w-full lg:w-1/2">
+          <div className="relative flex justify-center items-center w-full h-[35vh] sm:h-[45vh] md:h-[50vh] lg:h-[62vh] max-h-[520px]">
+            <AnimatePresence mode="wait">
+              <motion.img
+                key={currentCharacter.id}
                 src={currentCharacter.photo}
                 alt={currentCharacter.name}
-                className="h-[34vh] xs:h-[40vh] sm:h-[48vh] md:h-[58vh] lg:h-[68vh] max-h-[640px] w-auto max-w-full object-contain cursor-grab active:cursor-grabbing select-none drop-shadow-[0_15px_35px_rgba(0,0,0,0.6)]"
-                loading="eager"
+                initial={{ opacity: 0, x: 80 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -80 }}
+                transition={{ duration: 0.4 }}
+                className="h-full w-auto max-h-full max-w-full object-contain cursor-grab active:cursor-grabbing drop-shadow-2xl select-none"
+                loading="lazy"
                 drag="x"
                 dragConstraints={{ left: 0, right: 0 }}
-                dragElastic={0.4}
+                dragElastic={0.7}
                 onDragEnd={(e, info) => {
-                  if (info.offset.x < -60) {
+                  if (info.offset.x < -80) {
                     handleNextCharacter();
-                  } else if (info.offset.x > 60) {
+                  } else if (info.offset.x > 80) {
                     handlePrevCharacter();
                   }
                 }}
               />
-            </motion.div>
-          </AnimatePresence>
+            </AnimatePresence>
+
+            {/* Mobile Touch Arrows (Overlayed on sides for mobile/tablets) */}
+            <div className="lg:hidden absolute inset-y-0 left-0 flex items-center pl-1 z-20 pointer-events-auto">
+              <button
+                onClick={handlePrevCharacter}
+                className="p-2 sm:p-3 bg-black/40 hover:bg-black/60 text-white rounded-full backdrop-blur-sm border border-white/10 transition-all active:scale-95"
+                aria-label="Previous character"
+              >
+                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+            </div>
+            <div className="lg:hidden absolute inset-y-0 right-0 flex items-center pr-1 z-20 pointer-events-auto">
+              <button
+                onClick={handleNextCharacter}
+                className="p-2 sm:p-3 bg-black/40 hover:bg-black/60 text-white rounded-full backdrop-blur-sm border border-white/10 transition-all active:scale-95"
+                aria-label="Next character"
+              >
+                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          {/* Swipe / Tap Hint on mobile */}
+          <span className="lg:hidden text-[11px] text-gray-400 mt-2 font-medium tracking-wide uppercase">
+            Swipe or tap arrows to explore
+          </span>
         </div>
 
-        {/* Character Info Box */}
-        <div className="w-full md:w-1/2 flex items-center justify-center">
-          <CharacterInfo
-            character={currentCharacter}
-            onExploreTimeline={onExploreTimeline}
-            onExploreMovies={onExploreMovies}
-          />
+        {/* Character Info */}
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start items-center">
+          <CharacterInfo character={currentCharacter} />
         </div>
 
-        {/* Right Chevron Button (Desktop / Tablet) */}
-        <div className="hidden md:flex items-center justify-center z-20">
+        {/* Desktop Right Arrow */}
+        <div className="hidden lg:flex items-center justify-center w-12 lg:w-16 flex-shrink-0">
           <button
-            type="button"
             onClick={handleNextCharacter}
-            className="w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/10 hover:bg-white/20 active:scale-90 text-white text-2xl flex items-center justify-center backdrop-blur-md border border-white/15 shadow-xl transition-all duration-200 focus:outline-none cursor-pointer"
-            aria-label={`Next character: ${getNextCharacter()?.name}`}
+            className="flex items-center justify-center w-12 h-12 bg-white/10 hover:bg-white/25 text-white text-2xl rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white/40 z-20 border-none shadow-lg backdrop-blur-md"
+            aria-label="Next character"
+            style={{ userSelect: 'none' }}
           >
-            &#10095;
+            <span className="drop-shadow-lg">&#62;</span>
           </button>
         </div>
       </div>
-
-      {/* Mobile-Friendly Navigation Bar (Prev / Next Buttons on Phones) */}
-      <div className="md:hidden flex items-center justify-between w-full max-w-sm px-4 my-3 z-20">
-        <button
-          type="button"
-          onClick={handlePrevCharacter}
-          className="flex-1 py-2.5 px-4 mr-2 rounded-xl bg-white/10 hover:bg-white/20 active:scale-95 text-white font-medium text-xs sm:text-sm flex items-center justify-center space-x-1.5 backdrop-blur-md border border-white/15 transition-all shadow-md"
-        >
-          <span>&#10094;</span>
-          <span className="truncate">{getPrevCharacter()?.name}</span>
-        </button>
-
-        <button
-          type="button"
-          onClick={handleNextCharacter}
-          className="flex-1 py-2.5 px-4 ml-2 rounded-xl bg-white/10 hover:bg-white/20 active:scale-95 text-white font-medium text-xs sm:text-sm flex items-center justify-center space-x-1.5 backdrop-blur-md border border-white/15 transition-all shadow-md"
-        >
-          <span className="truncate">{getNextCharacter()?.name}</span>
-          <span>&#10095;</span>
-        </button>
-      </div>
-
-      {/* Bottom Horizontal Thumbnail Strip (For All Devices: Mobile, Tablet, Laptop, Desktop) */}
-      <div className="w-full max-w-7xl mx-auto mt-2 sm:mt-4 z-20">
-        <div className="flex items-center justify-between px-2 mb-2">
-          <span className="text-[11px] sm:text-xs font-semibold uppercase tracking-wider text-gray-400">
-            Heroes & Villains ({characters.length})
-          </span>
-          <span className="text-[11px] sm:text-xs text-gray-400 font-medium">
-            Swipe or Click to switch
-          </span>
-        </div>
-
-        <div
-          ref={thumbnailScrollRef}
-          className="flex items-center space-x-2 sm:space-x-3 overflow-x-auto py-2 px-1 hide-scrollbar"
-          style={{ scrollSnapType: 'x mandatory' }}
-        >
-          {characters.map((char, idx) => {
-            const isActive = idx === currentCharacterIdx;
-            return (
-              <button
-                key={char.id}
-                type="button"
-                onClick={() => setCurrentCharacterIdx(idx)}
-                style={{
-                  scrollSnapAlign: 'center',
-                  borderColor: isActive ? color : 'rgba(255, 255, 255, 0.12)',
-                  boxShadow: isActive ? `0 0 16px ${color}88` : 'none',
-                }}
-                className={`flex-shrink-0 flex items-center space-x-2 px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-xl border transition-all duration-300 cursor-pointer ${
-                  isActive
-                    ? 'bg-white/20 scale-105'
-                    : 'bg-white/5 hover:bg-white/10 opacity-75 hover:opacity-100'
-                }`}
-                aria-label={`Select ${char.name}`}
-              >
-                <img
-                  src={char.photo}
-                  alt={char.name}
-                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover bg-black/40 border border-white/20 flex-shrink-0"
-                />
-                <span className="text-xs sm:text-sm font-medium text-white whitespace-nowrap font-sans">
-                  {char.name}
-                </span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-    </section>
+    </div>
   );
 };
 
