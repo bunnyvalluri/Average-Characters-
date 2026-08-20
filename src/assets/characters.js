@@ -552,6 +552,66 @@ const characters = [
     bgColor: '#e65100', // Hellfire Orange (Ghost Rider)
     fontFamily: 'Ghost Rider',
   },
+  {
+    id: 47,
+    name: 'Professor X',
+    originalName: 'Charles Francis Xavier',
+    photo: '/professor-x.png',
+    description: 'The visionary founder and leader of the X-Men who has dedicated his life to achieving peaceful coexistence between humans and mutants. Operating from Xavier\'s School for Gifted Youngsters, Professor X harnesses the world\'s most powerful telepathic mind to defend both worlds.',
+    powers: 'Omega-level telepathy (mind control, telepathic communication, memory manipulation, astral projection, mental illusions), psionic energy blasts, genius-level intellect, and Cerebro interface.',
+    birth: 'New York City, New York',
+    death: 'Active across Multiverse (X-Men Founder & Illuminati Member)',
+    bgColor: '#1565c0', // Cerebro Blue (Professor X)
+    fontFamily: 'Professor X',
+  },
+  {
+    id: 48,
+    name: 'Captain Carter',
+    originalName: 'Margaret "Peggy" Carter',
+    photo: '/captain-carter.png',
+    description: 'In an alternate timeline where Steve Rogers was injured, SSR agent Peggy Carter stepped into the chamber and received the Super-Soldier Serum. Wielding her vibranium Union Jack shield and unwavering valor, Captain Carter became a legendary First Avenger and Guardian of the Multiverse.',
+    powers: 'Super-Soldier enhanced physiology (superhuman strength, speed, stamina, agility, and durability), master tactician and martial artist, elite espionage operative, and vibranium shield mastery.',
+    birth: 'April 9, 1921 (London, England)',
+    death: 'Alive (Guardian of the Multiverse)',
+    bgColor: '#0d47a1', // Union Jack Blue (Captain Carter)
+    fontFamily: 'Captain Carter',
+  },
+  {
+    id: 49,
+    name: 'She-Hulk',
+    originalName: 'Jennifer "Jen" Walters',
+    photo: '/she-hulk.png',
+    description: 'A brilliant Los Angeles defense attorney who gained gamma-irradiated powers after accidental contact with Bruce Banner\'s blood. Retaining her sharp wit, intellect, and fourth-wall awareness, She-Hulk spearheads the Superhuman Law Division while smashing superhuman threats.',
+    powers: 'Superhuman strength, invulnerability, accelerated regenerative healing, extraordinary leaping ability, expert hand-to-hand combatant, master trial attorney, and fourth-wall awareness.',
+    birth: 'April 15, 1990 (Los Angeles, California)',
+    death: 'Alive (Superhuman Law Attorney & Avenger)',
+    bgColor: '#2e7d32', // Gamma Green (She-Hulk)
+    fontFamily: 'She-Hulk',
+  },
+  {
+    id: 50,
+    name: 'Ms. Marvel',
+    originalName: 'Kamala Khan',
+    photo: '/ms-marvel.png',
+    description: 'A Pakistani-American high school student and passionate Avengers enthusiast from Jersey City whose latent mutant gene was awakened by an ancient cosmic family bangle. Able to materialize crystalline Hard Light constructs, Kamala leads the next generation of Marvel heroes.',
+    powers: 'Cosmic Hard Light manipulation (crystallized energy constructs, stepping discs, luminous shields, and giant fists/embiggening), enhanced durability, mutant energy absorption, and tactical leadership.',
+    birth: 'August 20, 2006 (Jersey City, New Jersey)',
+    death: 'Alive (Leader of the Young Avengers & Cosmic Hero)',
+    bgColor: '#00838f', // Cosmic Noor Teal (Ms. Marvel)
+    fontFamily: 'Ms. Marvel',
+  },
+  {
+    id: 51,
+    name: 'Silver Surfer',
+    originalName: 'Norrin Radd',
+    photo: '/silver-surfer.png',
+    description: 'An astronomer from the idyllic world of Zenn-La who sacrificed his freedom to become the herald of Galactus to save his home world and love Shalla-Bal. Transformed into the silvery Silver Surfer and wielding the boundless Power Cosmic, he now defends planets across the universe.',
+    powers: 'The Power Cosmic (boundless energy manipulation, cosmic blasts, matter alteration, force fields), faster-than-light interstellar flight on his indestructible Cosmic Board, godlike invulnerability, and cosmic awareness.',
+    birth: 'Zenn-La (Extraterrestrial)',
+    death: 'Immortal (Cosmic Wanderer)',
+    bgColor: '#455a64', // Chrome Silver (Silver Surfer)
+    fontFamily: 'Silver Surfer',
+  },
 ];
 
 export default characters;

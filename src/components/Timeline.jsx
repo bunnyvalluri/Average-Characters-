@@ -95,6 +95,15 @@ const moviePosters = {
   'Fantastic Four': '/movies/doctor-doom.jpg',
   'Ghost Rider': '/movies/ghost-rider.jpg',
   'Ghost Rider: Spirit of Vengeance': '/movies/ghost-rider.jpg',
+  'Professor X': '/movies/professor-x.jpg',
+  'Captain Carter': '/movies/captain-carter.jpg',
+  'She-Hulk': '/movies/she-hulk.jpg',
+  'She-Hulk: Attorney at Law': '/movies/she-hulk.jpg',
+  'Ms. Marvel': '/movies/ms-marvel.jpg',
+  'The Marvels': '/movies/ms-marvel.jpg',
+  'Silver Surfer': '/movies/silver-surfer.jpg',
+  'Fantastic 4: Rise of the Silver Surfer': '/movies/silver-surfer.jpg',
+  'The Fantastic Four: First Steps': '/movies/silver-surfer.jpg',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -574,6 +583,51 @@ const characterMovieTimeline = {
       { title: 'Midnight Sons', year: 2026, note: 'Spiritual protector assembling with Marvel supernatural heroes' },
     ],
   },
+  'Professor X': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000, note: 'Sir Patrick Stewart as Professor Xavier' },
+      { title: 'X2: X-Men United', year: 2003, note: 'Attacked by William Stryker' },
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Confronts Dark Phoenix' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Past and future Xavier connect minds' },
+      { title: 'Logan', year: 2017, note: 'Final journey with Logan and Laura' },
+    ],
+    mcu: [
+      { title: 'Doctor Strange in the Multiverse of Madness', year: 2022, note: 'Leader of the Earth-838 Illuminati' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiversal council return' },
+    ],
+  },
+  'Captain Carter': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'What If...?', year: 2021, note: 'Receives Super-Soldier Serum & leads Guardians of the Multiverse' },
+      { title: 'Doctor Strange in the Multiverse of Madness', year: 2022, note: 'Earth-838 Illuminati member' },
+      { title: 'What If...? Season 2', year: 2023, note: 'Wields the Infinity Armor & Kahhori power' },
+    ],
+  },
+  'She-Hulk': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'She-Hulk: Attorney at Law', year: 2022, note: 'Superhuman Law Division, Daredevil romance & K.E.V.I.N. finale' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Avengers assembly against Doctor Doom' },
+    ],
+  },
+  'Ms. Marvel': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Ms. Marvel', year: 2022, note: 'Unlocks Hard Light powers via family bangle & mutant awakening' },
+      { title: 'The Marvels', year: 2023, note: 'Cosmic entanglement team-up with Captain Marvel and Monica Rambeau' },
+      { title: 'Young Avengers', year: 2026, note: 'Recruits Kate Bishop and Cassie Lang' },
+    ],
+  },
+  'Silver Surfer': {
+    beforeMCU: [
+      { title: 'Fantastic 4: Rise of the Silver Surfer', year: 2007, note: 'Doug Jones & Laurence Fishburne as the Herald of Galactus' },
+    ],
+    mcu: [
+      { title: 'The Fantastic Four: First Steps', year: 2025, note: 'Shalla-Bal as the Herald of Galactus (Julia Garner)' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic guardian across Battleworld' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -654,6 +708,15 @@ const movieEvents = {
   'Fantastic Four': 'Doom gains metallic skin and electrical powers during a cosmic storm.',
   'Ghost Rider': 'Johnny Blaze unleashes the Penance Stare and purges the wicked with hellfire.',
   'Ghost Rider: Spirit of Vengeance': 'The Spirit of Vengeance defends a boy from demonic corruption.',
+  'Professor X': 'Charles Xavier uses Cerebro to locate and protect mutants while seeking peace with humanity.',
+  'Captain Carter': 'Peggy Carter takes the Super-Soldier serum and battles multiversal threats.',
+  'She-Hulk': 'Jennifer Walters balances high-profile superhuman cases with green-skinned heroics.',
+  'She-Hulk: Attorney at Law': 'Jennifer Walters navigates life as a 6-foot-7 gamma-powered attorney.',
+  'Ms. Marvel': 'Kamala Khan protects Jersey City with hard-light constructs.',
+  'The Marvels': 'Kamala Khan, Carol Danvers, and Monica Rambeau switch places every time they use their powers.',
+  'Silver Surfer': 'Norrin Radd traverses galaxies carrying the Power Cosmic.',
+  'Fantastic 4: Rise of the Silver Surfer': 'The Silver Surfer prepares Earth for Galactus before defying his master.',
+  'The Fantastic Four: First Steps': 'The Fantastic Four confront Galactus and the Silver Surfer in an alternate 1960s world.',
 };
 
 

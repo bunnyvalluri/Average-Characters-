@@ -190,6 +190,26 @@
   font-family: 'Ghost Rider';
   src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf');
 }
+@font-face {
+  font-family: 'Professor X';
+  src: url('./assets/fonts/AVENGEANCE HEROIC AVENGER.ttf');
+}
+@font-face {
+  font-family: 'Captain Carter';
+  src: url('./assets/fonts/American Captain.ttf');
+}
+@font-face {
+  font-family: 'She-Hulk';
+  src: url('./assets/fonts/Hulk.ttf');
+}
+@font-face {
+  font-family: 'Ms. Marvel';
+  src: url('./assets/fonts/Captain Marvel.otf');
+}
+@font-face {
+  font-family: 'Silver Surfer';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
