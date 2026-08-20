@@ -87,6 +87,10 @@ const moviePosters = {
   'Punisher': '/movies/punisher.jpg',
   'The Punisher': '/movies/punisher.jpg',
   'Daredevil: Born Again': '/movies/daredevil.jpg',
+  'Magneto': '/movies/magneto.jpg',
+  'Blade': '/movies/blade.jpg',
+  'Blade II': '/movies/blade.jpg',
+  'Blade: Trinity': '/movies/blade.jpg',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -523,6 +527,30 @@ const characterMovieTimeline = {
       { title: 'Daredevil: Born Again', year: 2025, note: 'MCU reunion and return with Matt Murdock' },
     ],
   },
+  'Magneto': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000, note: 'Sir Ian McKellen as Magneto' },
+      { title: 'X2: X-Men United', year: 2003, note: 'Allies with the X-Men against Stryker' },
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Leads the Brotherhood of Mutants' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Past and future timelines unite' },
+      { title: 'X-Men: Apocalypse', year: 2016, note: 'Horseman of Apocalypse' },
+    ],
+    mcu: [
+      { title: 'X-Men \'97', year: 2024, note: 'Leads the X-Men in honor of Charles Xavier' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiversal return' },
+    ],
+  },
+  'Blade': {
+    beforeMCU: [
+      { title: 'Blade', year: 1998, note: 'Wesley Snipes as the iconic Daywalker' },
+      { title: 'Blade II', year: 2002, note: 'Directed by Guillermo del Toro' },
+      { title: 'Blade: Trinity', year: 2004, note: 'Battles Dracula with the Nightstalkers' },
+    ],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Voice cameo confronting Dane Whitman' },
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Legendary return in the Void resistance team' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -595,6 +623,10 @@ const movieEvents = {
   'Daredevil': 'Matt Murdock battles Wilson Fisk and defends Hell\'s Kitchen with relentless determination.',
   'The Punisher': 'Frank Castle uncovers military conspiracies and dispenses brutal justice to the underworld.',
   'Daredevil: Born Again': 'Matt Murdock and Frank Castle collide in a high-stakes battle for New York City.',
+  'Magneto': 'Erik Lehnsherr manipulates global magnetic forces to establish mutant supremacy.',
+  'Blade': 'The Daywalker hunts down vampire syndicates to protect humanity from the shadows.',
+  'Blade II': 'Blade forms a temporary truce with the Bloodpack to stop the Reaper strain.',
+  'Blade: Trinity': 'Blade battles Drake alongside the Nightstalkers.',
 };
 
 

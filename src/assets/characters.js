@@ -504,6 +504,30 @@ const characters = [
     bgColor: '#212121', // Tactical Black (Punisher)
     fontFamily: 'Punisher',
   },
+  {
+    id: 43,
+    name: 'Magneto',
+    originalName: 'Max Eisenhardt / Erik Lehnsherr',
+    photo: '/magneto.png',
+    description: 'A Holocaust survivor and one of the most powerful Omega-level mutants on Earth. Driven by an unyielding resolve to safeguard mutantkind from eradication, the Master of Magnetism commands planetary electromagnetic forces to forge a future where mutants rule their own destiny.',
+    powers: 'Omega-level magnetism manipulation, metal control and reshaping, magnetic force fields, flight via electromagnetic levitation, EMP emission, and telepathic resistance via his signature helmet.',
+    birth: 'c. 1928 (Düsseldorf, Germany)',
+    death: 'Active in Marvel Multiverse (Master of Magnetism)',
+    bgColor: '#6a1b9a', // Royal Magneto Purple
+    fontFamily: 'Magneto',
+  },
+  {
+    id: 44,
+    name: 'Blade',
+    originalName: 'Eric Brooks',
+    photo: '/blade.png',
+    description: 'A half-human, half-vampire "Daywalker" endowed with all of a vampire\'s superhuman lethality but none of their vulnerabilities. Armed with an adamantium-edged titanium sword and specialized silver arsenal, Blade stalks the shadows purging the supernatural underworld.',
+    powers: 'Half-vampiric enhanced physiology (superhuman strength, speed, stamina, and accelerated healing), complete immunity to sunlight and vampirism, master martial artist, master swordsman, and expert marksman.',
+    birth: 'c. 1929 (Soho, London, England)',
+    death: 'Immortal (The Daywalker & active supernatural hunter)',
+    bgColor: '#c62828', // Blood Red / Daywalker Crimson (Blade)
+    fontFamily: 'Blade',
+  },
 ];
 
 export default characters;
