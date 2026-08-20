@@ -77,6 +77,7 @@ function Landing() {
   const videoRef = useRef(null);
   const navigate = useNavigate();
   const [muted, setMuted] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   // Auto navigate to Home after video ends
   const handleVideoEnd = () => {
@@ -95,54 +96,90 @@ function Landing() {
     }
   };
 
+  const handleManualPlay = () => {
+    if (videoRef.current) {
+      videoRef.current.play().then(() => {
+        setIsPlaying(true);
+      }).catch((err) => console.warn("Play error:", err));
+    }
+  };
+
   useEffect(() => {
     if (videoRef.current) {
-      // Try to play the video on mount
-      videoRef.current
-        .play()
-        .catch((err) => console.warn("Autoplay blocked:", err));
       videoRef.current.muted = muted;
+      const playPromise = videoRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise
+          .then(() => setIsPlaying(true))
+          .catch((err) => {
+            console.warn("Mobile autoplay policy:", err);
+            setIsPlaying(false);
+          });
+      }
     }
   }, [muted]);
 
   return (
-    <div className="relative w-full h-screen font-sans overflow-hidden bg-black">
+    <div className="relative w-full h-[100dvh] min-h-[100dvh] font-sans overflow-hidden bg-black flex items-center justify-center">
       <video
         ref={videoRef}
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="w-full h-full object-contain md:object-cover z-0 select-none pointer-events-none"
         src="/landing.mp4"
         autoPlay
         muted={muted}
         playsInline
+        webkit-playsinline="true"
+        x5-playsinline="true"
+        preload="auto"
         controls={false}
         disablePictureInPicture
         loop={false}
         onEnded={handleVideoEnd}
+        onPlay={() => setIsPlaying(true)}
       />
-      {/* Skip button styled like Prime Video, top right, mobile responsive */}
+
+      {/* Tap to play overlay fallback for mobile if browser blocks autoplay */}
+      {!isPlaying && (
+        <div
+          onClick={handleManualPlay}
+          className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-black/60 cursor-pointer backdrop-blur-sm"
+        >
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/20 hover:bg-white/30 border border-white/40 flex items-center justify-center text-white transition-all transform active:scale-95 shadow-2xl">
+            <svg className="w-8 h-8 sm:w-10 sm:h-10 ml-1" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </div>
+          <span className="text-white text-sm sm:text-base font-semibold mt-4 tracking-wider uppercase drop-shadow-md">
+            Tap to Play Video
+          </span>
+        </div>
+      )}
+
+      {/* Skip button, top right, mobile responsive */}
       <div className="absolute top-4 sm:top-8 right-4 sm:right-8 z-20">
         <button
           onClick={handleEnterClick}
-          className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-semibold opacity-90 hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-yellow-500 rounded-md transition-all"
-          style={{ boxShadow: '0 2px 12px 0 rgba(0,0,0,0.5)' }}
+          className="px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base font-semibold bg-black/60 hover:bg-black/80 text-white border border-white/20 rounded-lg backdrop-blur-md transition-all shadow-lg active:scale-95"
+          style={{ boxShadow: '0 4px 20px 0 rgba(0,0,0,0.6)' }}
         >
-          Skip
+          Skip ➔
         </button>
       </div>
-      {/* Mute/Unmute button, top left, transparent, mobile responsive */}
+
+      {/* Mute/Unmute button, top left, mobile responsive */}
       <button
         onClick={handleMuteToggle}
-        className="absolute top-4 sm:top-8 left-4 sm:left-8 z-20 p-2.5 sm:p-3 bg-black bg-opacity-30 hover:bg-opacity-50 transition-colors rounded-full"
-        style={{ color: 'white', border: 'none', outline: 'none' }}
+        className="absolute top-4 sm:top-8 left-4 sm:left-8 z-20 p-2.5 sm:p-3 bg-black/60 hover:bg-black/80 text-white border border-white/20 transition-all rounded-full backdrop-blur-md shadow-lg active:scale-95"
+        style={{ outline: 'none' }}
         aria-label={muted ? 'Unmute video' : 'Mute video'}
       >
         {muted ? (
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 sm:w-7 sm:h-7">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 sm:w-6 sm:h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M9 9v6h4l5 5V4l-5 5H9z" />
             <line x1="19" y1="5" x2="5" y2="19" stroke="currentColor" strokeWidth="2" />
           </svg>
         ) : (
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 sm:w-7 sm:h-7">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 sm:w-6 sm:h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 5.25L6 9H3.75A.75.75 0 003 9.75v4.5c0 .414.336.75.75.75H6l5.25 3.75V5.25zM16.5 8.25a6 6 0 010 7.5M19.5 6a9 9 0 010 12" />
           </svg>
         )}
