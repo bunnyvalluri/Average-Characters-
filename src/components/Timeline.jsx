@@ -69,11 +69,17 @@ const moviePosters = {
   'Deadpool & Wolverine': '/movies/deadpool-&-wolverine.jpg',
   'Venom': '/movies/venom.jpg',
   'Venom: Let There Be Carnage': '/movies/let-there-be-carnage.jpg',
-  'Venom: The Last Dance': '/movies/the-last-dance.jpg',
   'Loki': '/movies/loki.jpg',
   'What If...?': '/movies/what-if.jpg',
-  // Wasp character poster
-  'Wasp': '/wasp.png', // Assuming you have an image for Wasp in your public folder
+  'Wasp': '/wasp.png',
+  'Quicksilver': '/quick-sliver.png',
+  'Wolverine': '/wolverine.png',
+  'The Wolverine': '/movies/wolverine.jpg',
+  'Logan': '/movies/wolverine.jpg',
+  'X-Men': '/movies/wolverine.jpg',
+  'X2: X-Men United': '/movies/wolverine.jpg',
+  'X-Men: The Last Stand': '/movies/wolverine.jpg',
+  'X-Men: Days of Future Past': '/movies/wolverine.jpg',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -448,6 +454,29 @@ const characterMovieTimeline = {
       { title: 'What If...?', year: 2021, note: 'Alternate versions in animated series' },
     ],
   },
+  'Quicksilver': {
+    beforeMCU: [
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Fox X-Men universe' },
+      { title: 'X-Men: Apocalypse', year: 2016, note: 'Fox X-Men universe' },
+    ],
+    mcu: [
+      { title: 'Avengers: Age of Ultron', year: 2015, note: 'Aids the Avengers, heroic sacrifice' },
+    ],
+  },
+  'Wolverine': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000 },
+      { title: 'X2: X-Men United', year: 2003 },
+      { title: 'X-Men: The Last Stand', year: 2006 },
+      { title: 'X-Men Origins: Wolverine', year: 2009 },
+      { title: 'The Wolverine', year: 2013 },
+      { title: 'X-Men: Days of Future Past', year: 2014 },
+      { title: 'Logan', year: 2017 },
+    ],
+    mcu: [
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'MCU Multiverse debut alongside Deadpool' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -507,8 +536,14 @@ const movieEvents = {
   'Venom: The Last Dance': 'Eddie and Venom are on the run from both humans and aliens.',
   'Spider-Man 3': 'Peter Parker deals with new villains, including Eddie Brock as Venom.',
   'I am Groot': 'Groot communicates using only his signature phrase.',
-  // Add Wasp's movie event
   'Wasp': 'Hope van Dyne joins Scott Lang as the Wasp, a size-shifting hero.',
+  'X-Men': 'Wolverine joins Professor X and the X-Men to stop Magneto.',
+  'X2: X-Men United': 'Mutants unite against William Stryker.',
+  'X-Men: The Last Stand': 'The cure for mutants sparks a massive conflict.',
+  'The Wolverine': 'Logan travels to Japan and confronts his past mortality.',
+  'Logan': 'An aging Logan protects Laura on a final heroic mission.',
+  'X-Men: Days of Future Past': 'Wolverine travels back in time to alter mutant history.',
+  'X-Men: Apocalypse': 'Mutants face the ancient conqueror Apocalypse.',
 };
 
 
@@ -532,8 +567,8 @@ const Timeline = ({ character }) => {
       {/* Desktop Layout (md and up): Alternating Left/Right */}
       <div className="hidden md:flex justify-between items-center w-full relative">
         {isLeft ? (
-          <div className="flex flex-row-reverse items-center gap-4 max-w-[45%] text-right pr-4 z-10 w-full">
-            <div className="flex flex-col items-end w-full bg-black/80 border border-white/20 p-4 sm:p-5 rounded-2xl backdrop-blur-md shadow-2xl text-white">
+          <div className="flex flex-row-reverse items-center gap-4 md:gap-6 max-w-[44%] text-right pr-4 z-10 w-full">
+            <div className="flex flex-col items-end w-full">
               <img
                 src={moviePosters[movie.title] || '/avengers.png'}
                 alt={movie.title}
@@ -541,15 +576,15 @@ const Timeline = ({ character }) => {
                 style={{ background: '#fff' }}
                 loading="lazy"
               />
-              <span className="text-base md:text-lg lg:text-xl font-bold leading-snug text-white" style={{ fontFamily }}>{movie.title}</span>
-              <span className="text-sm md:text-base text-yellow-400 font-semibold mb-1">{movie.year}</span>
+              <span className="text-base md:text-lg lg:text-xl font-semibold leading-snug" style={{ fontFamily }}>{movie.title}</span>
+              <span className="text-sm md:text-base text-gray-400 mb-1">{movie.year}</span>
               {movieEvents[movie.title] && (
-                <span className="text-xs md:text-sm text-gray-200 italic leading-relaxed">{movieEvents[movie.title]}</span>
+                <span className="text-xs md:text-sm text-gray-300 italic">{movieEvents[movie.title]}</span>
               )}
-              {movie.note && <span className="text-xs text-gray-300 italic mt-1 font-medium">{movie.note}</span>}
+              {movie.note && <span className="text-xs text-gray-400 italic mt-1 font-medium">{movie.note}</span>}
             </div>
           </div>
-        ) : <div className="max-w-[45%] w-full"></div>}
+        ) : <div className="max-w-[44%] w-full"></div>}
 
         {/* Center Node on Desktop */}
         <span
@@ -560,8 +595,8 @@ const Timeline = ({ character }) => {
         </span>
 
         {!isLeft ? (
-          <div className="flex flex-row items-center gap-4 max-w-[45%] text-left pl-4 z-10 w-full">
-            <div className="flex flex-col items-start w-full bg-black/80 border border-white/20 p-4 sm:p-5 rounded-2xl backdrop-blur-md shadow-2xl text-white">
+          <div className="flex flex-row items-center gap-4 md:gap-6 max-w-[44%] text-left pl-4 z-10 w-full">
+            <div className="flex flex-col items-start w-full">
               <img
                 src={moviePosters[movie.title] || '/avengers.png'}
                 alt={movie.title}
@@ -569,29 +604,29 @@ const Timeline = ({ character }) => {
                 style={{ background: '#fff' }}
                 loading="lazy"
               />
-              <span className="text-base md:text-lg lg:text-xl font-bold leading-snug text-white" style={{ fontFamily }}>{movie.title}</span>
-              <span className="text-sm md:text-base text-yellow-400 font-semibold mb-1">{movie.year}</span>
+              <span className="text-base md:text-lg lg:text-xl font-semibold leading-snug" style={{ fontFamily }}>{movie.title}</span>
+              <span className="text-sm md:text-base text-gray-400 mb-1">{movie.year}</span>
               {movieEvents[movie.title] && (
-                <span className="text-xs md:text-sm text-gray-200 italic leading-relaxed">{movieEvents[movie.title]}</span>
+                <span className="text-xs md:text-sm text-gray-300 italic">{movieEvents[movie.title]}</span>
               )}
-              {movie.note && <span className="text-xs text-gray-300 italic mt-1 font-medium">{movie.note}</span>}
+              {movie.note && <span className="text-xs text-gray-400 italic mt-1 font-medium">{movie.note}</span>}
             </div>
           </div>
-        ) : <div className="max-w-[45%] w-full"></div>}
+        ) : <div className="max-w-[44%] w-full"></div>}
       </div>
 
       {/* Mobile Layout (< md): Single column with line on left */}
       <div className="flex md:hidden items-start relative pl-9 sm:pl-12 w-full">
         {/* Node on left */}
         <span
-          className="absolute left-1 sm:left-2 top-4 w-5 h-5 rounded-full border-2 border-white shadow-md z-20 flex items-center justify-center"
+          className="absolute left-1 sm:left-2 top-3 w-5 h-5 rounded-full border-2 border-white shadow-md z-20 flex items-center justify-center"
           style={{ background: sectionType === 'mcu' ? color : '#bbb', borderColor: '#fff' }}
         >
           <span className="block w-1.5 h-1.5 bg-white rounded-full"></span>
         </span>
 
         {/* Content Card on mobile */}
-        <div className="flex flex-row items-start gap-3 sm:gap-4 bg-black/80 border border-white/20 p-3.5 sm:p-4 rounded-2xl w-full backdrop-blur-md shadow-2xl text-white">
+        <div className="flex flex-row items-start gap-3 sm:gap-4 bg-white/5 border border-white/10 p-3 sm:p-4 rounded-xl w-full backdrop-blur-sm">
           <img
             src={moviePosters[movie.title] || '/avengers.png'}
             alt={movie.title}
@@ -600,12 +635,12 @@ const Timeline = ({ character }) => {
             loading="lazy"
           />
           <div className="flex flex-col items-start min-w-0 flex-1">
-            <span className="text-sm sm:text-base font-bold leading-snug break-words text-white" style={{ fontFamily }}>{movie.title}</span>
-            <span className="text-xs sm:text-sm text-yellow-400 font-semibold mt-0.5">{movie.year}</span>
+            <span className="text-sm sm:text-base font-semibold leading-snug break-words" style={{ fontFamily }}>{movie.title}</span>
+            <span className="text-xs sm:text-sm text-gray-400 mt-0.5">{movie.year}</span>
             {movieEvents[movie.title] && (
-              <span className="text-[11px] sm:text-xs text-gray-200 italic mt-1 leading-relaxed">{movieEvents[movie.title]}</span>
+              <span className="text-[11px] sm:text-xs text-gray-300 italic mt-1 leading-relaxed">{movieEvents[movie.title]}</span>
             )}
-            {movie.note && <span className="text-[10px] sm:text-xs text-gray-300 italic mt-1">{movie.note}</span>}
+            {movie.note && <span className="text-[10px] sm:text-xs text-gray-400 italic mt-1">{movie.note}</span>}
           </div>
         </div>
       </div>
@@ -616,7 +651,7 @@ const Timeline = ({ character }) => {
     <section className="w-full flex justify-center py-8 sm:py-12 px-3 sm:px-6 md:px-10">
       <div className="w-full max-w-4xl relative">
         <div className="flex justify-center items-center mb-6 sm:mb-10">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center tracking-wide text-white px-6 py-2.5 bg-black/60 backdrop-blur-md rounded-2xl border border-white/15 shadow-2xl inline-block" style={{ fontFamily }}>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center tracking-wide" style={{ fontFamily }}>
             {character.name} Timeline
           </h1>
         </div>
@@ -624,15 +659,15 @@ const Timeline = ({ character }) => {
         {/* Timeline Container */}
         <div className="relative flex flex-col items-center mt-4 sm:mt-8 w-full" style={{ minHeight: '100px' }}>
           {/* Vertical line centered for Desktop */}
-          <div className="hidden md:block absolute left-1/2 top-0 -translate-x-1/2 h-full w-1 bg-white/40 z-0" style={{ minHeight: '100%' }}></div>
+          <div className="hidden md:block absolute left-1/2 top-0 -translate-x-1/2 h-full w-1 bg-gray-400/40 z-0" style={{ minHeight: '100%' }}></div>
           
           {/* Vertical line on the left for Mobile */}
-          <div className="md:hidden absolute left-3.5 sm:left-4.5 top-0 h-full w-0.5 bg-white/40 z-0" style={{ minHeight: '100%' }}></div>
+          <div className="md:hidden absolute left-3.5 sm:left-4.5 top-0 h-full w-0.5 bg-gray-400/40 z-0" style={{ minHeight: '100%' }}></div>
 
           {/* Before MCU section */}
           {beforeMCUMovies.length > 0 && (
             <div className="w-full flex flex-col items-center">
-              <h2 className="text-base sm:text-lg md:text-xl font-bold mb-6 mt-2 text-center text-white px-5 py-1.5 rounded-full bg-black/70 backdrop-blur-md border border-white/20 shadow-lg inline-block" style={{ fontFamily }}>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-6 mt-2 text-center" style={{ fontFamily, color: '#aaa' }}>
                 Before MCU
               </h2>
               <div className="w-full">
@@ -641,14 +676,14 @@ const Timeline = ({ character }) => {
                   return renderMovieEntry(movie, isLeft, idx, 'beforeMCU');
                 })}
               </div>
-              <hr className="w-1/2 border-t border-white/30 my-6 sm:my-8" />
+              <hr className="w-1/2 border-t border-gray-600 my-6 sm:my-8" />
             </div>
           )}
 
           {/* MCU section */}
           {mcuMovies.length > 0 ? (
             <div className="w-full flex flex-col items-center">
-              <h2 className="text-base sm:text-lg md:text-xl font-bold mb-6 mt-2 text-center text-white px-5 py-1.5 rounded-full bg-black/70 backdrop-blur-md border border-white/20 shadow-lg inline-block" style={{ fontFamily }}>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-6 mt-2 text-center" style={{ fontFamily, color, transition: 'color 0.6s cubic-bezier(0.4,0,0.2,1)' }}>
                 MCU Appearances
               </h2>
               <div className="w-full">
@@ -659,7 +694,7 @@ const Timeline = ({ character }) => {
               </div>
             </div>
           ) : beforeMCUMovies.length === 0 ? (
-            <div className="text-center text-base sm:text-lg font-medium text-white bg-black/60 px-6 py-3 rounded-xl border border-white/10 mt-8">
+            <div className="text-center text-base sm:text-lg font-medium text-gray-400 mt-8">
               No cinematic appearances recorded for this character.
             </div>
           ) : null}

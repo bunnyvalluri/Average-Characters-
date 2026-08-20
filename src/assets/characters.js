@@ -421,7 +421,7 @@ const characters = [
     fontFamily: 'Hela',
   },
   {
-    id: 36, // Assign a unique ID for Ultron (adjust if other IDs are added)
+    id: 36,
     name: 'Ultron',
     originalName: 'Ultron',
     photo: '/ultron.png',
@@ -431,6 +431,30 @@ const characters = [
     death: 'Destroyed by the Avengers in 2015 (MCU)',
     bgColor: '#757575', // Grey (Ultron)
     fontFamily: 'Ultron',
+  },
+  {
+    id: 37,
+    name: 'Quicksilver',
+    originalName: 'Pietro Maximoff',
+    photo: '/quick-sliver.png',
+    description: 'A Sokovian speedster and the twin brother of Wanda Maximoff (Scarlet Witch). Gaining superhuman velocity from experiments with the Mind Stone, Pietro fought fiercely to defend his homeland before joining the Avengers in the Battle of Sokovia.',
+    powers: 'Superhuman speed, accelerated perception, enhanced reflexes, kinetic energy generation, superhuman stamina, and momentum manipulation.',
+    birth: 'February 10, 1989 (MCU)',
+    death: 'May 2015 (MCU, sacrificed himself to save Hawkeye and a child in Sokovia)',
+    bgColor: '#0288d1', // Cyan / Speed Blue (Quicksilver)
+    fontFamily: 'Quicksilver',
+  },
+  {
+    id: 38,
+    name: 'Wolverine',
+    originalName: 'James "Logan" Howlett',
+    photo: '/wolverine.png',
+    description: 'A mutant born with animal-keen senses, enhanced physical capabilities, three retractable adamantium claws on each hand, and a legendary regenerative healing factor. A fierce warrior with a gruff demeanor and an unbreakable moral core, he stands as one of the most iconic Marvel heroes of all time.',
+    powers: 'Regenerative healing factor, retractable adamantium claws, adamantium-infused skeleton, superhuman strength, enhanced senses, reflexes, stamina, slowed aging, and mastery in hand-to-hand combat and martial arts.',
+    birth: 'Late 19th Century (Alberta, Canada)',
+    death: '2029 (Logan timeline) / Active in MCU Multiverse (Deadpool & Wolverine)',
+    bgColor: '#f57f17', // Gold / Amber (Wolverine)
+    fontFamily: 'Wolverine',
   },
 ];
 

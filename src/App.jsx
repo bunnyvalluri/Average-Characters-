@@ -66,8 +66,8 @@ function Home() {
         <div ref={moviesRef} />
         <Movies />
       </div>
-      <footer className="w-full text-center py-4 px-2 text-xs sm:text-sm bg-black/80 backdrop-blur-md border-t border-white/15 text-gray-200">
-        Copyright © <a href="https://valluri-rahul-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-400 font-semibold transition-colors">VALLURI RAHUL</a>. 2026
+      <footer className="w-full text-center py-4 px-2 text-xs sm:text-sm text-gray-300">
+        Copyright © <a href="https://valluri-rahul-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white font-semibold transition-colors">VALLURI RAHUL</a>. 2026
       </footer>
     </div>
   );

@@ -150,6 +150,14 @@
   font-family: 'Ultron';
   src: url('./assets/fonts/AgeOfUltron-W7on.ttf');
 }
+@font-face {
+  font-family: 'Quicksilver';
+  src: url('./assets/fonts/Avengers.ttf');
+}
+@font-face {
+  font-family: 'Wolverine';
+  src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
