@@ -672,6 +672,126 @@ const characters = [
     bgColor: '#2e7d32', // Goblin Emerald Green (Green Goblin)
     fontFamily: 'Green Goblin',
   },
+  {
+    id: 57,
+    name: 'Doctor Octopus',
+    originalName: 'Dr. Otto Gunther Octavius',
+    photo: '/doctor-octopus.png',
+    description: 'A brilliant nuclear physicist whose life\'s work merged four AI-controlled titanium tentacles directly to his spine. With telepathic control over his mechanical arms, Doc Ock possesses immense strength and intellect as one of Spider-Man\'s greatest foes.',
+    powers: 'Four telepathically controlled cybernetic titanium tentacles (superhuman strength, climbing, crushing power, high-speed movement), genius-level nuclear physicist, and advanced mechanical engineering.',
+    birth: 'c. 1953 (Schenectady, New York)',
+    death: 'Cured and returned to Earth-96283 (Spider-Man: No Way Home)',
+    bgColor: '#1b5e20', // Octavius Emerald Green (Doctor Octopus)
+    fontFamily: 'Doctor Octopus',
+  },
+  {
+    id: 58,
+    name: 'Invisible Woman',
+    originalName: 'Susan "Sue" Storm-Richards',
+    photo: '/invisible-woman.png',
+    description: 'The compassionate heart and formidable powerhouse of the Fantastic Four. Irradiated by cosmic rays, Sue Storm commands psionic energy fields to render herself completely invisible and project indestructible force fields that can deflect planetary cataclysms.',
+    powers: 'Total light-bending invisibility (self and objects), psionic force field projection (impenetrable shields, spheres, concussive blasts, and levitation platforms), and psionic flight.',
+    birth: 'Glenville, Long Island, New York',
+    death: 'Active in Multiverse (Fantastic Four & Future Foundation)',
+    bgColor: '#0277bd', // Psionic Cerulean Blue (Invisible Woman)
+    fontFamily: 'Invisible Woman',
+  },
+  {
+    id: 59,
+    name: 'The Thing',
+    originalName: 'Benjamin "Ben" Grimm',
+    photo: '/the-thing.png',
+    description: 'A former ace test pilot and Reed Richards\'s loyal best friend who was transformed by cosmic rays into an orange rock-armored behemoth. Armed with superhuman muscle and a heart of gold, he charges into battle roaring: "It\'s Clobberin\' Time!".',
+    powers: 'Class 100+ superhuman strength, rock-hard organic rocky epidermis granting near-total physical invulnerability, extreme heat and pressure resistance, and master heavyweight brawler.',
+    birth: 'Yancy Street, Lower East Side, New York City',
+    death: 'Active in Multiverse (Fantastic Four Powerhouse)',
+    bgColor: '#e65100', // Yancy Street Amber (The Thing)
+    fontFamily: 'The Thing',
+  },
+  {
+    id: 60,
+    name: 'Cable',
+    originalName: 'Nathan Christopher Charles Summers',
+    photo: '/cable.png',
+    description: 'The time-traveling cybernetic mutant soldier and son of Cyclops and Madelyne Pryor. Infected with a deadly Techno-Organic virus that he suppresses through sheer psionic will, Cable travels across timelines wielding futuristic heavy weapons to prevent apocalyptic futures.',
+    powers: 'Techno-organic cybernetic enhancements (superhuman arm strength, ocular targeting HUD), powerful telekinesis and telepathy, temporal displacement device (time travel), and master marksman/tactician.',
+    birth: 'Salem Center, Westchester County, New York',
+    death: 'Alive (X-Force Leader & Time Soldier)',
+    bgColor: '#37474f', // Cybernetic Gunmetal (Cable)
+    fontFamily: 'Cable',
+  },
+  {
+    id: 61,
+    name: 'Colossus',
+    originalName: 'Piotr "Peter" Nikolaievitch Rasputin',
+    photo: '/colossus.png',
+    description: 'A gentle Russian mutant artist and longtime cornerstone of the X-Men. Piotr can instantly transform his biological tissue into impervious organic steel, multiplying his strength to superhuman levels while serving as the moral protector of mutantkind.',
+    powers: 'Organic steel physiological transformation, Class 100+ superhuman strength, extreme physical invulnerability (impervious to artillery, temperatures, and impacts), and limitless stamina.',
+    birth: 'Ust-Ordynsky Collective, Siberia, Russia',
+    death: 'Alive (Senior X-Man & Deadpool Mentor)',
+    bgColor: '#b71c1c', // Siberian Steel Red (Colossus)
+    fontFamily: 'Colossus',
+  },
+  {
+    id: 62,
+    name: 'Storm',
+    originalName: 'Ororo Munroe',
+    photo: '/storm.png',
+    description: 'Revered across Africa as a weather goddess and leading the X-Men alongside Charles Xavier. Ororo Munroe is an Omega-level mutant who perceives, channels, and commands all terrestrial and cosmic meteorological forces at will.',
+    powers: 'Omega-level atmospherokinesis (lightning generation, hurricane-force winds, blizzard summoning, tornado manipulation), atmospheric flight, thermal/pressure manipulation, and ecological empathy.',
+    birth: 'New York City, New York / Cairo, Egypt',
+    death: 'Active in Multiverse (Omega-Level Mutant & X-Men Leader)',
+    bgColor: '#3949ab', // Tempest Indigo (Storm)
+    fontFamily: 'Storm',
+  },
+  {
+    id: 63,
+    name: 'Cyclops',
+    originalName: 'Scott Summers',
+    photo: '/cyclops.png',
+    description: 'The disciplined tactical field commander of the X-Men and Charles Xavier\'s first student. Scott Summers discharges devastating concussive optic blasts of ruby-quartz energy from an interdimensional aperture in his eyes, precisely controlled through his ruby-quartz visor.',
+    powers: 'Concussive ruby optic blasts (capable of pulverizing mountains, cutting through steel, and ricocheting with mathematical precision), master tactical field commander, and martial arts expert.',
+    birth: 'Anchorage, Alaska',
+    death: 'Active in Multiverse (X-Men Field Commander)',
+    bgColor: '#c2185b', // Ruby Quartz Crimson (Cyclops)
+    fontFamily: 'Cyclops',
+  },
+  {
+    id: 64,
+    name: 'Jean Grey',
+    originalName: 'Jean Elaine Grey-Summers / Phoenix',
+    photo: '/jean-grey.png',
+    description: 'An Omega-level telepath and telekinetic who serves as the primal avatar to the cosmic Phoenix Force. Capable of manipulating matter at the subatomic level and incinerating galaxies, Jean Grey embodies life, death, and cosmic rebirth.',
+    powers: 'Omega-level telepathy and telekinesis, subatomic matter manipulation, psionic flight, Phoenix Force avatar (cosmic pyrokinesis, resurrection, cosmic fire manipulation, and universal transfiguration).',
+    birth: 'Annandale-on-Hudson, New York',
+    death: 'Immortal Entity (Host of the Phoenix Force)',
+    bgColor: '#b71c1c', // Phoenix Flame Red (Jean Grey)
+    fontFamily: 'Jean Grey',
+  },
+  {
+    id: 65,
+    name: 'Rogue',
+    originalName: 'Anna Marie LeBeau',
+    photo: '/rogue.png',
+    description: 'A beloved southern mutant whose touch absorbs the memories, life force, superpowers, and personality of anyone she contacts skin-to-skin. Retaining permanent superhuman flight, invulnerability, and super strength, Rogue is a powerhouse X-Men defender.',
+    powers: 'Skin-to-skin bio-energy and power absorption (temporarily draining life and replicating multiple mutant abilities simultaneously), superhuman strength, invulnerability, and supersonic flight.',
+    birth: 'Caldecott County, Mississippi',
+    death: 'Alive (Senior X-Man & Southern Powerhouse)',
+    bgColor: '#2e7d32', // Southern Rogue Green (Rogue)
+    fontFamily: 'Rogue',
+  },
+  {
+    id: 66,
+    name: 'Kingpin',
+    originalName: 'Wilson Grant Fisk',
+    photo: '/kingpin.png',
+    description: 'The imposing and ruthless criminal mastermind who commands New York City\'s underworld. Concealing over 350 pounds of solid muscle beneath fine bespoke suits, Wilson Fisk relentlessly wages war against Daredevil and Spider-Man to rule the city.',
+    powers: 'Peak human physical strength and density (capable of crushing concrete and opponents with bare hands), master martial artist and sumo combatant, genius criminal strategist, Kevlar-lined armor, and vast political power.',
+    birth: 'Hell\'s Kitchen, Manhattan, New York',
+    death: 'Alive (Mayor of New York City & Master of Crime)',
+    bgColor: '#4a148c', // Royal Kingpin Purple (Kingpin)
+    fontFamily: 'Kingpin',
+  },
 ];
 
 export default characters;

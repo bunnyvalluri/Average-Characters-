@@ -109,6 +109,17 @@ const moviePosters = {
   'Gambit': '/movies/gambit.jpg',
   'Namor': '/movies/namor.jpg',
   'Green Goblin': '/movies/green-goblin.jpg',
+  'Doctor Octopus': '/movies/doctor-octopus.jpg',
+  'Invisible Woman': '/movies/invisible-woman.jpg',
+  'The Thing': '/movies/the-thing.jpg',
+  'Cable': '/movies/cable.jpg',
+  'Colossus': '/movies/colossus.jpg',
+  'Storm': '/movies/storm.jpg',
+  'Cyclops': '/movies/cyclops.jpg',
+  'Jean Grey': '/movies/jean-grey.jpg',
+  'X-Men: Dark Phoenix': '/movies/jean-grey.jpg',
+  'Rogue': '/movies/rogue.jpg',
+  'Kingpin': '/movies/kingpin.jpg',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -683,6 +694,117 @@ const characterMovieTimeline = {
       { title: 'Spider-Man: No Way Home', year: 2021, note: 'Pulled into the MCU; destroys Aunt May and battles Peter Parker' },
     ],
   },
+  'Doctor Octopus': {
+    beforeMCU: [
+      { title: 'Spider-Man 2', year: 2004, note: 'Alfred Molina\'s legendary debut as Doc Ock' },
+    ],
+    mcu: [
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Transported to the MCU, clashes with Peter Parker & helps cure villains' },
+    ],
+  },
+  'Invisible Woman': {
+    beforeMCU: [
+      { title: 'Fantastic Four', year: 2005, note: 'Jessica Alba as Sue Storm' },
+      { title: 'Fantastic 4: Rise of the Silver Surfer', year: 2007, note: 'Empowered with psionic force fields' },
+    ],
+    mcu: [
+      { title: 'The Fantastic Four: First Steps', year: 2025, note: 'Vanessa Kirby stars as MCU Sue Storm' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Protects the Fantastic Four against Doctor Doom' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiversal force field defense' },
+    ],
+  },
+  'The Thing': {
+    beforeMCU: [
+      { title: 'Fantastic Four', year: 2005, note: 'Michael Chiklis as Ben Grimm' },
+      { title: 'Fantastic 4: Rise of the Silver Surfer', year: 2007, note: 'Rock-solid defense' },
+    ],
+    mcu: [
+      { title: 'The Fantastic Four: First Steps', year: 2025, note: 'Ebon Moss-Bachrach stars as MCU Ben Grimm' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'It\'s Clobberin\' Time on Battleworld' },
+    ],
+  },
+  'Cable': {
+    beforeMCU: [
+      { title: 'Deadpool 2', year: 2018, note: 'Josh Brolin as the time-traveling soldier Nathan Summers' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Time-displaced warrior assembling against cosmic destruction' },
+    ],
+  },
+  'Colossus': {
+    beforeMCU: [
+      { title: 'X2: X-Men United', year: 2003, note: 'Daniel Cudmore defends the Xavier mansion' },
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Danger room simulation & Alcatraz battle' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Future Sentinel war' },
+      { title: 'Deadpool', year: 2016, note: 'Stefan Kapičić as the giant Russian organic steel mentor' },
+      { title: 'Deadpool 2', year: 2018, note: 'Colossus battles Juggernaut' },
+    ],
+    mcu: [
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Celebrates Wade Wilson\'s birthday party' },
+    ],
+  },
+  'Storm': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000, note: 'Halle Berry as Ororo Munroe' },
+      { title: 'X2: X-Men United', year: 2003, note: 'Summons tornadoes against fighter jets' },
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Headmistress of Xavier\'s School' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Omega-level lightning defense' },
+      { title: 'X-Men: Apocalypse', year: 2016, note: 'Alexandra Shipp as young Storm' },
+    ],
+    mcu: [
+      { title: 'X-Men \'97', year: 2024, note: 'Weather Goddess reclaiming her powers' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Summons celestial storms across realities' },
+    ],
+  },
+  'Cyclops': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000, note: 'James Marsden as Scott Summers' },
+      { title: 'X2: X-Men United', year: 2003, note: 'Controlled by Stryker before breaking free' },
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Tragic confrontation at Alkali Lake' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Timeline restored' },
+      { title: 'X-Men: Apocalypse', year: 2016, note: 'Tye Sheridan as young Cyclops' },
+    ],
+    mcu: [
+      { title: 'X-Men \'97', year: 2024, note: 'Master tactician optic-blasting mutant foes' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Leads mutant strike team' },
+    ],
+  },
+  'Jean Grey': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000, note: 'Famke Janssen as Jean Grey' },
+      { title: 'X2: X-Men United', year: 2003, note: 'Sacrifices herself to hold back the floodwaters' },
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'The Dark Phoenix awakens' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Restored to life in peaceful timeline' },
+      { title: 'X-Men: Dark Phoenix', year: 2019, note: 'Sophie Turner unleashes cosmic Phoenix Force' },
+    ],
+    mcu: [
+      { title: 'The Marvels', year: 2023, note: 'Multiversal presence alongside Beast and Binary' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic Phoenix Force avatar' },
+    ],
+  },
+  'Rogue': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000, note: 'Anna Paquin as Rogue' },
+      { title: 'X2: X-Men United', year: 2003, note: 'Fosters bond with Wolverine and Iceman' },
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Considers the mutant cure' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'The Rogue Cut power rescue' },
+    ],
+    mcu: [
+      { title: 'X-Men \'97', year: 2024, note: 'Southern powerhouse powerhouse fighting for mutant justice' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Absorbs cosmic superpowers' },
+    ],
+  },
+  'Kingpin': {
+    beforeMCU: [
+      { title: 'Daredevil', year: 2003, note: 'Michael Clarke Duncan as Wilson Fisk' },
+      { title: 'Daredevil', year: 2015, note: 'Vincent D\'Onofrio\'s definitive performance across 3 seasons' },
+    ],
+    mcu: [
+      { title: 'Hawkeye', year: 2021, note: 'Secret leader of the Tracksuit Mafia' },
+      { title: 'Echo', year: 2024, note: 'Survives confrontation with Maya Lopez and runs for NYC Mayor' },
+      { title: 'Daredevil: Born Again', year: 2025, note: 'Mayor of New York City in total urban conflict with vigilantes' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -778,6 +900,18 @@ const movieEvents = {
   'Namor': 'The Feathered Serpent God commands oceans and floods surface cities to protect Talokan.',
   'Green Goblin': 'Norman Osborn terrorizes Spider-Man with deadly pumpkin bombs and razor-sharp intellect.',
   'Spider-Man': 'Peter Parker discovers with great power comes great responsibility and battles the Green Goblin.',
+  'Doctor Octopus': 'Otto Octavius wields four AI mechanical arms to build a fusion reactor and conquer Spider-Man.',
+  'Spider-Man 2': 'Peter Parker faces an existential crisis while stopping Doctor Octopus\'s dangerous fusion experiment.',
+  'Invisible Woman': 'Sue Storm projects impenetrable force fields and bends light to safeguard her family.',
+  'The Thing': 'Ben Grimm delivers earth-shattering clobbering blows as the Fantastic Four\'s indestructible titan.',
+  'Cable': 'Nathan Summers manipulates temporal devices and heavy cybernetic firepower to reshape destiny.',
+  'Colossus': 'Piotr Rasputin transforms his flesh into organic steel, shielding his allies from harm.',
+  'Storm': 'Ororo Munroe commands thunderstorm tempests, blinding blizzards, and lightning strikes.',
+  'Cyclops': 'Scott Summers unleashes devastating ruby-quartz optic beams with tactical precision.',
+  'Jean Grey': 'Jean Grey channels the infinite cosmic fire of the Phoenix Force to bend reality.',
+  'X-Men: Dark Phoenix': 'Jean Grey is consumed by the cosmic Phoenix Force, threatening humanity and mutants.',
+  'Rogue': 'Anna Marie absorbs superhuman abilities with a single touch, fighting on the frontlines.',
+  'Kingpin': 'Wilson Fisk rules New York City\'s underworld and political sphere with an iron fist.',
 };
 
 
