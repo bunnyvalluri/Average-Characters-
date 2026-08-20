@@ -182,6 +182,26 @@ const moviePosters = {
   'Xialing': '/xialing.png',
   'Pip the Troll': '/pip-the-troll.png',
   'Grandmaster': '/grandmaster.png',
+  'Collector': '/collector.png',
+  'Ego the Living Planet': '/ego.png',
+  'Miek': '/miek.png',
+  'Cosmo': '/cosmo.png',
+  'Howard the Duck': '/howard-the-duck.png',
+  'Trevor Slattery': '/trevor-slattery.png',
+  'Morris': '/morris.png',
+  'Kahhori': '/kahhori.png',
+  'Baron Zemo': '/baron-zemo.png',
+  'Arnim Zola': '/arnim-zola.png',
+  'Red Skull': '/red-skull.png',
+  'Crossbones': '/crossbones.png',
+  'Batroc': '/batroc.png',
+  'Killmonger': '/killmonger.png',
+  'M\'Baku': '/mbaku.png',
+  'Nakia': '/nakia.png',
+  'Ayo': '/ayo.png',
+  'Lady Sif': '/lady-sif.png',
+  'Karl Mordo': '/mordo.png',
+  'Black Bolt': '/black-bolt.png',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -1224,6 +1244,156 @@ const characterMovieTimeline = {
       { title: 'Thor: Love and Thunder', year: 2022, note: 'Eccentric Elder of the Universe in the cosmos' },
     ],
   },
+  'Collector': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor: The Dark World', year: 2013, note: 'Entrusted with the Aether (Reality Stone) by the Asgardians' },
+      { title: 'Guardians of the Galaxy', year: 2014, note: 'Explains the Infinity Stones to the Guardians on Knowhere' },
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Confronted and interrogated by Thanos on Knowhere' },
+    ],
+  },
+  'Ego the Living Planet': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Guardians of the Galaxy Vol. 2', year: 2017, note: 'Living planet Celestial reveals his cosmic expansion to Peter Quill' },
+    ],
+  },
+  'Miek': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor: Ragnarok', year: 2017, note: 'Sakaaran gladiator warrior allies with Thor and Korg' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Fights in the Battle of Earth in specialized exoskeleton' },
+      { title: 'Thor: Love and Thunder', year: 2022, note: 'Executive board member assisting King Valkyrie' },
+    ],
+  },
+  'Cosmo': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Guardians of the Galaxy', year: 2014, note: 'Telepathic space dog inside the Collector\'s museum' },
+      { title: 'The Guardians of the Galaxy Holiday Special', year: 2022, note: 'Knowhere security chief aids in restoring the city' },
+      { title: 'Guardians of the Galaxy Vol. 3', year: 2023, note: 'Uses telekinesis to bridge Knowhere to High Evolutionary\'s ship' },
+    ],
+  },
+  'Howard the Duck': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Guardians of the Galaxy', year: 2014, note: 'Knowhere resident drinking martini in ruined museum' },
+      { title: 'Guardians of the Galaxy Vol. 2', year: 2017, note: 'Parties on Contraxia with Ravagers' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Charges into the Battle of Earth with heavy blaster' },
+    ],
+  },
+  'Trevor Slattery': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Iron Man 3', year: 2013, note: 'Actor hired by Aldrich Killian to pose as The Mandarin' },
+      { title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, note: 'Guides Shang-Chi through the bamboo forest with Morris' },
+    ],
+  },
+  'Morris': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, note: 'Mythical Hundun guides heroes safely into Ta Lo' },
+    ],
+  },
+  'Kahhori': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'What If...? Season 2', year: 2023, note: 'Absorbs Tesseract Space Stone energy to liberate her people' },
+      { title: 'What If...? Season 3', year: 2024, note: 'Wields cosmic power alongside Captain Carter & Storm' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiversal Space Stone champion on Battleworld' },
+    ],
+  },
+  'Baron Zemo': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Captain America: Civil War', year: 2016, note: 'Shatters the Avengers by revealing the Winter Soldier\'s mission' },
+      { title: 'The Falcon and the Winter Soldier', year: 2021, note: 'Allies with Sam and Bucky to destroy the Super-Soldier Serum' },
+    ],
+  },
+  'Arnim Zola': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Captain America: The First Avenger', year: 2011, note: 'HYDRA chief scientist captured by the Howling Commandos' },
+      { title: 'Captain America: The Winter Soldier', year: 2014, note: 'Digital consciousness reveals HYDRA\'s infiltration of S.H.I.E.L.D.' },
+    ],
+  },
+  'Red Skull': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Captain America: The First Avenger', year: 2011, note: 'Commands HYDRA with Tesseract weapons against Captain America' },
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Soul Stone keeper on Vormir who guides Thanos' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Guides Hawkeye and Black Widow on Vormir' },
+    ],
+  },
+  'Crossbones': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Captain America: The Winter Soldier', year: 2014, note: 'Undercover STRIKE operative battles Falcon at Triskelion' },
+      { title: 'Captain America: Civil War', year: 2016, note: 'Attacks biological institute in Lagos with hydraulic power gauntlets' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Encountered by Steve Rogers in 2012 elevator retrieval' },
+    ],
+  },
+  'Batroc': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Captain America: The Winter Soldier', year: 2014, note: 'Savate kickboxing mercenary hijacks Lemurian Star' },
+      { title: 'The Falcon and the Winter Soldier', year: 2021, note: 'Aerial mercenary battles Falcon and Flag Smashers' },
+    ],
+  },
+  'Killmonger': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Black Panther', year: 2018, note: 'Defeats T\'Challa in ritual combat and takes Golden Jaguar habit' },
+      { title: 'Black Panther: Wakanda Forever', year: 2022, note: 'Appears to Shuri in the Ancestral Plane' },
+    ],
+  },
+  'M\'Baku': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Black Panther', year: 2018, note: 'Jabari leader heals T\'Challa and leads mountain warriors' },
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Leads the Jabari into battle against Thanos\'s Outrider army' },
+      { title: 'Avengers: Endgame', year: 2019, note: 'Fights in the Battle of Earth' },
+      { title: 'Black Panther: Wakanda Forever', year: 2022, note: 'Advises Shuri during Talokan war and claims Wakandan throne' },
+    ],
+  },
+  'Nakia': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Black Panther', year: 2018, note: 'War Dog spy saves heart-shaped herb and restores T\'Challa' },
+      { title: 'Black Panther: Wakanda Forever', year: 2022, note: 'Infiltrates Talokan to rescue Shuri and raises Prince Toussaint' },
+    ],
+  },
+  'Ayo': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Captain America: Civil War', year: 2016, note: 'Dora Milaje protector warns Black Widow in Vienna' },
+      { title: 'Black Panther', year: 2018, note: 'Defends Wakandan royal family alongside Okoye' },
+      { title: 'Avengers: Infinity War', year: 2018, note: 'Fights on the frontlines in the Battle of Wakanda' },
+      { title: 'The Falcon and the Winter Soldier', year: 2021, note: 'Disarms John Walker and tracks Helmut Zemo' },
+      { title: 'Black Panther: Wakanda Forever', year: 2022, note: 'Leads the Dora Milaje against Namor\'s Talokan forces' },
+    ],
+  },
+  'Lady Sif': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Thor', year: 2011, note: 'Shieldmaiden warrior journeys to Earth to rescue Thor' },
+      { title: 'Thor: The Dark World', year: 2013, note: 'Defends Asgard and helps Thor smuggle Jane Foster' },
+      { title: 'Thor: Love and Thunder', year: 2022, note: 'Survives Gorr\'s attack and trains young warriors in New Asgard' },
+    ],
+  },
+  'Karl Mordo': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Doctor Strange', year: 2016, note: 'Masters Mystic Arts and helps Strange defeat Kaecilius' },
+      { title: 'Doctor Strange in the Multiverse of Madness', year: 2022, note: 'Sorcerer Supreme of Earth-838 and Illuminati member' },
+    ],
+  },
+  'Black Bolt': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Doctor Strange in the Multiverse of Madness', year: 2022, note: 'Illuminati King of Attilan who defeated Thanos with his voice' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -1386,6 +1556,26 @@ const movieEvents = {
   'Xialing': 'Xialing strikes with lethal rope-dart agility and commands the global Ten Rings army.',
   'Pip the Troll': 'Pip the Troll opens instant spacetime teleportation portals across galaxies.',
   'Grandmaster': 'The Grandmaster orchestrates gladiatorial spectacles and cosmic synth melodies on Sakaar.',
+  'Collector': 'Taneleer Tivan preserves the cosmos\' greatest secrets and Infinity Stones in Knowhere.',
+  'Ego the Living Planet': 'Ego manipulates planetary matter and light energy in his quest for galactic expansion.',
+  'Miek': 'Miek slices through enemies with blade arms and fights bravely in New Asgard.',
+  'Cosmo': 'Cosmo telekinetically moves tons of space debris, protecting Knowhere with the Guardians.',
+  'Howard the Duck': 'Howard the Duck wields heavy alien blasters with cynical charm and Quack-Fu.',
+  'Trevor Slattery': 'Trevor Slattery uses theatrical wit and Morris\' guidance to lead the way to Ta Lo.',
+  'Morris': 'Morris navigates mythical bamboo labyrinths to guide champions to safety.',
+  'Kahhori': 'Kahhori harnesses Tesseract Space Stone energy to protect the Multiverse.',
+  'Baron Zemo': 'Helmut Zemo tears the Avengers apart with psychological masterstrokes and strategic grit.',
+  'Arnim Zola': 'Arnim Zola engineers algorithms and transfers his mind into vast supercomputer networks.',
+  'Red Skull': 'Johann Schmidt guards the Soul Stone on Vormir, guiding seekers to their destiny.',
+  'Crossbones': 'Brock Rumlow unleashes pneumatic hydraulic concussive strikes in tactical combat.',
+  'Batroc': 'Georges Batroc delivers acrobatic Savate kickboxing strikes across high-stakes missions.',
+  'Killmonger': 'Erik Stevens claims the Golden Jaguar habit and challenges the world from Wakanda.',
+  'M\'Baku': 'M\'Baku leads the Jabari with immense strength and ascends as King of Wakanda.',
+  'Nakia': 'Nakia deploys vibranium ring blades and stealth espionage to defend the realm.',
+  'Ayo': 'Ayo commands the Dora Milaje with unmatched vibranium spear discipline.',
+  'Lady Sif': 'Lady Sif wields Asgardian steel and shield mastery to defend the Nine Realms.',
+  'Karl Mordo': 'Karl Mordo channels the Mystic Arts and Vaulting Boots to purge reckless sorcery.',
+  'Black Bolt': 'Black Bolt unleashes devastating quasi-sonic destruction with the whisper of a word.',
 };
 
 

@@ -450,6 +450,86 @@
   font-family: 'Grandmaster';
   src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
 }
+@font-face {
+  font-family: 'Collector';
+  src: url('./assets/fonts/Guardians.ttf');
+}
+@font-face {
+  font-family: 'Ego the Living Planet';
+  src: url('./assets/fonts/GalacticVanguardianNcv-myVP.ttf');
+}
+@font-face {
+  font-family: 'Miek';
+  src: url('./assets/fonts/Hulk.ttf');
+}
+@font-face {
+  font-family: 'Cosmo';
+  src: url('./assets/fonts/Star Lord.ttf');
+}
+@font-face {
+  font-family: 'Howard the Duck';
+  src: url('./assets/fonts/DeadpoolMovie-9AzL.ttf');
+}
+@font-face {
+  font-family: 'Trevor Slattery';
+  src: url('./assets/fonts/Iron Man.otf');
+}
+@font-face {
+  font-family: 'Morris';
+  src: url('./assets/fonts/KungFuMasterExpanded-X32x2.otf');
+}
+@font-face {
+  font-family: 'Kahhori';
+  src: url('./assets/fonts/Captain Marvel.otf');
+}
+@font-face {
+  font-family: 'Baron Zemo';
+  src: url('./assets/fonts/American Captain.ttf');
+}
+@font-face {
+  font-family: 'Arnim Zola';
+  src: url('./assets/fonts/American Captain.ttf');
+}
+@font-face {
+  font-family: 'Red Skull';
+  src: url('./assets/fonts/American Captain.ttf');
+}
+@font-face {
+  font-family: 'Crossbones';
+  src: url('./assets/fonts/Punishment.otf');
+}
+@font-face {
+  font-family: 'Batroc';
+  src: url('./assets/fonts/American Captain.ttf');
+}
+@font-face {
+  font-family: 'Killmonger';
+  src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+}
+@font-face {
+  font-family: 'M\'Baku';
+  src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+}
+@font-face {
+  font-family: 'Nakia';
+  src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+}
+@font-face {
+  font-family: 'Ayo';
+  src: url('./assets/fonts/PantheraRegular-MVZ9J.ttf');
+}
+@font-face {
+  font-family: 'Lady Sif';
+  src: url('./assets/fonts/Thor.ttf');
+}
+@font-face {
+  font-family: 'Karl Mordo';
+  src: url('./assets/fonts/Dr Strange.ttf');
+}
+@font-face {
+  font-family: 'Black Bolt';
+  src: url('./assets/fonts/Captain Marvel.otf');
+}
 /* index.css or App.css */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
