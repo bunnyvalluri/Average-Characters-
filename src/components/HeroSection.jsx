@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import CharacterInfo from './CharacterInfo';
 import { useColorTheme } from '../ColorThemeContext';
 
-const getCategories = (count = 323) => [
+const getCategories = (count = 350) => [
   { id: 'all', label: `All Heroes (${count})` },
   { id: 'endgame', label: 'Endgame (Battle & Heist)' },
   { id: 'avengers', label: 'Avengers' },
@@ -100,8 +100,10 @@ const getCategoryForCharacter = (char) => {
     name.includes('longshot') || name.includes('legion') || name.includes('hope summers') ||
     name.includes('x-man') || name.includes('destiny') || name.includes('callisto') ||
     name.includes('warpath') || name.includes('sunfire') || name.includes('armor') ||
+    name.includes('northstar') || name.includes('aurora') || name.includes('guardian') ||
+    name.includes('sasquatch') || name.includes('puck') || name.includes('firestar') ||
     desc.includes('mutant') || desc.includes('x-man') || desc.includes('x-men') ||
-    desc.includes('krakoa') || desc.includes('new mutant')
+    desc.includes('krakoa') || desc.includes('new mutant') || desc.includes('alpha flight')
   ) {
     return 'xmen';
   }
@@ -120,7 +122,9 @@ const getCategoryForCharacter = (char) => {
     name.includes('phyla-vell') || name.includes('moondragon') || name.includes('genis-vell') ||
     name.includes('infinity') || name.includes('annihilus') || name.includes('captain mar-vell') ||
     name.includes('bug') || name.includes('love') || name.includes('knull') ||
-    name.includes('death')
+    name.includes('death') || name.includes('starhawk') || name.includes('martinex') ||
+    name.includes('talon') || name.includes('captain universe') || name.includes('lady sif') ||
+    name.includes('beta ray bill') || name.includes('jack flag')
   ) {
     return 'cosmic';
   }
