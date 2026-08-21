@@ -11,6 +11,7 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
 
+  const navRef = useRef(null);
   const searchContainerRef = useRef(null);
   const searchInputRef = useRef(null);
 
@@ -30,6 +31,17 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Auto-close mobile menu on screen resize to desktop
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setIsOpen(false);
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   // Global search shortcut (Ctrl+K or /)
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -47,11 +59,14 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  // Close search dropdown on click outside
+  // Close search dropdown and mobile menu on click outside
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (searchContainerRef.current && !searchContainerRef.current.contains(e.target)) {
         setIsSearchOpen(false);
+      }
+      if (navRef.current && !navRef.current.contains(e.target)) {
+        setIsOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -117,18 +132,17 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
 
   return (
     <nav
-      style={{
-        backgroundColor: isScrolled ? 'rgba(12, 12, 18, 0.96)' : 'rgba(0, 0, 0, 0.65)',
-        borderBottom: '1px solid rgba(255, 255, 255, 0.15)',
-        backdropFilter: 'blur(20px)',
-        WebkitBackdropFilter: 'blur(20px)',
-      }}
-      className="fixed top-0 left-0 h-16 sm:h-20 w-full z-50 flex justify-between items-center px-4 sm:px-6 md:px-10 lg:px-16 transition-all duration-300 shadow-2xl"
+      ref={navRef}
+      className={`fixed top-0 left-0 h-16 sm:h-20 w-full z-50 flex justify-between items-center px-4 sm:px-6 md:px-10 lg:px-16 transition-all duration-300 ${
+        isScrolled
+          ? 'bg-[#0e0e11]/95 shadow-2xl border-b border-white/15 backdrop-blur-xl'
+          : 'bg-[#0e0e11]/80 backdrop-blur-md border-b border-white/10'
+      }`}
     >
       {/* Brand / Logo */}
       <div
         className="flex items-center space-x-3 cursor-pointer select-none group"
-        onClick={onHomeClick}
+        onClick={() => { setIsOpen(false); onHomeClick?.(); }}
       >
         <div className="flex-shrink-0 relative">
           <img
@@ -143,7 +157,7 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
           <h2 className="font-[Avengers] text-xl sm:text-2xl md:text-3xl font-bold tracking-wider text-white drop-shadow-md">
             Avengers
           </h2>
-          <span className="text-[10px] text-gray-300 -mt-1 font-sans uppercase tracking-widest hidden sm:block">
+          <span className="text-[10px] text-gray-400 -mt-1 font-sans uppercase tracking-widest hidden sm:block">
             1000 Characters & Cinematic Lore
           </span>
         </div>
@@ -172,49 +186,34 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
         </button>
       </div>
 
-      {/* Desktop & Mobile Menu Navigation */}
-      <div
-        className={`${
-          isOpen
-            ? "flex absolute top-full left-0 right-0 w-full bg-[#0a0a10]/98 backdrop-blur-2xl border-b border-white/20 p-5 shadow-2xl flex-col items-center space-y-3.5 z-50 animate-fadeIn"
-            : "hidden"
-        } md:flex md:static md:w-auto md:bg-transparent md:border-none md:p-0 md:flex-row md:space-y-0 md:space-x-5 lg:space-x-8 md:items-center md:shadow-none`}
-      >
+      {/* Desktop Navigation Links */}
+      <div className="hidden md:flex md:items-center md:space-x-6 lg:space-x-8 font-[Avengers]">
         <button
-          onClick={() => { setIsOpen(false); onHomeClick?.(); }}
-          style={{
-            backgroundColor: isOpen ? 'rgba(255, 255, 255, 0.1)' : undefined,
-          }}
-          className="w-full md:w-auto text-sm sm:text-base font-bold uppercase tracking-wider text-white hover:text-white border border-white/15 md:border-transparent hover:border-white/30 bg-black/60 md:bg-transparent hover:bg-white/15 px-5 py-3 md:py-1.5 rounded-xl transition-all text-center active:scale-95 cursor-pointer shadow-md md:shadow-none"
+          onClick={onHomeClick}
+          className="text-lg sm:text-xl hover:text-white text-gray-200 border-none bg-transparent cursor-pointer rounded-lg px-2 py-1 transition-colors text-center hover:opacity-90 active:scale-95"
         >
-          Home
+          home
         </button>
         <button
-          onClick={() => { setIsOpen(false); onTimelineClick?.(); }}
-          style={{
-            backgroundColor: isOpen ? 'rgba(255, 255, 255, 0.1)' : undefined,
-          }}
-          className="w-full md:w-auto text-sm sm:text-base font-bold uppercase tracking-wider text-white hover:text-white border border-white/15 md:border-transparent hover:border-white/30 bg-black/60 md:bg-transparent hover:bg-white/15 px-5 py-3 md:py-1.5 rounded-xl transition-all text-center active:scale-95 cursor-pointer shadow-md md:shadow-none"
+          onClick={onTimelineClick}
+          className="text-lg sm:text-xl hover:text-white text-gray-200 border-none bg-transparent cursor-pointer rounded-lg px-2 py-1 transition-colors text-center hover:opacity-90 active:scale-95"
         >
-          Timeline
+          timeline
         </button>
         <button
-          onClick={() => { setIsOpen(false); onMoviesClick?.(); }}
-          style={{
-            backgroundColor: isOpen ? 'rgba(255, 255, 255, 0.1)' : undefined,
-          }}
-          className="w-full md:w-auto text-sm sm:text-base font-bold uppercase tracking-wider text-white hover:text-white border border-white/15 md:border-transparent hover:border-white/30 bg-black/60 md:bg-transparent hover:bg-white/15 px-5 py-3 md:py-1.5 rounded-xl transition-all text-center active:scale-95 cursor-pointer shadow-md md:shadow-none"
+          onClick={onMoviesClick}
+          className="text-lg sm:text-xl hover:text-white text-gray-200 border-none bg-transparent cursor-pointer rounded-lg px-2 py-1 transition-colors text-center hover:opacity-90 active:scale-95"
         >
-          Movies
+          movies
         </button>
 
         {/* Live Search Input with Dropdown Autocomplete */}
-        <div ref={searchContainerRef} className="relative w-full md:w-auto font-sans">
+        <div ref={searchContainerRef} className="relative font-sans">
           <form
             onSubmit={handleSearchSubmit}
-            className="flex items-center bg-black/80 hover:bg-black/90 focus-within:bg-black px-4 py-2.5 rounded-full border border-white/30 focus-within:border-white/70 transition-all duration-200 w-full md:w-64 lg:w-80 shadow-xl"
+            className="flex items-center bg-white/10 hover:bg-white/15 focus-within:bg-black/80 px-3.5 py-1.5 rounded-full border border-white/20 focus-within:border-white/50 transition-all duration-200 w-60 lg:w-72 shadow-inner"
           >
-            <svg className="w-4 h-4 text-gray-200 mr-2.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 h-4 text-gray-400 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
             <input
@@ -228,7 +227,7 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
               }}
               onFocus={() => setIsSearchOpen(true)}
               onKeyDown={handleSearchKeyDown}
-              className="w-full bg-transparent text-white placeholder-gray-300 outline-none text-xs sm:text-sm font-medium"
+              className="w-full bg-transparent text-white placeholder-gray-400 outline-none text-xs sm:text-sm font-normal"
             />
             {searchTerm && (
               <button
@@ -243,12 +242,12 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
 
           {/* Autocomplete Results Dropdown */}
           {isSearchOpen && searchResults.length > 0 && (
-            <div className="absolute top-full mt-2 left-0 right-0 md:w-80 bg-[#16161c] border border-white/25 rounded-2xl shadow-2xl overflow-hidden z-50 backdrop-blur-2xl">
-              <div className="px-3.5 py-2 bg-white/10 border-b border-white/10 flex items-center justify-between text-[11px] text-gray-300 font-semibold">
+            <div className="absolute top-full mt-2 right-0 w-80 bg-[#16161c] border border-white/20 rounded-2xl shadow-2xl overflow-hidden z-50 backdrop-blur-2xl">
+              <div className="px-3 py-2 bg-white/5 border-b border-white/10 flex items-center justify-between text-[11px] text-gray-400">
                 <span>Matching Characters ({searchResults.length})</span>
-                <span className="text-[10px] text-gray-400">Use ↑ ↓ to navigate</span>
+                <span className="text-[10px]">Use ↑ ↓ to navigate</span>
               </div>
-              <ul className="max-h-72 overflow-y-auto py-1 divide-y divide-white/10">
+              <ul className="max-h-72 overflow-y-auto py-1 divide-y divide-white/5">
                 {searchResults.map((char, index) => {
                   const isHighlighted = index === selectedIndex;
                   return (
@@ -256,29 +255,31 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
                       key={char.id}
                       onClick={() => selectCharacter(char.name)}
                       onMouseEnter={() => setSelectedIndex(index)}
-                      className={`flex items-center gap-3 px-3.5 py-2.5 cursor-pointer transition-colors ${
-                        isHighlighted ? 'bg-white/20' : 'hover:bg-white/10'
+                      className={`flex items-center gap-3 px-3 py-2.5 cursor-pointer transition-colors ${
+                        isHighlighted ? 'bg-white/15' : 'hover:bg-white/10'
                       }`}
                     >
                       <img
                         src={char.photo}
                         alt={char.name}
-                        className="w-9 h-9 object-contain rounded-lg bg-black/50 p-0.5 border border-white/20 flex-shrink-0"
+                        className="w-9 h-9 object-contain rounded bg-black/40 p-0.5 border border-white/10 flex-shrink-0"
                       />
                       <div className="flex flex-col min-w-0 flex-1">
-                        <div className="flex items-center gap-1.5">
-                          <span className="text-sm font-bold text-white truncate">
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm font-semibold text-white truncate">
                             {char.name}
                           </span>
-                          <span className="px-1.5 py-0.2 text-[9px] font-bold uppercase rounded bg-red-600/80 text-white flex-shrink-0">
+                          <span className="text-[10px] px-1.5 py-0.2 rounded bg-red-600/80 text-white font-bold">
                             ▶ Trailer
                           </span>
                         </div>
-                        <span className="text-xs text-gray-300 truncate">
-                          {char.trailerCategory || char.originalName || 'Marvel Hero'}
-                        </span>
+                        {char.originalName && (
+                          <span className="text-xs text-gray-400 truncate">
+                            {char.originalName}
+                          </span>
+                        )}
                       </div>
-                      <span className="text-[11px] text-gray-400 font-mono font-bold">
+                      <span className="text-[10px] text-gray-500 font-mono">
                         #{char.id}
                       </span>
                     </li>
@@ -289,6 +290,52 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
           )}
         </div>
       </div>
+
+      {/* Mobile Dropdown Drawer (Only rendered when hamburger is opened on mobile) */}
+      {isOpen && (
+        <div className="md:hidden absolute top-full left-0 right-0 w-full bg-[#121216]/98 backdrop-blur-2xl border-b border-white/15 p-5 shadow-2xl flex flex-col items-center space-y-3.5 z-50 animate-fadeIn font-[Avengers]">
+          <button
+            onClick={() => { setIsOpen(false); onHomeClick?.(); }}
+            className="w-full text-lg hover:text-white text-gray-200 border-none bg-transparent cursor-pointer py-1.5 transition-colors text-center hover:opacity-90 active:scale-95"
+          >
+            home
+          </button>
+          <button
+            onClick={() => { setIsOpen(false); onTimelineClick?.(); }}
+            className="w-full text-lg hover:text-white text-gray-200 border-none bg-transparent cursor-pointer py-1.5 transition-colors text-center hover:opacity-90 active:scale-95"
+          >
+            timeline
+          </button>
+          <button
+            onClick={() => { setIsOpen(false); onMoviesClick?.(); }}
+            className="w-full text-lg hover:text-white text-gray-200 border-none bg-transparent cursor-pointer py-1.5 transition-colors text-center hover:opacity-90 active:scale-95"
+          >
+            movies
+          </button>
+
+          {/* Mobile search */}
+          <div className="w-full font-sans pt-1">
+            <form
+              onSubmit={handleSearchSubmit}
+              className="flex items-center bg-white/10 px-3.5 py-2 rounded-full border border-white/20 w-full"
+            >
+              <svg className="w-4 h-4 text-gray-400 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <input
+                type="text"
+                placeholder={`Search ${characters.length} heroes...`}
+                value={searchTerm}
+                onChange={(e) => {
+                  setSearchTerm(e.target.value);
+                  setIsSearchOpen(true);
+                }}
+                className="w-full bg-transparent text-white placeholder-gray-400 outline-none text-sm font-normal"
+              />
+            </form>
+          </div>
+        </div>
+      )}
     </nav>
   );
 };

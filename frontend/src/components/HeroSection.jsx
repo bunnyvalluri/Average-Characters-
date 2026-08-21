@@ -292,9 +292,9 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
       </div>
 
       {/* Main Character Stage Row */}
-      <div className="flex flex-col lg:flex-row items-center justify-between w-full z-10 gap-4 sm:gap-6 md:gap-8 lg:gap-12 min-h-[460px] sm:min-h-[520px]">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full z-10 gap-4 sm:gap-6 md:gap-8 lg:gap-12 min-h-[460px] sm:min-h-[520px]">
         {/* Desktop Left Nav Button */}
-        <div className="hidden lg:flex items-center justify-center flex-shrink-0">
+        <div className="hidden md:flex items-center justify-center flex-shrink-0">
           <button
             onClick={handlePrevCharacter}
             className="group flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/10 hover:bg-white/20 active:scale-90 border border-white/20 text-white text-2xl transition-all duration-200 backdrop-blur-md shadow-2xl hover:border-white/40 cursor-pointer"
@@ -308,7 +308,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         </div>
 
         {/* Character Image Display Stage */}
-        <div className="relative flex flex-col items-center justify-center w-full lg:w-1/2">
+        <div className="relative flex flex-col items-center justify-center w-full md:w-1/2">
           {/* Hero Counter Badge */}
           <div className="mb-2 flex items-center gap-2 bg-black/40 border border-white/15 px-3 py-1 rounded-full backdrop-blur-md shadow-md text-xs font-semibold text-gray-300">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -337,11 +337,11 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
               />
             </motion.div>
 
-            {/* Mobile Touch Quick Arrows */}
-            <div className="lg:hidden absolute inset-y-0 left-0 flex items-center pl-1 z-20 pointer-events-auto">
+            {/* Mobile Touch Quick Arrows (hidden on desktop >= md) */}
+            <div className="md:hidden absolute inset-y-0 left-0 flex items-center pl-0 z-20 pointer-events-auto">
               <button
                 onClick={handlePrevCharacter}
-                className="p-3 bg-black/50 hover:bg-black/75 active:scale-90 text-white rounded-full backdrop-blur-md border border-white/20 transition-all shadow-lg cursor-pointer"
+                className="p-2.5 bg-black/40 hover:bg-black/70 active:scale-90 text-white rounded-full backdrop-blur-md border border-white/20 transition-all shadow-lg cursor-pointer"
                 aria-label="Previous character"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -349,10 +349,10 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
                 </svg>
               </button>
             </div>
-            <div className="lg:hidden absolute inset-y-0 right-0 flex items-center pr-1 z-20 pointer-events-auto">
+            <div className="md:hidden absolute inset-y-0 right-0 flex items-center pr-0 z-20 pointer-events-auto">
               <button
                 onClick={handleNextCharacter}
-                className="p-3 bg-black/50 hover:bg-black/75 active:scale-90 text-white rounded-full backdrop-blur-md border border-white/20 transition-all shadow-lg cursor-pointer"
+                className="p-2.5 bg-black/40 hover:bg-black/70 active:scale-90 text-white rounded-full backdrop-blur-md border border-white/20 transition-all shadow-lg cursor-pointer"
                 aria-label="Next character"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -364,7 +364,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         </div>
 
         {/* Character Info Panel */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start items-center z-10">
+        <div className="w-full md:w-1/2 flex justify-center md:justify-start items-center z-10">
           <CharacterInfo
             character={currentCharacter}
             onWatchTrailer={(char) => setActiveTrailerChar(char)}
@@ -372,7 +372,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         </div>
 
         {/* Desktop Right Nav Button */}
-        <div className="hidden lg:flex items-center justify-center flex-shrink-0">
+        <div className="hidden md:flex items-center justify-center flex-shrink-0">
           <button
             onClick={handleNextCharacter}
             className="group flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/10 hover:bg-white/20 active:scale-90 border border-white/20 text-white text-2xl transition-all duration-200 backdrop-blur-md shadow-2xl hover:border-white/40 cursor-pointer"
