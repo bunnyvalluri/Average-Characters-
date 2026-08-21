@@ -2,6 +2,55 @@
 // Modular timeline & cinematic universe datasets
 
 export const moviePosters = {
+  'Daken (Akihiro)': '/daken.png',
+  'Scout (Gabby Kinney)': '/gabby-kinney.png',
+  'Bloodline (Brielle Brooks)': '/bloodline.png',
+  'Ghost Rider (Alejandra Jones)': '/alejandra-jones.png',
+  'Vengeance (Michael Badilino)': '/vengeance.png',
+  'Black Cat (Felicia Hardy)': '/black-cat.png',
+  'Silver Sable (Silver Sablinova)': '/silver-sable.png',
+  'Prowler (Aaron Davis)': '/prowler-aaron.png',
+  'Prowler (Hobie Brown)': '/prowler-hobie.png',
+  'Superior Octopus (Otto Octavius)': '/superior-octopus.png',
+  'Iron Spider (Amadeus Cho)': '/iron-spider-amadeus.png',
+  'Spider-Man (Aaron Aikman)': '/aaron-aikman.png',
+  'Spider-UK (Malala Windsor)': '/spider-uk-malala.png',
+  'Deathcry (Sharra Neramani)': '/deathcry.png',
+  'Swordsman (Andreas von Strucker)': '/swordsman-andreas.png',
+  'Andrea von Strucker (Fenris)': '/fenris-andrea.png',
+  'Red Widow (Ava Orlova)': '/red-widow.png',
+  'Ursa Major (Mikhail Uriokovitch)': '/ursa-major.png',
+  'Darkstar (Laynia Petrovna)': '/darkstar.png',
+  'Vanguard (Nikolai Krylenko)': '/vanguard-russian.png',
+  'Perun (Slavic God of Thunder)': '/perun.png',
+  'Chernobog (God of Darkness)': '/chernobog.png',
+  'Living Mummy (N\'Kantu)': '/living-mummy.png',
+  'Frankenstein\'s Monster (Adam)': '/frankenstein-monster.png',
+  'Simon Garth (The Zombie)': '/simon-garth.png',
+  'Man-Phibian': '/man-phibian.png',
+  'Werewolf by Night (Jake Gomez)': '/jake-gomez.png',
+  'Gorilla-Man (Ken Hale)': '/gorilla-man.png',
+  'Aero (Lei Ling)': '/aero.png',
+  'Wave (Pearl Pangan)': '/wave.png',
+  'Sword Master (Lin Lie)': '/sword-master.png',
+  'Crescent & Io (Dan Bi)': '/crescent-io.png',
+  'Luna Snow (Seol Hee)': '/luna-snow.png',
+  'White Fox (Ami Han)': '/white-fox.png',
+  'Brawn (Amadeus Cho - Atlas)': '/amadeus-cho-atlas.png',
+  'Red Locust (Fernanda - Atlas)': '/red-locust-atlas.png',
+  'Vector (Simon Utrecht - U-Foes)': '/vector-ufoes.png',
+  'Vapor (Ann Darnell - U-Foes)': '/vapor-ufoes.png',
+  'X-Ray (Jimmy Darnell - U-Foes)': '/x-ray-ufoes.png',
+  'Ironclad (Mike Steel - U-Foes)': '/ironclad-ufoes.png',
+  'Dragon Man (Future Foundation)': '/dragon-man-ff.png',
+  'Awesome Android (Andy - Paralegal)': '/awesome-andy.png',
+  'Super-Adaptoid (Cosmic Cube)': '/super-adaptoid-cube.png',
+  'Bi-Beast (Avian Titan)': '/bi-beast-titan.png',
+  'Madman (Philip Sterns - Gamma)': '/madman-gamma.png',
+  'Caiera the Oldstrong (Sakaar)': '/caiera-sakaar.png',
+  'Elloe Kaifi (Warbound)': '/elloe-kaifi-warbound.png',
+  'Hiroim the Shamed (Warbound)': '/hiroim-warbound.png',
+  'King Thor (All-Father of the Cosmos)': '/king-thor.png',
   'Hyperion (Marcus Milton)': '/hyperion.png',
   'Nighthawk (Kyle Richmond)': '/nighthawk.png',
   'Power Princess (Zarda)': '/power-princess.png',
@@ -764,6 +813,300 @@ export const moviePosters = {
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
 export const characterMovieTimeline = {
+  'Daken (Akihiro)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The deadly mutant son of Wolverine and Itsu who was raised in Japan, possessing retractable bone claws (including wrist claws) and pheromone manipulation' },
+    ],
+  },
+  'Scout (Gabby Kinney)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A genetic clone sister of Laura Kinney (X-23) who feels zero physical pain and fights alongside Laura with cheerful optimism and a pet wolverine named Jonathan' },
+    ],
+  },
+  'Bloodline (Brielle Brooks)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The teenage daughter of Blade who discovered her hereditary Daywalker vampiric powers while growing up in Atlanta, trained by her father' },
+    ],
+  },
+  'Ghost Rider (Alejandra Jones)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A young Nicaraguan woman chosen and trained by Adam to be the new avatar of the Spirit of Vengeance, wielding locust hellfire swarms and a flaming scythe' },
+    ],
+  },
+  'Vengeance (Michael Badilino)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'An elite NYPD Special Tasks lieutenant who made a blood pact with Mephisto to gain the powers of the Spirit of Vengeance, donning a spiked skull and bone motorcycle' },
+    ],
+  },
+  'Black Cat (Felicia Hardy)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The world\'s greatest cat burglar and Spider-Man\'s magnetic partner who was endowed with a subconscious probability \'bad luck\' hex field' },
+    ],
+  },
+  'Silver Sable (Silver Sablinova)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The CEO of Silver Sable International and commander of the Symkarian Wild Pack mercenary force who hunts war criminals across the globe' },
+    ],
+  },
+  'Prowler (Aaron Davis)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The uncle of Miles Morales who operated as the high-tech master thief Prowler before sacrificing himself to protect his nephew across the Spider-Verse' },
+    ],
+  },
+  'Prowler (Hobie Brown)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A brilliant window washer from the Bronx who invented pneumatic wrist-shooters and wall-climbing claw boots, later reforming as a superhero' },
+    ],
+  },
+  'Superior Octopus (Otto Octavius)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Otto Octavius reborn in a perfected genetic proto-clone body combining his genius intellect with eight high-tech nanite tentacles and martial prowess' },
+    ],
+  },
+  'Iron Spider (Amadeus Cho)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The seventh smartest person on Earth who piloted the advanced Stark Iron Spider suit, analyzing battle vectors and firing micro-repulsors' },
+    ],
+  },
+  'Spider-Man (Aaron Aikman)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A molecular biologist of Earth-31411 who underwent a medical cybernetic spider-gene infusion, piloting high-tech cybernetic armor' },
+    ],
+  },
+  'Spider-UK (Malala Windsor)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A young British woman from Earth-834 who took up the mantle of Spider-UK to protect the multiverse with Captain Britain Corps dimensional abilities' },
+    ],
+  },
+  'Deathcry (Sharra Neramani)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A fierce, feathered Shi\'ar avian berserker warrior and niece of Empress Lilandra who was assigned to the Avengers on Earth to atone for bloodshed' },
+    ],
+  },
+  'Swordsman (Andreas von Strucker)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The son of Baron Strucker who grafted his deceased twin sister\'s skin onto the hilt of his sword to channel bio-electric blasts in the Thunderbolts' },
+    ],
+  },
+  'Andrea von Strucker (Fenris)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The mutant daughter of Baron Strucker who, when holding hands with her twin brother Andreas, could fire devastating plasma disintegration blasts' },
+    ],
+  },
+  'Red Widow (Ava Orlova)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A girl rescued from the Russian mob by Black Widow who was abducted into the new Red Room, emerging as the lethal assassin Red Widow for the Winter Guard' },
+    ],
+  },
+  'Ursa Major (Mikhail Uriokovitch)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A Soviet mutant who can transform his body into an enormous 12-foot brown bear with superhuman physical strength and human intelligence' },
+    ],
+  },
+  'Darkstar (Laynia Petrovna)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A Russian mutant who can access the extradimensional Darkforce dimension, generating black-light energy constructs, shields, and teleporting' },
+    ],
+  },
+  'Vanguard (Nikolai Krylenko)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The mutant twin brother of Darkstar who can repel and reflect any kinetic or electromagnetic force directed at him using his hammer and sickle' },
+    ],
+  },
+  'Perun (Slavic God of Thunder)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The ancient Slavic God of Thunder, Lightning, and War who fights for the Russian Winter Guard wielding his electrified battle axe' },
+    ],
+  },
+  'Chernobog (God of Darkness)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The ancient Slavic God of Darkness, Night, and Misfortune who fights alongside Perun in the Winter Guard wielding shadowy scythes' },
+    ],
+  },
+  'Living Mummy (N\'Kantu)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'An ancient North African tribal king who was mummified alive with embalming fluid by Egyptian priests, awaking in modern times with stone-hard wraps' },
+    ],
+  },
+  'Frankenstein\'s Monster (Adam)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The reanimated synthetic titan created by Victor Frankenstein who survived for centuries across Europe, defending monsters alongside Blade' },
+    ],
+  },
+  'Simon Garth (The Zombie)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A New Orleans coffee executive who was murdered and resurrected through the mystical Amulet of Damballah, retaining fragments of his human soul' },
+    ],
+  },
+  'Man-Phibian': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A noble amphibious alien warrior from an extraterrestrial water-world who was trapped in the Florida Everglades, joining the Legion of Monsters' },
+    ],
+  },
+  'Werewolf by Night (Jake Gomez)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A teenage Hopi Native American youth in Arizona who inherited the curse of lycanthropy, transforming to protect his tribe from pharmaceutical cartels' },
+    ],
+  },
+  'Gorilla-Man (Ken Hale)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A soldier of fortune who shot the legendary Gorilla-Man in Kenya, inheriting the immortal gorilla body while keeping his tactical mind' },
+    ],
+  },
+  'Aero (Lei Ling)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A brilliant Shanghai architect who can manipulate air currents on a molecular level, flying across skyscrapers and slicing steel with wind blades' },
+    ],
+  },
+  'Wave (Pearl Pangan)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A swimmer from Cebu in the Philippines who was exposed to experimental biotech runoff, gaining the power to command tidal waves and water' },
+    ],
+  },
+  'Sword Master (Lin Lie)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A descendant of the mythical hero Fu Xi who inherited his ancient demon-slaying sword, later training in K\'un-Lun to become the new Iron Fist' },
+    ],
+  },
+  'Crescent & Io (Dan Bi)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A 10-year-old taekwondo prodigy from Seoul who found an enchanted bear-spirit mask, summoning the giant glowing mythical spirit bear Io' },
+    ],
+  },
+  'Luna Snow (Seol Hee)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A South Korean K-Pop idol superstar who was trapped in an A' },
+    ],
+  },
+  'White Fox (Ami Han)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The last surviving Nine-Tailed Fox (Gumiho) in South Korea who serves as the director of the Tiger Division and premier government operative' },
+    ],
+  },
+  'Brawn (Amadeus Cho - Atlas)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The former Totally Awesome Hulk who mastered his gamma form as Brawn, balancing 8th-level calculation intellect with colossal brawn in Atlas' },
+    ],
+  },
+  'Red Locust (Fernanda - Atlas)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'An Aztec-inspired high-tech vigilante from San Diego who joined the Agents of Atlas and Champions with hydraulic skyscraper leaps' },
+    ],
+  },
+  'Vector (Simon Utrecht - U-Foes)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The ruthless leader of the U-Foes whose telekinetic repulsion fields can deflect laser barrages, flay materials, and levitate entire buildings' },
+    ],
+  },
+  'Vapor (Ann Darnell - U-Foes)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A bio-chemist in the U-Foes whose body permanently exists as a sentient cloud of lethal toxic gases, chlorine, and corrosive sulfuric mist' },
+    ],
+  },
+  'X-Ray (Jimmy Darnell - U-Foes)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A radiation physicist in the U-Foes transformed into a glowing silhouette of pure ionizing radiation, firing hard-light nuclear lasers' },
+    ],
+  },
+  'Ironclad (Mike Steel - U-Foes)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A metallurgist in the U-Foes transformed into living dense organic steel, altering his body mass from buoyant metal to 100-ton crushing weight' },
+    ],
+  },
+  'Dragon Man (Future Foundation)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A synthetic dragon android upgraded with high intellect by Reed Richards, serving as a gentle and brilliant teacher in the Future Foundation' },
+    ],
+  },
+  'Awesome Android (Andy - Paralegal)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A 15-foot synthetic android with unstable molecules who retired from villainy to work as a kind, gentle paralegal at GLK&H law firm' },
+    ],
+  },
+  'Super-Adaptoid (Cosmic Cube)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'An A' },
+    ],
+  },
+  'Bi-Beast (Avian Titan)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A massive two-headed synthetic giant created by an ancient avian race, possessing warfare strategy in one head and culture in the other' },
+    ],
+  },
+  'Madman (Philip Sterns - Gamma)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The brother of the Leader who intentionally injected himself with gamma radiation, developing grotesque shifting super-strength fueled by psychosis' },
+    ],
+  },
+  'Caiera the Oldstrong (Sakaar)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The Shadow warrior of Sakaar who wields the mystical Oldstrong earth-power, becoming the beloved queen of Hulk and mother of Skaar' },
+    ],
+  },
+  'Elloe Kaifi (Warbound)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A fierce Sakaaran gladiator who fought alongside the Hulk in the Great Arena, bringing her resistance swordplay to Earth in World War Hulk' },
+    ],
+  },
+  'Hiroim the Shamed (Warbound)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'A disgraced Shadow Priest of Sakaar who joined the Hulk\'s Warbound gladiators, channeling the Oldstrong geomantic earth-power in combat' },
+    ],
+  },
+  'King Thor (All-Father of the Cosmos)': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'The ancient, battle-worn King Thor who rules Asgard at the end of time, wielding the Odinforce, Mjolnir, and the All-Black Necrosword' },
+    ],
+  },
   'Hyperion (Marcus Milton)': {
     beforeMCU: [],
     mcu: [
@@ -3487,6 +3830,55 @@ export const characterMovieTimeline = {
 
 // Add short MCU event/role for each movie (optional, can be expanded)
 export const movieEvents = {
+  'Daken (Akihiro)': 'The deadly mutant son of Wolverine and Itsu who was raised in Japan, possessing retractable bone claws (including wrist claws) and pheromone manipulation.',
+  'Scout (Gabby Kinney)': 'A genetic clone sister of Laura Kinney (X-23) who feels zero physical pain and fights alongside Laura with cheerful optimism and a pet wolverine named Jonathan.',
+  'Bloodline (Brielle Brooks)': 'The teenage daughter of Blade who discovered her hereditary Daywalker vampiric powers while growing up in Atlanta, trained by her father.',
+  'Ghost Rider (Alejandra Jones)': 'A young Nicaraguan woman chosen and trained by Adam to be the new avatar of the Spirit of Vengeance, wielding locust hellfire swarms and a flaming scythe.',
+  'Vengeance (Michael Badilino)': 'An elite NYPD Special Tasks lieutenant who made a blood pact with Mephisto to gain the powers of the Spirit of Vengeance, donning a spiked skull and bone motorcycle.',
+  'Black Cat (Felicia Hardy)': 'The world’s greatest cat burglar and Spider-Man’s magnetic partner who was endowed with a subconscious probability ’bad luck’ hex field.',
+  'Silver Sable (Silver Sablinova)': 'The CEO of Silver Sable International and commander of the Symkarian Wild Pack mercenary force who hunts war criminals across the globe.',
+  'Prowler (Aaron Davis)': 'The uncle of Miles Morales who operated as the high-tech master thief Prowler before sacrificing himself to protect his nephew across the Spider-Verse.',
+  'Prowler (Hobie Brown)': 'A brilliant window washer from the Bronx who invented pneumatic wrist-shooters and wall-climbing claw boots, later reforming as a superhero.',
+  'Superior Octopus (Otto Octavius)': 'Otto Octavius reborn in a perfected genetic proto-clone body combining his genius intellect with eight high-tech nanite tentacles and martial prowess.',
+  'Iron Spider (Amadeus Cho)': 'The seventh smartest person on Earth who piloted the advanced Stark Iron Spider suit, analyzing battle vectors and firing micro-repulsors.',
+  'Spider-Man (Aaron Aikman)': 'A molecular biologist of Earth-31411 who underwent a medical cybernetic spider-gene infusion, piloting high-tech cybernetic armor.',
+  'Spider-UK (Malala Windsor)': 'A young British woman from Earth-834 who took up the mantle of Spider-UK to protect the multiverse with Captain Britain Corps dimensional abilities.',
+  'Deathcry (Sharra Neramani)': 'A fierce, feathered Shi’ar avian berserker warrior and niece of Empress Lilandra who was assigned to the Avengers on Earth to atone for bloodshed.',
+  'Swordsman (Andreas von Strucker)': 'The son of Baron Strucker who grafted his deceased twin sister’s skin onto the hilt of his sword to channel bio-electric blasts in the Thunderbolts.',
+  'Andrea von Strucker (Fenris)': 'The mutant daughter of Baron Strucker who, when holding hands with her twin brother Andreas, could fire devastating plasma disintegration blasts.',
+  'Red Widow (Ava Orlova)': 'A girl rescued from the Russian mob by Black Widow who was abducted into the new Red Room, emerging as the lethal assassin Red Widow for the Winter Guard.',
+  'Ursa Major (Mikhail Uriokovitch)': 'A Soviet mutant who can transform his body into an enormous 12-foot brown bear with superhuman physical strength and human intelligence.',
+  'Darkstar (Laynia Petrovna)': 'A Russian mutant who can access the extradimensional Darkforce dimension, generating black-light energy constructs, shields, and teleporting.',
+  'Vanguard (Nikolai Krylenko)': 'The mutant twin brother of Darkstar who can repel and reflect any kinetic or electromagnetic force directed at him using his hammer and sickle.',
+  'Perun (Slavic God of Thunder)': 'The ancient Slavic God of Thunder, Lightning, and War who fights for the Russian Winter Guard wielding his electrified battle axe.',
+  'Chernobog (God of Darkness)': 'The ancient Slavic God of Darkness, Night, and Misfortune who fights alongside Perun in the Winter Guard wielding shadowy scythes.',
+  'Living Mummy (N\'Kantu)': 'An ancient North African tribal king who was mummified alive with embalming fluid by Egyptian priests, awaking in modern times with stone-hard wraps.',
+  'Frankenstein\'s Monster (Adam)': 'The reanimated synthetic titan created by Victor Frankenstein who survived for centuries across Europe, defending monsters alongside Blade.',
+  'Simon Garth (The Zombie)': 'A New Orleans coffee executive who was murdered and resurrected through the mystical Amulet of Damballah, retaining fragments of his human soul.',
+  'Man-Phibian': 'A noble amphibious alien warrior from an extraterrestrial water-world who was trapped in the Florida Everglades, joining the Legion of Monsters.',
+  'Werewolf by Night (Jake Gomez)': 'A teenage Hopi Native American youth in Arizona who inherited the curse of lycanthropy, transforming to protect his tribe from pharmaceutical cartels.',
+  'Gorilla-Man (Ken Hale)': 'A soldier of fortune who shot the legendary Gorilla-Man in Kenya, inheriting the immortal gorilla body while keeping his tactical mind.',
+  'Aero (Lei Ling)': 'A brilliant Shanghai architect who can manipulate air currents on a molecular level, flying across skyscrapers and slicing steel with wind blades.',
+  'Wave (Pearl Pangan)': 'A swimmer from Cebu in the Philippines who was exposed to experimental biotech runoff, gaining the power to command tidal waves and water.',
+  'Sword Master (Lin Lie)': 'A descendant of the mythical hero Fu Xi who inherited his ancient demon-slaying sword, later training in K’un-Lun to become the new Iron Fist.',
+  'Crescent & Io (Dan Bi)': 'A 10-year-old taekwondo prodigy from Seoul who found an enchanted bear-spirit mask, summoning the giant glowing mythical spirit bear Io.',
+  'Luna Snow (Seol Hee)': 'A South Korean K-Pop idol superstar who was trapped in an A.',
+  'White Fox (Ami Han)': 'The last surviving Nine-Tailed Fox (Gumiho) in South Korea who serves as the director of the Tiger Division and premier government operative.',
+  'Brawn (Amadeus Cho - Atlas)': 'The former Totally Awesome Hulk who mastered his gamma form as Brawn, balancing 8th-level calculation intellect with colossal brawn in Atlas.',
+  'Red Locust (Fernanda - Atlas)': 'An Aztec-inspired high-tech vigilante from San Diego who joined the Agents of Atlas and Champions with hydraulic skyscraper leaps.',
+  'Vector (Simon Utrecht - U-Foes)': 'The ruthless leader of the U-Foes whose telekinetic repulsion fields can deflect laser barrages, flay materials, and levitate entire buildings.',
+  'Vapor (Ann Darnell - U-Foes)': 'A bio-chemist in the U-Foes whose body permanently exists as a sentient cloud of lethal toxic gases, chlorine, and corrosive sulfuric mist.',
+  'X-Ray (Jimmy Darnell - U-Foes)': 'A radiation physicist in the U-Foes transformed into a glowing silhouette of pure ionizing radiation, firing hard-light nuclear lasers.',
+  'Ironclad (Mike Steel - U-Foes)': 'A metallurgist in the U-Foes transformed into living dense organic steel, altering his body mass from buoyant metal to 100-ton crushing weight.',
+  'Dragon Man (Future Foundation)': 'A synthetic dragon android upgraded with high intellect by Reed Richards, serving as a gentle and brilliant teacher in the Future Foundation.',
+  'Awesome Android (Andy - Paralegal)': 'A 15-foot synthetic android with unstable molecules who retired from villainy to work as a kind, gentle paralegal at GLK&H law firm.',
+  'Super-Adaptoid (Cosmic Cube)': 'An A.',
+  'Bi-Beast (Avian Titan)': 'A massive two-headed synthetic giant created by an ancient avian race, possessing warfare strategy in one head and culture in the other.',
+  'Madman (Philip Sterns - Gamma)': 'The brother of the Leader who intentionally injected himself with gamma radiation, developing grotesque shifting super-strength fueled by psychosis.',
+  'Caiera the Oldstrong (Sakaar)': 'The Shadow warrior of Sakaar who wields the mystical Oldstrong earth-power, becoming the beloved queen of Hulk and mother of Skaar.',
+  'Elloe Kaifi (Warbound)': 'A fierce Sakaaran gladiator who fought alongside the Hulk in the Great Arena, bringing her resistance swordplay to Earth in World War Hulk.',
+  'Hiroim the Shamed (Warbound)': 'A disgraced Shadow Priest of Sakaar who joined the Hulk’s Warbound gladiators, channeling the Oldstrong geomantic earth-power in combat.',
+  'King Thor (All-Father of the Cosmos)': 'The ancient, battle-worn King Thor who rules Asgard at the end of time, wielding the Odinforce, Mjolnir, and the All-Black Necrosword.',
   'Black Knight (Dane Whitman)': 'A physicist who inherited the mystical Ebony Blade from his lineage, Dane Whitman broke his family’s dark curse to become a stalwart swordsman and former chairperson of the Avengers.',
   'Captain Britain (Brian Braddock)': 'Chosen by the wizard Merlyn and Roma at the Otherworld amulet shrine, Brian Braddock is the dimensional guardian of the British Isles and the entire Captain Britain Corps.',
   'Deathlok (Michael Collins)': 'A pacifist computer programmer who discovered Cybertek’s lethal cyborg weapons project and had his brain transplanted into the Deathlok cyborg chassis.',

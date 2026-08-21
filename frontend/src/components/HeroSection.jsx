@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import CharacterInfo from './CharacterInfo';
 import { useColorTheme } from '../ColorThemeContext';
 
-const getCategories = (count = 850) => [
+const getCategories = (count = 900) => [
   { id: 'all', label: `All Heroes (${count})` },
   { id: 'endgame', label: 'Endgame (Battle & Heist)' },
   { id: 'avengers', label: 'Avengers' },
