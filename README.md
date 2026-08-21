@@ -1,24 +1,14 @@
-# Avengers Characters Webpage
+# Avengers & Marvel Characters Explorer (220+ Heroes)
 
-A visually engaging web application showcasing Avengers characters, their movies, and related information. Built with React, Vite, and Tailwind CSS.
-
-## Table of Contents
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Customization](#customization)
-- [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [License](#license)
+A visually stunning web application showcasing 223 Marvel and Avengers characters, X-Men, Spider-Verse heroes, Midnight Sons, and villains with cinematic filmographies, powers, interactive audio/video trailers, and dynamic color themes. Built with React, Vite, Framer Motion, and Tailwind CSS.
 
 ## Features
-- Browse a gallery of Avengers characters with images and details
-- Explore a timeline of Marvel movies
-- Themed UI with color mode support (light/dark mode)
-- Responsive design for all devices
-- Easy customization of character and movie data
+- **220+ Character Roster**: Complete database of Marvel cinematic and comic characters with custom fonts, palettes, and lore
+- **Interactive Filmography Timelines**: Explore movies across MCU and legacy eras with instant YouTube trailer playback
+- **Smart Category Filtering**: Seamlessly filter between Avengers, Endgame heroes, Guardians, X-Men, Villains, and Cosmic legends
+- **Instant Global Search**: Fast fuzzy search across character names, real identities, and superpowers (Ctrl+K or /)
+- **Dynamic Theming**: Color palettes automatically harmonize to the selected character's signature theme
+- **Fully Responsive & Optimized**: Lightning-fast performance on mobile and desktop devices
 
 ## Project Structure
 ```

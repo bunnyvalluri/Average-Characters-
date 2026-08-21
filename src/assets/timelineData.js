@@ -463,6 +463,50 @@ export const moviePosters = {
   'Elektra (2005)': '/elektra.png',
   'Kraven the Hunter': '/kraven.png',
   'Kraven the Hunter (2024)': '/kraven.png',
+  'X-23': '/x-23.png',
+  'Beast': '/beast.png',
+  'Mystique': '/mystique.png',
+  'Iceman': '/iceman.png',
+  'Psylocke': '/psylocke.png',
+  'Domino': '/domino.png',
+  'Bishop': '/bishop.png',
+  'Cassandra Nova': '/cassandra-nova.png',
+  'Silver Samurai': '/silver-samurai.png',
+  'Quake': '/quake.png',
+  'Agents of S.H.I.E.L.D.': '/quake.png',
+  'X-Men: First Class': '/movies/wolverine.jpg',
+  'X-Men: Apocalypse': '/movies/wolverine.jpg',
+  'Spider-Man 2099': '/spiderman-2099.png',
+  'Spider-Punk': '/spider-punk.png',
+  'Spider-Noir': '/spider-noir.png',
+  'Prowler': '/prowler.png',
+  'Black Cat': '/black-cat.png',
+  'Morbius': '/morbius.png',
+  'Morbius (2022)': '/morbius.png',
+  'Scorpion': '/scorpion.png',
+  'Rhino': '/rhino.png',
+  'Chameleon': '/chameleon.png',
+  'Hobgoblin': '/hobgoblin.png',
+  'Doctor Voodoo': '/doctor-voodoo.png',
+  'Man-Thing': '/man-thing.png',
+  'Werewolf by Night': '/werewolf-by-night.png',
+  'Elsa Bloodstone': '/elsa-bloodstone.png',
+  'Black Knight': '/black-knight.png',
+  'Cloak': '/cloak.png',
+  'Dagger': '/dagger.png',
+  'Ghost Rider (Robbie Reyes)': '/robbie-reyes.png',
+  'Patriot': '/patriot.png',
+  'Isaiah Bradley': '/isaiah-bradley.png',
+  'Havok': '/havok.png',
+  'Banshee': '/banshee.png',
+  'Polaris': '/polaris.png',
+  'Shadowcat': '/shadowcat.png',
+  'Sabretooth': '/sabretooth.png',
+  'Pyro': '/pyro.png',
+  'Toad': '/toad.png',
+  'Lady Deathstrike': '/lady-deathstrike.png',
+  'Wonder Man': '/wonder-man.png',
+  'Mephisto': '/mephisto.png',
 };
 
 // Character movie timeline data (character name => { beforeMCU: [], mcu: [] })
@@ -2080,6 +2124,368 @@ export const characterMovieTimeline = {
       { title: 'Avengers: Secret Wars', year: 2027, note: 'Primal predator on Battleworld' },
     ],
   },
+  'X-23': {
+    beforeMCU: [
+      { title: 'Logan', year: 2017, note: 'Young Laura Kinney demonstrates lethal adamantium claws and escapes Transigen with Logan' },
+    ],
+    mcu: [
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Dafne Keen reprises Laura Kinney in the Void resistance, fighting alongside Logan and Deadpool' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Multiversal Wolverine powerhouse in the Battleworld climax' },
+    ],
+  },
+  'Beast': {
+    beforeMCU: [
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Kelsey Grammer portrays Dr. Hank McCoy as Minister of Mutant Affairs fighting at Alcatraz' },
+      { title: 'X-Men: First Class', year: 2011, note: 'Nicholas Hoult develops mutant serums and builds Cerebro and the Blackbird X-Jet' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Aids Charles Xavier through 1973 and battles Sentinels in the dark future' },
+      { title: 'X-Men: Apocalypse', year: 2016, note: 'Pilots the X-Jet and battles Horseman Psylocke in Cairo' },
+      { title: 'X-Men: Dark Phoenix', year: 2019, note: 'Fights to protect mutant students and joins Xavier\'s legacy' },
+    ],
+    mcu: [
+      { title: 'The Marvels', year: 2023, note: 'Kelsey Grammer returns as Dr. Hank McCoy running the X-Mansion medical lab in an alternate reality' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Genius scientist and powerhouse X-Man united against multiversal incursions' },
+    ],
+  },
+  'Mystique': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000, note: 'Rebecca Romijn debuts as Magneto\'s deadly right-hand shapeshifting assassin' },
+      { title: 'X2: X-Men United', year: 2003, note: 'Infiltrates Stryker\'s military base and frees Magneto from plastic prison' },
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Shields Magneto from the mutant cure dart' },
+      { title: 'X-Men: First Class', year: 2011, note: 'Jennifer Lawrence stars as Raven, choosing mutant pride: "Mutant and proud"' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Her pivotal decision at Paris and Washington alters the timeline of the entire world' },
+      { title: 'X-Men: Apocalypse', year: 2016, note: 'Becomes the revered hero of mutant youth and leads the X-Men against Apocalypse' },
+      { title: 'X-Men: Dark Phoenix', year: 2019, note: 'Serves as field commander of the X-Men before her tragic confrontation with Phoenix' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Master of metamorphic espionage and deception on Battleworld' },
+    ],
+  },
+  'Iceman': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000, note: 'Bobby Drake befriends Rogue at Xavier\'s School for Gifted Youngsters' },
+      { title: 'X2: X-Men United', year: 2003, note: 'Freezes incoming police gunfire and creates an ice wall in Boston' },
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Transforms into full organic ice form in a dramatic ice vs. fire showdown with Pyro' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Generates massive ice slides and battles futuristic adaptive Sentinels' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Omega-level cryogenic elemental hero defending the multiverse' },
+    ],
+  },
+  'Psylocke': {
+    beforeMCU: [
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Omega gang member with shadow teleportation abilities' },
+      { title: 'X-Men: Apocalypse', year: 2016, note: 'Olivia Munn portrays Psylocke wielding lethal psionic blades and whip as Horseman of Apocalypse' },
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Mutant combatant in Cassandra Nova\'s Void stronghold' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Psionic ninja warrior channeling psychic katana constructs' },
+    ],
+  },
+  'Domino': {
+    beforeMCU: [
+      { title: 'Deadpool 2', year: 2018, note: 'Zazie Beetz stars as Domino, demonstrating sensational luck powers during the Essex House convoy raid' },
+    ],
+    mcu: [
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Deadpool\'s lucky mercenary teammate referenced across the multiverse' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Probability-manipulating mercenary on Battleworld' },
+    ],
+  },
+  'Bishop': {
+    beforeMCU: [
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Omar Sy portrays Bishop, absorbing Sentinel plasma blasts to charge his heavy rifle and looping time with Shadowcat' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Time-traveling energy-absorbing warrior guarding the multiversal timeline' },
+    ],
+  },
+  'Cassandra Nova': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Emma Corrin portrays the ruthless Void overlord who manipulates minds, controls Alioth, and attempts to wipe out all timelines using the Time Ripper' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Astral psychic conqueror multiversal threat' },
+    ],
+  },
+  'Silver Samurai': {
+    beforeMCU: [
+      { title: 'The Wolverine', year: 2013, note: 'Ichirō Yashida pilots giant electro-adamantium samurai armor to extract Logan\'s immortality healing factor' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Tachyon-katana adamantium warlord across fractured dimensions' },
+    ],
+  },
+  'Quake': {
+    beforeMCU: [
+      { title: 'Agents of S.H.I.E.L.D.', year: 2013, note: 'Chloe Bennet stars as Daisy Johnson / Skye, undergoing Terrigenesis to become the vibrational powerhouse Quake and Director of S.H.I.E.L.D.' },
+    ],
+    mcu: [
+      { title: 'Secret Invasion', year: 2023, note: 'S.H.I.E.L.D. Inhuman operative network connection' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Seismic Inhuman champion fighting on the frontline with the Avengers' },
+    ],
+  },
+  'Spider-Man 2099': {
+    beforeMCU: [
+      { title: 'Spider-Man: Into the Spider-Verse', year: 2018, note: 'Post-credits teaser: Miguel O\'Hara prepares temporal dimensional watch with Lyla' },
+      { title: 'Spider-Man: Across the Spider-Verse', year: 2023, note: 'Oscar Isaac voices Miguel O\'Hara leading the elite multiversal Spider-Society' },
+      { title: 'Spider-Man: Beyond the Spider-Verse', year: 2026, note: 'Navigates the multiversal spider-crisis alongside Miles and Gwen' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Futuristic spider-champion safeguarding the Web of Life and Destiny' },
+    ],
+  },
+  'Spider-Punk': {
+    beforeMCU: [
+      { title: 'Spider-Man: Across the Spider-Verse', year: 2023, note: 'Daniel Kaluuya stars as the guitar-shredding anarchist web-slinger who aids Miles and gives Gwen a multiversal watch' },
+      { title: 'Spider-Man: Beyond the Spider-Verse', year: 2026, note: 'Rebel band member fighting the Spot and multiversal fascism' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Anarchic rock-and-roll spider hero on Battleworld' },
+    ],
+  },
+  'Spider-Noir': {
+    beforeMCU: [
+      { title: 'Spider-Man: Into the Spider-Verse', year: 2018, note: 'Nicolas Cage stars as the hard-boiled 1933 Great Depression detective web-slinger' },
+      { title: 'Spider-Man: Beyond the Spider-Verse', year: 2026, note: 'Rejoins Gwen\'s rescue squad to protect Miles Morales' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Shadow detective fighting crime across multiversal domains' },
+    ],
+  },
+  'Prowler': {
+    beforeMCU: [
+      { title: 'Spider-Man: Into the Spider-Verse', year: 2018, note: 'Uncle Aaron operates as Kingpin\'s lethal enforcer before protecting Miles in Brooklyn' },
+      { title: 'Spider-Man: Across the Spider-Verse', year: 2023, note: 'Encounter with live-action Aaron Davis and Earth-42 alternate Prowler' },
+    ],
+    mcu: [
+      { title: 'Spider-Man: Homecoming', year: 2017, note: 'Donald Glover portrays Aaron Davis advising Spider-Man in Queens' },
+      { title: 'Spider-Man: Across the Spider-Verse', year: 2023, note: 'Live-action cameo in Spider-Society holding cells' },
+    ],
+  },
+  'Black Cat': {
+    beforeMCU: [
+      { title: 'The Amazing Spider-Man 2', year: 2014, note: 'Felicity Jones portrays Felicia, Norman and Harry Osborn\'s executive assistant at Oscorp' },
+    ],
+    mcu: [
+      { title: 'Spider-Man 4', year: 2026, note: 'Felicia Hardy enters Peter Parker\'s street-level crime fighting world in New York' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Probability-shifting burglar on Battleworld' },
+    ],
+  },
+  'Morbius': {
+    beforeMCU: [
+      { title: 'Morbius (2022)', year: 2022, note: 'Jared Leto stars as Dr. Michael Morbius, curing fatal illness and becoming the Living Vampire' },
+    ],
+    mcu: [
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Multiversal rift opening connecting the Sony Marvel universe' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Midnight Sons vampire ally across the Multiverse' },
+    ],
+  },
+  'Scorpion': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Spider-Man: Homecoming', year: 2017, note: 'Michael Mando portrays criminal Mac Gargan, injured on Staten Island Ferry and plotting revenge' },
+      { title: 'Spider-Man 4', year: 2026, note: 'Dons the weaponized cybernetic scorpion battle suit in New York City' },
+    ],
+  },
+  'Rhino': {
+    beforeMCU: [
+      { title: 'The Amazing Spider-Man 2', year: 2014, note: 'Paul Giamatti pilots the mechanized military Rhino walker armor in the streets of New York' },
+      { title: 'Kraven the Hunter (2024)', year: 2024, note: 'Alessandro Nivola transforms into the mutated brute Rhino' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Armored powerhouse juggernaut across fractured timelines' },
+    ],
+  },
+  'Chameleon': {
+    beforeMCU: [
+      { title: 'Kraven the Hunter (2024)', year: 2024, note: 'Fred Hechinger portrays Dmitri Smerdyakov alongside Kraven' },
+    ],
+    mcu: [
+      { title: 'Spider-Man: Far From Home', year: 2019, note: 'Dmitri works covertly within Nick Fury\'s undercover strike team in Europe' },
+      { title: 'Spider-Man 4', year: 2026, note: 'Deploys shape-shifting holographic identity masks in New York' },
+    ],
+  },
+  'Hobgoblin': {
+    beforeMCU: [
+      { title: 'Spider-Man 3', year: 2007, note: 'Harry Osborn assumes the New Goblin mantle with pumpkin bombs and sky-stick' },
+    ],
+    mcu: [
+      { title: 'Spider-Man: No Way Home', year: 2021, note: 'Ned Leeds promises Peter Parker he will never turn into a supervillain' },
+      { title: 'Spider-Man 4', year: 2026, note: 'Roderick Kingsley discovers legacy Osborn goblin tech in Manhattan' },
+    ],
+  },
+  'Doctor Voodoo': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Doctor Strange', year: 2016, note: 'Brother Daniel Drumm defends the New York Sanctum against Kaecilius' },
+      { title: 'Doctor Strange 3', year: 2026, note: 'Jericho Drumm commands Houngan loa spirits alongside Stephen Strange' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Sorcerer Supreme and Mystic Arts master on Battleworld' },
+    ],
+  },
+  'Man-Thing': {
+    beforeMCU: [
+      { title: 'Man-Thing (2005)', year: 2005, note: 'Swamp guardian origin in the Florida Everglades' },
+    ],
+    mcu: [
+      { title: 'Thor: Ragnarok', year: 2017, note: 'Visage sculpted on the Grandmaster\'s gladiator champion tower' },
+      { title: 'Werewolf by Night', year: 2022, note: 'Ted is rescued by Jack Russell and incinerates monster hunters at Bloodstone Manor' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Guardian of the Nexus of All Realities connecting multiversal domains' },
+    ],
+  },
+  'Werewolf by Night': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Werewolf by Night', year: 2022, note: 'Gael García Bernal stars as Jack Russell, infiltrating the monster hunt to free Man-Thing and claiming the Bloodstone' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Midnight Sons frontline lycanthrope champion' },
+    ],
+  },
+  'Elsa Bloodstone': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Werewolf by Night', year: 2022, note: 'Laura Donnelly stars as Elsa Bloodstone, mastering hand-to-hand combat and claiming her ancestral Bloodstone manor' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Monster hunter wielding enchanted Bloodstone arsenal' },
+    ],
+  },
+  'Black Knight': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Eternals', year: 2021, note: 'Kit Harington stars as Dane Whitman, learning of his family ancestry and opening the cursed Ebony Blade case with Blade\'s guidance' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Draws the Ebony Blade to defend Earth against global incursions' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Avenger champion wielding the mystical Ebony Blade' },
+    ],
+  },
+  'Cloak': {
+    beforeMCU: [
+      { title: 'Cloak & Dagger Season 1', year: 2018, note: 'Aubrey Joseph stars as Tyrone Johnson, unlocking darkforce teleportation in New Orleans' },
+      { title: 'Cloak & Dagger Season 2', year: 2019, note: 'Defends New Orleans alongside Tandy Bowen against human trafficking and dark loa' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Darkforce dimension transporter uniting separated heroes' },
+    ],
+  },
+  'Dagger': {
+    beforeMCU: [
+      { title: 'Cloak & Dagger Season 1', year: 2018, note: 'Olivia Holt stars as Tandy Bowen, materializing lethal lightforce daggers to protect innocents' },
+      { title: 'Cloak & Dagger Season 2', year: 2019, note: 'Masters light constructs and biological detox healing' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Lightforce warrior purging dark corruption on Battleworld' },
+    ],
+  },
+  'Ghost Rider (Robbie Reyes)': {
+    beforeMCU: [
+      { title: 'Agents of S.H.I.E.L.D.', year: 2016, note: 'Gabriel Luna stars as Robbie Reyes, driving the blazing Hell Charger and executing dark magic ghosts and Aida' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'All-Rider blazing through multiversal domains with Hell Charger fury' },
+    ],
+  },
+  'Patriot': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'The Falcon and the Winter Soldier', year: 2021, note: 'Elijah Richardson portrays Eli Bradley supporting his grandfather Isaiah in Baltimore' },
+      { title: 'Captain America: Brave New World', year: 2025, note: 'Stands up to defend Isaiah Bradley and takes steps toward the Patriot mantle' },
+      { title: 'Young Avengers', year: 2026, note: 'Founding member of the Young Avengers with super-soldier valor' },
+    ],
+  },
+  'Isaiah Bradley': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'The Falcon and the Winter Soldier', year: 2021, note: 'Carl Lumbly stars as the forgotten Korean War super-soldier honored at the Smithsonian' },
+      { title: 'Captain America: Brave New World', year: 2025, note: 'Targeted in an international political conspiracy, fighting with veteran super-soldier fury' },
+    ],
+  },
+  'Havok': {
+    beforeMCU: [
+      { title: 'X-Men: First Class', year: 2011, note: 'Lucas Till debuts as Alex Summers, learning to aim his cosmic plasma rings with Xavier\'s guidance' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Serves in the Vietnam mutant military squad rescued by Mystique' },
+      { title: 'X-Men: Apocalypse', year: 2016, note: 'Brings younger brother Scott to Xavier\'s school and sacrifices his life defending students' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Cosmic plasma energy powerhouse on Battleworld' },
+    ],
+  },
+  'Banshee': {
+    beforeMCU: [
+      { title: 'X-Men: First Class', year: 2011, note: 'Caleb Landry Jones stars as Sean Cassidy, mastering supersonic flight and acoustic sonar combat over Cuba' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Supersonic acoustic aerial striker across fractured worlds' },
+    ],
+  },
+  'Polaris': {
+    beforeMCU: [
+      { title: 'The Gifted', year: 2017, note: 'Emma Dumont stars as Lorna Dane, leading the Mutant Underground with fierce magnetic powers' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Mistress of Magnetism commanding electromagnetic shields on Battleworld' },
+    ],
+  },
+  'Shadowcat': {
+    beforeMCU: [
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Elliot Page portrays Kitty Pryde, phasing through walls to outsmart Juggernaut at Alcatraz' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Projects Wolverine\'s consciousness 50 years into the past to save all mutantkind' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Phase-shifting temporal ninja and senior X-Man' },
+    ],
+  },
+  'Sabretooth': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000, note: 'Tyler Mane portrays the feral Brotherhood brute clashing with Wolverine in snowy Canada and the Statue of Liberty' },
+      { title: 'X-Men Origins: Wolverine', year: 2009, note: 'Liev Schreiber stars as Victor Creed, hunting mutant comrades through centuries of war' },
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Tyler Mane returns for a visceral wasteland rematch against Hugh Jackman\'s Wolverine' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Feral apex predator fighting across Battleworld' },
+    ],
+  },
+  'Pyro': {
+    beforeMCU: [
+      { title: 'X2: X-Men United', year: 2003, note: 'Aaron Stanford portrays St. John Allerdyce, incinerating police vehicles in Boston and joining Magneto' },
+      { title: 'X-Men: The Last Stand', year: 2006, note: 'Leads Brotherhood fire assaults at Alcatraz against Iceman' },
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Aaron Stanford returns as Cassandra Nova\'s enforcer and secret TVA double agent in the Void' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Pyrokinesis flame manipulator in multiversal battlefields' },
+    ],
+  },
+  'Toad': {
+    beforeMCU: [
+      { title: 'X-Men', year: 2000, note: 'Ray Park stars as Toad, utilizing acrobatic martial arts and prehensile tongue at the Statue of Liberty' },
+      { title: 'X-Men: Days of Future Past', year: 2014, note: 'Rescued in Vietnam alongside Havok by Mystique' },
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Ray Park\'s Toad fights in Cassandra Nova\'s Void compound' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Acrobatic batrachian mutant warrior on Battleworld' },
+    ],
+  },
+  'Lady Deathstrike': {
+    beforeMCU: [
+      { title: 'X2: X-Men United', year: 2003, note: 'Kelly Hu stars as Yuriko Oyama, engaging Wolverine in an iconic adamantium claw duel at Alkali Lake' },
+      { title: 'Deadpool & Wolverine', year: 2024, note: 'Adamantium claw assassin in the Void wasteland alliance' },
+    ],
+    mcu: [
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Lethal adamantium-fingered cyborg warrior' },
+    ],
+  },
+  'Wonder Man': {
+    beforeMCU: [],
+    mcu: [
+      { title: 'Wonder Man', year: 2025, note: 'Yahya Abdul-Mateen II stars as Simon Williams, Hollywood actor and stuntman endowed with godlike ionic superpowers' },
+      { title: 'Avengers: Doomsday', year: 2026, note: 'Ionic powerhouse joins Earth\'s Mightiest Heroes against Doctor Doom' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Immortal ionic force Avenger on Battleworld' },
+    ],
+  },
+  'Mephisto': {
+    beforeMCU: [
+      { title: 'Ghost Rider', year: 2007, note: 'Peter Fonda portrays Mephistopheles, forging the contract with Johnny Blaze' },
+      { title: 'Ghost Rider: Spirit of Vengeance', year: 2011, note: 'Ciarán Hinds portrays the devil Roarke seeking a mortal vessel' },
+    ],
+    mcu: [
+      { title: 'Agatha All Along', year: 2024, note: 'Demonic architect referenced by the Salem coven and dark sorcerers' },
+      { title: 'Ironheart', year: 2025, note: 'Sacha Baron Cohen stars as the demonic Lord of Hell corrupting tech and magic' },
+      { title: 'Avengers: Secret Wars', year: 2027, note: 'Netherworld arch-demon orchestrating multiversal soul pacts' },
+    ],
+  },
 };
 
 // Add short MCU event/role for each movie (optional, can be expanded)
@@ -2335,6 +2741,49 @@ export const movieEvents = {
   'Elektra (2005)': 'Elektra defends innocent lives against mystical Hand assassins in a fierce battle of honor.',
   'Kraven the Hunter': 'Sergei Kravinoff stalks his prey as an unstoppable apex hunter with superhuman feral ferocity.',
   'Kraven the Hunter (2024)': 'Sergei Kravinoff is transformed into an apex predator who embraces his savage connection with nature.',
+  'X-23': 'Laura Kinney slashes through enemy forces with adamantium claws, honoring Logan’s legacy.',
+  'Beast': 'Dr. Hank McCoy provides world-class genetic science and ferocious beastly strength to mutantkind.',
+  'Mystique': 'Raven Darkhölme shifts cellular structure to outmaneuver global powers and defend mutants.',
+  'Iceman': 'Bobby Drake turns into absolute zero crystalline ice, sliding across sweeping cryogenic frost ramps.',
+  'Psylocke': 'Betsy Braddock manifests glowing purple psionic katanas, executing lethal psychic ninja strikes.',
+  'Domino': 'Neena Thurman bends probability in her favor with sensational, unstoppable mercenary luck.',
+  'Bishop': 'Lucas Bishop absorbs pure kinetic and thermal energy to fire supercharged concussive plasma blasts.',
+  'Cassandra Nova': 'Cassandra Nova dominates the Void with ruthless telepathic mind control and matter phasing.',
+  'Silver Samurai': 'Silver Samurai charges dual katanas with superheated tachyon energy in adamantium armor.',
+  'Quake': 'Daisy Johnson channels seismic shockwaves through vibration gauntlets to shake the earth.',
+  'Agents of S.H.I.E.L.D.': 'Daisy Johnson leads S.H.I.E.L.D. and the Secret Warriors against global and cosmic threats.',
+  'X-Men: First Class': 'Charles Xavier and Erik Lehnsherr assemble the first generation of mutant defenders during the Cold War.',
+  'Spider-Man 2099': 'Miguel O’Hara commands the multiversal Spider-Society from Nueva York 2099 to protect the Web of Life.',
+  'Spider-Punk': 'Hobie Brown shreds on electric guitar to weaponize sonic distortion and smash multiversal authority.',
+  'Spider-Noir': 'Peter Parker operates in 1933 Great Depression shadows, dispensing noir justice with dual revolvers.',
+  'Prowler': 'Aaron Davis deploys high-tech pneumatic claws and glider wings across New York and the multiverse.',
+  'Black Cat': 'Felicia Hardy executes acrobatic jewel heists and brings bad-luck probability shifts to enemies.',
+  'Morbius': 'Dr. Michael Morbius stalks the night as the Living Vampire with ultrasonic flight and feral bloodlust.',
+  'Morbius (2022)': 'Dr. Michael Morbius uses transgenic bat serum to gain vampiric powers while fighting Milo in NYC.',
+  'Scorpion': 'Mac Gargan strikes targets with his cybernetic stinger tail, firing acid and concussive plasma blasts.',
+  'Rhino': 'Aleksei Sytsevich charges forward with unstoppable kinetic mass in bulletproof polymer rhino armor.',
+  'Chameleon': 'Dmitri Smerdyakov impersonates allies and enemies with holographic mask technology to sow chaos.',
+  'Hobgoblin': 'Roderick Kingsley reigns terror from his flaming glider with refined goblin strength and pumpkin bombs.',
+  'Doctor Voodoo': 'Jericho Drumm channels ancient loa spirits and Voodoo mysticism as a Master of the Mystic Arts.',
+  'Man-Thing': 'Ted Sallis guards the Nexus of All Realities in the Everglades, burning all who know fear.',
+  'Werewolf by Night': 'Jack Russell transforms into a terrifyingly agile lycanthrope to defend monsters and innocents.',
+  'Elsa Bloodstone': 'Elsa Bloodstone wields her glowing Bloodstone choker and customized guns to hunt supernatural evil.',
+  'Black Knight': 'Dane Whitman draws the legendary cursed Ebony Blade to cut through mystical and physical barriers.',
+  'Cloak': 'Tyrone Johnson teleports across dimensions and engulfs foes within the freezing Darkforce void.',
+  'Dagger': 'Tandy Bowen projects pure crystallized lightforce daggers to purge corruption and heal allies.',
+  'Ghost Rider (Robbie Reyes)': 'Robbie Reyes scorches the asphalt with his 1969 Hell Charger and chains of demonic hellfire.',
+  'Patriot': 'Eli Bradley carries forward his family’s super-soldier valor as a leader of the Young Avengers.',
+  'Isaiah Bradley': 'Isaiah Bradley fights with legendary super-soldier courage as the forgotten hero of history.',
+  'Havok': 'Alex Summers absorbs cosmic radiation to unleash devastating concentric rings of superheated plasma.',
+  'Banshee': 'Sean Cassidy glides through the skies and shatters steel with high-frequency acoustic sonic screams.',
+  'Polaris': 'Lorna Dane commands planetary magnetic force fields and metallic currents as the Mistress of Magnetism.',
+  'Shadowcat': 'Kitty Pryde phases through solid matter and projects human consciousness across temporal timelines.',
+  'Sabretooth': 'Victor Creed hunts with primal savagery, razor-sharp fangs, and a lethal healing factor.',
+  'Pyro': 'St. John Allerdyce manipulates active flames into colossal blazing fire dragons and infernos.',
+  'Toad': 'Mortimer Toynbee strikes from shadows with his 13-foot prehensile tongue and batrachian leaping agility.',
+  'Lady Deathstrike': 'Yuriko Oyama slices through targets with ten 12-inch retractable adamantium finger claws.',
+  'Wonder Man': 'Simon Williams channels pure living ionic energy with Class 100+ godlike strength and invulnerability.',
+  'Mephisto': 'Mephisto bargains for mortal souls from his fiery Netherworld domain, corrupting heroes and timelines.',
 };
 
 export const mcuMoviesCatalog = [

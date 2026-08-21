@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import CharacterInfo from './CharacterInfo';
 import { useColorTheme } from '../ColorThemeContext';
 
-const getCategories = (count = 183) => [
+const getCategories = (count = 223) => [
   { id: 'all', label: `All Heroes (${count})` },
   { id: 'endgame', label: 'Endgame (Battle & Heist)' },
   { id: 'avengers', label: 'Avengers' },
@@ -59,7 +59,12 @@ const getCategoryForCharacter = (char) => {
     name.includes('ebony maw') || name.includes('cull obsidian') || name.includes('proxima midnight') ||
     name.includes('corvus glaive') || name.includes('alexander pierce') || name.includes('akihiko') ||
     name.includes('jasper sitwell') || name.includes('justin hammer') || name.includes('carnage') ||
-    name.includes('juggernaut') || name.includes('bullseye') || name.includes('kraven')
+    name.includes('juggernaut') || name.includes('bullseye') || name.includes('kraven') ||
+    name.includes('cassandra nova') || name.includes('silver samurai') || name.includes('prowler') ||
+    name.includes('morbius') || name.includes('scorpion') || name.includes('rhino') ||
+    name.includes('chameleon') || name.includes('hobgoblin') || name.includes('sabretooth') ||
+    name.includes('pyro') || name.includes('toad') || name.includes('lady deathstrike') ||
+    name.includes('mephisto')
   ) {
     return 'villains';
   }
@@ -78,7 +83,11 @@ const getCategoryForCharacter = (char) => {
     name.includes('storm') || name.includes('jean grey') || name.includes('professor x') ||
     name.includes('magneto') || name.includes('rogue') || name.includes('gambit') ||
     name.includes('colossus') || name.includes('cable') || name.includes('nightcrawler') ||
-    desc.includes('mutant')
+    name.includes('x-23') || name.includes('beast') || name.includes('mystique') ||
+    name.includes('iceman') || name.includes('psylocke') || name.includes('domino') ||
+    name.includes('bishop') || name.includes('havok') || name.includes('banshee') ||
+    name.includes('polaris') || name.includes('shadowcat') || desc.includes('mutant') ||
+    desc.includes('x-man') || desc.includes('x-men')
   ) {
     return 'xmen';
   }
@@ -89,7 +98,9 @@ const getCategoryForCharacter = (char) => {
     name.includes('druig') || name.includes('phastos') || name.includes('kingo') ||
     name.includes('ajak') || name.includes('gilgamesh') || name.includes('silver surfer') ||
     name.includes('ego') || name.includes('clea') || name.includes('america chavez') ||
-    name.includes('galactus') || name.includes('beta ray bill') || name.includes('nova')
+    name.includes('galactus') || name.includes('beta ray bill') || name.includes('nova') ||
+    name.includes('2099') || name.includes('spider-punk') || name.includes('spider-noir') ||
+    name.includes('man-thing')
   ) {
     return 'cosmic';
   }
