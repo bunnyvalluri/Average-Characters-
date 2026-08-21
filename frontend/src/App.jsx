@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Timeline from './components/Timeline';
 import Movies from './components/Movies';
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 import characters from './assets/characters';
 
 function Home() {
@@ -16,6 +16,11 @@ function Home() {
   const heroRef = useRef(null);
   const timelineRef = useRef(null);
   const moviesRef = useRef(null);
+
+  // Ensure scroll is at top on mount so character image is visible first
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Smooth scroll handlers
   const scrollToTop = useCallback(() => {
@@ -43,7 +48,7 @@ function Home() {
     );
     if (index !== -1) {
       setCurrentCharacterIdx(index);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: 'instant' });
     }
   }, []);
 
@@ -55,7 +60,7 @@ function Home() {
         onMoviesClick={scrollToMovies}
         onSearchCharacter={handleSearchCharacter}
       />
-      <main className="pt-20 sm:pt-24 md:pt-28 w-full flex-1 flex flex-col">
+      <main className="pt-16 sm:pt-18 md:pt-20 w-full flex-1 flex flex-col">
         <div ref={heroRef} />
         <HeroSection
           currentCharacter={currentCharacter}

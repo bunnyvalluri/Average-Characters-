@@ -2,7 +2,7 @@
 import { memo } from 'react';
 import { motion } from 'framer-motion';
 
-const CharacterInfo = ({ character }) => {
+const CharacterInfo = ({ character, onWatchTrailer }) => {
   if (!character) return null;
 
   const scrollToTimeline = (e) => {
@@ -16,21 +16,43 @@ const CharacterInfo = ({ character }) => {
   return (
     <motion.div
       key={character.id}
-      initial={{ opacity: 0, x: 20 }}
+      initial={{ opacity: 0, x: 15 }}
       animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.3, ease: [0.25, 1, 0.5, 1] }}
+      transition={{ duration: 0.25, ease: [0.25, 1, 0.5, 1] }}
       className="w-full max-w-xl space-y-3 sm:space-y-4 px-2 sm:px-4 text-center sm:text-left flex flex-col items-center sm:items-start"
     >
-      {/* Identity Badges */}
-      <div className="flex items-center gap-2 flex-wrap justify-center sm:justify-start">
-        <span className="bg-white/10 text-white text-[11px] font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full border border-white/20">
-          Marvel Character
-        </span>
-        {character.id && (
-          <span className="bg-black/40 text-gray-300 text-[11px] font-mono font-medium px-2 py-0.5 rounded-md border border-white/10">
-            ID #{String(character.id).padStart(3, '0')}
-          </span>
+      {/* Identity Badges & Hero Mini-Portrait */}
+      <div className="flex items-center gap-3 w-full justify-center sm:justify-start">
+        {character.photo && (
+          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-black/40 border border-white/30 p-1 flex-shrink-0 shadow-lg flex items-center justify-center overflow-hidden">
+            <img
+              src={character.photo}
+              alt={character.name}
+              className="w-full h-full object-contain filter drop-shadow"
+              onError={(e) => {
+                if (e.target.src !== window.location.origin + '/marvel.png') {
+                  e.target.src = '/marvel.png';
+                }
+              }}
+            />
+          </div>
         )}
+        <div className="flex flex-col items-center sm:items-start gap-1">
+          <div className="flex items-center gap-1.5 flex-wrap justify-center sm:justify-start">
+            <span className="bg-white/10 text-white text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full border border-white/20">
+              Marvel Character
+            </span>
+            {character.id && (
+              <span className="bg-black/40 text-gray-300 text-[10px] font-mono font-medium px-2 py-0.5 rounded-md border border-white/10">
+                ID #{String(character.id).padStart(4, '0')}
+              </span>
+            )}
+            <span className="bg-red-600/80 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border border-red-500/40 flex items-center gap-1 shadow-sm">
+              <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
+              HD Trailer Ready
+            </span>
+          </div>
+        </div>
       </div>
 
       {/* Main Name */}
@@ -83,15 +105,31 @@ const CharacterInfo = ({ character }) => {
         )}
       </div>
 
-      {/* Jump to Timeline Action */}
-      <div className="pt-2 flex items-center gap-3">
+      {/* Interactive Actions: Watch Trailer & View Film Timeline */}
+      <div className="pt-2 flex flex-wrap items-center justify-center sm:justify-start gap-3">
+        {/* Watch Character Trailer Button */}
+        <button
+          type="button"
+          onClick={() => onWatchTrailer && onWatchTrailer(character)}
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-red-600 via-rose-600 to-red-700 text-white font-bold text-xs sm:text-sm uppercase tracking-wider hover:from-red-500 hover:to-rose-600 active:scale-95 transition-all shadow-lg hover:shadow-red-600/40 cursor-pointer border border-red-400/30 group"
+          id="character-trailer-btn"
+        >
+          <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+            <svg className="w-3 h-3 text-white fill-current ml-0.5" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+          </div>
+          <span>Watch Official Trailer</span>
+        </button>
+
+        {/* Jump to Timeline Action */}
         <a
           href="#timeline-section"
           onClick={scrollToTimeline}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white text-black font-semibold text-xs sm:text-sm uppercase tracking-wider hover:bg-gray-200 active:scale-95 transition-all shadow-lg"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white font-semibold text-xs sm:text-sm uppercase tracking-wider active:scale-95 transition-all border border-white/20 shadow-md backdrop-blur-sm"
         >
           <span>View Film Timeline</span>
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-4 h-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </a>
