@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import CharacterInfo from './CharacterInfo';
 import { useColorTheme } from '../ColorThemeContext';
 
-const getCategories = (count = 223) => [
+const getCategories = (count = 323) => [
   { id: 'all', label: `All Heroes (${count})` },
   { id: 'endgame', label: 'Endgame (Battle & Heist)' },
   { id: 'avengers', label: 'Avengers' },
@@ -64,7 +64,14 @@ const getCategoryForCharacter = (char) => {
     name.includes('morbius') || name.includes('scorpion') || name.includes('rhino') ||
     name.includes('chameleon') || name.includes('hobgoblin') || name.includes('sabretooth') ||
     name.includes('pyro') || name.includes('toad') || name.includes('lady deathstrike') ||
-    name.includes('mephisto')
+    name.includes('mephisto') || name.includes('the spot') || name.includes('shocker') ||
+    name.includes('tombstone') || name.includes('hydro-man') || name.includes('omega red') ||
+    name.includes('sebastian shaw') || name.includes('blob') || name.includes('avalanche') ||
+    name.includes('apocalypse') || name.includes('mister sinister') || name.includes('baron strucker') ||
+    name.includes('madame hydra') || name.includes('knull') || name.includes('annihilus') ||
+    name.includes('the leader') || name.includes('typhoid mary') || name.includes('deacon frost') ||
+    name.includes('dracula') || name.includes('toxin') || name.includes('moonstone') ||
+    name.includes('crimson dynamo')
   ) {
     return 'villains';
   }
@@ -86,8 +93,15 @@ const getCategoryForCharacter = (char) => {
     name.includes('x-23') || name.includes('beast') || name.includes('mystique') ||
     name.includes('iceman') || name.includes('psylocke') || name.includes('domino') ||
     name.includes('bishop') || name.includes('havok') || name.includes('banshee') ||
-    name.includes('polaris') || name.includes('shadowcat') || desc.includes('mutant') ||
-    desc.includes('x-man') || desc.includes('x-men')
+    name.includes('polaris') || name.includes('shadowcat') || name.includes('emma frost') ||
+    name.includes('magik') || name.includes('jubilee') || name.includes('sunspot') ||
+    name.includes('cannonball') || name.includes('mirage') || name.includes('wolfsbane') ||
+    name.includes('warlock') || name.includes('forge') || name.includes('dazzler') ||
+    name.includes('longshot') || name.includes('legion') || name.includes('hope summers') ||
+    name.includes('x-man') || name.includes('destiny') || name.includes('callisto') ||
+    name.includes('warpath') || name.includes('sunfire') || name.includes('armor') ||
+    desc.includes('mutant') || desc.includes('x-man') || desc.includes('x-men') ||
+    desc.includes('krakoa') || desc.includes('new mutant')
   ) {
     return 'xmen';
   }
@@ -100,7 +114,13 @@ const getCategoryForCharacter = (char) => {
     name.includes('ego') || name.includes('clea') || name.includes('america chavez') ||
     name.includes('galactus') || name.includes('beta ray bill') || name.includes('nova') ||
     name.includes('2099') || name.includes('spider-punk') || name.includes('spider-noir') ||
-    name.includes('man-thing')
+    name.includes('man-thing') || name.includes('the living tribunal') || name.includes('eternity') ||
+    name.includes('the beyonder') || name.includes('arishem') || name.includes('eson') ||
+    name.includes('gladiator') || name.includes('super-skrull') || name.includes('quasar') ||
+    name.includes('phyla-vell') || name.includes('moondragon') || name.includes('genis-vell') ||
+    name.includes('infinity') || name.includes('annihilus') || name.includes('captain mar-vell') ||
+    name.includes('bug') || name.includes('love') || name.includes('knull') ||
+    name.includes('death')
   ) {
     return 'cosmic';
   }
