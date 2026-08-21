@@ -204,15 +204,15 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
           <div ref={searchContainerRef} className="relative font-sans">
             <form
               onSubmit={handleSearchSubmit}
-              className="flex items-center bg-white/10 hover:bg-white/15 focus-within:bg-black/90 px-3.5 py-1.5 rounded-full border border-white/25 focus-within:border-white/60 focus-within:ring-2 focus-within:ring-white/20 transition-all duration-200 w-56 lg:w-72 shadow-inner"
+              className="flex items-center bg-black/80 hover:bg-black/95 focus-within:bg-black px-4 py-2 rounded-full border-2 border-white/40 focus-within:border-white focus-within:ring-2 focus-within:ring-white/30 transition-all duration-200 w-64 lg:w-80 shadow-2xl"
             >
-              <svg className="w-4 h-4 text-gray-300 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-4 h-4 text-white mr-2.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
               <input
                 ref={searchInputRef}
                 type="text"
-                placeholder={`Search 1000 heroes (Ctrl+K)...`}
+                placeholder="Search 1000 Marvel Heroes (Ctrl+K)..."
                 value={searchTerm}
                 onChange={(e) => {
                   setSearchTerm(e.target.value);
@@ -220,13 +220,13 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
                 }}
                 onFocus={() => setIsSearchOpen(true)}
                 onKeyDown={handleSearchKeyDown}
-                className="w-full bg-transparent text-white placeholder-gray-400 outline-none text-xs sm:text-sm font-normal"
+                className="w-full bg-transparent text-white placeholder-gray-200 font-medium outline-none text-xs sm:text-sm"
               />
               {searchTerm && (
                 <button
                   type="button"
                   onClick={() => { setSearchTerm(''); searchInputRef.current?.focus(); }}
-                  className="text-gray-400 hover:text-white text-xs p-1 focus:outline-none cursor-pointer"
+                  className="text-gray-300 hover:text-white text-xs p-1 focus:outline-none cursor-pointer"
                 >
                   ✕
                 </button>
@@ -319,9 +319,9 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
             <div className="w-full font-sans">
               <form
                 onSubmit={handleSearchSubmit}
-                className="flex items-center bg-white/10 px-4 py-3 rounded-full border border-white/25 w-full shadow-lg"
+                className="flex items-center bg-black/90 px-4 py-3 rounded-full border-2 border-white/50 w-full shadow-2xl"
               >
-                <svg className="w-5 h-5 text-gray-300 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-white mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
                 <input
@@ -330,7 +330,7 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
                   placeholder="Search 1000 Marvel Heroes..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full bg-transparent text-white placeholder-gray-400 outline-none text-base font-normal"
+                  className="w-full bg-transparent text-white placeholder-gray-200 font-medium outline-none text-base"
                 />
               </form>
 

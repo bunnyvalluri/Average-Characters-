@@ -93,18 +93,18 @@ const Movies = () => {
         </div>
 
         {/* Live Movie Search */}
-        <div className="w-full md:w-64 relative">
+        <div className="w-full md:w-72 relative">
           <input
             type="text"
             placeholder="Search movie or hero..."
             value={movieQuery}
             onChange={(e) => setMovieQuery(e.target.value)}
-            className="w-full bg-black/40 border border-white/20 focus:border-white/50 text-white placeholder-gray-400 text-xs sm:text-sm rounded-full px-4 py-2 outline-none backdrop-blur-md transition-all shadow-inner"
+            className="w-full bg-black/80 border-2 border-white/40 focus:border-white text-white placeholder-gray-200 font-medium text-xs sm:text-sm rounded-full px-4 py-2 outline-none backdrop-blur-md transition-all shadow-xl"
           />
           {movieQuery && (
             <button
               onClick={() => setMovieQuery('')}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white text-xs"
+              className="absolute right-3.5 top-1/2 -translate-y-1/2 text-gray-300 hover:text-white text-xs cursor-pointer"
             >
               ✕
             </button>
