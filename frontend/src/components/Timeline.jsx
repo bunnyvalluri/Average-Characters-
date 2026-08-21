@@ -2,10 +2,10 @@
 import React, { memo, useState, useEffect, useCallback } from 'react';
 import { moviePosters, characterMovieTimeline, movieEvents, movieTrailers } from '../assets/timelineData';
 
-const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamily, onPlayTrailer }) => {
+const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamily, onPlayTrailer, defaultTrailerId }) => {
   const posterSrc = moviePosters[movie.title] || '/avengers.png';
   const eventDesc = movieEvents[movie.title];
-  const trailerId = movieTrailers[movie.title];
+  const trailerId = movieTrailers[movie.title] || defaultTrailerId || 'TcMBFSGVi1c';
 
   return (
     <div className="w-full relative mb-8 sm:mb-12">
@@ -321,6 +321,7 @@ const Timeline = ({ character }) => {
                     color={color}
                     fontFamily={fontFamily}
                     onPlayTrailer={handlePlayTrailer}
+                    defaultTrailerId={character?.trailerId}
                   />
                 ))}
               </div>
@@ -351,6 +352,7 @@ const Timeline = ({ character }) => {
                     color={color}
                     fontFamily={fontFamily}
                     onPlayTrailer={handlePlayTrailer}
+                    defaultTrailerId={character?.trailerId}
                   />
                 ))}
               </div>

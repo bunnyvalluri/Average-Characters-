@@ -291,13 +291,13 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         <span className="w-1/3 truncate text-right opacity-30">{nextChar.name}</span>
       </div>
 
-      {/* Main Character Stage Row (Responsive Split: Character Image Front-and-Center) */}
-      <div className="flex flex-col md:flex-row items-center justify-between w-full z-10 gap-4 sm:gap-6 md:gap-8 lg:gap-12 min-h-[460px] sm:min-h-[520px]">
+      {/* Main Character Stage Row */}
+      <div className="flex flex-col lg:flex-row items-center justify-between w-full z-10 gap-4 sm:gap-6 md:gap-8 lg:gap-12 min-h-[460px] sm:min-h-[520px]">
         {/* Desktop Left Nav Button */}
-        <div className="hidden md:flex items-center justify-center flex-shrink-0">
+        <div className="hidden lg:flex items-center justify-center flex-shrink-0">
           <button
             onClick={handlePrevCharacter}
-            className="group flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/15 hover:bg-white/25 active:scale-90 border border-white/30 text-white text-2xl transition-all duration-200 backdrop-blur-md shadow-2xl hover:border-white/50 cursor-pointer"
+            className="group flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/10 hover:bg-white/20 active:scale-90 border border-white/20 text-white text-2xl transition-all duration-200 backdrop-blur-md shadow-2xl hover:border-white/40 cursor-pointer"
             aria-label="Previous character"
             title="Previous (or press Left Arrow)"
           >
@@ -307,62 +307,56 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
           </button>
         </div>
 
-        {/* Character Image Display Stage (Visually Prominent & Guaranteed 100% Sized) */}
-        <div className="relative flex flex-col items-center justify-center w-full md:w-1/2 order-1 md:order-1 flex-shrink-0">
+        {/* Character Image Display Stage */}
+        <div className="relative flex flex-col items-center justify-center w-full lg:w-1/2">
           {/* Hero Counter Badge */}
-          <div className="mb-2 sm:mb-3 flex items-center gap-2 bg-black/50 border border-white/20 px-3.5 py-1 rounded-full backdrop-blur-md shadow-lg text-xs font-bold text-gray-200">
+          <div className="mb-2 flex items-center gap-2 bg-black/40 border border-white/15 px-3 py-1 rounded-full backdrop-blur-md shadow-md text-xs font-semibold text-gray-300">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
             <span>Character #{currentCharacter.id} of {characters.length}</span>
           </div>
 
-          <div className="relative flex justify-center items-center w-full min-h-[320px] sm:min-h-[420px] md:min-h-[480px] lg:min-h-[560px] h-[45vh] sm:h-[50vh] md:h-[55vh] lg:h-[60vh] max-h-[600px] overflow-visible">
-            {/* Instant High-Priority Character Portrait */}
+          <div className="relative flex justify-center items-center w-full h-[36vh] sm:h-[46vh] md:h-[50vh] lg:h-[58vh] max-h-[520px]">
             <motion.div
               key={currentCharacter.id}
-              initial={{ opacity: 0.85, scale: 0.98 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.12, ease: 'easeOut' }}
-              className="relative h-full w-full flex items-center justify-center overflow-visible"
+              initial={{ opacity: 0, scale: 0.96, y: 10 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ duration: 0.22, ease: [0.25, 1, 0.5, 1] }}
+              className="relative h-full w-full flex items-center justify-center"
             >
               <img
                 src={currentCharacter.photo}
                 alt={currentCharacter.name}
-                loading="eager"
-                decoding="sync"
+                decoding="async"
                 fetchPriority="high"
                 onError={(e) => {
                   if (e.target.src !== window.location.origin + '/marvel.png') {
                     e.target.src = '/marvel.png';
                   }
                 }}
-                style={{
-                  minHeight: '260px',
-                  maxHeight: '560px'
-                }}
-                className="h-full w-auto max-w-[92vw] sm:max-w-full object-contain filter drop-shadow-[0_20px_35px_rgba(0,0,0,0.85)] select-none transition-transform duration-200 hover:scale-[1.04]"
+                className="h-full w-auto max-h-full max-w-full object-contain filter drop-shadow-[0_20px_35px_rgba(0,0,0,0.7)] select-none transition-transform duration-300 hover:scale-[1.03]"
               />
             </motion.div>
 
-            {/* Mobile Touch Quick Arrows directly on Image Stage */}
-            <div className="md:hidden absolute inset-y-0 left-0 flex items-center pl-1 z-20 pointer-events-auto">
+            {/* Mobile Touch Quick Arrows */}
+            <div className="lg:hidden absolute inset-y-0 left-0 flex items-center pl-1 z-20 pointer-events-auto">
               <button
                 onClick={handlePrevCharacter}
-                className="p-3 bg-black/60 hover:bg-black/85 active:scale-90 text-white rounded-full backdrop-blur-md border border-white/30 transition-all shadow-xl cursor-pointer"
+                className="p-3 bg-black/50 hover:bg-black/75 active:scale-90 text-white rounded-full backdrop-blur-md border border-white/20 transition-all shadow-lg cursor-pointer"
                 aria-label="Previous character"
               >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M15 19l-7-7 7-7" />
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7" />
                 </svg>
               </button>
             </div>
-            <div className="md:hidden absolute inset-y-0 right-0 flex items-center pr-1 z-20 pointer-events-auto">
+            <div className="lg:hidden absolute inset-y-0 right-0 flex items-center pr-1 z-20 pointer-events-auto">
               <button
                 onClick={handleNextCharacter}
-                className="p-3 bg-black/60 hover:bg-black/85 active:scale-90 text-white rounded-full backdrop-blur-md border border-white/30 transition-all shadow-xl cursor-pointer"
+                className="p-3 bg-black/50 hover:bg-black/75 active:scale-90 text-white rounded-full backdrop-blur-md border border-white/20 transition-all shadow-lg cursor-pointer"
                 aria-label="Next character"
               >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M9 5l7 7-7 7" />
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" />
                 </svg>
               </button>
             </div>
@@ -370,7 +364,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         </div>
 
         {/* Character Info Panel */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-start items-center z-10 order-2 md:order-2">
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start items-center z-10">
           <CharacterInfo
             character={currentCharacter}
             onWatchTrailer={(char) => setActiveTrailerChar(char)}
@@ -378,10 +372,10 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         </div>
 
         {/* Desktop Right Nav Button */}
-        <div className="hidden md:flex items-center justify-center flex-shrink-0">
+        <div className="hidden lg:flex items-center justify-center flex-shrink-0">
           <button
             onClick={handleNextCharacter}
-            className="group flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/15 hover:bg-white/25 active:scale-90 border border-white/30 text-white text-2xl transition-all duration-200 backdrop-blur-md shadow-2xl hover:border-white/50 cursor-pointer"
+            className="group flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/10 hover:bg-white/20 active:scale-90 border border-white/20 text-white text-2xl transition-all duration-200 backdrop-blur-md shadow-2xl hover:border-white/40 cursor-pointer"
             aria-label="Next character"
             title="Next (or press Right Arrow)"
           >

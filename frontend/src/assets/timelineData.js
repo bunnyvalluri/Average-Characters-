@@ -7215,13 +7215,110 @@ export const mcuMoviesCatalog = [
   }
 ];
 
-export const movieTrailers = mcuMoviesCatalog.reduce((acc, movie) => {
-  if (movie.trailerId) {
-    acc[movie.title] = movie.trailerId;
-  }
-  return acc;
-}, {});
+export const classicMovieTrailers = {
+  'Spider-Man': 'O7zvehDxttM',
+  'Spider-Man 2': 'JfVOs4VSpmA',
+  'Spider-Man 3': 'e5wUilOeOmg',
+  'The Amazing Spider-Man': '-tnxzJ0SSOw',
+  'The Amazing Spider-Man 2': 'DlM2CWNTQ84',
+  'Spider-Man: Into the Spider-Verse': 'g4Hbz2jLxvQ',
+  'Spider-Man: Across the Spider-Verse': 'cqGjhVJWtEg',
+  'Spider-Man: Beyond the Spider-Verse': 'cqGjhVJWtEg',
+  'Spider-Man 4': 'JfVOs4VSpmA',
+  'Spider-Man: Brand New Day': 'JfVOs4VSpmA',
+  'Spider-Verse: Web of Destiny': 'cqGjhVJWtEg',
+  'Blade': '73_1biulkYk',
+  'Blade II': '73_1biulkYk',
+  'Blade: Trinity': '73_1biulkYk',
+  'Blade: The Daywalker': '73_1biulkYk',
+  'X-Men': '73_1biulkYk',
+  'X2: X-Men United': '73_1biulkYk',
+  'X-Men: The Last Stand': '73_1biulkYk',
+  'X-Men Origins: Wolverine': '73_1biulkYk',
+  'X-Men: First Class': 'UrbHykKUfTM',
+  'The Wolverine': '73_1biulkYk',
+  'X-Men: Days of Future Past': '6acRHWnfZAE',
+  'Deadpool': 'ONHBaC-pfsk',
+  'X-Men: Apocalypse': 'COvnHv42T-A',
+  'Logan': 'Div0iP65aZo',
+  'Deadpool 2': '20bpjtCbCz0',
+  'X-Men: Dark Phoenix': 'azvR__GRQic',
+  "X-Men '97": '73_1biulkYk',
+  'Fantastic Four': 'aWzlQ2N6qqg',
+  'Fantastic 4: Rise of the Silver Surfer': 'aWzlQ2N6qqg',
+  'Fantastic Four: Rise of the Silver Surfer': 'aWzlQ2N6qqg',
+  'Daredevil (2003)': 'JfVOs4VSpmA',
+  'Elektra (2005)': '73_1biulkYk',
+  'Daredevil': 'JfVOs4VSpmA',
+  'Daredevil Season 2': 'JfVOs4VSpmA',
+  'Daredevil Season 3': 'JfVOs4VSpmA',
+  'Daredevil: Born Again': 'JfVOs4VSpmA',
+  'Ghost Rider': 'bLEFqhS5WmI',
+  'Ghost Rider: Spirit of Vengeance': 'bLEFqhS5WmI',
+  'Hulk': 'xbqNb2PFKKA',
+  'Planet Hulk': 'ue80QwXMRHg',
+  'The Punisher': 'v-94Snw-H4o',
+  'Punisher: War Zone': 'v-94Snw-H4o',
+  'Venom': '__2bjWbetsA',
+  'Venom: Let There Be Carnage': '__2bjWbetsA',
+  'Venom: The Last Dance': '__2bjWbetsA',
+  'Morbius (2022)': 'oZ6iiRrz1SY',
+  'Kraven the Hunter (2024)': 'rze8QYwWGMs',
+  'Man-Thing (2005)': 'bLEFqhS5WmI',
+  'Captain America 1944': 'JerVrbLldXw',
+  'Captain America 1979': 'JerVrbLldXw',
+  'Captain America 1990': 'JerVrbLldXw',
+  'Captain America II: Death Too Soon': 'JerVrbLldXw',
+  'WandaVision': 'sj9J2ecsSpo',
+  'The Falcon and the Winter Soldier': '1pHDWnXmK7Y',
+  'Loki': 'nW948Va-l10',
+  'Loki Season 1': 'nW948Va-l10',
+  'Loki Season 2': 'dug56u8NN7g',
+  'What If...?': 'wS_qbD0JgRY',
+  'What If...? Season 1': 'wS_qbD0JgRY',
+  'What If...? Season 2': 'wS_qbD0JgRY',
+  'What If...? Season 3': 'wS_qbD0JgRY',
+  'Hawkeye': '5VYb3B1ETlk',
+  'Moon Knight': 'x7Krla_UxRg',
+  'Ms. Marvel': 'm9EX0f6V11Y',
+  'She-Hulk: Attorney at Law': 'xbqNb2PFKKA',
+  'Werewolf by Night': 'bLEFqhS5WmI',
+  'The Guardians of the Galaxy Holiday Special': 'OYhFFQl4fLs',
+  'Secret Invasion': 'Tp_YZNqNBhw',
+  'I am Groot': 'u3V5KDHRQvk',
+  'Echo': 'AFdUfqdcP64',
+  'Agatha All Along': 'sj9J2ecsSpo',
+  'Ironheart': '_Z3QKkl1WyM',
+  'Agents of S.H.I.E.L.D.': '7SlILk2WMTI',
+  'Jessica Jones Season 1': 'JfVOs4VSpmA',
+  'Jessica Jones Season 2': 'JfVOs4VSpmA',
+  'Jessica Jones Season 3': 'JfVOs4VSpmA',
+  'Luke Cage Season 1': 'JfVOs4VSpmA',
+  'Luke Cage Season 2': 'JfVOs4VSpmA',
+  'Iron Fist Season 1': 'giWIr7U1deA',
+  'Iron Fist Season 2': 'giWIr7U1deA',
+  'The Defenders': 'JfVOs4VSpmA',
+  'Cloak & Dagger Season 1': 'JfVOs4VSpmA',
+  'Cloak & Dagger Season 2': 'JfVOs4VSpmA',
+  'The Gifted': '73_1biulkYk',
+  'Midnight Sons': 'bLEFqhS5WmI',
+  'Nova': 'uwmDH12MAA4',
+  'Young Avengers': 'TcMBFSGVi1c',
+  'Wonder Man': 'TcMBFSGVi1c',
+  'Doctor Strange 3': 'aWzlQ2N6qqg'
+};
 
-export default { moviePosters, characterMovieTimeline, movieEvents, mcuMoviesCatalog, movieTrailers };
+export const movieTrailers = {
+  ...classicMovieTrailers,
+  ...mcuMoviesCatalog.reduce((acc, movie) => {
+    if (movie.trailerId) {
+      acc[movie.title] = movie.trailerId;
+    }
+    return acc;
+  }, {})
+};
+
+export default { moviePosters, characterMovieTimeline, movieEvents, mcuMoviesCatalog, movieTrailers, classicMovieTrailers };
+
 
 
