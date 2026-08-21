@@ -60,7 +60,7 @@ function Home() {
         onMoviesClick={scrollToMovies}
         onSearchCharacter={handleSearchCharacter}
       />
-      <main className="pt-16 sm:pt-18 md:pt-20 w-full flex-1 flex flex-col">
+      <main className="pt-20 sm:pt-22 md:pt-24 w-full flex-1 flex flex-col">
         <div ref={heroRef} />
         <HeroSection
           currentCharacter={currentCharacter}
