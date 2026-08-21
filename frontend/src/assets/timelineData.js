@@ -6457,7 +6457,7 @@ export const mcuMoviesCatalog = [
     "title": "Iron Man",
     "year": 2008,
     "phase": "Phase 1",
-    "poster": "/iron-man.png",
+    "poster": "/movies/iron-man.jpg",
     "hero": "Iron Man",
     "trailerId": "8ugaeA-nMTc",
     "description": "Tony Stark builds an armored suit and becomes the superhero Iron Man."
@@ -6467,7 +6467,7 @@ export const mcuMoviesCatalog = [
     "title": "The Incredible Hulk",
     "year": 2008,
     "phase": "Phase 1",
-    "poster": "/hulk.png",
+    "poster": "/movies/the-incredible-hulk.jpg",
     "hero": "Hulk",
     "trailerId": "xbqNb2PFKKA",
     "description": "Bruce Banner desperately seeks a cure for the gamma radiation that fuels the Hulk."
@@ -6477,7 +6477,7 @@ export const mcuMoviesCatalog = [
     "title": "Iron Man 2",
     "year": 2010,
     "phase": "Phase 1",
-    "poster": "/iron-man.png",
+    "poster": "/movies/iron-man-2.jpg",
     "hero": "Iron Man",
     "trailerId": "wKtcmiifycU",
     "description": "Tony Stark faces pressure from the government and a vengeful Ivan Vanko."
@@ -6487,7 +6487,7 @@ export const mcuMoviesCatalog = [
     "title": "Thor",
     "year": 2011,
     "phase": "Phase 1",
-    "poster": "/thor.png",
+    "poster": "/movies/thor.jpg",
     "hero": "Thor",
     "trailerId": "JOddp-nlNvQ",
     "description": "The arrogant God of Thunder is cast out of Asgard to live among humans on Earth."
@@ -6497,7 +6497,7 @@ export const mcuMoviesCatalog = [
     "title": "Captain America: The First Avenger",
     "year": 2011,
     "phase": "Phase 1",
-    "poster": "/captain-america.png",
+    "poster": "/movies/the-first-avenger.jpg",
     "hero": "Captain America",
     "trailerId": "JerVrbLldXw",
     "description": "Steve Rogers is transformed into Captain America to battle Red Skull and HYDRA."
@@ -6507,7 +6507,7 @@ export const mcuMoviesCatalog = [
     "title": "The Avengers",
     "year": 2012,
     "phase": "Phase 1",
-    "poster": "/marvel.png",
+    "poster": "/movies/the-avengers.jpg",
     "hero": "Avengers",
     "trailerId": "eOrNdBpGMv8",
     "description": "Earth’s Mightiest Heroes team up to stop Loki and his alien army from invading Earth."
@@ -6517,7 +6517,7 @@ export const mcuMoviesCatalog = [
     "title": "Iron Man 3",
     "year": 2013,
     "phase": "Phase 2",
-    "poster": "/iron-man.png",
+    "poster": "/movies/iron-man-3.jpg",
     "hero": "Iron Man",
     "trailerId": "Ke1Y3P9D0Bc",
     "description": "Tony Stark confronts the enigmatic Mandarin and uncovers the Extremis conspiracy."
@@ -6527,7 +6527,7 @@ export const mcuMoviesCatalog = [
     "title": "Thor: The Dark World",
     "year": 2013,
     "phase": "Phase 2",
-    "poster": "/thor.png",
+    "poster": "/movies/the-dark-world.jpg",
     "hero": "Thor",
     "trailerId": "npvJ9FTgZbM",
     "description": "Thor embarks on a perilous journey to defeat Malekith and the Dark Elves."
@@ -6537,7 +6537,7 @@ export const mcuMoviesCatalog = [
     "title": "Captain America: The Winter Soldier",
     "year": 2014,
     "phase": "Phase 2",
-    "poster": "/winter-soldier.png",
+    "poster": "/movies/the-winter-soldier.jpg",
     "hero": "Captain America",
     "trailerId": "7SlILk2WMTI",
     "description": "Steve Rogers teams with Black Widow and Falcon to uncover a conspiracy inside S.H.I.E.L.D."
@@ -6547,7 +6547,7 @@ export const mcuMoviesCatalog = [
     "title": "Guardians of the Galaxy",
     "year": 2014,
     "phase": "Phase 2",
-    "poster": "/star-lord.png",
+    "poster": "/movies/guardians-of-the-galaxy.jpg",
     "hero": "Guardians",
     "trailerId": "d96cjJhvlMA",
     "description": "A ragtag band of galactic outlaws must unite to stop Ronan from destroying Xandar."
@@ -6557,7 +6557,7 @@ export const mcuMoviesCatalog = [
     "title": "Avengers: Age of Ultron",
     "year": 2015,
     "phase": "Phase 2",
-    "poster": "/ultron.png",
+    "poster": "/movies/age-of-ultron.jpg",
     "hero": "Avengers",
     "trailerId": "tmeOjFno6Do",
     "description": "The Avengers battle Ultron, a rogue AI hellbent on human extinction."
@@ -6567,7 +6567,7 @@ export const mcuMoviesCatalog = [
     "title": "Ant-Man",
     "year": 2015,
     "phase": "Phase 2",
-    "poster": "/ant-man.png",
+    "poster": "/movies/ant-man.jpg",
     "hero": "Ant-Man",
     "trailerId": "pWdKf3MneyI",
     "description": "Master thief Scott Lang dons the Ant-Man suit to stage a high-stakes heist."
@@ -6577,7 +6577,7 @@ export const mcuMoviesCatalog = [
     "title": "Captain America: Civil War",
     "year": 2016,
     "phase": "Phase 3",
-    "poster": "/captain-america.png",
+    "poster": "/movies/civil-war.jpg",
     "hero": "Avengers",
     "trailerId": "dKrVegVI0Us",
     "description": "Political pressure splinters the Avengers into opposing factions led by Cap and Iron Man."
@@ -6587,7 +6587,7 @@ export const mcuMoviesCatalog = [
     "title": "Doctor Strange",
     "year": 2016,
     "phase": "Phase 3",
-    "poster": "/dr-strange.png",
+    "poster": "/movies/dr-strange.jpg",
     "hero": "Doctor Strange",
     "trailerId": "HSzx-zryEgM",
     "description": "A neurosurgeon unlocks the Mystic Arts after a devastating car crash."
@@ -6597,7 +6597,7 @@ export const mcuMoviesCatalog = [
     "title": "Guardians of the Galaxy Vol. 2",
     "year": 2017,
     "phase": "Phase 3",
-    "poster": "/gamora.png",
+    "poster": "/movies/guardians-of-the-galaxy-2.jpg",
     "hero": "Guardians",
     "trailerId": "dW1BIid8Osg",
     "description": "The Guardians unravel the mystery of Peter Quill’s true celestial parentage."
@@ -6607,7 +6607,7 @@ export const mcuMoviesCatalog = [
     "title": "Spider-Man: Homecoming",
     "year": 2017,
     "phase": "Phase 3",
-    "poster": "/spiderman.png",
+    "poster": "/movies/spiderman-homecoming.jpg",
     "hero": "Spider-Man",
     "trailerId": "39udgGPyYMg",
     "description": "Peter Parker navigates high school life while fighting the sinister Vulture."
@@ -6617,7 +6617,7 @@ export const mcuMoviesCatalog = [
     "title": "Thor: Ragnarok",
     "year": 2017,
     "phase": "Phase 3",
-    "poster": "/hela.png",
+    "poster": "/movies/ragnarok.jpg",
     "hero": "Thor",
     "trailerId": "ue80QwXMRHg",
     "description": "Imprisoned on Sakaar, Thor must race against time to prevent Hela from destroying Asgard."
@@ -6627,7 +6627,7 @@ export const mcuMoviesCatalog = [
     "title": "Black Panther",
     "year": 2018,
     "phase": "Phase 3",
-    "poster": "/black-panther.png",
+    "poster": "/movies/black-panther.jpg",
     "hero": "Black Panther",
     "trailerId": "xjDjIWPwcPU",
     "description": "T’Challa ascends as King of Wakanda and faces a fierce challenge from Killmonger."
@@ -6637,7 +6637,7 @@ export const mcuMoviesCatalog = [
     "title": "Avengers: Infinity War",
     "year": 2018,
     "phase": "Phase 3",
-    "poster": "/thanos.png",
+    "poster": "/movies/infinity-war.jpg",
     "hero": "Avengers",
     "trailerId": "6ZfuNTqbG8Y",
     "description": "The Avengers and Guardians unite in a desperate bid to stop Thanos from collecting all six Infinity Stones."
@@ -6647,7 +6647,7 @@ export const mcuMoviesCatalog = [
     "title": "Ant-Man and the Wasp",
     "year": 2018,
     "phase": "Phase 3",
-    "poster": "/wasp.png",
+    "poster": "/movies/ant-man-and-the-wasp.jpg",
     "hero": "Ant-Man",
     "trailerId": "8_rTIAOohas",
     "description": "Scott Lang and Hope van Dyne venture into the Quantum Realm to rescue Janet."
@@ -6657,7 +6657,7 @@ export const mcuMoviesCatalog = [
     "title": "Captain Marvel",
     "year": 2019,
     "phase": "Phase 3",
-    "poster": "/captain-marvel.png",
+    "poster": "/movies/captain-marvel.jpg",
     "hero": "Captain Marvel",
     "trailerId": "Z1BCujX3pw8",
     "description": "Carol Danvers uncovers her past and becomes one of the universe’s most powerful champions."
@@ -6667,7 +6667,7 @@ export const mcuMoviesCatalog = [
     "title": "Avengers: Endgame",
     "year": 2019,
     "phase": "Phase 3",
-    "poster": "/marvel.png",
+    "poster": "/movies/endgame.jpg",
     "hero": "Avengers",
     "trailerId": "TcMBFSGVi1c",
     "description": "The surviving Avengers execute a temporal heist to reverse Thanos’ catastrophic snap."
@@ -6677,7 +6677,7 @@ export const mcuMoviesCatalog = [
     "title": "Spider-Man: Far From Home",
     "year": 2019,
     "phase": "Phase 3",
-    "poster": "/mysterio.png",
+    "poster": "/movies/far-from-home.jpg",
     "hero": "Spider-Man",
     "trailerId": "DYYtuKyMtY8",
     "description": "Peter Parker faces new elemental threats and Mysterio on a European school trip."
@@ -6687,7 +6687,7 @@ export const mcuMoviesCatalog = [
     "title": "Black Widow",
     "year": 2021,
     "phase": "Phase 4",
-    "poster": "/black-widow.png",
+    "poster": "/movies/black-widow.jpg",
     "hero": "Black Widow",
     "trailerId": "ybji16u608U",
     "description": "Natasha Romanoff confronts the darkest parts of her ledger and the Red Room."
@@ -6697,7 +6697,7 @@ export const mcuMoviesCatalog = [
     "title": "Shang-Chi and the Legend of the Ten Rings",
     "year": 2021,
     "phase": "Phase 4",
-    "poster": "/shang-chi.png",
+    "poster": "/movies/shang-chi.jpg",
     "hero": "Shang-Chi",
     "trailerId": "8YjFbMbfXaQ",
     "description": "Shang-Chi confronts his past and the clandestine Ten Rings organization."
@@ -6707,7 +6707,7 @@ export const mcuMoviesCatalog = [
     "title": "Eternals",
     "year": 2021,
     "phase": "Phase 4",
-    "poster": "/ikaris.png",
+    "poster": "/movies/eternals.jpg",
     "hero": "Eternals",
     "trailerId": "x_me3xsvDgk",
     "description": "Ancient immortal beings emerge from hiding to protect Earth from the Deviants."
@@ -6717,7 +6717,7 @@ export const mcuMoviesCatalog = [
     "title": "Spider-Man: No Way Home",
     "year": 2021,
     "phase": "Phase 4",
-    "poster": "/spiderman.png",
+    "poster": "/movies/no-way-home.jpg",
     "hero": "Spider-Man",
     "trailerId": "JfVOs4VSpmA",
     "description": "Multiversal villains arrive in Peter Parker’s world after a spell goes awry."
@@ -6727,7 +6727,7 @@ export const mcuMoviesCatalog = [
     "title": "Doctor Strange in the Multiverse of Madness",
     "year": 2022,
     "phase": "Phase 4",
-    "poster": "/scarlet-witch.png",
+    "poster": "/movies/multiverse-of-madness.jpg",
     "hero": "Doctor Strange",
     "trailerId": "aWzlQ2N6qqg",
     "description": "Doctor Strange navigates dangerous alternate realities alongside America Chavez."
@@ -6737,7 +6737,7 @@ export const mcuMoviesCatalog = [
     "title": "Thor: Love and Thunder",
     "year": 2022,
     "phase": "Phase 4",
-    "poster": "/mighty-thor.png",
+    "poster": "/movies/love-and-thunder.jpg",
     "hero": "Thor",
     "trailerId": "Go8nTmfrQd8",
     "description": "Thor teams with Mighty Thor (Jane Foster) and Valkyrie to battle Gorr the God Butcher."
@@ -6747,7 +6747,7 @@ export const mcuMoviesCatalog = [
     "title": "Black Panther: Wakanda Forever",
     "year": 2022,
     "phase": "Phase 4",
-    "poster": "/shuri.png",
+    "poster": "/movies/wakanda-forever.jpg",
     "hero": "Black Panther",
     "trailerId": "_Z3QKkl1WyM",
     "description": "Wakanda defends its vibranium kingdom against Namor and the undersea empire of Talokan."
@@ -6757,7 +6757,7 @@ export const mcuMoviesCatalog = [
     "title": "Ant-Man and the Wasp: Quantumania",
     "year": 2023,
     "phase": "Phase 5",
-    "poster": "/kang.png",
+    "poster": "/movies/quantumania.jpg",
     "hero": "Ant-Man",
     "trailerId": "ZlNFpri-Y40",
     "description": "Scott Lang and his family explore the Quantum Realm and face Kang the Conqueror."
@@ -6767,7 +6767,7 @@ export const mcuMoviesCatalog = [
     "title": "Guardians of the Galaxy Vol. 3",
     "year": 2023,
     "phase": "Phase 5",
-    "poster": "/rocket.png",
+    "poster": "/movies/guardians-vol-3.jpg",
     "hero": "Guardians",
     "trailerId": "u3V5KDHRQvk",
     "description": "The Guardians embark on a mission to defend Rocket Raccoon and face the High Evolutionary."
@@ -6777,7 +6777,7 @@ export const mcuMoviesCatalog = [
     "title": "The Marvels",
     "year": 2023,
     "phase": "Phase 5",
-    "poster": "/ms-marvel.png",
+    "poster": "/movies/the-marvels.jpg",
     "hero": "Captain Marvel",
     "trailerId": "wS_qbD028EI",
     "description": "Carol Danvers, Monica Rambeau, and Kamala Khan find their light-based powers entangled."
@@ -6787,7 +6787,7 @@ export const mcuMoviesCatalog = [
     "title": "Deadpool & Wolverine",
     "year": 2024,
     "phase": "Phase 5",
-    "poster": "/deadpool.png",
+    "poster": "/movies/deadpool-&-wolverine.jpg",
     "hero": "Deadpool",
     "trailerId": "73_1biulkYk",
     "description": "Deadpool joins forces with a reluctant Wolverine to save the Multiverse from Cassandra Nova."
@@ -6797,7 +6797,7 @@ export const mcuMoviesCatalog = [
     "title": "Captain America: Brave New World",
     "year": 2025,
     "phase": "Phase 5",
-    "poster": "/falcon.png",
+    "poster": "/movies/brave-new-world.jpg",
     "hero": "Captain America",
     "trailerId": "1pHDWnXmK7Y",
     "description": "Sam Wilson investigates an international conspiracy involving President Ross (Red Hulk)."
@@ -6807,7 +6807,7 @@ export const mcuMoviesCatalog = [
     "title": "Thunderbolts*",
     "year": 2025,
     "phase": "Phase 5",
-    "poster": "/yelena-belova.png",
+    "poster": "/movies/thunderbolts.jpg",
     "hero": "Thunderbolts",
     "trailerId": "v-b3q9kLwY8",
     "description": "An irreverent team of antiheroes and assassins are sent on dangerous black-ops missions."
@@ -6817,7 +6817,7 @@ export const mcuMoviesCatalog = [
     "title": "The Fantastic Four: First Steps",
     "year": 2025,
     "phase": "Phase 6",
-    "poster": "/mister-fantastic.png",
+    "poster": "/movies/fantastic-four-first-steps.jpg",
     "hero": "Fantastic Four",
     "trailerId": "cz3p7fH4S7A",
     "description": "Marvel’s First Family navigates a vibrant 1960s retro-futuristic world and battles Galactus."
@@ -6827,7 +6827,7 @@ export const mcuMoviesCatalog = [
     "title": "Blade: The Daywalker",
     "year": 2025,
     "phase": "Phase 6",
-    "poster": "/blade.png",
+    "poster": "/movies/blade.jpg",
     "hero": "Blade",
     "trailerId": "0vf6Y_gqUuQ",
     "description": "The half-mortal, half-immortal Daywalker stalks the supernatural underworld of vampires."
@@ -6837,7 +6837,7 @@ export const mcuMoviesCatalog = [
     "title": "Spider-Man: Brand New Day",
     "year": 2026,
     "phase": "Phase 6",
-    "poster": "/spiderman.png",
+    "poster": "/movies/spiderman-4.jpg",
     "hero": "Spider-Man",
     "trailerId": "JfVOs4VSpmA",
     "description": "Peter Parker navigates a clean slate street-level crusade against Kingpin alongside Daredevil."
@@ -6847,7 +6847,7 @@ export const mcuMoviesCatalog = [
     "title": "Avengers: Doomsday",
     "year": 2026,
     "phase": "Phase 6",
-    "poster": "/doom-2099.png",
+    "poster": "/movies/avengers-doomsday.jpg",
     "hero": "Avengers",
     "trailerId": "TcMBFSGVi1c",
     "description": "Earth’s Mightiest Heroes confront the supreme sorcery and technological dominance of Doctor Doom."
@@ -6857,7 +6857,7 @@ export const mcuMoviesCatalog = [
     "title": "Armor Wars",
     "year": 2026,
     "phase": "Phase 6",
-    "poster": "/war-machine.png",
+    "poster": "/movies/armor-wars.jpg",
     "hero": "War Machine",
     "trailerId": "8ugaeA-nMTc",
     "description": "James Rhodes must track down stolen Stark technology before rogue regimes weaponize it."
@@ -6867,7 +6867,7 @@ export const mcuMoviesCatalog = [
     "title": "Avengers: Secret Wars",
     "year": 2027,
     "phase": "Phase 6",
-    "poster": "/marvel.png",
+    "poster": "/movies/secret-wars.jpg",
     "hero": "Avengers",
     "trailerId": "6ZfuNTqbG8Y",
     "description": "The entire Multiverse collapses into Battleworld for the ultimate cosmic war of survival."
@@ -6877,7 +6877,7 @@ export const mcuMoviesCatalog = [
     "title": "X-Men: Mutants Uncanny",
     "year": 2028,
     "phase": "Phase 7",
-    "poster": "/cyclops.png",
+    "poster": "/movies/x-men-uncanny.jpg",
     "hero": "X-Men",
     "trailerId": "Vn9msyQ1wO0",
     "description": "Professor Xavier guides the newly assembled X-Men to defend a world that fears and hates them."
@@ -6887,7 +6887,7 @@ export const mcuMoviesCatalog = [
     "title": "Wolverine vs. Hulk: Weapon X",
     "year": 2028,
     "phase": "Phase 7",
-    "poster": "/wolverine.png",
+    "poster": "/movies/wolverine-vs-hulk.jpg",
     "hero": "Wolverine",
     "trailerId": "73_1biulkYk",
     "description": "Logan’s Weapon X origins collide with the unstoppable rampaging fury of Bruce Banner’s Hulk."
@@ -6897,7 +6897,7 @@ export const mcuMoviesCatalog = [
     "title": "Deadpool 4: Mercs for Money",
     "year": 2028,
     "phase": "Phase 7",
-    "poster": "/deadpool.png",
+    "poster": "/movies/deadpool-4.jpg",
     "hero": "Deadpool",
     "trailerId": "I0_cZ6jXpYs",
     "description": "Wade Wilson launches his own ragtag mercenary syndicate for chaotic multiversal contracts."
@@ -6907,17 +6907,17 @@ export const mcuMoviesCatalog = [
     "title": "Midnight Sons: Damnation",
     "year": 2029,
     "phase": "Phase 7",
-    "poster": "/ghost-rider.png",
+    "poster": "/movies/midnight-sons.jpg",
     "hero": "Midnight Sons",
     "trailerId": "aWzlQ2N6qqg",
-    "description": "Moon Knight, Blade, Ghost Rider, and Elsa Bloodstone unite to purge demonic underworld incursions."
+    "description": "Moon Knight, Blade, Ghost Rider, and Elsa Bloodstone unite to purge demonic incursions."
   },
   {
     "id": "mg1",
     "title": "Magneto: House of M",
     "year": 2029,
     "phase": "Phase 7",
-    "poster": "/magneto.png",
+    "poster": "/movies/magneto.jpg",
     "hero": "Magneto",
     "trailerId": "u3v8aN34240",
     "description": "Erik Lehnsherr establishes the sovereign mutant sanctuary of Genosha for mutantkind."
@@ -6927,7 +6927,7 @@ export const mcuMoviesCatalog = [
     "title": "Captain America & Bucky: New Order",
     "year": 2029,
     "phase": "Phase 7",
-    "poster": "/bucky-cap.png",
+    "poster": "/movies/captain-america-bucky.jpg",
     "hero": "Captain America",
     "trailerId": "JerVrbLldXw",
     "description": "Sam Wilson and Bucky Barnes combat global subterranean terror syndicates and Leviathan."
@@ -6937,7 +6937,7 @@ export const mcuMoviesCatalog = [
     "title": "Nova: Centurion of Xandar",
     "year": 2030,
     "phase": "Phase 8",
-    "poster": "/nova-richard.png",
+    "poster": "/movies/nova.jpg",
     "hero": "Nova",
     "trailerId": "d96cjJhvlMA",
     "description": "Richard Rider is imbued with the full Nova Force of the dying world of Xandar."
@@ -6947,7 +6947,7 @@ export const mcuMoviesCatalog = [
     "title": "Silver Surfer & Galactus: Herald of Doom",
     "year": 2030,
     "phase": "Phase 8",
-    "poster": "/silver-surfer.png",
+    "poster": "/movies/silver-surfer.jpg",
     "hero": "Silver Surfer",
     "trailerId": "dW1BIid8Osg",
     "description": "Norrin Radd traverses alien starways to save civilizations from the cosmic hunger of Galactus."
@@ -6957,7 +6957,7 @@ export const mcuMoviesCatalog = [
     "title": "Thor: King of Asgard",
     "year": 2031,
     "phase": "Phase 8",
-    "poster": "/king-thor.png",
+    "poster": "/movies/thor-king-of-asgard.jpg",
     "hero": "Thor",
     "trailerId": "JOddp-nlNvQ",
     "description": "King Thor wields the full Odinforce to protect the Nine Realms from the primordial Midgard Serpent."
@@ -6967,7 +6967,7 @@ export const mcuMoviesCatalog = [
     "title": "Guardians of the Galaxy: Annihilators",
     "year": 2031,
     "phase": "Phase 8",
-    "poster": "/quill-star-lord.png",
+    "poster": "/movies/guardians-annihilators.jpg",
     "hero": "Guardians",
     "trailerId": "npvJ9FTgZbM",
     "description": "Beta Ray Bill, Gladiator, Quasar, and Ronan form a galactic powerhouse strike force."
@@ -6977,7 +6977,7 @@ export const mcuMoviesCatalog = [
     "title": "Annihilation: Wave of Extinction",
     "year": 2031,
     "phase": "Phase 8",
-    "poster": "/annihilus.png",
+    "poster": "/movies/annihilation.jpg",
     "hero": "Cosmic Marvel",
     "trailerId": "6ZfuNTqbG8Y",
     "description": "The Arthrosian horde of Annihilus bursts from the Negative Zone to devour the known galaxy."
@@ -6987,7 +6987,7 @@ export const mcuMoviesCatalog = [
     "title": "Captain Marvel: Binary Ascendant",
     "year": 2032,
     "phase": "Phase 8",
-    "poster": "/binary.png",
+    "poster": "/movies/captain-marvel-binary.jpg",
     "hero": "Captain Marvel",
     "trailerId": "Z1BCujX3pw8",
     "description": "Carol Danvers unleashes her white-hole Binary transformation to defend the Shi’ar Throne."
@@ -6997,7 +6997,7 @@ export const mcuMoviesCatalog = [
     "title": "Young Avengers: Children's Crusade",
     "year": 2032,
     "phase": "Phase 9",
-    "poster": "/wiccan.png",
+    "poster": "/movies/young-avengers.jpg",
     "hero": "Young Avengers",
     "trailerId": "eOrNdBpGMv8",
     "description": "Wiccan, Speed, Patriot, and Kate Bishop embark on a desperate journey to find Scarlet Witch."
@@ -7007,7 +7007,7 @@ export const mcuMoviesCatalog = [
     "title": "Daredevil & Spider-Man: Shadowland",
     "year": 2032,
     "phase": "Phase 9",
-    "poster": "/daredevil.png",
+    "poster": "/movies/daredevil.jpg",
     "hero": "Daredevil",
     "trailerId": "DYYtuKyMtY8",
     "description": "Matt Murdock and Peter Parker battle Wilson Fisk’s corrupt martial grip over New York City."
@@ -7017,7 +7017,7 @@ export const mcuMoviesCatalog = [
     "title": "Champions: Outlawed Generation",
     "year": 2033,
     "phase": "Phase 9",
-    "poster": "/ms-marvel.png",
+    "poster": "/movies/champions.jpg",
     "hero": "Champions",
     "trailerId": "8YjFbMbfXaQ",
     "description": "Ms. Marvel, Miles Morales, Nova, and Viv Vision challenge draconian teen hero legislation."
@@ -7027,7 +7027,7 @@ export const mcuMoviesCatalog = [
     "title": "Ghost Rider: Spirits of Vengeance",
     "year": 2033,
     "phase": "Phase 9",
-    "poster": "/ghost-rider-robbie.png",
+    "poster": "/movies/ghost-rider.jpg",
     "hero": "Ghost Rider",
     "trailerId": "aWzlQ2N6qqg",
     "description": "Robbie Reyes, Johnny Blaze, and Danny Ketch ride together against Mephisto’s hell lords."
@@ -7037,7 +7037,7 @@ export const mcuMoviesCatalog = [
     "title": "World War Hulk: Gamma War",
     "year": 2033,
     "phase": "Phase 9",
-    "poster": "/hulk.png",
+    "poster": "/movies/world-war-hulk.jpg",
     "hero": "Hulk",
     "trailerId": "xbqNb2PFKKA",
     "description": "The Green Scar Hulk leads his Warbound armada to Earth to hold planetary leaders accountable."
@@ -7047,7 +7047,7 @@ export const mcuMoviesCatalog = [
     "title": "Doctor Strange: Triumph and Torment",
     "year": 2034,
     "phase": "Phase 9",
-    "poster": "/dr-strange.png",
+    "poster": "/movies/dr-strange.jpg",
     "hero": "Doctor Strange",
     "trailerId": "HSzx-zryEgM",
     "description": "Doctor Strange and Doctor Doom descend into Mephisto’s realm to save Cynthia von Doom’s soul."
@@ -7057,7 +7057,7 @@ export const mcuMoviesCatalog = [
     "title": "Avengers vs. X-Men: Phoenix Reborn",
     "year": 2034,
     "phase": "Phase 10",
-    "poster": "/phoenix-force.png",
+    "poster": "/movies/avengers-vs-xmen.jpg",
     "hero": "Avengers & X-Men",
     "trailerId": "TcMBFSGVi1c",
     "description": "The cosmic Phoenix Force returns to Earth, igniting an all-out philosophical war of titans."
@@ -7067,7 +7067,7 @@ export const mcuMoviesCatalog = [
     "title": "Doctor Doom: Emperor of Battleworld",
     "year": 2035,
     "phase": "Phase 10",
-    "poster": "/doom-2099.png",
+    "poster": "/movies/doctor-doom.jpg",
     "hero": "Doctor Doom",
     "trailerId": "Ke1Y3P9D0Bc",
     "description": "God Emperor Doom rules over the fragmented remnants of all shattered realities."
@@ -7077,7 +7077,7 @@ export const mcuMoviesCatalog = [
     "title": "The Living Tribunal: Cosmic Balance",
     "year": 2035,
     "phase": "Phase 10",
-    "poster": "/living-tribunal.png",
+    "poster": "/movies/living-tribunal.jpg",
     "hero": "Cosmic Abstracts",
     "trailerId": "6ZfuNTqbG8Y",
     "description": "The supreme overseer of universal balance arbitrates the rebirth of the Omniverse."
@@ -7087,7 +7087,7 @@ export const mcuMoviesCatalog = [
     "title": "Spider-Verse: Web of Destiny",
     "year": 2035,
     "phase": "Phase 10",
-    "poster": "/spider-man-2099.png",
+    "poster": "/movies/spider-verse.jpg",
     "hero": "Spider-Army",
     "trailerId": "cqGjhVJWtEg",
     "description": "Every Spider-Totem from 1,000 dimensions unites to mend the Great Web of Life and Destiny."
@@ -7097,7 +7097,7 @@ export const mcuMoviesCatalog = [
     "title": "Avengers: Eternity Forever",
     "year": 2036,
     "phase": "Phase 10",
-    "poster": "/eternity.png",
+    "poster": "/movies/avengers-eternity.jpg",
     "hero": "Avengers",
     "trailerId": "tmeOjFno6Do",
     "description": "The ultimate culmination of all generations of Earth’s Mightiest Heroes across all time."
@@ -7107,7 +7107,7 @@ export const mcuMoviesCatalog = [
     "title": "Fantastic Four: Council of Reeds",
     "year": 2036,
     "phase": "Phase 10",
-    "poster": "/mister-fantastic.png",
+    "poster": "/movies/council-of-reeds.jpg",
     "hero": "Fantastic Four",
     "trailerId": "cz3p7fH4S7A",
     "description": "Reed Richards joins the interdimensional Council of Reeds to solve everything in the cosmos."

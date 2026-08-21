@@ -122,22 +122,27 @@ const Movies = () => {
               className="group bg-black/40 hover:bg-black/60 rounded-2xl p-3 flex flex-col justify-between border border-white/10 hover:border-white/35 transition-all duration-300 backdrop-blur-md shadow-xl hover:-translate-y-1.5 hover:shadow-2xl cursor-pointer select-none"
             >
               {/* Poster Container with Play Icon Overlay */}
-              <div className="w-full overflow-hidden rounded-xl bg-black/60 aspect-[2/3] relative mb-2.5">
+              <div className="w-full overflow-hidden rounded-xl bg-gradient-to-b from-black/80 via-black/60 to-black/90 aspect-[2/3] relative mb-2.5 flex items-center justify-center p-1.5 border border-white/10 shadow-inner">
                 <img
                   src={movie.poster}
                   alt={movie.title}
                   loading="lazy"
                   decoding="async"
-                  onError={(e) => { if (e.target.src !== window.location.origin + "/marvel.png") e.target.src = "/marvel.png"; }} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  onError={(e) => {
+                    if (e.target.src !== window.location.origin + '/marvel.png') {
+                      e.target.src = '/marvel.png';
+                    }
+                  }}
+                  className="w-full h-full object-contain filter drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)] transition-transform duration-300 group-hover:scale-105"
                 />
                 
                 {/* Year Badge */}
-                <span className="absolute top-2 right-2 px-2 py-0.5 rounded-md bg-black/75 backdrop-blur-md text-[10px] font-bold text-white border border-white/20 z-10">
+                <span className="absolute top-2 right-2 px-2 py-0.5 rounded-md bg-black/80 backdrop-blur-md text-[10px] font-bold text-white border border-white/20 z-10 shadow-md">
                   {movie.year}
                 </span>
 
                 {/* Hover Play Button Overlay */}
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-center justify-center backdrop-blur-[2px]">
+                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-center justify-center backdrop-blur-[2px] rounded-xl">
                   <div className="w-12 h-12 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-2xl transform scale-75 group-hover:scale-100 transition-transform duration-200 border border-white/40">
                     <svg className="w-6 h-6 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M8 5v14l11-7z" />
