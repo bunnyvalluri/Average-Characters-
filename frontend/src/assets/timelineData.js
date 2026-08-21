@@ -6740,7 +6740,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 3",
     "poster": "/movies/infinity-war.jpg",
     "hero": "Avengers",
-    "trailerId": "6ZfuNTqbG8Y",
+    "trailerId": "6ZfuNTqbHE8",
     "description": "The Avengers and Guardians unite in a desperate bid to stop Thanos from collecting all six Infinity Stones."
   },
   {
@@ -6880,7 +6880,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 5",
     "poster": "/movies/the-marvels.jpg",
     "hero": "Captain Marvel",
-    "trailerId": "wS_qbD028EI",
+    "trailerId": "uwmDH12MAA4",
     "description": "Carol Danvers, Monica Rambeau, and Kamala Khan find their light-based powers entangled."
   },
   {
@@ -6910,7 +6910,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 5",
     "poster": "/movies/thunderbolts.jpg",
     "hero": "Thunderbolts",
-    "trailerId": "v-b3q9kLwY8",
+    "trailerId": "v-94Snw-H4o",
     "description": "An irreverent team of antiheroes and assassins are sent on dangerous black-ops missions."
   },
   {
@@ -6920,7 +6920,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 6",
     "poster": "/movies/fantastic-four-first-steps.jpg",
     "hero": "Fantastic Four",
-    "trailerId": "cz3p7fH4S7A",
+    "trailerId": "aWzlQ2N6qqg",
     "description": "Marvel’s First Family navigates a vibrant 1960s retro-futuristic world and battles Galactus."
   },
   {
@@ -6930,7 +6930,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 6",
     "poster": "/movies/blade.jpg",
     "hero": "Blade",
-    "trailerId": "0vf6Y_gqUuQ",
+    "trailerId": "73_1biulkYk",
     "description": "The half-mortal, half-immortal Daywalker stalks the supernatural underworld of vampires."
   },
   {
@@ -6970,7 +6970,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 6",
     "poster": "/movies/secret-wars.jpg",
     "hero": "Avengers",
-    "trailerId": "6ZfuNTqbG8Y",
+    "trailerId": "6ZfuNTqbHE8",
     "description": "The entire Multiverse collapses into Battleworld for the ultimate cosmic war of survival."
   },
   {
@@ -6980,7 +6980,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 7",
     "poster": "/movies/x-men-uncanny.jpg",
     "hero": "X-Men",
-    "trailerId": "Vn9msyQ1wO0",
+    "trailerId": "73_1biulkYk",
     "description": "Professor Xavier guides the newly assembled X-Men to defend a world that fears and hates them."
   },
   {
@@ -7000,7 +7000,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 7",
     "poster": "/movies/deadpool-4.jpg",
     "hero": "Deadpool",
-    "trailerId": "I0_cZ6jXpYs",
+    "trailerId": "73_1biulkYk",
     "description": "Wade Wilson launches his own ragtag mercenary syndicate for chaotic multiversal contracts."
   },
   {
@@ -7020,7 +7020,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 7",
     "poster": "/movies/magneto.jpg",
     "hero": "Magneto",
-    "trailerId": "u3v8aN34240",
+    "trailerId": "73_1biulkYk",
     "description": "Erik Lehnsherr establishes the sovereign mutant sanctuary of Genosha for mutantkind."
   },
   {
@@ -7080,7 +7080,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 8",
     "poster": "/movies/annihilation.jpg",
     "hero": "Cosmic Marvel",
-    "trailerId": "6ZfuNTqbG8Y",
+    "trailerId": "6ZfuNTqbHE8",
     "description": "The Arthrosian horde of Annihilus bursts from the Negative Zone to devour the known galaxy."
   },
   {
@@ -7180,7 +7180,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 10",
     "poster": "/movies/living-tribunal.jpg",
     "hero": "Cosmic Abstracts",
-    "trailerId": "6ZfuNTqbG8Y",
+    "trailerId": "6ZfuNTqbHE8",
     "description": "The supreme overseer of universal balance arbitrates the rebirth of the Omniverse."
   },
   {
@@ -7210,7 +7210,7 @@ export const mcuMoviesCatalog = [
     "phase": "Phase 10",
     "poster": "/movies/council-of-reeds.jpg",
     "hero": "Fantastic Four",
-    "trailerId": "cz3p7fH4S7A",
+    "trailerId": "aWzlQ2N6qqg",
     "description": "Reed Richards joins the interdimensional Council of Reeds to solve everything in the cosmos."
   }
 ];

@@ -266,14 +266,17 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
                         className="w-9 h-9 object-contain rounded-lg bg-black/50 p-0.5 border border-white/20 flex-shrink-0"
                       />
                       <div className="flex flex-col min-w-0 flex-1">
-                        <span className="text-sm font-bold text-white truncate">
-                          {char.name}
-                        </span>
-                        {char.originalName && (
-                          <span className="text-xs text-gray-300 truncate">
-                            {char.originalName}
+                        <div className="flex items-center gap-1.5">
+                          <span className="text-sm font-bold text-white truncate">
+                            {char.name}
                           </span>
-                        )}
+                          <span className="px-1.5 py-0.2 text-[9px] font-bold uppercase rounded bg-red-600/80 text-white flex-shrink-0">
+                            ▶ Trailer
+                          </span>
+                        </div>
+                        <span className="text-xs text-gray-300 truncate">
+                          {char.trailerCategory || char.originalName || 'Marvel Hero'}
+                        </span>
                       </div>
                       <span className="text-[11px] text-gray-400 font-mono font-bold">
                         #{char.id}

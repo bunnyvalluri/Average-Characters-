@@ -10,7 +10,10 @@ const characters = [
     "birth": "May 29, 1970 (Manhattan, New York)",
     "death": "October 17, 2023 (Earth-616, sacrificed to defeat Thanos)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Iron Man • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 2,
@@ -22,7 +25,10 @@ const characters = [
     "birth": "July 4, 1918 (Brooklyn, New York)",
     "death": "2024 (Lived a full alternate life with Peggy Carter, retired as elder)",
     "bgColor": "#1976d2",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Captain America • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "id": 3,
@@ -34,7 +40,10 @@ const characters = [
     "birth": "c. 964 AD (Asgard)",
     "death": "Alive (Cosmic protector, guardian of Love)",
     "bgColor": "#9575cd",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Thor • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 4,
@@ -46,7 +55,10 @@ const characters = [
     "birth": "December 18, 1969 (Dayton, Ohio)",
     "death": "Alive (Avenger, scientist, and mentor)",
     "bgColor": "#388e3c",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Hulk • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "id": 5,
@@ -58,7 +70,10 @@ const characters = [
     "birth": "November 22, 1984 (Stalingrad, USSR)",
     "death": "May 2023 / 2014 Time-Heist (Vormir, sacrificed for Soul Stone)",
     "bgColor": "#c62828",
-    "fontFamily": "Black Widow"
+    "fontFamily": "Black Widow",
+    "trailerId": "ybji16u608U",
+    "trailerTitle": "Black Widow • Marvel Studios' Black Widow Official Trailer",
+    "trailerCategory": "Red Room & Elite Spies"
   },
   {
     "id": 6,
@@ -70,7 +85,10 @@ const characters = [
     "birth": "January 7, 1971 (Waverly, Iowa)",
     "death": "Alive (Retired Avenger, mentor to Kate Bishop)",
     "bgColor": "#6d4c41",
-    "fontFamily": "Hawkeye"
+    "fontFamily": "Hawkeye",
+    "trailerId": "5VYb3B1ETlk",
+    "trailerTitle": "Hawkeye • Marvel Studios' Hawkeye Official Trailer",
+    "trailerCategory": "Marksmen & Street Archery"
   },
   {
     "id": 7,
@@ -82,7 +100,10 @@ const characters = [
     "birth": "February 10, 1989 (Novi Grad, Sokovia)",
     "death": "2024 (Presumed under Mount Wundagore collapse)",
     "bgColor": "#ad1457",
-    "fontFamily": "Scarlet Witch"
+    "fontFamily": "Scarlet Witch",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Scarlet Witch • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 8,
@@ -94,7 +115,10 @@ const characters = [
     "birth": "May 2015 (Stark Tower, New York)",
     "death": "2018 (Wakanda, destroyed by Thanos) / Reborn as White Vision",
     "bgColor": "#ffd600",
-    "fontFamily": "Vision"
+    "fontFamily": "Vision",
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Vision • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "id": 9,
@@ -106,7 +130,10 @@ const characters = [
     "birth": "April 24, 1960 (Boston, Massachusetts)",
     "death": "Alive (Active cosmic Avenger)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Captain Marvel"
+    "fontFamily": "Captain Marvel",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Captain Marvel • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 10,
@@ -118,7 +145,10 @@ const characters = [
     "birth": "November 18, 1976 (New York City, New York)",
     "death": "Alive (Protecting the Multiverse with Clea)",
     "bgColor": "#283593",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Doctor Strange • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 11,
@@ -130,7 +160,10 @@ const characters = [
     "birth": "May 21, 1980 (Birnin Zana, Wakanda)",
     "death": "May 2024 (Wakanda, succumbed to illness)",
     "bgColor": "#212121",
-    "fontFamily": "Black Panther"
+    "fontFamily": "Black Panther",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Black Panther • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 12,
@@ -142,7 +175,10 @@ const characters = [
     "birth": "August 10, 2001 (Forest Hills, Queens, New York)",
     "death": "Alive (Operating as the friendly neighborhood Spider-Man)",
     "bgColor": "#d32f2f",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Spider-Man • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 13,
@@ -154,7 +190,10 @@ const characters = [
     "birth": "May 20, 1969 (Coral Gables, Florida)",
     "death": "Alive (Avenger and author)",
     "bgColor": "#bdbdbd",
-    "fontFamily": "Ant-Man"
+    "fontFamily": "Ant-Man",
+    "trailerId": "ZlNFpri-Y40",
+    "trailerTitle": "Ant-Man • Ant-Man and the Wasp: Quantumania Official Trailer",
+    "trailerCategory": "Quantum Realm & Kang Dynasties"
   },
   {
     "id": 14,
@@ -166,7 +205,10 @@ const characters = [
     "birth": "October 2, 1979 (San Francisco, California)",
     "death": "Alive (Leading Pym van Dyne Foundation)",
     "bgColor": "#4a148c",
-    "fontFamily": "Ant-Man"
+    "fontFamily": "Ant-Man",
+    "trailerId": "ZlNFpri-Y40",
+    "trailerTitle": "Wasp • Ant-Man and the Wasp: Quantumania Official Trailer",
+    "trailerCategory": "Quantum Realm & Kang Dynasties"
   },
   {
     "id": 15,
@@ -178,7 +220,10 @@ const characters = [
     "birth": "October 6, 1968 (Philadelphia, Pennsylvania)",
     "death": "Alive (USAF Colonel & Avenger)",
     "bgColor": "#616161",
-    "fontFamily": "War Machine"
+    "fontFamily": "War Machine",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "War Machine • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 16,
@@ -190,7 +235,10 @@ const characters = [
     "birth": "September 23, 1978 (Delacroix, Louisiana)",
     "death": "Alive (Active Captain America)",
     "bgColor": "#455a64",
-    "fontFamily": "Falcon"
+    "fontFamily": "Falcon",
+    "trailerId": "1pHDWnXmK7Y",
+    "trailerTitle": "Falcon • Captain America: Brave New World Official Trailer",
+    "trailerCategory": "Captain America & Red Hulk"
   },
   {
     "id": 17,
@@ -202,7 +250,10 @@ const characters = [
     "birth": "March 10, 1917 (Shelbyville, Indiana)",
     "death": "Alive (Pardoned hero & Congressman / Avenger)",
     "bgColor": "#263238",
-    "fontFamily": "Winter Soldier"
+    "fontFamily": "Winter Soldier",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Winter Soldier • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 18,
@@ -214,7 +265,10 @@ const characters = [
     "birth": "c. 1972 (Zen-Whoberi)",
     "death": "2018 (Vormir, sacrificed by Thanos) / 2014 Variant alive with Ravagers",
     "bgColor": "#43a047",
-    "fontFamily": "Gamora"
+    "fontFamily": "Gamora",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Gamora • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 19,
@@ -226,7 +280,10 @@ const characters = [
     "birth": "c. 1975 (Sanctuary / Luphom)",
     "death": "Alive (Mayor and Leader of Knowhere)",
     "bgColor": "#0288d1",
-    "fontFamily": "Nebula"
+    "fontFamily": "Nebula",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Nebula • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 20,
@@ -238,7 +295,10 @@ const characters = [
     "birth": "October 4, 1980 (St. Charles, Missouri)",
     "death": "Alive (Returned to Earth with his grandfather)",
     "bgColor": "#8d6e63",
-    "fontFamily": "Star-Lord"
+    "fontFamily": "Star-Lord",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Star-Lord • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 21,
@@ -250,7 +310,10 @@ const characters = [
     "birth": "c. 2005 (Counter-Earth)",
     "death": "Alive (Captain of the Guardians of the Galaxy)",
     "bgColor": "#a1887f",
-    "fontFamily": "Rocket Raccoon"
+    "fontFamily": "Rocket Raccoon",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Rocket Raccoon • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 22,
@@ -262,7 +325,10 @@ const characters = [
     "birth": "Planet X (Flora colossus species)",
     "death": "Original died 2014 (Battle of Xandar) / Son Groot alive and active",
     "bgColor": "#8bc34a",
-    "fontFamily": "Groot"
+    "fontFamily": "Groot",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Groot • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 23,
@@ -274,7 +340,10 @@ const characters = [
     "birth": "Kylos",
     "death": "Alive (Guardian of Knowhere community)",
     "bgColor": "#b2dfdb",
-    "fontFamily": "Drax the Destroyer"
+    "fontFamily": "Drax the Destroyer",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Drax the Destroyer • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 24,
@@ -286,7 +355,10 @@ const characters = [
     "birth": "Ego's Planet",
     "death": "Alive (Traveling the cosmos independently with Abilisks)",
     "bgColor": "#aed581",
-    "fontFamily": "Mantis"
+    "fontFamily": "Mantis",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Mantis • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 25,
@@ -298,7 +370,10 @@ const characters = [
     "birth": "c. 1988 (Birnin Zana, Wakanda)",
     "death": "Alive (Leader of the Midnight Angels)",
     "bgColor": "#ff7043",
-    "fontFamily": "Okoye"
+    "fontFamily": "Okoye",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Okoye • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 26,
@@ -310,7 +385,10 @@ const characters = [
     "birth": "c. 1970 (Kamar-Taj, Nepal)",
     "death": "Alive (Sorcerer Supreme of Earth-616)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Wong"
+    "fontFamily": "Wong",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Wong • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 27,
@@ -322,7 +400,10 @@ const characters = [
     "birth": "c. 1000 BC (Asgard)",
     "death": "Alive (King of New Asgard, Norway)",
     "bgColor": "#7986cb",
-    "fontFamily": "Valkyrie"
+    "fontFamily": "Valkyrie",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Valkyrie • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 28,
@@ -334,7 +415,10 @@ const characters = [
     "birth": "c. 1300s (Celtic Regions / Kamar-Taj)",
     "death": "2016 (New York City, killed by Kaecilius)",
     "bgColor": "#fff176",
-    "fontFamily": "Ancient One"
+    "fontFamily": "Ancient One",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Ancient One • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 29,
@@ -346,7 +430,10 @@ const characters = [
     "birth": "July 4, 1950 (Huntsville, Alabama)",
     "death": "Alive (Director of S.A.B.E.R.)",
     "bgColor": "#263238",
-    "fontFamily": "Nick Fury"
+    "fontFamily": "Nick Fury",
+    "trailerId": "Tp_YZNqNBhw",
+    "trailerTitle": "Nick Fury • Marvel Studios' Secret Invasion Official Trailer",
+    "trailerCategory": "Skrulls & Espionage"
   },
   {
     "id": 30,
@@ -358,7 +445,10 @@ const characters = [
     "birth": "July 13, 1974 (St. Paul, Minnesota)",
     "death": "Alive (CEO of Stark Industries & philanthropist)",
     "bgColor": "#f06292",
-    "fontFamily": "Pepper Potts"
+    "fontFamily": "Pepper Potts",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Pepper Potts • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 31,
@@ -370,7 +460,10 @@ const characters = [
     "birth": "c. 1000 AD (Titan)",
     "death": "2018 (The Garden, decapitated by Thor) & 2023 (Earth-616, dusted by Tony Stark)",
     "bgColor": "#7e57c2",
-    "fontFamily": "Thanos"
+    "fontFamily": "Thanos",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Thanos • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 32,
@@ -382,7 +475,10 @@ const characters = [
     "birth": "November 22, 1975 (Regina, Saskatchewan, Canada)",
     "death": "Immortal (Cannot die due to hyper-regeneration)",
     "bgColor": "#c62828",
-    "fontFamily": "Deadpool"
+    "fontFamily": "Deadpool",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Deadpool • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 33,
@@ -394,7 +490,10 @@ const characters = [
     "birth": "Eddie: July 1980 (San Francisco) / Symbiote: Klyntar (Extraterrestrial)",
     "death": "Alive (Lethal Protector navigating the Multiverse)",
     "bgColor": "#212121",
-    "fontFamily": "Venom"
+    "fontFamily": "Venom",
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Venom • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "id": 34,
@@ -406,7 +505,10 @@ const characters = [
     "birth": "965 AD (Jotunheim)",
     "death": "2018 (Statesman, killed by Thanos) / God of Stories reigning at the End of Time",
     "bgColor": "#388e3c",
-    "fontFamily": "Loki"
+    "fontFamily": "Loki",
+    "trailerId": "dug56u8NN7g",
+    "trailerTitle": "Loki • Marvel Studios' Loki Season 2 Official Trailer",
+    "trailerCategory": "TVA & Multiverse Timelines"
   },
   {
     "id": 35,
@@ -418,7 +520,10 @@ const characters = [
     "birth": "c. 500 BC (Asgard)",
     "death": "November 2017 (Asgard, annihilated by Surtur in Ragnarok)",
     "bgColor": "#00695c",
-    "fontFamily": "Hela"
+    "fontFamily": "Hela",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Hela • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 36,
@@ -430,7 +535,10 @@ const characters = [
     "birth": "May 2015 (Stark Tower, New York)",
     "death": "May 2015 (Sokovia, destroyed by Vision and the Avengers)",
     "bgColor": "#757575",
-    "fontFamily": "Ultron"
+    "fontFamily": "Ultron",
+    "trailerId": "tmeOjFno6Do",
+    "trailerTitle": "Ultron • Avengers: Age of Ultron Official Trailer",
+    "trailerCategory": "Avengers / AI Threat"
   },
   {
     "id": 37,
@@ -442,7 +550,10 @@ const characters = [
     "birth": "February 10, 1989 (Novi Grad, Sokovia)",
     "death": "May 2015 (Battle of Sokovia, sacrificed himself to save Hawkeye and a child)",
     "bgColor": "#0288d1",
-    "fontFamily": "Quicksilver"
+    "fontFamily": "Quicksilver",
+    "trailerId": "tmeOjFno6Do",
+    "trailerTitle": "Quicksilver • Avengers: Age of Ultron Official Trailer",
+    "trailerCategory": "Avengers / AI Threat"
   },
   {
     "id": 38,
@@ -454,7 +565,10 @@ const characters = [
     "birth": "April 1832 (Cold Lake, Alberta, Canada)",
     "death": "2029 (North Dakota, Earth-10005) / Active in MCU Multiverse (Deadpool & Wolverine)",
     "bgColor": "#f57f17",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Wolverine • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 39,
@@ -466,7 +580,10 @@ const characters = [
     "birth": "c. 1996 (Foshan / Ta Lo lineage, China)",
     "death": "Alive (Avenger & Guardian of the Ten Rings)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Shang-Chi"
+    "fontFamily": "Shang-Chi",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Shang-Chi • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 40,
@@ -478,7 +595,10 @@ const characters = [
     "birth": "March 9, 1987 (Chicago, Illinois)",
     "death": "Alive (Avatar of Khonshu & Fist of Vengeance)",
     "bgColor": "#37474f",
-    "fontFamily": "Moon Knight"
+    "fontFamily": "Moon Knight",
+    "trailerId": "x7Krla_UxRg",
+    "trailerTitle": "Moon Knight • Marvel Studios' Moon Knight Official Trailer",
+    "trailerCategory": "Egyptian Gods & Ennead"
   },
   {
     "id": 41,
@@ -490,7 +610,10 @@ const characters = [
     "birth": "October 12, 1984 (Hell's Kitchen, Manhattan, New York)",
     "death": "Alive (The Man Without Fear & active defender of New York)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Daredevil"
+    "fontFamily": "Daredevil",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Daredevil • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 42,
@@ -502,7 +625,10 @@ const characters = [
     "birth": "c. 1980 (Queens, New York)",
     "death": "Alive (The Punisher & active vigilante)",
     "bgColor": "#212121",
-    "fontFamily": "Punisher"
+    "fontFamily": "Punisher",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Punisher • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 43,
@@ -514,7 +640,10 @@ const characters = [
     "birth": "c. 1928 (Düsseldorf, Germany)",
     "death": "Active in Marvel Multiverse (Master of Magnetism)",
     "bgColor": "#6a1b9a",
-    "fontFamily": "Magneto"
+    "fontFamily": "Magneto",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Magneto • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 44,
@@ -526,7 +655,10 @@ const characters = [
     "birth": "c. 1929 (Soho, London, England)",
     "death": "Immortal (The Daywalker & active supernatural hunter)",
     "bgColor": "#c62828",
-    "fontFamily": "Blade"
+    "fontFamily": "Blade",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Blade • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 45,
@@ -538,7 +670,10 @@ const characters = [
     "birth": "Haasenstadt, Latveria",
     "death": "Immortal Sovereign (Lord of Latveria & Multiverse Emperor)",
     "bgColor": "#1b5e20",
-    "fontFamily": "Doctor Doom"
+    "fontFamily": "Doctor Doom",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Doctor Doom • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 46,
@@ -550,7 +685,10 @@ const characters = [
     "birth": "Waukegan, Illinois",
     "death": "Immortal (Spirit of Vengeance)",
     "bgColor": "#e65100",
-    "fontFamily": "Ghost Rider"
+    "fontFamily": "Ghost Rider",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Ghost Rider • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 47,
@@ -562,7 +700,10 @@ const characters = [
     "birth": "New York City, New York",
     "death": "Active across Multiverse (X-Men Founder & Illuminati Member)",
     "bgColor": "#1565c0",
-    "fontFamily": "Professor X"
+    "fontFamily": "Professor X",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Professor X • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 48,
@@ -574,7 +715,10 @@ const characters = [
     "birth": "April 9, 1921 (London, England)",
     "death": "Alive (Guardian of the Multiverse)",
     "bgColor": "#0d47a1",
-    "fontFamily": "Captain Carter"
+    "fontFamily": "Captain Carter",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Captain Carter • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 49,
@@ -586,7 +730,10 @@ const characters = [
     "birth": "April 15, 1990 (Los Angeles, California)",
     "death": "Alive (Superhuman Law Attorney & Avenger)",
     "bgColor": "#2e7d32",
-    "fontFamily": "She-Hulk"
+    "fontFamily": "She-Hulk",
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "She-Hulk • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "id": 50,
@@ -598,7 +745,10 @@ const characters = [
     "birth": "August 20, 2006 (Jersey City, New Jersey)",
     "death": "Alive (Leader of the Young Avengers & Cosmic Hero)",
     "bgColor": "#00838f",
-    "fontFamily": "Ms. Marvel"
+    "fontFamily": "Ms. Marvel",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Ms. Marvel • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 51,
@@ -610,7 +760,10 @@ const characters = [
     "birth": "Zenn-La (Extraterrestrial)",
     "death": "Immortal (Cosmic Wanderer)",
     "bgColor": "#455a64",
-    "fontFamily": "Silver Surfer"
+    "fontFamily": "Silver Surfer",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Silver Surfer • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 52,
@@ -622,7 +775,10 @@ const characters = [
     "birth": "Central City, California",
     "death": "Active in Multiverse (Leader of the Fantastic Four & Illuminati)",
     "bgColor": "#0d47a1",
-    "fontFamily": "Mister Fantastic"
+    "fontFamily": "Mister Fantastic",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Mister Fantastic • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 53,
@@ -634,7 +790,10 @@ const characters = [
     "birth": "Long Island, New York",
     "death": "Active in Multiverse (Fantastic Four & Void Resistance)",
     "bgColor": "#d84315",
-    "fontFamily": "Human Torch"
+    "fontFamily": "Human Torch",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Human Torch • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 54,
@@ -646,7 +805,10 @@ const characters = [
     "birth": "New Orleans, Louisiana",
     "death": "Alive (Void Resistance Fighter & X-Man)",
     "bgColor": "#ad1457",
-    "fontFamily": "Gambit"
+    "fontFamily": "Gambit",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Gambit • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 55,
@@ -658,7 +820,10 @@ const characters = [
     "birth": "c. 1571 (Yucatán / Talokan)",
     "death": "Alive (King of Talokan & Feathered Serpent God)",
     "bgColor": "#00695c",
-    "fontFamily": "Namor"
+    "fontFamily": "Namor",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Namor • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 56,
@@ -670,7 +835,10 @@ const characters = [
     "birth": "c. 1957 (Queens, New York)",
     "death": "Deceased (Earth-96283) / Cured (Earth-616 Multiverse incursion)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Green Goblin"
+    "fontFamily": "Green Goblin",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Green Goblin • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 57,
@@ -682,7 +850,10 @@ const characters = [
     "birth": "c. 1953 (Schenectady, New York)",
     "death": "Cured and returned to Earth-96283 (Spider-Man: No Way Home)",
     "bgColor": "#1b5e20",
-    "fontFamily": "Doctor Octopus"
+    "fontFamily": "Doctor Octopus",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Doctor Octopus • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 58,
@@ -694,7 +865,10 @@ const characters = [
     "birth": "Glenville, Long Island, New York",
     "death": "Active in Multiverse (Fantastic Four & Future Foundation)",
     "bgColor": "#0277bd",
-    "fontFamily": "Invisible Woman"
+    "fontFamily": "Invisible Woman",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Invisible Woman • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 59,
@@ -706,7 +880,10 @@ const characters = [
     "birth": "Yancy Street, Lower East Side, New York City",
     "death": "Active in Multiverse (Fantastic Four Powerhouse)",
     "bgColor": "#e65100",
-    "fontFamily": "The Thing"
+    "fontFamily": "The Thing",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "The Thing • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 60,
@@ -718,7 +895,10 @@ const characters = [
     "birth": "Salem Center, Westchester County, New York",
     "death": "Alive (X-Force Leader & Time Soldier)",
     "bgColor": "#37474f",
-    "fontFamily": "Cable"
+    "fontFamily": "Cable",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Cable • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 61,
@@ -730,7 +910,10 @@ const characters = [
     "birth": "Ust-Ordynsky Collective, Siberia, Russia",
     "death": "Alive (Senior X-Man & Deadpool Mentor)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Colossus"
+    "fontFamily": "Colossus",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Colossus • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 62,
@@ -742,7 +925,10 @@ const characters = [
     "birth": "New York City, New York / Cairo, Egypt",
     "death": "Active in Multiverse (Omega-Level Mutant & X-Men Leader)",
     "bgColor": "#3949ab",
-    "fontFamily": "Storm"
+    "fontFamily": "Storm",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Storm • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 63,
@@ -754,7 +940,10 @@ const characters = [
     "birth": "Anchorage, Alaska",
     "death": "Active in Multiverse (X-Men Field Commander)",
     "bgColor": "#c2185b",
-    "fontFamily": "Cyclops"
+    "fontFamily": "Cyclops",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Cyclops • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 64,
@@ -766,7 +955,10 @@ const characters = [
     "birth": "Annandale-on-Hudson, New York",
     "death": "Immortal Entity (Host of the Phoenix Force)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Jean Grey"
+    "fontFamily": "Jean Grey",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Jean Grey • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 65,
@@ -778,7 +970,10 @@ const characters = [
     "birth": "Caldecott County, Mississippi",
     "death": "Alive (Senior X-Man & Southern Powerhouse)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Rogue"
+    "fontFamily": "Rogue",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Rogue • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 66,
@@ -790,7 +985,10 @@ const characters = [
     "birth": "Hell's Kitchen, Manhattan, New York",
     "death": "Alive (Mayor of New York City & Master of Crime)",
     "bgColor": "#4a148c",
-    "fontFamily": "Kingpin"
+    "fontFamily": "Kingpin",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Kingpin • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 67,
@@ -802,7 +1000,10 @@ const characters = [
     "birth": "c. 2002 (Manhattan, New York)",
     "death": "Alive (The New Hawkeye & Young Avengers Leader)",
     "bgColor": "#512da8",
-    "fontFamily": "Kate Bishop"
+    "fontFamily": "Kate Bishop",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Kate Bishop • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 68,
@@ -814,7 +1015,10 @@ const characters = [
     "birth": "c. 1989 (Soviet Union / Russia)",
     "death": "Alive (White Widow & Thunderbolts Leader)",
     "bgColor": "#37474f",
-    "fontFamily": "Yelena Belova"
+    "fontFamily": "Yelena Belova",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Yelena Belova • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 69,
@@ -826,7 +1030,10 @@ const characters = [
     "birth": "c. 1998 (Birnin Zana, Wakanda)",
     "death": "Alive (The Black Panther & Queen Regent of Wakanda)",
     "bgColor": "#4a148c",
-    "fontFamily": "Shuri"
+    "fontFamily": "Shuri",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Shuri • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 70,
@@ -838,7 +1045,10 @@ const characters = [
     "birth": "Utopian Parallel (Extradimensional)",
     "death": "Alive (Mystic Sorcerer Apprentice & Multiversal Hero)",
     "bgColor": "#1565c0",
-    "fontFamily": "America Chavez"
+    "fontFamily": "America Chavez",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "America Chavez • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 71,
@@ -850,7 +1060,10 @@ const characters = [
     "birth": "2026 (Sovereign Birth Cocoon)",
     "death": "Immortal (Cosmic Protector & Guardian of the Galaxy)",
     "bgColor": "#f57f17",
-    "fontFamily": "Adam Warlock"
+    "fontFamily": "Adam Warlock",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Adam Warlock • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 72,
@@ -862,7 +1075,10 @@ const characters = [
     "birth": "c. 1750 (Ria / Sakaar)",
     "death": "Alive (Kronan Warrior & Thor's Companion)",
     "bgColor": "#78909c",
-    "fontFamily": "Korg"
+    "fontFamily": "Korg",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Korg • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 73,
@@ -874,7 +1090,10 @@ const characters = [
     "birth": "c. 1958 (Soviet Union / Russia)",
     "death": "Alive (Soviet Super-Soldier & Thunderbolts Member)",
     "bgColor": "#c62828",
-    "fontFamily": "Red Guardian"
+    "fontFamily": "Red Guardian",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Red Guardian • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 74,
@@ -886,7 +1105,10 @@ const characters = [
     "birth": "c. 1984 (New Orleans, Louisiana)",
     "death": "Alive (Cosmic Hero & Multiversal Explorer)",
     "bgColor": "#0288d1",
-    "fontFamily": "Monica Rambeau"
+    "fontFamily": "Monica Rambeau",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Monica Rambeau • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 75,
@@ -898,7 +1120,10 @@ const characters = [
     "birth": "c. 2005 (Chicago, Illinois)",
     "death": "Alive (MIT Tech Pioneer & Young Avenger)",
     "bgColor": "#d32f2f",
-    "fontFamily": "Ironheart"
+    "fontFamily": "Ironheart",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Ironheart • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 76,
@@ -910,7 +1135,10 @@ const characters = [
     "birth": "c. 2007 (San Francisco, California)",
     "death": "Alive (Young Avenger & Quantum Explorer)",
     "bgColor": "#7b1fa2",
-    "fontFamily": "Cassie Lang"
+    "fontFamily": "Cassie Lang",
+    "trailerId": "ZlNFpri-Y40",
+    "trailerTitle": "Cassie Lang • Ant-Man and the Wasp: Quantumania Official Trailer",
+    "trailerCategory": "Quantum Realm & Kang Dynasties"
   },
   {
     "id": 77,
@@ -922,7 +1150,10 @@ const characters = [
     "birth": "c. 1993 (Tamaha, Oklahoma)",
     "death": "Alive (Choctaw Spiritual Warrior & Hero)",
     "bgColor": "#d84315",
-    "fontFamily": "Echo"
+    "fontFamily": "Echo",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Echo • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 78,
@@ -934,7 +1165,10 @@ const characters = [
     "birth": "c. 1995 (Soviet Union / Russia)",
     "death": "Alive (Reformed Operative & Thunderbolts Member)",
     "bgColor": "#455a64",
-    "fontFamily": "Taskmaster"
+    "fontFamily": "Taskmaster",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Taskmaster • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 79,
@@ -946,7 +1180,10 @@ const characters = [
     "birth": "c. 1650s (Salem, Massachusetts)",
     "death": "Immortal Witch (Witches' Road Guide & Sorceress)",
     "bgColor": "#4a148c",
-    "fontFamily": "Agatha Harkness"
+    "fontFamily": "Agatha Harkness",
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Agatha Harkness • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "id": 80,
@@ -958,7 +1195,10 @@ const characters = [
     "birth": "31st Century (Earth-6311 / Multiverse)",
     "death": "Defeated in Quantum Realm / Infinite variants across Council of Kangs",
     "bgColor": "#1b5e20",
-    "fontFamily": "Kang the Conqueror"
+    "fontFamily": "Kang the Conqueror",
+    "trailerId": "dug56u8NN7g",
+    "trailerTitle": "Kang the Conqueror • Marvel Studios' Loki Season 2 Official Trailer",
+    "trailerCategory": "TVA & Multiverse Timelines"
   },
   {
     "id": 81,
@@ -970,7 +1210,10 @@ const characters = [
     "birth": "March 1971 (Zagreb, Yugoslavia)",
     "death": "Alive (Reformed Gamma Master & Kamar-Taj Resident)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Abomination"
+    "fontFamily": "Abomination",
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Abomination • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "id": 82,
@@ -982,7 +1225,10 @@ const characters = [
     "birth": "Centauri IV (Extraterrestrial)",
     "death": "2014 (Ego's Planet, sacrificed himself to save Peter Quill)",
     "bgColor": "#0288d1",
-    "fontFamily": "Yondu Udonta"
+    "fontFamily": "Yondu Udonta",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Yondu Udonta • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 83,
@@ -994,7 +1240,10 @@ const characters = [
     "birth": "c. 1000 AD (China)",
     "death": "2024 (Ta Lo, sacrificed his soul to save Shang-Chi from the Dweller-in-Darkness)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Wenwu"
+    "fontFamily": "Wenwu",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Wenwu • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 84,
@@ -1006,7 +1255,10 @@ const characters = [
     "birth": "Nameless Desert Planet",
     "death": "2024 (Gates of Eternity, resurrected his daughter Love before dying)",
     "bgColor": "#37474f",
-    "fontFamily": "Gorr the God Butcher"
+    "fontFamily": "Gorr the God Butcher",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Gorr the God Butcher • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 85,
@@ -1018,7 +1270,10 @@ const characters = [
     "birth": "c. 1200 BC (Mount Olympus / Omnipotence City)",
     "death": "Immortal (Olympian God of Strength)",
     "bgColor": "#f57f17",
-    "fontFamily": "Hercules"
+    "fontFamily": "Hercules",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Hercules • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 86,
@@ -1030,7 +1285,10 @@ const characters = [
     "birth": "Counter-Earth / OrgoCity",
     "death": "Imprisoned in Knowhere (Defeated by the Guardians of the Galaxy)",
     "bgColor": "#6a1b9a",
-    "fontFamily": "High Evolutionary"
+    "fontFamily": "High Evolutionary",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "High Evolutionary • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 87,
@@ -1042,7 +1300,10 @@ const characters = [
     "birth": "World Forge (Cosmic Synthetic Eternal)",
     "death": "2024 (Flew into the Sun in penance after stopping the Emergence)",
     "bgColor": "#0d47a1",
-    "fontFamily": "Ikaris"
+    "fontFamily": "Ikaris",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Ikaris • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 88,
@@ -1054,7 +1315,10 @@ const characters = [
     "birth": "World Forge (Cosmic Synthetic Eternal)",
     "death": "Immortal (Guardian of the Cosmos on the Domo)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Thena"
+    "fontFamily": "Thena",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Thena • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 89,
@@ -1066,7 +1330,10 @@ const characters = [
     "birth": "c. 1985 (United States)",
     "death": "Immortal (The Sentry & The Void)",
     "bgColor": "#f9a825",
-    "fontFamily": "Sentry"
+    "fontFamily": "Sentry",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Sentry • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 90,
@@ -1078,7 +1345,10 @@ const characters = [
     "birth": "c. 1970 (Cleveland, Ohio / Variant timeline)",
     "death": "Alive (Retired to the Sacred Timeline in Cleveland, Ohio)",
     "bgColor": "#8d6e63",
-    "fontFamily": "Mobius"
+    "fontFamily": "Mobius",
+    "trailerId": "dug56u8NN7g",
+    "trailerTitle": "Mobius • Marvel Studios' Loki Season 2 Official Trailer",
+    "trailerCategory": "TVA & Multiverse Timelines"
   },
   {
     "id": 91,
@@ -1090,7 +1360,10 @@ const characters = [
     "birth": "World Forge (Cosmic Synthetic Eternal)",
     "death": "Immortal (Prime Eternal & Earth Protector)",
     "bgColor": "#00695c",
-    "fontFamily": "Sersi"
+    "fontFamily": "Sersi",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Sersi • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 92,
@@ -1102,7 +1375,10 @@ const characters = [
     "birth": "c. 1980 (Los Angeles, California)",
     "death": "2024 (Gates of Eternity, ascended to Valhalla)",
     "bgColor": "#c2185b",
-    "fontFamily": "Mighty Thor"
+    "fontFamily": "Mighty Thor",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Mighty Thor • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 93,
@@ -1114,7 +1390,10 @@ const characters = [
     "birth": "c. 1988 (Custer, Georgia)",
     "death": "Alive (U.S. Agent & Thunderbolts Operative)",
     "bgColor": "#b71c1c",
-    "fontFamily": "U.S. Agent"
+    "fontFamily": "U.S. Agent",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "U.S. Agent • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 94,
@@ -1126,7 +1405,10 @@ const characters = [
     "birth": "c. 1987 (Argentina / United States)",
     "death": "Alive (Quantum Operative & Thunderbolts Member)",
     "bgColor": "#455a64",
-    "fontFamily": "Ghost"
+    "fontFamily": "Ghost",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Ghost • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 95,
@@ -1138,7 +1420,10 @@ const characters = [
     "birth": "c. 1969 (Queens, New York)",
     "death": "Alive (Head of Stark Security & Avenger Ally)",
     "bgColor": "#37474f",
-    "fontFamily": "Happy Hogan"
+    "fontFamily": "Happy Hogan",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Happy Hogan • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 96,
@@ -1150,7 +1435,10 @@ const characters = [
     "birth": "April 4, 1982 (Chicago, Illinois)",
     "death": "2026 (Moscow, Russia, assassinated by Gravik)",
     "bgColor": "#263238",
-    "fontFamily": "Maria Hill"
+    "fontFamily": "Maria Hill",
+    "trailerId": "Tp_YZNqNBhw",
+    "trailerTitle": "Maria Hill • Marvel Studios' Secret Invasion Official Trailer",
+    "trailerCategory": "Skrulls & Espionage"
   },
   {
     "id": 97,
@@ -1162,7 +1450,10 @@ const characters = [
     "birth": "c. 1978 (Extraterrestrial)",
     "death": "Alive (Guardian of the Galaxy on Knowhere)",
     "bgColor": "#8d6e63",
-    "fontFamily": "Kraglin"
+    "fontFamily": "Kraglin",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Kraglin • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 98,
@@ -1174,7 +1465,10 @@ const characters = [
     "birth": "World Forge (Cosmic Synthetic Eternal)",
     "death": "Immortal (Cosmic Speedster on the Domo)",
     "bgColor": "#ad1457",
-    "fontFamily": "Makkari"
+    "fontFamily": "Makkari",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Makkari • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 99,
@@ -1186,7 +1480,10 @@ const characters = [
     "birth": "World Forge (Cosmic Synthetic Eternal)",
     "death": "Immortal (Eternal Mind Master on the Domo)",
     "bgColor": "#212121",
-    "fontFamily": "Druig"
+    "fontFamily": "Druig",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Druig • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 100,
@@ -1198,7 +1495,10 @@ const characters = [
     "birth": "World Forge (Cosmic Synthetic Eternal)",
     "death": "Immortal (Master Inventor on the Domo)",
     "bgColor": "#455a64",
-    "fontFamily": "Phastos"
+    "fontFamily": "Phastos",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Phastos • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 101,
@@ -1210,7 +1510,10 @@ const characters = [
     "birth": "World Forge (Cosmic Synthetic Eternal)",
     "death": "Immortal (Bollywood Star & Eternal Guardian)",
     "bgColor": "#e65100",
-    "fontFamily": "Kingo"
+    "fontFamily": "Kingo",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Kingo • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 102,
@@ -1222,7 +1525,10 @@ const characters = [
     "birth": "c. 3000 BC (Asgard)",
     "death": "2017 (Tønsberg, Norway, dissolved into cosmic starlight to enter Valhalla)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Odin"
+    "fontFamily": "Odin",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Odin • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 103,
@@ -1234,7 +1540,10 @@ const characters = [
     "birth": "c. 1000 BC (Asgard)",
     "death": "2018 (Statesman starship, sacrificed himself to send Hulk to Earth)",
     "bgColor": "#c99700",
-    "fontFamily": "Heimdall"
+    "fontFamily": "Heimdall",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Heimdall • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 104,
@@ -1246,7 +1555,10 @@ const characters = [
     "birth": "World Forge (Cosmic Synthetic Eternal)",
     "death": "2024 (Amazon Rainforest, sacrificed his life protecting Thena from Kro)",
     "bgColor": "#5d4037",
-    "fontFamily": "Gilgamesh"
+    "fontFamily": "Gilgamesh",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Gilgamesh • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 105,
@@ -1258,7 +1570,10 @@ const characters = [
     "birth": "World Forge (Cosmic Synthetic Eternal)",
     "death": "2024 (South Dakota, betrayed by Ikaris to Deviants)",
     "bgColor": "#004d40",
-    "fontFamily": "Ajak"
+    "fontFamily": "Ajak",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Ajak • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 106,
@@ -1270,7 +1585,10 @@ const characters = [
     "birth": "World Forge (Cosmic Synthetic Eternal)",
     "death": "Alive (Transformed into a mortal human by Sersi in 2024)",
     "bgColor": "#33691e",
-    "fontFamily": "Sprite"
+    "fontFamily": "Sprite",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Sprite • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 107,
@@ -1282,7 +1600,10 @@ const characters = [
     "birth": "Titan / World Forge (Eternal Prince)",
     "death": "Immortal (Royal Prince of Titan & Cosmic Hero)",
     "bgColor": "#d81b60",
-    "fontFamily": "Starfox"
+    "fontFamily": "Starfox",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Starfox • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 108,
@@ -1294,7 +1615,10 @@ const characters = [
     "birth": "Dark Dimension",
     "death": "Alive (Sorceress of the Dark Dimension)",
     "bgColor": "#6a1b9a",
-    "fontFamily": "Clea"
+    "fontFamily": "Clea",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Clea • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 109,
@@ -1306,7 +1630,10 @@ const characters = [
     "birth": "c. 2000 (Hunan Province, China)",
     "death": "Alive (Supreme Leader of the Ten Rings)",
     "bgColor": "#880e4f",
-    "fontFamily": "Xialing"
+    "fontFamily": "Xialing",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Xialing • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 110,
@@ -1318,7 +1645,10 @@ const characters = [
     "birth": "Laxidaza (Extraterrestrial)",
     "death": "Alive (Herald to Prince Eros on the Domo)",
     "bgColor": "#558b2f",
-    "fontFamily": "Pip the Troll"
+    "fontFamily": "Pip the Troll",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Pip the Troll • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 111,
@@ -1330,7 +1660,10 @@ const characters = [
     "birth": "Dawn of the Universe (Elder of the Universe)",
     "death": "Alive (Elder of the Universe & Sakaaran Overlord)",
     "bgColor": "#00838f",
-    "fontFamily": "Grandmaster"
+    "fontFamily": "Grandmaster",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Grandmaster • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 112,
@@ -1342,7 +1675,10 @@ const characters = [
     "birth": "Dawn of the Universe (Elder of the Universe)",
     "death": "Alive (Elder of the Universe on Knowhere)",
     "bgColor": "#8e24aa",
-    "fontFamily": "Collector"
+    "fontFamily": "Collector",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Collector • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 113,
@@ -1354,7 +1690,10 @@ const characters = [
     "birth": "Primordial Cosmos (Celestial Planet)",
     "death": "2014 (Destroyed by the Guardians of the Galaxy on Ego's Planet)",
     "bgColor": "#00897b",
-    "fontFamily": "Ego the Living Planet"
+    "fontFamily": "Ego the Living Planet",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Ego the Living Planet • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 114,
@@ -1366,7 +1705,10 @@ const characters = [
     "birth": "Sakaar",
     "death": "Alive (Executive in New Asgard)",
     "bgColor": "#689f38",
-    "fontFamily": "Miek"
+    "fontFamily": "Miek",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Miek • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 115,
@@ -1378,7 +1720,10 @@ const characters = [
     "birth": "c. 1960s (Soviet Union / Earth)",
     "death": "Alive (Guardian of the Galaxy on Knowhere)",
     "bgColor": "#1e88e5",
-    "fontFamily": "Cosmo"
+    "fontFamily": "Cosmo",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Cosmo • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 116,
@@ -1390,7 +1735,10 @@ const characters = [
     "birth": "Duckworld (Multiverse)",
     "death": "Alive (Mercenary & Ravager Ally)",
     "bgColor": "#ff8f00",
-    "fontFamily": "Howard the Duck"
+    "fontFamily": "Howard the Duck",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Howard the Duck • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 117,
@@ -1402,7 +1750,10 @@ const characters = [
     "birth": "c. 1955 (Liverpool, England)",
     "death": "Alive (Ta Lo Guide & Performer)",
     "bgColor": "#5d4037",
-    "fontFamily": "Trevor Slattery"
+    "fontFamily": "Trevor Slattery",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Trevor Slattery • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 118,
@@ -1414,7 +1765,10 @@ const characters = [
     "birth": "Ta Lo (Mythical Realm)",
     "death": "Alive (Ta Lo Guardian & Companion)",
     "bgColor": "#8d6e63",
-    "fontFamily": "Morris"
+    "fontFamily": "Morris",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Morris • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 119,
@@ -1426,7 +1780,10 @@ const characters = [
     "birth": "c. 1500s (Akwesasne / Mohawk Territory)",
     "death": "Immortal (Multiversal Guardian & Space Stone Hero)",
     "bgColor": "#0277bd",
-    "fontFamily": "Kahhori"
+    "fontFamily": "Kahhori",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Kahhori • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 120,
@@ -1438,7 +1795,10 @@ const characters = [
     "birth": "c. 1978 (Novi Grad, Sokovia)",
     "death": "Imprisoned in the Raft (Sokovian Mastermind)",
     "bgColor": "#4a148c",
-    "fontFamily": "Baron Zemo"
+    "fontFamily": "Baron Zemo",
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Baron Zemo • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "id": 121,
@@ -1450,7 +1810,10 @@ const characters = [
     "birth": "c. 1898 (Switzerland)",
     "death": "1972 (Physical) / 2014 (Digital consciousness destroyed at Camp Lehigh)",
     "bgColor": "#37474f",
-    "fontFamily": "Arnim Zola"
+    "fontFamily": "Arnim Zola",
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Arnim Zola • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "id": 122,
@@ -1462,7 +1825,10 @@ const characters = [
     "birth": "c. 1895 (Germany)",
     "death": "Cosmic Spectral Guardian on Vormir",
     "bgColor": "#b71c1c",
-    "fontFamily": "Red Skull"
+    "fontFamily": "Red Skull",
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Red Skull • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "id": 123,
@@ -1474,7 +1840,10 @@ const characters = [
     "birth": "c. 1975 (United States)",
     "death": "2016 (Lagos, Nigeria, detonated suicide vest)",
     "bgColor": "#212121",
-    "fontFamily": "Crossbones"
+    "fontFamily": "Crossbones",
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Crossbones • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "id": 124,
@@ -1486,7 +1855,10 @@ const characters = [
     "birth": "c. 1980 (Algiers, Algeria / France)",
     "death": "2024 (New York City, killed by Sharon Carter)",
     "bgColor": "#827717",
-    "fontFamily": "Batroc"
+    "fontFamily": "Batroc",
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Batroc • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "id": 125,
@@ -1498,7 +1870,10 @@ const characters = [
     "birth": "c. 1982 (Oakland, California)",
     "death": "2016 (Great Mound, Wakanda, chose death over bondage while watching sunset)",
     "bgColor": "#bf360c",
-    "fontFamily": "Killmonger"
+    "fontFamily": "Killmonger",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Killmonger • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 126,
@@ -1510,7 +1885,10 @@ const characters = [
     "birth": "c. 1980 (Jabari Mountains, Wakanda)",
     "death": "Alive (King of Wakanda & Jabari Leader)",
     "bgColor": "#4e342e",
-    "fontFamily": "M'Baku"
+    "fontFamily": "M'Baku",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "M'Baku • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 127,
@@ -1522,7 +1900,10 @@ const characters = [
     "birth": "c. 1985 (River Tribe, Wakanda)",
     "death": "Alive (War Dog & Mother of Prince Toussaint in Haiti)",
     "bgColor": "#00695c",
-    "fontFamily": "Nakia"
+    "fontFamily": "Nakia",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Nakia • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 128,
@@ -1534,7 +1915,10 @@ const characters = [
     "birth": "c. 1988 (Wakanda)",
     "death": "Alive (Second-in-Command of the Dora Milaje)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Ayo"
+    "fontFamily": "Ayo",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Ayo • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 129,
@@ -1546,7 +1930,10 @@ const characters = [
     "birth": "c. 1000 BC (Asgard)",
     "death": "Alive (Master Warrior in New Asgard)",
     "bgColor": "#1565c0",
-    "fontFamily": "Lady Sif"
+    "fontFamily": "Lady Sif",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Lady Sif • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 130,
@@ -1558,7 +1945,10 @@ const characters = [
     "birth": "c. 1975 (Romania / Kamar-Taj)",
     "death": "Alive (Rogue Sorcerer & Purger of Magic)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Karl Mordo"
+    "fontFamily": "Karl Mordo",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Karl Mordo • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 131,
@@ -1570,7 +1960,10 @@ const characters = [
     "birth": "Attilan / Earth-838",
     "death": "2024 (Illuminati Headquarters Earth-838, executed by the Scarlet Witch)",
     "bgColor": "#263238",
-    "fontFamily": "Black Bolt"
+    "fontFamily": "Black Bolt",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Black Bolt • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 132,
@@ -1582,7 +1975,10 @@ const characters = [
     "birth": "Dawn of Creation (Fifth Dimension)",
     "death": "Immortal (Observer of the Multiverse)",
     "bgColor": "#1a237e",
-    "fontFamily": "The Watcher"
+    "fontFamily": "The Watcher",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "The Watcher • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 133,
@@ -1594,7 +1990,10 @@ const characters = [
     "birth": "c. 1970 (Earth-199999 variant universe)",
     "death": "Immortal (Guardian of the Pocket Dimension Universe)",
     "bgColor": "#311b92",
-    "fontFamily": "Strange Supreme"
+    "fontFamily": "Strange Supreme",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Strange Supreme • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 134,
@@ -1606,7 +2005,10 @@ const characters = [
     "birth": "2015 (Alternate MCU Universe)",
     "death": "2021 (Purged by Arnim Zola algorithm inside Strange Supreme's pocket dimension)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Infinity Ultron"
+    "fontFamily": "Infinity Ultron",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Infinity Ultron • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 135,
@@ -1618,7 +2020,10 @@ const characters = [
     "birth": "c. 1975 (United States)",
     "death": "2024 (London, England, killed by stray drone gunfire; posthumously framed Peter Parker)",
     "bgColor": "#00695c",
-    "fontFamily": "Mysterio"
+    "fontFamily": "Mysterio",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Mysterio • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 136,
@@ -1630,7 +2035,10 @@ const characters = [
     "birth": "c. 1968 (New York City)",
     "death": "Alive (Imprisoned / Multiversal Displaced)",
     "bgColor": "#37474f",
-    "fontFamily": "Vulture"
+    "fontFamily": "Vulture",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Vulture • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 137,
@@ -1642,7 +2050,10 @@ const characters = [
     "birth": "c. 1975 (New York City / Earth-120703)",
     "death": "Cured and returned to home universe in 2024",
     "bgColor": "#fbc02d",
-    "fontFamily": "Electro"
+    "fontFamily": "Electro",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Electro • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 138,
@@ -1654,7 +2065,10 @@ const characters = [
     "birth": "c. 1970 (New York City / Earth-96283)",
     "death": "Cured and returned to home universe in 2024",
     "bgColor": "#8d6e63",
-    "fontFamily": "Sandman"
+    "fontFamily": "Sandman",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Sandman • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 139,
@@ -1666,7 +2080,10 @@ const characters = [
     "birth": "c. 1968 (New York City / Earth-120703)",
     "death": "Cured and returned to home universe in 2024",
     "bgColor": "#2e7d32",
-    "fontFamily": "Lizard"
+    "fontFamily": "Lizard",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Lizard • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 140,
@@ -1678,7 +2095,10 @@ const characters = [
     "birth": "c. 1996 (San Francisco, California)",
     "death": "Alive (Ta Lo Archer & Avengers Ally)",
     "bgColor": "#ad1457",
-    "fontFamily": "Katy Chen"
+    "fontFamily": "Katy Chen",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Katy Chen • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 141,
@@ -1690,7 +2110,10 @@ const characters = [
     "birth": "c. 1988 (Culver City, California)",
     "death": "Alive (Astrophysicist & S.W.O.R.D. Consultant)",
     "bgColor": "#4527a0",
-    "fontFamily": "Darcy Lewis"
+    "fontFamily": "Darcy Lewis",
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Darcy Lewis • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "id": 142,
@@ -1702,7 +2125,10 @@ const characters = [
     "birth": "c. 1980 (San Francisco, California)",
     "death": "Alive (FBI Special Agent & Federal Taskforce Commander)",
     "bgColor": "#1565c0",
-    "fontFamily": "Jimmy Woo"
+    "fontFamily": "Jimmy Woo",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Jimmy Woo • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 143,
@@ -1714,7 +2140,10 @@ const characters = [
     "birth": "c. 2001 (Queens, New York)",
     "death": "Alive (MIT Student & Multiversal Portal Caster)",
     "bgColor": "#f57f17",
-    "fontFamily": "Ned Leeds"
+    "fontFamily": "Ned Leeds",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Ned Leeds • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 144,
@@ -1726,7 +2155,10 @@ const characters = [
     "birth": "c. 2001 (New York City)",
     "death": "Alive (MIT Student)",
     "bgColor": "#4e342e",
-    "fontFamily": "MJ"
+    "fontFamily": "MJ",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "MJ • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 145,
@@ -1738,7 +2170,10 @@ const characters = [
     "birth": "c. 1964 (Queens, New York)",
     "death": "2024 (Happy's Condominium, killed by the Green Goblin's glider)",
     "bgColor": "#c2185b",
-    "fontFamily": "Aunt May"
+    "fontFamily": "Aunt May",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Aunt May • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 146,
@@ -1750,7 +2185,10 @@ const characters = [
     "birth": "c. 1960 (New York City)",
     "death": "Alive (Daily Bugle Chief Executive Anchor)",
     "bgColor": "#bf360c",
-    "fontFamily": "J. Jonah Jameson"
+    "fontFamily": "J. Jonah Jameson",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "J. Jonah Jameson • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 147,
@@ -1762,7 +2200,10 @@ const characters = [
     "birth": "Hala (Kree Empire)",
     "death": "2014 (Battle of Xandar, vaporized by the Power Stone)",
     "bgColor": "#37474f",
-    "fontFamily": "Ronan the Accuser"
+    "fontFamily": "Ronan the Accuser",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Ronan the Accuser • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 148,
@@ -1774,7 +2215,10 @@ const characters = [
     "birth": "c. 1970 (Denmark / Kamar-Taj)",
     "death": "2016 (Hong Kong, pulled into the Dark Dimension by Dormammu for eternity)",
     "bgColor": "#4a148c",
-    "fontFamily": "Kaecilius"
+    "fontFamily": "Kaecilius",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Kaecilius • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 149,
@@ -1786,7 +2230,10 @@ const characters = [
     "birth": "c. 1976 (United States)",
     "death": "2026 (Quantum Realm, sacrificed himself to destroy Kang's shield)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Yellowjacket"
+    "fontFamily": "Yellowjacket",
+    "trailerId": "ZlNFpri-Y40",
+    "trailerTitle": "Yellowjacket • Ant-Man and the Wasp: Quantumania Official Trailer",
+    "trailerCategory": "Quantum Realm & Kang Dynasties"
   },
   {
     "id": 150,
@@ -1798,7 +2245,10 @@ const characters = [
     "birth": "c. 1968 (Moscow, Soviet Union)",
     "death": "2010 (Flushing Meadows, New York, self-destructed armor)",
     "bgColor": "#d32f2f",
-    "fontFamily": "Whiplash"
+    "fontFamily": "Whiplash",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Whiplash • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 151,
@@ -1810,7 +2260,10 @@ const characters = [
     "birth": "c. 1970 (Detroit, Michigan)",
     "death": "Imprisoned in Seagate Penitentiary (Defense Tycoon)",
     "bgColor": "#546e7a",
-    "fontFamily": "Justin Hammer"
+    "fontFamily": "Justin Hammer",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Justin Hammer • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 152,
@@ -1822,7 +2275,10 @@ const characters = [
     "birth": "Unknown alien homeworld",
     "death": "October 17, 2023 (Disintegrated in Tony Stark's snap)",
     "bgColor": "#37474f",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Ebony Maw • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 153,
@@ -1834,7 +2290,10 @@ const characters = [
     "birth": "Unknown alien homeworld",
     "death": "October 17, 2023 (Crushed by Giant-Man and disintegrated by Stark's snap)",
     "bgColor": "#4e342e",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Cull Obsidian • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 154,
@@ -1846,7 +2305,10 @@ const characters = [
     "birth": "Unknown alien homeworld",
     "death": "October 17, 2023 (Disintegrated in Tony Stark's snap)",
     "bgColor": "#1a237e",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Proxima Midnight • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 155,
@@ -1858,7 +2320,10 @@ const characters = [
     "birth": "Unknown alien homeworld",
     "death": "October 17, 2023 (Stabbed by Okoye and disintegrated in Tony Stark's snap)",
     "bgColor": "#b8860b",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Corvus Glaive • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 156,
@@ -1870,7 +2335,10 @@ const characters = [
     "birth": "April 9, 1921 (London, England)",
     "death": "2016 (London, passed peacefully in her sleep) / Lived alternate full life with Steve Rogers",
     "bgColor": "#0d47a1",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Peggy Carter • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "id": 157,
@@ -1882,7 +2350,10 @@ const characters = [
     "birth": "August 15, 1917 (Richford, New York)",
     "death": "December 16, 1991 (Assassinated by the Winter Soldier)",
     "bgColor": "#8d6e63",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Howard Stark • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 158,
@@ -1894,7 +2365,10 @@ const characters = [
     "birth": "c. 1920 (England)",
     "death": "Deceased (Namesake inspired Tony's J.A.R.V.I.S. AI)",
     "bgColor": "#37474f",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Edwin Jarvis • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 159,
@@ -1906,7 +2380,10 @@ const characters = [
     "birth": "c. 1000 BC (Vanaheim)",
     "death": "2013 (Killed defending Jane Foster from Malekith, Asgard)",
     "bgColor": "#8e24aa",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Frigga • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 160,
@@ -1918,7 +2395,10 @@ const characters = [
     "birth": "c. 2018 (Stark Eco-Compound, New York)",
     "death": "Alive (Loving daughter of Tony Stark & Pepper Potts)",
     "bgColor": "#e91e63",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Morgan Stark • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 161,
@@ -1930,7 +2410,10 @@ const characters = [
     "birth": "c. 1944 (Elmsford, New York)",
     "death": "Alive (Restored from the Snap, attended Tony Stark's memorial)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Ant-Man"
+    "fontFamily": "Ant-Man",
+    "trailerId": "ZlNFpri-Y40",
+    "trailerTitle": "Dr. Hank Pym • Ant-Man and the Wasp: Quantumania Official Trailer",
+    "trailerCategory": "Quantum Realm & Kang Dynasties"
   },
   {
     "id": 162,
@@ -1942,7 +2425,10 @@ const characters = [
     "birth": "c. 1948 (United States)",
     "death": "Alive (Restored from the Snap, attended Tony Stark's memorial)",
     "bgColor": "#ffd54f",
-    "fontFamily": "Ant-Man"
+    "fontFamily": "Ant-Man",
+    "trailerId": "ZlNFpri-Y40",
+    "trailerTitle": "Janet van Dyne • Ant-Man and the Wasp: Quantumania Official Trailer",
+    "trailerCategory": "Quantum Realm & Kang Dynasties"
   },
   {
     "id": 163,
@@ -1954,7 +2440,10 @@ const characters = [
     "birth": "c. 1945 (United States)",
     "death": "2014 (Shot by Nick Fury at the Triskelion)",
     "bgColor": "#263238",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Alexander Pierce • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "id": 164,
@@ -1966,7 +2455,10 @@ const characters = [
     "birth": "c. 2002 (Rose Hill, Tennessee)",
     "death": "Alive (Tony Stark's protégé and young inventor)",
     "bgColor": "#00838f",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Harley Keener • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 165,
@@ -1978,7 +2470,10 @@ const characters = [
     "birth": "c. 1950 (United States)",
     "death": "Alive (Former Secretary of State)",
     "bgColor": "#33691e",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "1pHDWnXmK7Y",
+    "trailerTitle": "General Thunderbolt Ross • Captain America: Brave New World Official Trailer",
+    "trailerCategory": "Captain America & Red Hulk"
   },
   {
     "id": 166,
@@ -1990,7 +2485,10 @@ const characters = [
     "birth": "c. 1958 (Wakanda)",
     "death": "2025 (Sacrificed herself to save Riri Williams in Talokan conflict)",
     "bgColor": "#4a148c",
-    "fontFamily": "Black Panther"
+    "fontFamily": "Black Panther",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Queen Ramonda • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 167,
@@ -2002,7 +2500,10 @@ const characters = [
     "birth": "c. 1970 (Tokyo, Japan)",
     "death": "October 2023 (Killed in dual sword combat by Ronin / Clint Barton)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Hawkeye"
+    "fontFamily": "Hawkeye",
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Akihiko • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "id": 168,
@@ -2014,7 +2515,10 @@ const characters = [
     "birth": "c. 1975 (United States)",
     "death": "Alive (Restored from the Snap, reunited with Clint Barton)",
     "bgColor": "#5d4037",
-    "fontFamily": "Hawkeye"
+    "fontFamily": "Hawkeye",
+    "trailerId": "5VYb3B1ETlk",
+    "trailerTitle": "Laura Barton • Marvel Studios' Hawkeye Official Trailer",
+    "trailerCategory": "Marksmen & Street Archery"
   },
   {
     "id": 169,
@@ -2026,7 +2530,10 @@ const characters = [
     "birth": "c. 1973 (United States)",
     "death": "2014 (Thrown into highway traffic by the Winter Soldier)",
     "bgColor": "#424242",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Agent Jasper Sitwell • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "id": 170,
@@ -2038,7 +2545,10 @@ const characters = [
     "birth": "October 14, 2004 (Brooklyn, New York)",
     "death": "Alive (Protector of the Multiverse and Brooklyn)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Miles Morales • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "id": 171,
@@ -2050,7 +2560,10 @@ const characters = [
     "birth": "c. 1985 (New York City, New York)",
     "death": "Alive (Private Investigator, Defender of Hell's Kitchen)",
     "bgColor": "#37474f",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Jessica Jones • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 172,
@@ -2062,7 +2575,10 @@ const characters = [
     "birth": "c. 1980 (Savannah, Georgia)",
     "death": "Alive (Defender of Harlem, Leader of Harlem's Paradise)",
     "bgColor": "#f57f17",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Luke Cage • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 173,
@@ -2074,7 +2590,10 @@ const characters = [
     "birth": "April 1, 1991 (New York City, New York)",
     "death": "Alive (Immortal Iron Fist, Defender of New York)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Shang-Chi"
+    "fontFamily": "Shang-Chi",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Iron Fist • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 174,
@@ -2086,7 +2605,10 @@ const characters = [
     "birth": "c. 1965 (Brooklyn, New York)",
     "death": "October 2021 (Decapitated and consumed by Venom in San Francisco)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Venom"
+    "fontFamily": "Venom",
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Carnage • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "id": 175,
@@ -2098,7 +2620,10 @@ const characters = [
     "birth": "c. 1980 (Winzeldorf, Bavaria, Germany)",
     "death": "Alive (X-Men frontline mutant hero)",
     "bgColor": "#311b92",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Nightcrawler • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 176,
@@ -2110,7 +2635,10 @@ const characters = [
     "birth": "c. 1975 (Berkeley, California)",
     "death": "Alive (Unstoppable powerhouse and force of nature)",
     "bgColor": "#bf360c",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Juggernaut • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 177,
@@ -2122,7 +2650,10 @@ const characters = [
     "birth": "Ancient era (Korbin Galaxy)",
     "death": "Alive (Cosmic Champion of the Korbinites)",
     "bgColor": "#e65100",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Beta Ray Bill • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 178,
@@ -2134,7 +2665,10 @@ const characters = [
     "birth": "Pre-Big Bang Universe (Planet Taa)",
     "death": "Immortal (Primordial Cosmic Entity)",
     "bgColor": "#6a1b9a",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Galactus • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 179,
@@ -2146,7 +2680,10 @@ const characters = [
     "birth": "c. 1984 (Brooklyn / North Carolina)",
     "death": "Alive (Lethal mercenary and contract assassin)",
     "bgColor": "#263238",
-    "fontFamily": "Daredevil"
+    "fontFamily": "Daredevil",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Bullseye • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 180,
@@ -2158,7 +2695,10 @@ const characters = [
     "birth": "c. 2003 (Forest Hills, Queens, Earth-65)",
     "death": "Alive (Multiversal Web-Warrior, Earth-65 & Earth-616)",
     "bgColor": "#ec407a",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Spider-Gwen • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "id": 181,
@@ -2170,7 +2710,10 @@ const characters = [
     "birth": "c. 1976 (Hempstead, New York)",
     "death": "Alive (Nova Prime, Cosmic Guardian & Avengers Ally)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Guardians"
+    "fontFamily": "Guardians",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Nova • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 182,
@@ -2182,7 +2725,10 @@ const characters = [
     "birth": "c. 1985 (Greece)",
     "death": "Alive (Resurrected Black Sky, Defender & Woman Without Fear)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Daredevil"
+    "fontFamily": "Daredevil",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Elektra • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 183,
@@ -2194,7 +2740,10 @@ const characters = [
     "birth": "c. 1960 (Volgograd / Stalingrad, Russia)",
     "death": "Alive (Apex Predator of the Sinister Six)",
     "bgColor": "#e65100",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "rze8QYwWGMs",
+    "trailerTitle": "Kraven the Hunter • Kraven the Hunter Official Trailer",
+    "trailerCategory": "Spider-Man Rogues & Apex Hunters"
   },
   {
     "id": 184,
@@ -2206,7 +2755,10 @@ const characters = [
     "birth": "c. 2005 (The Facility / Transigen)",
     "death": "Alive (Wolverine & Multiversal Hero)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "X-23 • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 185,
@@ -2218,7 +2770,10 @@ const characters = [
     "birth": "Dundee, Illinois",
     "death": "Alive (Senior X-Man, Scientist & Avengers Ally)",
     "bgColor": "#1565c0",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Beast • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 186,
@@ -2230,7 +2785,10 @@ const characters = [
     "birth": "c. 1850s (Austria)",
     "death": "Alive (Master Shapeshifter & Brotherhood Operative)",
     "bgColor": "#0288d1",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Mystique • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 187,
@@ -2242,7 +2800,10 @@ const characters = [
     "birth": "Floral Park, Long Island, New York",
     "death": "Alive (Omega-Level X-Man & Cryogenic Hero)",
     "bgColor": "#00838f",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Iceman • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 188,
@@ -2254,7 +2815,10 @@ const characters = [
     "birth": "Maldon, Essex, England",
     "death": "Alive (Psionic Ninja & Senior X-Man)",
     "bgColor": "#6a1b9a",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Psylocke • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 189,
@@ -2266,7 +2830,10 @@ const characters = [
     "birth": "c. 1985 (United States)",
     "death": "Alive (X-Force Mercenary & Deadpool Ally)",
     "bgColor": "#37474f",
-    "fontFamily": "Deadpool"
+    "fontFamily": "Deadpool",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Domino • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 190,
@@ -2278,7 +2845,10 @@ const characters = [
     "birth": "21st Century (Earth-1191 / Mutant Relocation Camp)",
     "death": "Alive (Time-Traveling X-Man & Energy Manipulator)",
     "bgColor": "#bf360c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Bishop • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 191,
@@ -2290,7 +2860,10 @@ const characters = [
     "birth": "Extradimensional Astral Plane",
     "death": "2024 (The Void, disintegrated during the Time Ripper overload)",
     "bgColor": "#5d4037",
-    "fontFamily": "Deadpool"
+    "fontFamily": "Deadpool",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Cassandra Nova • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 192,
@@ -2302,7 +2875,10 @@ const characters = [
     "birth": "Tokyo, Japan",
     "death": "Deceased (Defeated in Yashida fortress / Active across Multiverse)",
     "bgColor": "#455a64",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Silver Samurai • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 193,
@@ -2314,7 +2890,10 @@ const characters = [
     "birth": "July 2, 1988 (Hunan Province, China)",
     "death": "Alive (S.H.I.E.L.D. Inhuman Director & Secret Warrior)",
     "bgColor": "#283593",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Quake • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 194,
@@ -2326,7 +2905,10 @@ const characters = [
     "birth": "c. 2070 (Nueva York, Earth-928)",
     "death": "Alive (Leader of the Spider-Society & Multiversal Protector)",
     "bgColor": "#0d47a1",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Spider-Man 2099 • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "id": 195,
@@ -2338,7 +2920,10 @@ const characters = [
     "birth": "London, England (Earth-138)",
     "death": "Alive (Anarchist Web-Warrior & Multiversal Rebel)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Spider-Punk • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "id": 196,
@@ -2350,7 +2935,10 @@ const characters = [
     "birth": "c. 1910 (New York City, Earth-90214)",
     "death": "Alive (Private Eye & Multiversal Web-Warrior)",
     "bgColor": "#212121",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Spider-Noir • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "id": 197,
@@ -2362,7 +2950,10 @@ const characters = [
     "birth": "Brooklyn, New York City",
     "death": "2018 (Earth-1610, shot by Kingpin) / Active in MCU & Earth-42",
     "bgColor": "#4a148c",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Prowler • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 198,
@@ -2374,7 +2965,10 @@ const characters = [
     "birth": "Queens, New York City",
     "death": "Alive (Master Burglar & Anti-Hero Ally)",
     "bgColor": "#37474f",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Black Cat • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 199,
@@ -2386,7 +2980,10 @@ const characters = [
     "birth": "Nauplion, Greece",
     "death": "Alive (The Living Vampire & Midnight Son)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "oZ6iiRrz1SY",
+    "trailerTitle": "Morbius • Morbius Official Trailer",
+    "trailerCategory": "Living Vampires & Midnight Sons"
   },
   {
     "id": 200,
@@ -2398,7 +2995,10 @@ const characters = [
     "birth": "Yonkers, New York",
     "death": "Alive (Sinister Six Enforcer & Inmate)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Scorpion • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 201,
@@ -2410,7 +3010,10 @@ const characters = [
     "birth": "Russia",
     "death": "Alive (Sinister Six Powerhouse & Mercenary)",
     "bgColor": "#546e7a",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "rze8QYwWGMs",
+    "trailerTitle": "Rhino • Kraven the Hunter Official Trailer",
+    "trailerCategory": "Spider-Man Rogues & Apex Hunters"
   },
   {
     "id": 202,
@@ -2422,7 +3025,10 @@ const characters = [
     "birth": "Volgograd, Russia",
     "death": "Alive (Master of Disguise & KGB/Syndicate Operative)",
     "bgColor": "#455a64",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "rze8QYwWGMs",
+    "trailerTitle": "Chameleon • Kraven the Hunter Official Trailer",
+    "trailerCategory": "Spider-Man Rogues & Apex Hunters"
   },
   {
     "id": 203,
@@ -2434,7 +3040,10 @@ const characters = [
     "birth": "New York City, New York",
     "death": "Alive (Criminal Mastermind & Franchise Overlord)",
     "bgColor": "#e65100",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Hobgoblin • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 204,
@@ -2446,7 +3055,10 @@ const characters = [
     "birth": "Port-au-Prince, Haiti",
     "death": "Alive (Houngan Supreme & Master of the Mystic Arts)",
     "bgColor": "#ad1457",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Doctor Voodoo • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 205,
@@ -2458,7 +3070,10 @@ const characters = [
     "birth": "Omaha, Nebraska",
     "death": "Immortal (Guardian of the Nexus of All Realities)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Man-Thing • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 206,
@@ -2470,7 +3085,10 @@ const characters = [
     "birth": "Mediaș, Transylvania, Romania",
     "death": "Immortal (Lycanthrope & Midnight Sons Monster Defender)",
     "bgColor": "#4e342e",
-    "fontFamily": "Blade"
+    "fontFamily": "Blade",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Werewolf by Night • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 207,
@@ -2482,7 +3100,10 @@ const characters = [
     "birth": "Boston, England",
     "death": "Alive (Master Monster Hunter & Bloodstone Heiress)",
     "bgColor": "#d84315",
-    "fontFamily": "Blade"
+    "fontFamily": "Blade",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Elsa Bloodstone • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 208,
@@ -2494,7 +3115,10 @@ const characters = [
     "birth": "Gloucester, Massachusetts",
     "death": "Alive (Wielder of the Ebony Blade & Avenger)",
     "bgColor": "#1a237e",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Black Knight • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 209,
@@ -2506,7 +3130,10 @@ const characters = [
     "birth": "Boston, Massachusetts",
     "death": "Alive (Divine Pairing Protector & Defender)",
     "bgColor": "#212121",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Cloak • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 210,
@@ -2518,7 +3145,10 @@ const characters = [
     "birth": "Shaker Heights, Ohio",
     "death": "Alive (Divine Pairing Protector & Defender)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Dagger • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 211,
@@ -2530,7 +3160,10 @@ const characters = [
     "birth": "East Los Angeles, California",
     "death": "Immortal (All-Rider & Spirit of Vengeance)",
     "bgColor": "#e65100",
-    "fontFamily": "Ghost Rider"
+    "fontFamily": "Ghost Rider",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Ghost Rider (Robbie Reyes) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 212,
@@ -2542,7 +3175,10 @@ const characters = [
     "birth": "New York City, New York",
     "death": "Alive (Young Avengers Founding Leader & Patriot)",
     "bgColor": "#0d47a1",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Patriot • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "id": 213,
@@ -2554,7 +3190,10 @@ const characters = [
     "birth": "c. 1920 (New York / Maryland)",
     "death": "Alive (The First Black Captain America & Living Legend)",
     "bgColor": "#37474f",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "1pHDWnXmK7Y",
+    "trailerTitle": "Isaiah Bradley • Captain America: Brave New World Official Trailer",
+    "trailerCategory": "Captain America & Red Hulk"
   },
   {
     "id": 214,
@@ -2566,7 +3205,10 @@ const characters = [
     "birth": "Honolulu, Hawaii",
     "death": "1983 (X-Mansion, sacrificed himself to save mutant students from Apocalypse)",
     "bgColor": "#0288d1",
-    "fontFamily": "Cyclops"
+    "fontFamily": "Cyclops",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Havok • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 215,
@@ -2578,7 +3220,10 @@ const characters = [
     "birth": "Cassidy Keep, County Mayo, Ireland",
     "death": "1960s (Earth-10005) / Active across Marvel Multiverse",
     "bgColor": "#33691e",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Banshee • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 216,
@@ -2590,7 +3235,10 @@ const characters = [
     "birth": "California",
     "death": "Alive (Mistress of Magnetism & X-Factor Leader)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Magneto"
+    "fontFamily": "Magneto",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Polaris • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 217,
@@ -2602,7 +3250,10 @@ const characters = [
     "birth": "Deerfield, Illinois",
     "death": "Alive (Senior X-Man, Ninja & Time Traveler)",
     "bgColor": "#7b1fa2",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Shadowcat • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 218,
@@ -2614,7 +3265,10 @@ const characters = [
     "birth": "c. 1830s (Northwest Territories, Canada)",
     "death": "Active across Multiverse (Deadpool & Wolverine / Earth-10005)",
     "bgColor": "#bf360c",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sabretooth • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 219,
@@ -2626,7 +3280,10 @@ const characters = [
     "birth": "Sydney, Australia",
     "death": "Active in the Void & Multiverse (Brotherhood Fire Manipulator)",
     "bgColor": "#d84315",
-    "fontFamily": "Human Torch"
+    "fontFamily": "Human Torch",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Pyro • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 220,
@@ -2638,7 +3295,10 @@ const characters = [
     "birth": "York, England",
     "death": "Active in the Void & Multiverse (Brotherhood Brawler)",
     "bgColor": "#558b2f",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Toad • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 221,
@@ -2650,7 +3310,10 @@ const characters = [
     "birth": "Osaka, Japan",
     "death": "2003 (Alkali Lake, injected with molten adamantium) / Active in the Void",
     "bgColor": "#37474f",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Lady Deathstrike • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 222,
@@ -2662,7 +3325,10 @@ const characters = [
     "birth": "Paterson, New Jersey",
     "death": "Immortal (Ionic Energy Avenger & Hollywood Star)",
     "bgColor": "#ad1457",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Wonder Man • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 223,
@@ -2674,7 +3340,10 @@ const characters = [
     "birth": "Dawn of Creation (Netherworld Realm)",
     "death": "Immortal (Lord of the Lower Depths & Arch-Demon)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Ghost Rider"
+    "fontFamily": "Ghost Rider",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Mephisto • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 224,
@@ -2686,7 +3355,10 @@ const characters = [
     "birth": "Queens, New York City",
     "death": "Alive (Spider-Army Champion & Protector of NYC)",
     "bgColor": "#880e4f",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Silk • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 225,
@@ -2698,7 +3370,10 @@ const characters = [
     "birth": "Larval Earth (Earth-8311)",
     "death": "Alive (Multiversal Web-Warrior & Cartoon Avenger)",
     "bgColor": "#c2185b",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Spider-Ham • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "id": 226,
@@ -2710,7 +3385,10 @@ const characters = [
     "birth": "Neo-Tokyo (Earth-14512)",
     "death": "Alive (SP//dr Pilot & Multiversal Defender)",
     "bgColor": "#d32f2f",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Peni Parker & SP//dr • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "id": 227,
@@ -2722,7 +3400,10 @@ const characters = [
     "birth": "Queens, New York City",
     "death": "Alive (Multiversal Singularity & Cosmic Threat)",
     "bgColor": "#212121",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "The Spot • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "id": 228,
@@ -2734,7 +3415,10 @@ const characters = [
     "birth": "London, England (Raised on Wundagore Mountain)",
     "death": "Alive (Senior Avenger, S.H.I.E.L.D. Agent & Master Spy)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Spider-Woman • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 229,
@@ -2746,7 +3430,10 @@ const characters = [
     "birth": "Salem, Oregon",
     "death": "Ascended (Guardian of the Web of Life and Destiny)",
     "bgColor": "#004d40",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Madame Web • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 230,
@@ -2758,7 +3445,10 @@ const characters = [
     "birth": "New York City (Jackal's Lab Clone)",
     "death": "Active across Multiverse (Scarlet Spider & Chasm)",
     "bgColor": "#c62828",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Scarlet Spider (Ben Reilly) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 231,
@@ -2770,7 +3460,10 @@ const characters = [
     "birth": "New York City (Jackal's Lab Clone)",
     "death": "Alive (The Other's Champion & Defender of Houston)",
     "bgColor": "#880e4f",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Scarlet Spider (Kaine) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 232,
@@ -2782,7 +3475,10 @@ const characters = [
     "birth": "Schenectady, New York (Consciousness Swapped in NYC)",
     "death": "Relinquished Peter's body (Active as Superior Octopus)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Superior Spider-Man • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 233,
@@ -2794,7 +3490,10 @@ const characters = [
     "birth": "Forest Hills, Queens, New York",
     "death": "Alive (Anti-Venom Hero)",
     "bgColor": "#212121",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Agent Venom • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "id": 234,
@@ -2806,7 +3505,10 @@ const characters = [
     "birth": "Queens, New York City",
     "death": "Alive (1000th Lineage Symbiote Hero)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Toxin • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "id": 235,
@@ -2818,7 +3520,10 @@ const characters = [
     "birth": "San Francisco, California",
     "death": "Alive (The Cleansing White Symbiote)",
     "bgColor": "#eceff1",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Anti-Venom • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "id": 236,
@@ -2830,7 +3535,10 @@ const characters = [
     "birth": "New York City, New York",
     "death": "Alive (Sinister Six Mercenary & Master Burglar)",
     "bgColor": "#f57f17",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Shocker • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 237,
@@ -2842,7 +3550,10 @@ const characters = [
     "birth": "Harlem, New York City",
     "death": "Alive (Maggia Kingpin & Underworld Overlord)",
     "bgColor": "#37474f",
-    "fontFamily": "Daredevil"
+    "fontFamily": "Daredevil",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Tombstone • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 238,
@@ -2854,7 +3565,10 @@ const characters = [
     "birth": "The Bronx, New York City",
     "death": "Alive (Elemental Sinister Syndicate Powerhouse)",
     "bgColor": "#0277bd",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Hydro-Man • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 239,
@@ -2866,7 +3580,10 @@ const characters = [
     "birth": "c. 3000 BC (Akkaba, Ancient Egypt)",
     "death": "Immortal (Ancient High Lord of Mutantkind & Krakoan Leader)",
     "bgColor": "#311b92",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Apocalypse • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 240,
@@ -2878,7 +3595,10 @@ const characters = [
     "birth": "c. 1830 (London, England)",
     "death": "Immortal (Genetic Architect of Krakoa & Bar Sinister)",
     "bgColor": "#880e4f",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Mister Sinister • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 241,
@@ -2890,7 +3610,10 @@ const characters = [
     "birth": "Boston, Massachusetts",
     "death": "Alive (White Queen of the Hellfire Club & Krakoan Leader)",
     "bgColor": "#37474f",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Emma Frost • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 242,
@@ -2902,7 +3625,10 @@ const characters = [
     "birth": "Ust-Ordynsky, Siberia, Russia",
     "death": "Alive (Queen of Limbo, Captain of Krakoa & New Mutant)",
     "bgColor": "#f57f17",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Magik • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 243,
@@ -2914,7 +3640,10 @@ const characters = [
     "birth": "Beverly Hills, California",
     "death": "Alive (Senior X-Man & Wolverine's Trusted Protégé)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Jubilee • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 244,
@@ -2926,7 +3655,10 @@ const characters = [
     "birth": "Rio de Janeiro, Brazil",
     "death": "Alive (Avenger Leader, New Mutant & Krakoan Diplomat)",
     "bgColor": "#e65100",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sunspot • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 245,
@@ -2938,7 +3670,10 @@ const characters = [
     "birth": "Cumberland, Kentucky",
     "death": "Alive (Senior X-Man, X-Force Leader & Avenger)",
     "bgColor": "#bf360c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Cannonball • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 246,
@@ -2950,7 +3685,10 @@ const characters = [
     "birth": "Boulder, Colorado",
     "death": "Alive (New Mutant Co-Leader & Chooser of the Slain)",
     "bgColor": "#00695c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Mirage • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 247,
@@ -2962,7 +3700,10 @@ const characters = [
     "birth": "Ullapool, Ross and Cromarty, Scotland",
     "death": "Alive (New Mutant, X-Factor & Krakoan Warrior)",
     "bgColor": "#4e342e",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Wolfsbane • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 248,
@@ -2974,7 +3715,10 @@ const characters = [
     "birth": "Kvch (Technarchy Homeworld)",
     "death": "Alive (Techno-Organic New Mutant & Krakoan Spine)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Warlock • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 249,
@@ -2986,7 +3730,10 @@ const characters = [
     "birth": "Cheyenne Nation, United States",
     "death": "Alive (Chief Technologist of Krakoa & X-Force Operative)",
     "bgColor": "#b0bec5",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Forge • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 250,
@@ -2998,7 +3745,10 @@ const characters = [
     "birth": "Gardendale, Long Island, New York",
     "death": "Alive (Pop Icon, Senior X-Man & Excalibur Champion)",
     "bgColor": "#ec407a",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Dazzler • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 251,
@@ -3010,7 +3760,10 @@ const characters = [
     "birth": "Mojoverse (Alternate Dimension)",
     "death": "Alive (Mojoverse Rebel & X-Factor Investigator)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Longshot • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 252,
@@ -3022,7 +3775,10 @@ const characters = [
     "birth": "Haifa, Israel",
     "death": "Alive (Astral Architect & Krakoan Luminary)",
     "bgColor": "#d50000",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Legion • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 253,
@@ -3034,7 +3790,10 @@ const characters = [
     "birth": "Cooperstown, Alaska",
     "death": "Alive (Mutant Messiah & Core of The Five Resurrections)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Hope Summers • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 254,
@@ -3046,7 +3805,10 @@ const characters = [
     "birth": "Age of Apocalypse (Earth-295)",
     "death": "Alive (Psionic Demigod & Multiversal Champion)",
     "bgColor": "#1565c0",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "X-Man • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 255,
@@ -3058,7 +3820,10 @@ const characters = [
     "birth": "Moscow, Soviet Union",
     "death": "Alive (KGB Living Weapon & X-Force Operative)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Omega Red • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 256,
@@ -3070,7 +3835,10 @@ const characters = [
     "birth": "Pittsburgh, Pennsylvania",
     "death": "Alive (Black King of the Hellfire Club & Krakoan Oligarch)",
     "bgColor": "#4a148c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sebastian Shaw • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 257,
@@ -3082,7 +3850,10 @@ const characters = [
     "birth": "Lubbock, Texas",
     "death": "Alive (Brotherhood Powerhouse & Krakoan Bartender)",
     "bgColor": "#827717",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Blob • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 258,
@@ -3094,7 +3865,10 @@ const characters = [
     "birth": "Crete, Greece",
     "death": "Alive (Brotherhood Seismic Enforcer)",
     "bgColor": "#5d4037",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Avalanche • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 259,
@@ -3106,7 +3880,10 @@ const characters = [
     "birth": "c. 1870s (Salzburg, Austria)",
     "death": "Alive (Precognitive Seer & Krakoan Quiet Council)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Destiny • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 260,
@@ -3118,7 +3895,10 @@ const characters = [
     "birth": "United States",
     "death": "Alive (Morlock Leader & Krakoan White Sword Champion)",
     "bgColor": "#37474f",
-    "fontFamily": "Storm"
+    "fontFamily": "Storm",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Callisto • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 261,
@@ -3130,7 +3910,10 @@ const characters = [
     "birth": "Camp Verde, Arizona (Apache Nation)",
     "death": "Alive (Senior X-Force Powerhouse & Krakoan Champion)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Warpath • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 262,
@@ -3142,7 +3925,10 @@ const characters = [
     "birth": "Agarashima, Japan",
     "death": "Alive (National Champion of Japan & Senior X-Man)",
     "bgColor": "#d50000",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sunfire • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 263,
@@ -3154,7 +3940,10 @@ const characters = [
     "birth": "Tokyo, Japan",
     "death": "Alive (Senior X-Man & Wolverine's Trusted Ally)",
     "bgColor": "#c62828",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Armor • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 264,
@@ -3166,7 +3955,10 @@ const characters = [
     "birth": "Beginning of the Multiverse",
     "death": "Immortal (Supreme Cosmic Judge of the Multiverse)",
     "bgColor": "#ffd600",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "The Living Tribunal • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 265,
@@ -3178,7 +3970,10 @@ const characters = [
     "birth": "Birth of the 7th Cosmos",
     "death": "Immortal (The Living Embodiment of Spacetime)",
     "bgColor": "#1a237e",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Eternity • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 266,
@@ -3190,7 +3985,10 @@ const characters = [
     "birth": "Beginning of Creation",
     "death": "Immortal (The Living Embodiment of Infinite Space)",
     "bgColor": "#4a148c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Infinity • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 267,
@@ -3202,7 +4000,10 @@ const characters = [
     "birth": "The Beyond Realm",
     "death": "Immortal (Architect of Battleworld & Cosmic Reality Warper)",
     "bgColor": "#00e676",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "The Beyonder • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 268,
@@ -3214,7 +4015,10 @@ const characters = [
     "birth": "Dawn of the Universe",
     "death": "Immortal (Prime Celestial & Creator of Eternals)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Arishem the Judge • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 269,
@@ -3226,7 +4030,10 @@ const characters = [
     "birth": "Ancient Cosmic Era",
     "death": "Immortal (Celestial Searcher & Planetary Destroyer)",
     "bgColor": "#880e4f",
-    "fontFamily": "Guardians"
+    "fontFamily": "Guardians",
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Eson the Searcher • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "id": 270,
@@ -3238,7 +4045,10 @@ const characters = [
     "birth": "Dawn of Creation",
     "death": "Immortal (Cosmic Embodiment of Death)",
     "bgColor": "#1b5e20",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Death • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 271,
@@ -3250,7 +4060,10 @@ const characters = [
     "birth": "The Void Before Creation",
     "death": "Immortal (Lord of the Abyss & God of the Symbiotes)",
     "bgColor": "#000000",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Knull • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "id": 272,
@@ -3262,7 +4075,10 @@ const characters = [
     "birth": "Planet Arthros (Negative Zone)",
     "death": "Immortal via Cosmic Control Rod (Lord of the Negative Zone)",
     "bgColor": "#33691e",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Annihilus • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 273,
@@ -3274,7 +4090,10 @@ const characters = [
     "birth": "Strontia (Shi'ar Empire)",
     "death": "Alive (Majestor of the Shi'ar Empire & Imperial Guard Praetor)",
     "bgColor": "#0d47a1",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Gladiator • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 274,
@@ -3286,7 +4105,10 @@ const characters = [
     "birth": "Tarnax IV (Skrull Empire)",
     "death": "Alive (Emperor & Supreme Champion of the Skrull Race)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "Tp_YZNqNBhw",
+    "trailerTitle": "Super-Skrull • Marvel Studios' Secret Invasion Official Trailer",
+    "trailerCategory": "Skrulls & Espionage"
   },
   {
     "id": 275,
@@ -3298,7 +4120,10 @@ const characters = [
     "birth": "Kree-Lar (Kree Empire)",
     "death": "Deceased (Passes peacefully surrounded by heroes / Honored across Cosmos)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Captain Marvel"
+    "fontFamily": "Captain Marvel",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Captain Mar-Vell • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 276,
@@ -3310,7 +4135,10 @@ const characters = [
     "birth": "Fond du Lac, Wisconsin",
     "death": "Alive (Protector of the Universe & Cosmic Avenger)",
     "bgColor": "#f57f17",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Quasar • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 277,
@@ -3322,7 +4150,10 @@ const characters = [
     "birth": "Titan (Moon of Saturn)",
     "death": "Alive (Guardians of the Galaxy Member & Cosmic Hero)",
     "bgColor": "#4a148c",
-    "fontFamily": "Guardians"
+    "fontFamily": "Guardians",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Phyla-Vell • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 278,
@@ -3334,7 +4165,10 @@ const characters = [
     "birth": "Los Angeles, California (Raised on Titan)",
     "death": "Alive (Guardian of the Galaxy & Defender of the Cosmos)",
     "bgColor": "#00796b",
-    "fontFamily": "Guardians"
+    "fontFamily": "Guardians",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Moondragon • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 279,
@@ -3346,7 +4180,10 @@ const characters = [
     "birth": "Kaliklak (The Microverse)",
     "death": "Alive (Guardians of the Galaxy Member & Micronaut)",
     "bgColor": "#388e3c",
-    "fontFamily": "Guardians"
+    "fontFamily": "Guardians",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Bug • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 280,
@@ -3358,7 +4195,10 @@ const characters = [
     "birth": "Titan (Moon of Saturn)",
     "death": "Alive (Cosmic Champion & Son of Mar-Vell)",
     "bgColor": "#1a237e",
-    "fontFamily": "Captain Marvel"
+    "fontFamily": "Captain Marvel",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Genis-Vell • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 281,
@@ -3370,7 +4210,10 @@ const characters = [
     "birth": "Resurrected at Eternity's Altar",
     "death": "Alive (Adopted Daughter of Thor & Cosmic Hero)",
     "bgColor": "#e65100",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Love • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 282,
@@ -3382,7 +4225,10 @@ const characters = [
     "birth": "Westview Hex / New York City",
     "death": "Alive (Young Avenger & The Demiurge)",
     "bgColor": "#311b92",
-    "fontFamily": "Scarlet Witch"
+    "fontFamily": "Scarlet Witch",
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Wiccan • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "id": 283,
@@ -3394,7 +4240,10 @@ const characters = [
     "birth": "Westview Hex / New Jersey",
     "death": "Alive (Young Avengers Speedster)",
     "bgColor": "#00897b",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Speed • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "id": 284,
@@ -3406,7 +4255,10 @@ const characters = [
     "birth": "Tarnax IV (Raised in New York)",
     "death": "Alive (Emperor of the Kree/Skrull Alliance & Young Avenger)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Hulkling • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "id": 285,
@@ -3418,7 +4270,10 @@ const characters = [
     "birth": "30th Century (Earth-6311)",
     "death": "Alive (Founding Young Avenger / Kang Timeline Defier)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Iron Lad • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 286,
@@ -3430,7 +4285,10 @@ const characters = [
     "birth": "Tucson, Arizona",
     "death": "Alive (Super-Genius & Champions Leader)",
     "bgColor": "#00838f",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "m9EX0f6V11Y",
+    "trailerTitle": "Amadeus Cho • Marvel Studios' Ms. Marvel Official Trailer",
+    "trailerCategory": "Champions & Young Avengers"
   },
   {
     "id": 287,
@@ -3442,7 +4300,10 @@ const characters = [
     "birth": "Planet Sakaar (The Great Arena)",
     "death": "Alive (Son of Hulk & Earth Protector)",
     "bgColor": "#558b2f",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Skaar • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "id": 288,
@@ -3454,7 +4315,10 @@ const characters = [
     "birth": "Los Angeles, California",
     "death": "Alive (Leader of the Runaways & Midnight Sun)",
     "bgColor": "#4a148c",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Nico Minoru • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 289,
@@ -3466,7 +4330,10 @@ const characters = [
     "birth": "Los Angeles, California",
     "death": "Alive (Runaways Hero & Majesdanean Ambassador)",
     "bgColor": "#00acc1",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Karolina Dean • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 290,
@@ -3478,7 +4345,10 @@ const characters = [
     "birth": "Los Angeles, California",
     "death": "Alive (Runaways Muscle & Mutant Hero)",
     "bgColor": "#d81b60",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Molly Hayes • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 291,
@@ -3490,7 +4360,10 @@ const characters = [
     "birth": "Chicago, Illinois",
     "death": "Alive (Ultimates Leader, Quantum Physicist & Senior Avenger)",
     "bgColor": "#0d47a1",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Blue Marvel • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 292,
@@ -3502,7 +4375,10 @@ const characters = [
     "birth": "Maldon, Essex, England",
     "death": "Alive (Champion of Otherworld & Excalibur Leader)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Captain Britain • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 293,
@@ -3514,7 +4390,10 @@ const characters = [
     "birth": "Chicago, Illinois",
     "death": "Alive (West Coast Avengers Founding Member)",
     "bgColor": "#e65100",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Tigra • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 294,
@@ -3526,7 +4405,10 @@ const characters = [
     "birth": "New York City, New York",
     "death": "Alive (White Tiger God Champion & Avenger)",
     "bgColor": "#00695c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "White Tiger • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 295,
@@ -3538,7 +4420,10 @@ const characters = [
     "birth": "Sin-Cong (Southeast Asia / France)",
     "death": "Sacrificed heroically to save Mantis / Active across Multiverse",
     "bgColor": "#33691e",
-    "fontFamily": "Hawkeye"
+    "fontFamily": "Hawkeye",
+    "trailerId": "5VYb3B1ETlk",
+    "trailerTitle": "Swordsman • Marvel Studios' Hawkeye Official Trailer",
+    "trailerCategory": "Marksmen & Street Archery"
   },
   {
     "id": 296,
@@ -3550,7 +4435,10 @@ const characters = [
     "birth": "San Diego, California",
     "death": "Alive (S.H.I.E.L.D. Agent 19 & West Coast Avenger)",
     "bgColor": "#0277bd",
-    "fontFamily": "Hawkeye"
+    "fontFamily": "Hawkeye",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Mockingbird • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 297,
@@ -3562,7 +4450,10 @@ const characters = [
     "birth": "Centerville, California",
     "death": "Alive (Defender, Avenger & Hellcat Hero)",
     "bgColor": "#fbc02d",
-    "fontFamily": "Daredevil"
+    "fontFamily": "Daredevil",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Hellcat • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 298,
@@ -3574,7 +4465,10 @@ const characters = [
     "birth": "Honshu, Japan",
     "death": "Alive (Daughter of the Dragon & Iron Fist Defender)",
     "bgColor": "#ffffff",
-    "fontFamily": "Daredevil"
+    "fontFamily": "Daredevil",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Colleen Wing • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 299,
@@ -3586,7 +4480,10 @@ const characters = [
     "birth": "Harlem, New York City",
     "death": "Alive (Daughter of the Dragon & Defender of Harlem)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Daredevil"
+    "fontFamily": "Daredevil",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Misty Knight • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 300,
@@ -3598,7 +4495,10 @@ const characters = [
     "birth": "Ancient era (Unknown)",
     "death": "Sacrificed in battle against the Hand / Immortal in legend",
     "bgColor": "#4e342e",
-    "fontFamily": "Daredevil"
+    "fontFamily": "Daredevil",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Stick • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 301,
@@ -3610,7 +4510,10 @@ const characters = [
     "birth": "Japanese Alps, Japan",
     "death": "Alive (The World's Greatest Simian Hitman)",
     "bgColor": "#263238",
-    "fontFamily": "Deadpool"
+    "fontFamily": "Deadpool",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Hit-Monkey • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 302,
@@ -3622,7 +4525,10 @@ const characters = [
     "birth": "New Haven, Connecticut",
     "death": "Alive (Cosmic Avenger & Zero Fluid Conduit)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Jack of Hearts • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 303,
@@ -3634,7 +4540,10 @@ const characters = [
     "birth": "Scarsdale, New York",
     "death": "Alive (Honorary Avenger & Gamma Powerhouse)",
     "bgColor": "#0d47a1",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Rick Jones • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "id": 304,
@@ -3646,7 +4555,10 @@ const characters = [
     "birth": "Tulsa, Oklahoma",
     "death": "Alive (Gamma Psychiatrist & Superhero Therapist)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Doc Samson • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "id": 305,
@@ -3658,7 +4570,10 @@ const characters = [
     "birth": "Los Alamos, New Mexico",
     "death": "Alive (Red She-Hulk & Gamma Champion)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "1pHDWnXmK7Y",
+    "trailerTitle": "Betty Ross • Captain America: Brave New World Official Trailer",
+    "trailerCategory": "Captain America & Red Hulk"
   },
   {
     "id": 306,
@@ -3670,7 +4585,10 @@ const characters = [
     "birth": "Manchester, England",
     "death": "Alive (Champion of Britain & MI:13 Operative)",
     "bgColor": "#0d47a1",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Union Jack • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "id": 307,
@@ -3682,7 +4600,10 @@ const characters = [
     "birth": "Falsworth Manor, Gloucestershire, England",
     "death": "Alive (Invaders Veteran & MI:13 Agent)",
     "bgColor": "#c2185b",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Spitfire • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "id": 308,
@@ -3694,7 +4615,10 @@ const characters = [
     "birth": "Brooklyn, New York City",
     "death": "Immortal (Spirit of Corruption & Midnight Sons Champion)",
     "bgColor": "#00838f",
-    "fontFamily": "Ghost Rider"
+    "fontFamily": "Ghost Rider",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Ghost Rider (Danny Ketch) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 309,
@@ -3706,7 +4630,10 @@ const characters = [
     "birth": "Fire Lake, Massachusetts",
     "death": "Immortal (Hellstorm & Occult Master)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Daimon Hellstrom • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 310,
@@ -3718,7 +4645,10 @@ const characters = [
     "birth": "Fire Lake, Massachusetts (Raised in Hell)",
     "death": "Immortal (Succubus Sorceress & Midnight Sun)",
     "bgColor": "#880e4f",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Satana • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 311,
@@ -3730,7 +4660,10 @@ const characters = [
     "birth": "Citrusville, Florida",
     "death": "Alive (High Sorceress of Zhered-Na & Salem Coven)",
     "bgColor": "#6a1b9a",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Jennifer Kale • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "id": 312,
@@ -3742,7 +4675,10 @@ const characters = [
     "birth": "c. 1570s (Sicily, Italy)",
     "death": "Sacrificed heroically on the Witches' Road",
     "bgColor": "#ffb300",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Lilia Calderu • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "id": 313,
@@ -3754,7 +4690,10 @@ const characters = [
     "birth": "San Francisco, California",
     "death": "Alive (Protection Witch of the Witches' Road)",
     "bgColor": "#d84315",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Alice Wu-Gulliver • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "id": 314,
@@ -3766,7 +4705,10 @@ const characters = [
     "birth": "1430 (Sighișoara, Transylvania, Romania)",
     "death": "Undead Immortal (Supreme Lord of Vampires)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Blade"
+    "fontFamily": "Blade",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Dracula • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 315,
@@ -3778,7 +4720,10 @@ const characters = [
     "birth": "Munich, Germany",
     "death": "1998 (Disintegrated by Blade's EDTA blood-coagulant darts)",
     "bgColor": "#37474f",
-    "fontFamily": "Blade"
+    "fontFamily": "Blade",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Deacon Frost • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 316,
@@ -3790,7 +4735,10 @@ const characters = [
     "birth": "Boise, Idaho",
     "death": "Alive (Mastermind of the Intelligencia & Gamma Tyrant)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "1pHDWnXmK7Y",
+    "trailerTitle": "The Leader • Captain America: Brave New World Official Trailer",
+    "trailerCategory": "Captain America & Red Hulk"
   },
   {
     "id": 317,
@@ -3802,7 +4750,10 @@ const characters = [
     "birth": "Bavaria, Germany",
     "death": "2015 (Sokovia, killed by Ultron in prison cell)",
     "bgColor": "#1b5e20",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Baron Strucker • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "id": 318,
@@ -3814,7 +4765,10 @@ const characters = [
     "birth": "Hungary",
     "death": "Alive (Supreme Leader of HYDRA & Princess of Madripoor)",
     "bgColor": "#2e7d32",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Madame Hydra • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "id": 319,
@@ -3826,7 +4780,10 @@ const characters = [
     "birth": "Cleveland, Ohio",
     "death": "Alive (Leader of the Thunderbolts & Hero of NYC)",
     "bgColor": "#ec407a",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Songbird • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 320,
@@ -3838,7 +4795,10 @@ const characters = [
     "birth": "Van Nuys, California",
     "death": "Alive (Dark Avengers Ms. Marvel & Thunderbolts)",
     "bgColor": "#0288d1",
-    "fontFamily": "Captain Marvel"
+    "fontFamily": "Captain Marvel",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Moonstone • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 321,
@@ -3850,7 +4810,10 @@ const characters = [
     "birth": "Moscow, Russia",
     "death": "Alive (Winter Guard Leader & Soviet Armored Titan)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Crimson Dynamo • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 322,
@@ -3862,7 +4825,10 @@ const characters = [
     "birth": "Queens, New York City",
     "death": "Alive (Kingpin's Enforcer & Mutant Assassin)",
     "bgColor": "#c2185b",
-    "fontFamily": "Daredevil"
+    "fontFamily": "Daredevil",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Typhoid Mary • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 323,
@@ -3874,7 +4840,10 @@ const characters = [
     "birth": "Los Angeles, California",
     "death": "Alive (Runaways Tech Specialist & Pilot)",
     "bgColor": "#bf360c",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Chase Stein • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 324,
@@ -3886,7 +4855,10 @@ const characters = [
     "birth": "Central City, California",
     "death": "Alive (Leader of the Fantastic Four & Supreme Scientific Mind)",
     "bgColor": "#0d47a1",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Mr. Fantastic • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 325,
@@ -3898,7 +4870,10 @@ const characters = [
     "birth": "Los Angeles, California",
     "death": "Alive (The Unbeatable Squirrel Girl & Avenger)",
     "bgColor": "#bf360c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Squirrel Girl • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 326,
@@ -3910,7 +4885,10 @@ const characters = [
     "birth": "New Jersey",
     "death": "Alive (New Warrior & Avengers Honorary Member)",
     "bgColor": "#e65100",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Firestar • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 327,
@@ -3922,7 +4900,10 @@ const characters = [
     "birth": "Saugerties, New York",
     "death": "Alive (New Warriors Leader & Avenger)",
     "bgColor": "#0d47a1",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Justice • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 328,
@@ -3934,7 +4915,10 @@ const characters = [
     "birth": "New York City, New York",
     "death": "Alive (Raptor Darkhawk & Annihilators Member)",
     "bgColor": "#1a237e",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Darkhawk • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "id": 329,
@@ -3946,7 +4930,10 @@ const characters = [
     "birth": "New York City, New York",
     "death": "Alive (Founder of the New Warriors & Street Hero)",
     "bgColor": "#263238",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Night Thrasher • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 330,
@@ -3958,7 +4945,10 @@ const characters = [
     "birth": "Springdale, Connecticut",
     "death": "Alive (New Warriors Founding Member & Thunderbolts)",
     "bgColor": "#f9a825",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Speedball • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "id": 331,
@@ -3970,7 +4960,10 @@ const characters = [
     "birth": "Brooklyn, New York",
     "death": "Alive (New Warriors & Avengers Powerhouse)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Rage • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 332,
@@ -3982,7 +4975,10 @@ const characters = [
     "birth": "Atlantis",
     "death": "Alive (New Warriors Founder & Sub-Mariner's Champion)",
     "bgColor": "#00695c",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Namorita • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 333,
@@ -3994,7 +4990,10 @@ const characters = [
     "birth": "Earth-200080 (Kree Vessel Pocket Supreme)",
     "death": "Alive (Young Avenger & Champion of Hala)",
     "bgColor": "#0288d1",
-    "fontFamily": "Captain Marvel"
+    "fontFamily": "Captain Marvel",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Marvel Boy • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 334,
@@ -4006,7 +5005,10 @@ const characters = [
     "birth": "London, Ontario, Canada",
     "death": "Alive (Leader of Alpha Flight & Canada's Champion)",
     "bgColor": "#c62828",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Guardian • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 335,
@@ -4018,7 +5020,10 @@ const characters = [
     "birth": "Montréal, Québec, Canada",
     "death": "Alive (Alpha Flight Founder & X-Man)",
     "bgColor": "#212121",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Northstar • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 336,
@@ -4030,7 +5035,10 @@ const characters = [
     "birth": "Montréal, Québec, Canada",
     "death": "Alive (Alpha Flight Founder & Luminescent Speedster)",
     "bgColor": "#ffd600",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Aurora • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 337,
@@ -4042,7 +5050,10 @@ const characters = [
     "birth": "Montreal, Quebec, Canada",
     "death": "Alive (Alpha Flight Powerhouse & Weapon X Scientist)",
     "bgColor": "#e65100",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sasquatch • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 338,
@@ -4054,7 +5065,10 @@ const characters = [
     "birth": "Sioux Lookout, Ontario, Canada (c. 1914)",
     "death": "Alive (Alpha Flight Veteran & Immortal Adventurer)",
     "bgColor": "#263238",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Puck • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 339,
@@ -4066,7 +5080,10 @@ const characters = [
     "birth": "Taos, New Mexico",
     "death": "Alive (West Coast Avengers & Defender of the Southwest)",
     "bgColor": "#bf360c",
-    "fontFamily": "Ghost Rider"
+    "fontFamily": "Ghost Rider",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Firebird • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 340,
@@ -4078,7 +5095,10 @@ const characters = [
     "birth": "Created by Ultron (Avengers Mansion)",
     "death": "Active (Avengers AI & Android Hero)",
     "bgColor": "#b0bec5",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "tmeOjFno6Do",
+    "trailerTitle": "Jocasta • Avengers: Age of Ultron Official Trailer",
+    "trailerCategory": "Avengers / AI Threat"
   },
   {
     "id": 341,
@@ -4090,7 +5110,10 @@ const characters = [
     "birth": "Created in a Government Lab (Raised in Wisconsin)",
     "death": "Alive (Avengers Robot & S.H.I.E.L.D. Operative)",
     "bgColor": "#37474f",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "tmeOjFno6Do",
+    "trailerTitle": "Machine Man • Avengers: Age of Ultron Official Trailer",
+    "trailerCategory": "Avengers / AI Threat"
   },
   {
     "id": 342,
@@ -4102,7 +5125,10 @@ const characters = [
     "birth": "New York City, New York",
     "death": "Alive (Cyborg Hero & Roxxon Foe)",
     "bgColor": "#4e342e",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Deathlok • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "id": 343,
@@ -4114,7 +5140,10 @@ const characters = [
     "birth": "Saigon, Vietnam",
     "death": "Alive (Celestial Madonna & Guardian of the Galaxy)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Guardians"
+    "fontFamily": "Guardians",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Mantis • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 344,
@@ -4126,7 +5155,10 @@ const characters = [
     "birth": "Arcturus IV (31st century Earth-691)",
     "death": "Alive (Original Guardian & Cosmic Seer)",
     "bgColor": "#f9a825",
-    "fontFamily": "Guardians"
+    "fontFamily": "Guardians",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Starhawk • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 345,
@@ -4138,7 +5170,10 @@ const characters = [
     "birth": "Pluto Colony (31st century Earth-691)",
     "death": "Alive (Original Guardian of the Galaxy)",
     "bgColor": "#e3f2fd",
-    "fontFamily": "Guardians"
+    "fontFamily": "Guardians",
+    "trailerId": "oZ6iiRrz1SY",
+    "trailerTitle": "Martinex • Morbius Official Trailer",
+    "trailerCategory": "Living Vampires & Midnight Sons"
   },
   {
     "id": 346,
@@ -4150,7 +5185,10 @@ const characters = [
     "birth": "Arcturus IV (31st century Earth-691)",
     "death": "Alive (Original Guardian & Photonic Warrior)",
     "bgColor": "#7b1fa2",
-    "fontFamily": "Guardians"
+    "fontFamily": "Guardians",
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Talon • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 347,
@@ -4162,7 +5200,10 @@ const characters = [
     "birth": "The Enigma Force (Microverse)",
     "death": "Immortal (The Uni-Power — Cosmic Champion of the Weak)",
     "bgColor": "#1565c0",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Captain Universe • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "id": 348,
@@ -4174,7 +5215,10 @@ const characters = [
     "birth": "Asgard (Nine Realms)",
     "death": "Alive (Asgardian Warrior Goddess & Guardian of the Nine Realms)",
     "bgColor": "#4e342e",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Lady Sif • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 349,
@@ -4186,7 +5230,10 @@ const characters = [
     "birth": "Korbin (Korbinite Homeworld)",
     "death": "Alive (Champion of the Korbinites & Asgardian Honorary Brother)",
     "bgColor": "#f57f17",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Beta Ray Bill • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "id": 350,
@@ -4198,7 +5245,10 @@ const characters = [
     "birth": "Custer's Grove, Georgia",
     "death": "Sacrificed heroically / Remembered across the cosmos",
     "bgColor": "#c62828",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Jack Flag • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Black Knight (Dane Whitman)",
@@ -4210,7 +5260,10 @@ const characters = [
     "death": "Alive (Champion of the Ebony Blade & Avenger)",
     "bgColor": "#263238",
     "fontFamily": "Avengers",
-    "id": 351
+    "id": 351,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Black Knight (Dane Whitman) • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Captain Britain (Brian Braddock)",
@@ -4222,7 +5275,10 @@ const characters = [
     "death": "Alive (Lord of Otherworld & Multiversal Champion)",
     "bgColor": "#0d47a1",
     "fontFamily": "American Captain",
-    "id": 352
+    "id": 352,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Captain Britain (Brian Braddock) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Deathlok (Michael Collins)",
@@ -4234,7 +5290,10 @@ const characters = [
     "death": "Alive (Pacifist Cyborg Protector & S.H.I.E.L.D. Consultant)",
     "bgColor": "#b71c1c",
     "fontFamily": "Iron Man",
-    "id": 353
+    "id": 353,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Deathlok (Michael Collins) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Stingray",
@@ -4246,7 +5305,10 @@ const characters = [
     "death": "Alive (Avenger & Master Oceanographer)",
     "bgColor": "#b71c1c",
     "fontFamily": "Iron Man",
-    "id": 354
+    "id": 354,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Stingray • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Union Jack (Joey Chapman)",
@@ -4258,7 +5320,10 @@ const characters = [
     "death": "Alive (Knight of Great Britain & MI-13 Operative)",
     "bgColor": "#0d47a1",
     "fontFamily": "American Captain",
-    "id": 355
+    "id": 355,
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Union Jack (Joey Chapman) • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "name": "Two-Gun Kid",
@@ -4270,7 +5335,10 @@ const characters = [
     "death": "Alive in Modern Era (Time-Displaced Avenger & Lawman)",
     "bgColor": "#5d4037",
     "fontFamily": "Avengers",
-    "id": 356
+    "id": 356,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Two-Gun Kid • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Red Wolf (Will Talltrees)",
@@ -4282,7 +5350,10 @@ const characters = [
     "death": "Alive (Occupy Avengers Member & Sacred Champion)",
     "bgColor": "#b71c1c",
     "fontFamily": "Avengers",
-    "id": 357
+    "id": 357,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Red Wolf (Will Talltrees) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Doctor Druid",
@@ -4294,7 +5365,10 @@ const characters = [
     "death": "Deceased / Resurrected Astral Spirit",
     "bgColor": "#2e7d32",
     "fontFamily": "Doctor Strange",
-    "id": 358
+    "id": 358,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Doctor Druid • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Living Lightning",
@@ -4306,7 +5380,10 @@ const characters = [
     "death": "Alive (West Coast Avenger & Academy Mentor)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 359
+    "id": 359,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Living Lightning • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Silverclaw",
@@ -4318,7 +5395,10 @@ const characters = [
     "death": "Alive (Avenger & Reserve Defender)",
     "bgColor": "#78909c",
     "fontFamily": "Avengers",
-    "id": 360
+    "id": 360,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Silverclaw • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Triathlon",
@@ -4330,7 +5410,10 @@ const characters = [
     "death": "Alive (Agent of the Fifty-State Initiative & Avenger)",
     "bgColor": "#00897b",
     "fontFamily": "Avengers",
-    "id": 361
+    "id": 361,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Triathlon • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Justice (Vance Astrovik)",
@@ -4342,7 +5425,10 @@ const characters = [
     "death": "Alive (Senior Avenger & New Warriors Leader)",
     "bgColor": "#1565c0",
     "fontFamily": "Avengers",
-    "id": 362
+    "id": 362,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Justice (Vance Astrovik) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Firestar (Angelica Jones)",
@@ -4354,7 +5440,10 @@ const characters = [
     "death": "Alive (Krakoan X-Man, Avenger & New Warrior)",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 363
+    "id": 363,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Firestar (Angelica Jones) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Rage (Elvin Haliday)",
@@ -4366,7 +5455,10 @@ const characters = [
     "death": "Alive (New Warrior & Urban Defender)",
     "bgColor": "#f57f17",
     "fontFamily": "Avengers",
-    "id": 364
+    "id": 364,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Rage (Elvin Haliday) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "D-Man (Dennis Dunphy)",
@@ -4378,7 +5470,10 @@ const characters = [
     "death": "Alive (Avenger, Ravencroft Guard & Community Protector)",
     "bgColor": "#fbc02d",
     "fontFamily": "American Captain",
-    "id": 365
+    "id": 365,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "D-Man (Dennis Dunphy) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Nightmask",
@@ -4390,7 +5485,10 @@ const characters = [
     "death": "Alive (Universal Herald & Secret Wars Veteran)",
     "bgColor": "#4a148c",
     "fontFamily": "Doctor Strange",
-    "id": 366
+    "id": 366,
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Nightmask • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "name": "Star Brand (Kevin Connor)",
@@ -4402,7 +5500,10 @@ const characters = [
     "death": "Sacrificed against Beyonders / Planetary Defender",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 367
+    "id": 367,
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Star Brand (Kevin Connor) • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "name": "Hazmat",
@@ -4414,7 +5515,10 @@ const characters = [
     "death": "Alive (Avengers Academy Graduate & Captain Marvel Operative)",
     "bgColor": "#fbc02d",
     "fontFamily": "Avengers",
-    "id": 368
+    "id": 368,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Hazmat • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Reptil",
@@ -4426,7 +5530,10 @@ const characters = [
     "death": "Alive (Avengers Academy Leader & Champions Ally)",
     "bgColor": "#2e7d32",
     "fontFamily": "Avengers",
-    "id": 369
+    "id": 369,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Reptil • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Mettle",
@@ -4438,7 +5545,10 @@ const characters = [
     "death": "Sacrificed heroically in Murderworld to save Hazmat",
     "bgColor": "#b71c1c",
     "fontFamily": "Avengers",
-    "id": 370
+    "id": 370,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Mettle • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Finesse",
@@ -4450,7 +5560,10 @@ const characters = [
     "death": "Alive (Avengers Academy Operative & Infiltrator)",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 371
+    "id": 371,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Finesse • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Striker",
@@ -4462,7 +5575,10 @@ const characters = [
     "death": "Alive (Avengers Academy Veteran & Celebrity Hero)",
     "bgColor": "#0288d1",
     "fontFamily": "Avengers",
-    "id": 372
+    "id": 372,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Striker • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Veil",
@@ -4474,7 +5590,10 @@ const characters = [
     "death": "Alive / Retired from heroics to live peaceful life",
     "bgColor": "#7e57c2",
     "fontFamily": "Avengers",
-    "id": 373
+    "id": 373,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Veil • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Power Man (Victor Alvarez)",
@@ -4486,7 +5605,10 @@ const characters = [
     "death": "Alive (Heroes for Hire & Mighty Avengers Member)",
     "bgColor": "#f57f17",
     "fontFamily": "Avengers",
-    "id": 374
+    "id": 374,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Power Man (Victor Alvarez) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "White Tiger (Ava Ayala)",
@@ -4498,7 +5620,10 @@ const characters = [
     "death": "Alive (Mighty Avenger, New Avenger & Martial Arts Master)",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 375
+    "id": 375,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "White Tiger (Ava Ayala) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Quasar (Wendell Vaughn)",
@@ -4510,7 +5635,10 @@ const characters = [
     "death": "Alive (Protector of the Universe & Cosmic Avenger)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 376
+    "id": 376,
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Quasar (Wendell Vaughn) • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "name": "Patriot (Eli Bradley)",
@@ -4522,7 +5650,10 @@ const characters = [
     "death": "Alive (Young Avengers Founding Leader & Community Organizer)",
     "bgColor": "#1565c0",
     "fontFamily": "American Captain",
-    "id": 377
+    "id": 377,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Patriot (Eli Bradley) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Stature / Stinger",
@@ -4534,7 +5665,10 @@ const characters = [
     "death": "Alive (Young Avenger & Ant-Family Hero)",
     "bgColor": "#880e4f",
     "fontFamily": "Ant-Man",
-    "id": 378
+    "id": 378,
+    "trailerId": "ZlNFpri-Y40",
+    "trailerTitle": "Stature / Stinger • Ant-Man and the Wasp: Quantumania Official Trailer",
+    "trailerCategory": "Quantum Realm & Kang Dynasties"
   },
   {
     "name": "Marvel Boy (Noh-Varr)",
@@ -4546,7 +5680,10 @@ const characters = [
     "death": "Alive (Young Avenger, West Coast Avenger & Guardian)",
     "bgColor": "#37474f",
     "fontFamily": "Guardians",
-    "id": 379
+    "id": 379,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Marvel Boy (Noh-Varr) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Prodigy (David Alleyne)",
@@ -4558,7 +5695,10 @@ const characters = [
     "death": "Alive (Young Avenger, X-Factor Investigator & Krakoan Leader)",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 380
+    "id": 380,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Prodigy (David Alleyne) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Nadia van Dyne (The Wasp)",
@@ -4570,7 +5710,10 @@ const characters = [
     "death": "Alive (Leader of G.I.R.L., Champion & Unstoppable Wasp)",
     "bgColor": "#fbc02d",
     "fontFamily": "Ant-Man",
-    "id": 381
+    "id": 381,
+    "trailerId": "ZlNFpri-Y40",
+    "trailerTitle": "Nadia van Dyne (The Wasp) • Ant-Man and the Wasp: Quantumania Official Trailer",
+    "trailerCategory": "Quantum Realm & Kang Dynasties"
   },
   {
     "name": "Amadeus Cho (Brawn)",
@@ -4582,7 +5725,10 @@ const characters = [
     "death": "Alive (Champions Leader, Agent of Atlas & Genius Hero)",
     "bgColor": "#388e3c",
     "fontFamily": "Hulk",
-    "id": 382
+    "id": 382,
+    "trailerId": "m9EX0f6V11Y",
+    "trailerTitle": "Amadeus Cho (Brawn) • Marvel Studios' Ms. Marvel Official Trailer",
+    "trailerCategory": "Champions & Young Avengers"
   },
   {
     "name": "Viv Vision",
@@ -4594,7 +5740,10 @@ const characters = [
     "death": "Alive (Synthezoid Champion & Technological Genius)",
     "bgColor": "#00897b",
     "fontFamily": "Vision",
-    "id": 383
+    "id": 383,
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Viv Vision • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "name": "Nova (Sam Alexander)",
@@ -4606,7 +5755,10 @@ const characters = [
     "death": "Alive (Champion, New Warrior & Cosmic Defender)",
     "bgColor": "#f57f17",
     "fontFamily": "Guardians",
-    "id": 384
+    "id": 384,
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Nova (Sam Alexander) • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "name": "Snowguard",
@@ -4618,7 +5770,10 @@ const characters = [
     "death": "Alive (Champion & Canadian Arctic Protector)",
     "bgColor": "#0288d1",
     "fontFamily": "Avengers",
-    "id": 385
+    "id": 385,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Snowguard • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Dust (Sooraya Qadir)",
@@ -4630,7 +5785,10 @@ const characters = [
     "death": "Alive (Krakoan Champion, Legion of X & X-Man)",
     "bgColor": "#8d6e63",
     "fontFamily": "Avengers",
-    "id": 386
+    "id": 386,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Dust (Sooraya Qadir) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Gertrude Yorkes & Old Lace",
@@ -4642,7 +5800,10 @@ const characters = [
     "death": "Alive (Runaways Tactician & Dinosaur Handler)",
     "bgColor": "#7b1fa2",
     "fontFamily": "Avengers",
-    "id": 387
+    "id": 387,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Gertrude Yorkes & Old Lace • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Victor Mancha",
@@ -4654,7 +5815,10 @@ const characters = [
     "death": "Alive (Runaways Member, Avenger A.I. & Vision Family)",
     "bgColor": "#00838f",
     "fontFamily": "Vision",
-    "id": 388
+    "id": 388,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Victor Mancha • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Alex Wilder",
@@ -4666,7 +5830,10 @@ const characters = [
     "death": "Alive / Active in Underworld & Runaways Anti-Hero",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 389
+    "id": 389,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Alex Wilder • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Xavin",
@@ -4678,7 +5845,10 @@ const characters = [
     "death": "Alive across Cosmos (Majesdane Peace Envoy & Runaway)",
     "bgColor": "#2e7d32",
     "fontFamily": "Guardians",
-    "id": 390
+    "id": 390,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Xavin • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Klara Prast",
@@ -4690,7 +5860,10 @@ const characters = [
     "death": "Alive (Runaways Junior Member)",
     "bgColor": "#558b2f",
     "fontFamily": "Avengers",
-    "id": 391
+    "id": 391,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Klara Prast • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Red Locust",
@@ -4702,7 +5875,10 @@ const characters = [
     "death": "Alive (Champion & Aztec Hero)",
     "bgColor": "#c62828",
     "fontFamily": "Avengers",
-    "id": 392
+    "id": 392,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Red Locust • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Pinpoint",
@@ -4714,7 +5890,10 @@ const characters = [
     "death": "Alive (Champion & Underground Youth Network)",
     "bgColor": "#6a1b9a",
     "fontFamily": "Avengers",
-    "id": 393
+    "id": 393,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Pinpoint • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Locust (Fernanda)",
@@ -4726,7 +5905,10 @@ const characters = [
     "death": "Alive (Champion & Community Vigilante)",
     "bgColor": "#c62828",
     "fontFamily": "Avengers",
-    "id": 394
+    "id": 394,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Locust (Fernanda) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Armor (Hisako Ichiki)",
@@ -4738,7 +5920,10 @@ const characters = [
     "death": "Alive (Krakoan Captain & X-Men Senior Student)",
     "bgColor": "#c62828",
     "fontFamily": "Avengers",
-    "id": 395
+    "id": 395,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Armor (Hisako Ichiki) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Surge (Noriko Ashida)",
@@ -4750,7 +5935,10 @@ const characters = [
     "death": "Alive (New X-Men Leader & Krakoan Champion)",
     "bgColor": "#0288d1",
     "fontFamily": "Avengers",
-    "id": 396
+    "id": 396,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Surge (Noriko Ashida) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Hellion (Julian Keller)",
@@ -4762,7 +5950,10 @@ const characters = [
     "death": "Alive (Krakoan Warrior & New X-Men Core)",
     "bgColor": "#2e7d32",
     "fontFamily": "Avengers",
-    "id": 397
+    "id": 397,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Hellion (Julian Keller) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Rockslide (Santo Vaccarro)",
@@ -4774,7 +5965,10 @@ const characters = [
     "death": "Resurrected on Krakoa / Transcendent Form",
     "bgColor": "#795548",
     "fontFamily": "The Thing",
-    "id": 398
+    "id": 398,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Rockslide (Santo Vaccarro) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Mercury (Cessily Kincaid)",
@@ -4786,7 +5980,10 @@ const characters = [
     "death": "Alive (New X-Men & Krakoan Citizen)",
     "bgColor": "#78909c",
     "fontFamily": "Avengers",
-    "id": 399
+    "id": 399,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Mercury (Cessily Kincaid) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Elixir (Josh Foley)",
@@ -4798,7 +5995,10 @@ const characters = [
     "death": "Alive (The Five of Krakoa & Omega-Level Healer)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 400
+    "id": 400,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Elixir (Josh Foley) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Anole (Victor Borkowski)",
@@ -4810,7 +6010,10 @@ const characters = [
     "death": "Alive (New X-Men & Green Lagoon Bartender)",
     "bgColor": "#388e3c",
     "fontFamily": "Avengers",
-    "id": 401
+    "id": 401,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Anole (Victor Borkowski) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Glob Herman (Robert Herman)",
@@ -4822,7 +6025,10 @@ const characters = [
     "death": "Alive (Krakoan Beekeeper & New Mutants Ally)",
     "bgColor": "#f57f17",
     "fontFamily": "Avengers",
-    "id": 402
+    "id": 402,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Glob Herman (Robert Herman) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Blindfold (Ruth Aldine)",
@@ -4834,7 +6040,10 @@ const characters = [
     "death": "Alive (Krakoan Seer & Legion of X Member)",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 403
+    "id": 403,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Blindfold (Ruth Aldine) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Kid Omega (Quentin Quire)",
@@ -4846,7 +6055,10 @@ const characters = [
     "death": "Alive (Omega-Level Telepath & X-Force Operative)",
     "bgColor": "#e91e63",
     "fontFamily": "Avengers",
-    "id": 404
+    "id": 404,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Kid Omega (Quentin Quire) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Gentle (Nezhno Abidemi)",
@@ -4858,7 +6070,10 @@ const characters = [
     "death": "Alive (X-Men Red & Krakoan Champion)",
     "bgColor": "#263238",
     "fontFamily": "Black Panther",
-    "id": 405
+    "id": 405,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Gentle (Nezhno Abidemi) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Pixie (Megan Gwynn)",
@@ -4870,7 +6085,10 @@ const characters = [
     "death": "Alive (Krakoan Legion of X Captain & Sorceress)",
     "bgColor": "#ec407a",
     "fontFamily": "Avengers",
-    "id": 406
+    "id": 406,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Pixie (Megan Gwynn) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Goldballs / Egg (Fabio Medina)",
@@ -4882,7 +6100,10 @@ const characters = [
     "death": "Alive (The Five of Krakoa & Resurrection Architect)",
     "bgColor": "#fbc02d",
     "fontFamily": "Avengers",
-    "id": 407
+    "id": 407,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Goldballs / Egg (Fabio Medina) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Tempus (Eva Bell)",
@@ -4894,7 +6115,10 @@ const characters = [
     "death": "Alive (The Five of Krakoa & Time Master)",
     "bgColor": "#5c6bc0",
     "fontFamily": "Avengers",
-    "id": 408
+    "id": 408,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Tempus (Eva Bell) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Havok (Alex Summers)",
@@ -4906,7 +6130,10 @@ const characters = [
     "death": "Alive (Avengers Unity Squad Leader & Krakoan Captain)",
     "bgColor": "#0288d1",
     "fontFamily": "Cyclops",
-    "id": 409
+    "id": 409,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Havok (Alex Summers) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Polaris (Lorna Dane)",
@@ -4918,7 +6145,10 @@ const characters = [
     "death": "Alive (Senior X-Man, Doctor of Geophysics & Krakoan Leader)",
     "bgColor": "#2e7d32",
     "fontFamily": "Magneto",
-    "id": 410
+    "id": 410,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Polaris (Lorna Dane) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Banshee (Sean Cassidy)",
@@ -4930,7 +6160,10 @@ const characters = [
     "death": "Alive (Senior X-Man, Generation X Headmaster & Interpol Agent)",
     "bgColor": "#2e7d32",
     "fontFamily": "Avengers",
-    "id": 411
+    "id": 411,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Banshee (Sean Cassidy) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Sunfire (Shiro Yoshida)",
@@ -4942,7 +6175,10 @@ const characters = [
     "death": "Alive (Senior X-Man & Big Hero 6 Founding Veteran)",
     "bgColor": "#d32f2f",
     "fontFamily": "Avengers",
-    "id": 412
+    "id": 412,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sunfire (Shiro Yoshida) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Thunderbird (John Proudstar)",
@@ -4954,7 +6190,10 @@ const characters = [
     "death": "Resurrected on Krakoa (Senior Apache X-Man)",
     "bgColor": "#c62828",
     "fontFamily": "Avengers",
-    "id": 413
+    "id": 413,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Thunderbird (John Proudstar) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Warpath (James Proudstar)",
@@ -4966,7 +6205,10 @@ const characters = [
     "death": "Alive (X-Force Veteran & Krakoan Captain)",
     "bgColor": "#263238",
     "fontFamily": "Avengers",
-    "id": 414
+    "id": 414,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Warpath (James Proudstar) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Siryn (Theresa Cassidy)",
@@ -4978,7 +6220,10 @@ const characters = [
     "death": "Alive (X-Factor Investigations Leader & X-Force Veteran)",
     "bgColor": "#2e7d32",
     "fontFamily": "Avengers",
-    "id": 415
+    "id": 415,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Siryn (Theresa Cassidy) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Rictor (Julio Richter)",
@@ -4990,7 +6235,10 @@ const characters = [
     "death": "Alive (Excalibur Champion & Druidic Geomancer)",
     "bgColor": "#5d4037",
     "fontFamily": "Avengers",
-    "id": 416
+    "id": 416,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Rictor (Julio Richter) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Shatterstar",
@@ -5002,7 +6250,10 @@ const characters = [
     "death": "Alive (Mojoverse Champion, X-Force & Gladiator)",
     "bgColor": "#e0e0e0",
     "fontFamily": "Avengers",
-    "id": 417
+    "id": 417,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Shatterstar • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Feral (Maria Callasantos)",
@@ -5014,7 +6265,10 @@ const characters = [
     "death": "Alive (Morlock Survivor & X-Force Veteran)",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 418
+    "id": 418,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Feral (Maria Callasantos) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Boom-Boom (Tabitha Smith)",
@@ -5026,7 +6280,10 @@ const characters = [
     "death": "Alive (Nextwave Operative, X-Force & Krakoan Marauder)",
     "bgColor": "#fbc02d",
     "fontFamily": "Avengers",
-    "id": 419
+    "id": 419,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Boom-Boom (Tabitha Smith) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Kwannon / Psylocke",
@@ -5038,7 +6295,10 @@ const characters = [
     "death": "Alive (Captain of Krakoa & Psylocke)",
     "bgColor": "#4a148c",
     "fontFamily": "Avengers",
-    "id": 420
+    "id": 420,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Kwannon / Psylocke • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Strong Guy (Guido Carosella)",
@@ -5050,7 +6310,10 @@ const characters = [
     "death": "Alive (X-Factor Investigations Powerhouse)",
     "bgColor": "#00838f",
     "fontFamily": "The Thing",
-    "id": 421
+    "id": 421,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Strong Guy (Guido Carosella) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Multiple Man (Jamie Madrox)",
@@ -5062,7 +6325,10 @@ const characters = [
     "death": "Alive (X-Factor Investigations Founder & Detective)",
     "bgColor": "#2e7d32",
     "fontFamily": "Avengers",
-    "id": 422
+    "id": 422,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Multiple Man (Jamie Madrox) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Magma (Amara Aquilla)",
@@ -5074,7 +6340,10 @@ const characters = [
     "death": "Alive (New Mutant & Krakoan Instructor)",
     "bgColor": "#e65100",
     "fontFamily": "Human Torch",
-    "id": 423
+    "id": 423,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Magma (Amara Aquilla) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Cypher (Doug Ramsey)",
@@ -5086,7 +6355,10 @@ const characters = [
     "death": "Alive (Voice of Krakoa & Quiet Council Liaison)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 424
+    "id": 424,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Cypher (Doug Ramsey) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Karma (Xi'an Coy Manh)",
@@ -5098,7 +6370,10 @@ const characters = [
     "death": "Alive (New Mutants Leader & Krakoan Champion)",
     "bgColor": "#ec407a",
     "fontFamily": "Avengers",
-    "id": 425
+    "id": 425,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Karma (Xi'an Coy Manh) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Chamber (Jono Starsmore)",
@@ -5110,7 +6385,10 @@ const characters = [
     "death": "Alive (Generation X Veteran & New Mutants Ally)",
     "bgColor": "#bf360c",
     "fontFamily": "Avengers",
-    "id": 426
+    "id": 426,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Chamber (Jono Starsmore) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Husk (Paige Guthrie)",
@@ -5122,7 +6400,10 @@ const characters = [
     "death": "Alive (Generation X Veteran & Krakoan Educator)",
     "bgColor": "#78909c",
     "fontFamily": "Avengers",
-    "id": 427
+    "id": 427,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Husk (Paige Guthrie) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Monet St. Croix (M)",
@@ -5134,7 +6415,10 @@ const characters = [
     "death": "Alive (CXO of X-Corp & Quiet Council Champion)",
     "bgColor": "#b71c1c",
     "fontFamily": "Avengers",
-    "id": 428
+    "id": 428,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Monet St. Croix (M) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Synch (Everett Thomas)",
@@ -5146,7 +6430,10 @@ const characters = [
     "death": "Alive (Senior X-Man & Omega-Level Leader)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 429
+    "id": 429,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Synch (Everett Thomas) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Skin (Angelo Espinosa)",
@@ -5158,7 +6445,10 @@ const characters = [
     "death": "Resurrected on Krakoa (Generation X Veteran)",
     "bgColor": "#9e9e9e",
     "fontFamily": "Avengers",
-    "id": 430
+    "id": 430,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Skin (Angelo Espinosa) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Marrow (Sarah)",
@@ -5170,7 +6460,10 @@ const characters = [
     "death": "Alive (Morlock Leader & Weapon X Survivor)",
     "bgColor": "#d32f2f",
     "fontFamily": "Wolverine",
-    "id": 431
+    "id": 431,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Marrow (Sarah) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Cecilia Reyes",
@@ -5182,7 +6475,10 @@ const characters = [
     "death": "Alive (Chief Medical Officer of Krakoa & X-Man)",
     "bgColor": "#00796b",
     "fontFamily": "Avengers",
-    "id": 432
+    "id": 432,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Cecilia Reyes • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Maggott (Japheth)",
@@ -5194,7 +6490,10 @@ const characters = [
     "death": "Alive (X-Man & Krakoan Resident)",
     "bgColor": "#1565c0",
     "fontFamily": "Avengers",
-    "id": 433
+    "id": 433,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Maggott (Japheth) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Sage (Tessa)",
@@ -5206,7 +6505,10 @@ const characters = [
     "death": "Alive (X-Force Intelligence Director & Quiet Council Advisor)",
     "bgColor": "#212121",
     "fontFamily": "Avengers",
-    "id": 434
+    "id": 434,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sage (Tessa) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Guardian (James Hudson)",
@@ -5218,7 +6520,10 @@ const characters = [
     "death": "Alive (Alpha Flight Prime Leader & Canadian Hero)",
     "bgColor": "#b71c1c",
     "fontFamily": "American Captain",
-    "id": 435
+    "id": 435,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Guardian (James Hudson) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Vindicator (Heather Hudson)",
@@ -5230,7 +6535,10 @@ const characters = [
     "death": "Alive (Alpha Flight Commander)",
     "bgColor": "#b71c1c",
     "fontFamily": "American Captain",
-    "id": 436
+    "id": 436,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Vindicator (Heather Hudson) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Sasquatch (Walter Langkowski)",
@@ -5242,7 +6550,10 @@ const characters = [
     "death": "Alive (Alpha Flight Powerhouse & Gamma Physicist)",
     "bgColor": "#e65100",
     "fontFamily": "Hulk",
-    "id": 437
+    "id": 437,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sasquatch (Walter Langkowski) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Puck (Eugene Judd)",
@@ -5254,7 +6565,10 @@ const characters = [
     "death": "Alive (Alpha Flight Veteran & Space Station Gamma Operative)",
     "bgColor": "#3e2723",
     "fontFamily": "Wolverine",
-    "id": 438
+    "id": 438,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Puck (Eugene Judd) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Shaman (Michael Twoyoungmen)",
@@ -5266,7 +6580,10 @@ const characters = [
     "death": "Alive (Alpha Flight Mystic & Sorcerer)",
     "bgColor": "#5d4037",
     "fontFamily": "Doctor Strange",
-    "id": 439
+    "id": 439,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Shaman (Michael Twoyoungmen) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Snowbird (Narya)",
@@ -5278,7 +6595,10 @@ const characters = [
     "death": "Immortal (Inuit Goddess & Alpha Flight Hero)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 440
+    "id": 440,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Snowbird (Narya) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Northstar (Jean-Paul Beaubier)",
@@ -5290,7 +6610,10 @@ const characters = [
     "death": "Alive (X-Factor Leader & Alpha Flight Founding Member)",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 441
+    "id": 441,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Northstar (Jean-Paul Beaubier) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Aurora (Jeanne-Marie Beaubier)",
@@ -5302,7 +6625,10 @@ const characters = [
     "death": "Alive (Alpha Flight & X-Factor Operative)",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 442
+    "id": 442,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Aurora (Jeanne-Marie Beaubier) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Box (Madison Jeffries)",
@@ -5314,7 +6640,10 @@ const characters = [
     "death": "Alive (Alpha Flight & X-Club Science Team)",
     "bgColor": "#78909c",
     "fontFamily": "Iron Man",
-    "id": 443
+    "id": 443,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Box (Madison Jeffries) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Talisman (Elizabeth Twoyoungmen)",
@@ -5326,7 +6655,10 @@ const characters = [
     "death": "Alive (High Priestess of Alpha Flight)",
     "bgColor": "#ffd600",
     "fontFamily": "Doctor Strange",
-    "id": 444
+    "id": 444,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Talisman (Elizabeth Twoyoungmen) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Wild Child (Kyle Gibney)",
@@ -5338,7 +6670,10 @@ const characters = [
     "death": "Alive (Alpha Flight & Hellions Operative)",
     "bgColor": "#ff6f00",
     "fontFamily": "Wolverine",
-    "id": 445
+    "id": 445,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Wild Child (Kyle Gibney) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Marrina Smallwood",
@@ -5350,7 +6685,10 @@ const characters = [
     "death": "Alive (Alpha Flight & Atlantean Queen)",
     "bgColor": "#00695c",
     "fontFamily": "Namor",
-    "id": 446
+    "id": 446,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Marrina Smallwood • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Legion (David Haller)",
@@ -5362,7 +6700,10 @@ const characters = [
     "death": "Alive (Architect of the Altar of Krakoa & Cosmic Being)",
     "bgColor": "#ff6f00",
     "fontFamily": "Professor X",
-    "id": 447
+    "id": 447,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Legion (David Haller) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Nate Grey (X-Man)",
@@ -5374,7 +6715,10 @@ const characters = [
     "death": "Alive across Multiverse (Shaman of Mutantkind)",
     "bgColor": "#1565c0",
     "fontFamily": "Jean Grey",
-    "id": 448
+    "id": 448,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Nate Grey (X-Man) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Rachel Summers (Prestige)",
@@ -5386,7 +6730,10 @@ const characters = [
     "death": "Alive (Captain of the Starjammers & Senior X-Man)",
     "bgColor": "#c62828",
     "fontFamily": "Jean Grey",
-    "id": 449
+    "id": 449,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Rachel Summers (Prestige) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Stryfe",
@@ -5398,7 +6745,10 @@ const characters = [
     "death": "Active across Timelines (Master of the Mutant Liberation Front)",
     "bgColor": "#424242",
     "fontFamily": "Cable",
-    "id": 450
+    "id": 450,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Stryfe • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Selene Gallio",
@@ -5410,7 +6760,10 @@ const characters = [
     "death": "Immortal (Ancient External & Black Queen)",
     "bgColor": "#4a148c",
     "fontFamily": "Scarlet Witch",
-    "id": 451
+    "id": 451,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Selene Gallio • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Madelyne Pryor (Goblin Queen)",
@@ -5422,7 +6775,10 @@ const characters = [
     "death": "Alive (Queen of Limbo & Ruler of the Embassy)",
     "bgColor": "#b71c1c",
     "fontFamily": "Jean Grey",
-    "id": 452
+    "id": 452,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Madelyne Pryor (Goblin Queen) • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Exodus (Bennet du Paris)",
@@ -5434,7 +6790,10 @@ const characters = [
     "death": "Alive (Quiet Council of Krakoa & Arakko Defender)",
     "bgColor": "#b71c1c",
     "fontFamily": "Magneto",
-    "id": 453
+    "id": 453,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Exodus (Bennet du Paris) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Vulcan (Gabriel Summers)",
@@ -5446,7 +6805,10 @@ const characters = [
     "death": "Alive (Omega-Level Summers Brother & Krakoan Champion)",
     "bgColor": "#e65100",
     "fontFamily": "Cyclops",
-    "id": 454
+    "id": 454,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Vulcan (Gabriel Summers) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Darwin (Armando Muñoz)",
@@ -5458,7 +6820,10 @@ const characters = [
     "death": "Alive (Vault Infiltrator & Children of the Atom)",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 455
+    "id": 455,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Darwin (Armando Muñoz) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Petra",
@@ -5470,7 +6835,10 @@ const characters = [
     "death": "Resurrected on Krakoa (Krakoan Pioneer)",
     "bgColor": "#5d4037",
     "fontFamily": "Avengers",
-    "id": 456
+    "id": 456,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Petra • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Sway (Suzanne Chan)",
@@ -5482,7 +6850,10 @@ const characters = [
     "death": "Resurrected on Krakoa (Krakoan Pioneer)",
     "bgColor": "#00838f",
     "fontFamily": "Avengers",
-    "id": 457
+    "id": 457,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sway (Suzanne Chan) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Genesis (Evan Sabahnur)",
@@ -5494,7 +6865,10 @@ const characters = [
     "death": "Resurrected on Krakoa (Student of Xavier's)",
     "bgColor": "#311b92",
     "fontFamily": "Avengers",
-    "id": 458
+    "id": 458,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Genesis (Evan Sabahnur) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Rasputin IV",
@@ -5506,7 +6880,10 @@ const characters = [
     "death": "Alive in Modern Era (X-Men Defender of Earth)",
     "bgColor": "#880e4f",
     "fontFamily": "Colossus",
-    "id": 459
+    "id": 459,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Rasputin IV • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Nimrod",
@@ -5518,7 +6895,10 @@ const characters = [
     "death": "Active Threat / Sentient Machine Overlord",
     "bgColor": "#d81b60",
     "fontFamily": "Iron Man",
-    "id": 460
+    "id": 460,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Nimrod • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Moira MacTaggert",
@@ -5530,7 +6910,10 @@ const characters = [
     "death": "Active (Cyborg Operative & Architect of Krakoa)",
     "bgColor": "#004d40",
     "fontFamily": "Professor X",
-    "id": 461
+    "id": 461,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Moira MacTaggert • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Destiny (Irene Adler)",
@@ -5542,7 +6925,10 @@ const characters = [
     "death": "Resurrected on Krakoa (Quiet Council Seer)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 462
+    "id": 462,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Destiny (Irene Adler) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Omega Red (Arkady Rossovich)",
@@ -5554,7 +6940,10 @@ const characters = [
     "death": "Alive (Vampire Nation Operative & Krakoan X-Force)",
     "bgColor": "#c62828",
     "fontFamily": "Wolverine",
-    "id": 463
+    "id": 463,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Omega Red (Arkady Rossovich) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Sabretooth (Victor Creed)",
@@ -5566,7 +6955,10 @@ const characters = [
     "death": "Active (Feral Predator & Terror of Krakoa)",
     "bgColor": "#ff6f00",
     "fontFamily": "Wolverine",
-    "id": 464
+    "id": 464,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sabretooth (Victor Creed) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Juggernaut (Cain Marko)",
@@ -5578,7 +6970,10 @@ const characters = [
     "death": "Alive (Krakoan Legion of X Champion & Unstoppable Hero)",
     "bgColor": "#b71c1c",
     "fontFamily": "The Thing",
-    "id": 465
+    "id": 465,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Juggernaut (Cain Marko) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Black Tom Cassidy",
@@ -5590,7 +6985,10 @@ const characters = [
     "death": "Alive (Security Guardian of Krakoa)",
     "bgColor": "#33691e",
     "fontFamily": "Avengers",
-    "id": 466
+    "id": 466,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Black Tom Cassidy • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Arcade",
@@ -5602,7 +7000,10 @@ const characters = [
     "death": "Alive (Master of Murderworld & Contract Killer)",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 467
+    "id": 467,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Arcade • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Mojo",
@@ -5614,7 +7015,10 @@ const characters = [
     "death": "Alive (Dictator of Mojoverse Media)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 468
+    "id": 468,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Mojo • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Spiral (Rita Wayword)",
@@ -5626,7 +7030,10 @@ const characters = [
     "death": "Alive (Mojoverse Sorceress & Mercenary)",
     "bgColor": "#9e9e9e",
     "fontFamily": "Avengers",
-    "id": 469
+    "id": 469,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Spiral (Rita Wayword) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Donald Pierce",
@@ -5638,7 +7045,10 @@ const characters = [
     "death": "Active Cybernetic Terrorist (Leader of the Reavers)",
     "bgColor": "#78909c",
     "fontFamily": "Iron Man",
-    "id": 470
+    "id": 470,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Donald Pierce • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Cameron Hodge",
@@ -5650,7 +7060,10 @@ const characters = [
     "death": "Active Phalanx Machine Threat",
     "bgColor": "#c62828",
     "fontFamily": "Iron Man",
-    "id": 471
+    "id": 471,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Cameron Hodge • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Graydon Creed",
@@ -5662,7 +7075,10 @@ const characters = [
     "death": "Deceased / Resurrected Cybernetic Operative",
     "bgColor": "#37474f",
     "fontFamily": "Wolverine",
-    "id": 472
+    "id": 472,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Graydon Creed • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Master Mold",
@@ -5674,7 +7090,10 @@ const characters = [
     "death": "Sentient AI Threat (Sentinel Mother Brain)",
     "bgColor": "#5c6bc0",
     "fontFamily": "Iron Man",
-    "id": 473
+    "id": 473,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Master Mold • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Bastion",
@@ -5686,7 +7105,10 @@ const characters = [
     "death": "Active Threat (Leader of Operation: Zero Tolerance)",
     "bgColor": "#d81b60",
     "fontFamily": "Iron Man",
-    "id": 474
+    "id": 474,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Bastion • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Trevor Fitzroy",
@@ -5698,7 +7120,10 @@ const characters = [
     "death": "Alive across Timelines (Upstarts Member)",
     "bgColor": "#1a237e",
     "fontFamily": "Cable",
-    "id": 475
+    "id": 475,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Trevor Fitzroy • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Fabian Cortez",
@@ -5710,7 +7135,10 @@ const characters = [
     "death": "Alive (Acolyte Veteran & Krakoan Schemer)",
     "bgColor": "#b71c1c",
     "fontFamily": "Magneto",
-    "id": 476
+    "id": 476,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Fabian Cortez • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Toad (Mortimer Toynbee)",
@@ -5722,7 +7150,10 @@ const characters = [
     "death": "Alive (Brotherhood Veteran & Krakoan Exile)",
     "bgColor": "#558b2f",
     "fontFamily": "Avengers",
-    "id": 477
+    "id": 477,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Toad (Mortimer Toynbee) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Blob (Fred Dukes)",
@@ -5734,7 +7165,10 @@ const characters = [
     "death": "Alive (Green Lagoon Bartender & Brotherhood Veteran)",
     "bgColor": "#795548",
     "fontFamily": "Avengers",
-    "id": 478
+    "id": 478,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Blob (Fred Dukes) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Pyro (St. John Allerdyce)",
@@ -5746,7 +7180,10 @@ const characters = [
     "death": "Alive (Marauder & Brotherhood Veteran)",
     "bgColor": "#e65100",
     "fontFamily": "Human Torch",
-    "id": 479
+    "id": 479,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Pyro (St. John Allerdyce) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Avalanche (Dominikos Petrakis)",
@@ -5758,7 +7195,10 @@ const characters = [
     "death": "Alive (Brotherhood Veteran & Krakoan Ranger)",
     "bgColor": "#78909c",
     "fontFamily": "Avengers",
-    "id": 480
+    "id": 480,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Avalanche (Dominikos Petrakis) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Scream (Donna Diego)",
@@ -5770,7 +7210,10 @@ const characters = [
     "death": "Deceased / Symbiote Rebonded (Anti-Venom Lineage)",
     "bgColor": "#fbc02d",
     "fontFamily": "Venom",
-    "id": 481
+    "id": 481,
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Scream (Donna Diego) • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "name": "Lasher (Ramone Hernandez)",
@@ -5782,7 +7225,10 @@ const characters = [
     "death": "Alive (Life Foundation Symbiote)",
     "bgColor": "#2e7d32",
     "fontFamily": "Venom",
-    "id": 482
+    "id": 482,
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Lasher (Ramone Hernandez) • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "name": "Phage (Carl Mach)",
@@ -5794,7 +7240,10 @@ const characters = [
     "death": "Alive (Life Foundation Symbiote)",
     "bgColor": "#e65100",
     "fontFamily": "Venom",
-    "id": 483
+    "id": 483,
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Phage (Carl Mach) • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "name": "Agony (Leslie Gesneria)",
@@ -5806,7 +7255,10 @@ const characters = [
     "death": "Alive (Life Foundation Symbiote)",
     "bgColor": "#6a1b9a",
     "fontFamily": "Venom",
-    "id": 484
+    "id": 484,
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Agony (Leslie Gesneria) • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "name": "Riot (Trevor Cole)",
@@ -5818,7 +7270,10 @@ const characters = [
     "death": "Alive (Life Foundation Symbiote)",
     "bgColor": "#546e7a",
     "fontFamily": "Venom",
-    "id": 485
+    "id": 485,
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Riot (Trevor Cole) • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "name": "Hybrid (Scott Washington)",
@@ -5830,7 +7285,10 @@ const characters = [
     "death": "Deceased / Resurrected Symbiote Amalgam",
     "bgColor": "#880e4f",
     "fontFamily": "Venom",
-    "id": 486
+    "id": 486,
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Hybrid (Scott Washington) • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "name": "Sleeper (Symbiote)",
@@ -5842,7 +7300,10 @@ const characters = [
     "death": "Alive (Guardian of Dylan Brock & Cosmic Symbiote)",
     "bgColor": "#ffd600",
     "fontFamily": "Venom",
-    "id": 487
+    "id": 487,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sleeper (Symbiote) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Ezekiel Sims",
@@ -5854,7 +7315,10 @@ const characters = [
     "death": "Deceased / Multiversal Spirit Guide",
     "bgColor": "#5d4037",
     "fontFamily": "Spider-Man",
-    "id": 488
+    "id": 488,
+    "trailerId": "s_76M4c4LTo",
+    "trailerTitle": "Ezekiel Sims • Madame Web Official Trailer",
+    "trailerCategory": "Spider-Women & Web of Destiny"
   },
   {
     "name": "Morlun",
@@ -5866,7 +7330,10 @@ const characters = [
     "death": "Alive across Multiverse (Inheritor Predator)",
     "bgColor": "#b71c1c",
     "fontFamily": "Spider-Man",
-    "id": 489
+    "id": 489,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Morlun • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Karn",
@@ -5878,7 +7345,10 @@ const characters = [
     "death": "Deceased / Guardian of the Multiversal Web",
     "bgColor": "#00838f",
     "fontFamily": "Spider-Man",
-    "id": 490
+    "id": 490,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Karn • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Demogoblin",
@@ -5890,7 +7360,10 @@ const characters = [
     "death": "Exorcised / Banished to Nether Realms",
     "bgColor": "#e65100",
     "fontFamily": "Spider-Man",
-    "id": 491
+    "id": 491,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Demogoblin • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Jack O'Lantern",
@@ -5902,7 +7375,10 @@ const characters = [
     "death": "Alive (Mercenary Assassin & Sinister Syndicate)",
     "bgColor": "#ff6f00",
     "fontFamily": "Spider-Man",
-    "id": 492
+    "id": 492,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Jack O'Lantern • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Alyosha Kravinoff",
@@ -5914,7 +7390,10 @@ const characters = [
     "death": "Alive (Wilderness Hunter & Savage Six)",
     "bgColor": "#e65100",
     "fontFamily": "Spider-Man",
-    "id": 493
+    "id": 493,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Alyosha Kravinoff • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Ana Kravinoff",
@@ -5926,7 +7405,10 @@ const characters = [
     "death": "Alive (Kravinoff Clan Assassin)",
     "bgColor": "#bf360c",
     "fontFamily": "Spider-Man",
-    "id": 494
+    "id": 494,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Ana Kravinoff • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Molten Man",
@@ -5938,7 +7420,10 @@ const characters = [
     "death": "Alive (Reformed Scientist & Web Warrior Ally)",
     "bgColor": "#ff6f00",
     "fontFamily": "Spider-Man",
-    "id": 495
+    "id": 495,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Molten Man • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Hammerhead",
@@ -5950,7 +7435,10 @@ const characters = [
     "death": "Alive (Maggia Crime Boss & Enforcer)",
     "bgColor": "#37474f",
     "fontFamily": "Daredevil",
-    "id": 496
+    "id": 496,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Hammerhead • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Silvermane",
@@ -5962,7 +7450,10 @@ const characters = [
     "death": "Alive (Cyborg Maggia Godfather)",
     "bgColor": "#78909c",
     "fontFamily": "Spider-Man",
-    "id": 497
+    "id": 497,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Silvermane • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Alistair Smythe (Spider-Slayer)",
@@ -5974,7 +7465,10 @@ const characters = [
     "death": "Deceased / Legacy Robotics Threat",
     "bgColor": "#00838f",
     "fontFamily": "Spider-Man",
-    "id": 498
+    "id": 498,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Alistair Smythe (Spider-Slayer) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Beetle (Janice Lincoln)",
@@ -5986,7 +7480,10 @@ const characters = [
     "death": "Alive (Leader of the Sinister Syndicate & Attorney)",
     "bgColor": "#2e7d32",
     "fontFamily": "Spider-Man",
-    "id": 499
+    "id": 499,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Beetle (Janice Lincoln) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Speed Demon",
@@ -5998,7 +7495,10 @@ const characters = [
     "death": "Alive (Superior Foes Member & Squadron Sinister)",
     "bgColor": "#1565c0",
     "fontFamily": "Quicksilver",
-    "id": 500
+    "id": 500,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Speed Demon • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Boomerang (Fred Myers)",
@@ -6010,7 +7510,10 @@ const characters = [
     "death": "Alive (Peter Parker's Former Roommate & Superior Foe)",
     "bgColor": "#0288d1",
     "fontFamily": "Spider-Man",
-    "id": 501
+    "id": 501,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Boomerang (Fred Myers) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Overdrive",
@@ -6022,7 +7525,10 @@ const characters = [
     "death": "Alive (Superior Foes & Reformed Hero)",
     "bgColor": "#d32f2f",
     "fontFamily": "Spider-Man",
-    "id": 502
+    "id": 502,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Overdrive • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Lady Octopus",
@@ -6034,7 +7540,10 @@ const characters = [
     "death": "Alive (Sinister Syndicate Robotics Master)",
     "bgColor": "#2e7d32",
     "fontFamily": "Doctor Octopus",
-    "id": 503
+    "id": 503,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Lady Octopus • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Swarm",
@@ -6046,7 +7555,10 @@ const characters = [
     "death": "Immortal Swarm Entity (Sinister Syndicate)",
     "bgColor": "#fbc02d",
     "fontFamily": "Spider-Man",
-    "id": 504
+    "id": 504,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Swarm • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Stegron the Dinosaur Man",
@@ -6058,7 +7570,10 @@ const characters = [
     "death": "Alive (Savage Land Tyrant & Prehistoric Villain)",
     "bgColor": "#e65100",
     "fontFamily": "Spider-Man",
-    "id": 505
+    "id": 505,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Stegron the Dinosaur Man • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "White Rabbit",
@@ -6070,7 +7585,10 @@ const characters = [
     "death": "Alive (Leader of The Menagerie & Syndicate Member)",
     "bgColor": "#ec407a",
     "fontFamily": "Spider-Man",
-    "id": 506
+    "id": 506,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "White Rabbit • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Cardiac",
@@ -6082,7 +7600,10 @@ const characters = [
     "death": "Alive (Vigilante Doctor & Protector of F.E.A.S.T.)",
     "bgColor": "#1565c0",
     "fontFamily": "Spider-Man",
-    "id": 507
+    "id": 507,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Cardiac • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Puma (Thomas Fireheart)",
@@ -6094,7 +7615,10 @@ const characters = [
     "death": "Alive (CEO & Sometimes Ally of Spider-Man)",
     "bgColor": "#e65100",
     "fontFamily": "Spider-Man",
-    "id": 508
+    "id": 508,
+    "trailerId": "rze8QYwWGMs",
+    "trailerTitle": "Puma (Thomas Fireheart) • Kraven the Hunter Official Trailer",
+    "trailerCategory": "Spider-Man Rogues & Apex Hunters"
   },
   {
     "name": "Wraith (Yuri Watanabe)",
@@ -6106,7 +7630,10 @@ const characters = [
     "death": "Alive (Lethal Anti-Hero & Spider-Man Ally)",
     "bgColor": "#6a1b9a",
     "fontFamily": "Daredevil",
-    "id": 509
+    "id": 509,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Wraith (Yuri Watanabe) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Sin-Eater (Stanley Carter)",
@@ -6118,7 +7645,10 @@ const characters = [
     "death": "Deceased / Resurrected Supernatural Entity",
     "bgColor": "#37474f",
     "fontFamily": "Punisher",
-    "id": 510
+    "id": 510,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Sin-Eater (Stanley Carter) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Big Wheel",
@@ -6130,7 +7660,10 @@ const characters = [
     "death": "Alive (Reformed Villain & Criminal Legend)",
     "bgColor": "#f57f17",
     "fontFamily": "Spider-Man",
-    "id": 511
+    "id": 511,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Big Wheel • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Mister Negative (Martin Li)",
@@ -6142,7 +7675,10 @@ const characters = [
     "death": "Alive (Inner Demons Overlord & F.E.A.S.T. Founder)",
     "bgColor": "#212121",
     "fontFamily": "Spider-Man",
-    "id": 512
+    "id": 512,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Mister Negative (Martin Li) • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Spider-Girl (Anya Corazon)",
@@ -6154,7 +7690,10 @@ const characters = [
     "death": "Alive (Web Warrior & Champions Ally)",
     "bgColor": "#1565c0",
     "fontFamily": "Spider-Man",
-    "id": 513
+    "id": 513,
+    "trailerId": "s_76M4c4LTo",
+    "trailerTitle": "Spider-Girl (Anya Corazon) • Madame Web Official Trailer",
+    "trailerCategory": "Spider-Women & Web of Destiny"
   },
   {
     "name": "Spider-UK (William Braddock)",
@@ -6166,7 +7705,10 @@ const characters = [
     "death": "Sacrificed heroically in Spider-Geddon",
     "bgColor": "#0d47a1",
     "fontFamily": "Spider-Man",
-    "id": 514
+    "id": 514,
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Spider-UK (William Braddock) • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "name": "Spider-Girl (Mayday Parker)",
@@ -6178,7 +7720,10 @@ const characters = [
     "death": "Alive (Protector of Earth-982 & Spider-Woman)",
     "bgColor": "#c62828",
     "fontFamily": "Spider-Man",
-    "id": 515
+    "id": 515,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Spider-Girl (Mayday Parker) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Spider-Man India",
@@ -6190,7 +7735,10 @@ const characters = [
     "death": "Alive (Web-Warrior & Multiversal Champion)",
     "bgColor": "#c62828",
     "fontFamily": "Spider-Man",
-    "id": 516
+    "id": 516,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Spider-Man India • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Spider-Punk (Hobie Brown)",
@@ -6202,7 +7750,10 @@ const characters = [
     "death": "Alive (Leader of the Spider-Army & Punk Legend)",
     "bgColor": "#d32f2f",
     "fontFamily": "Spider-Man",
-    "id": 517
+    "id": 517,
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Spider-Punk (Hobie Brown) • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "name": "Spider-Man Noir (Peter Parker)",
@@ -6214,7 +7765,10 @@ const characters = [
     "death": "Alive across Multiverse (Noir Web-Warrior)",
     "bgColor": "#212121",
     "fontFamily": "Spider-Man",
-    "id": 518
+    "id": 518,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Spider-Man Noir (Peter Parker) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Ben Reilly (Scarlet Spider)",
@@ -6226,7 +7780,10 @@ const characters = [
     "death": "Alive across Multiverse (Scarlet Spider & Chasm)",
     "bgColor": "#c62828",
     "fontFamily": "Spider-Man",
-    "id": 519
+    "id": 519,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Ben Reilly (Scarlet Spider) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Kaine Parker (Scarlet Spider)",
@@ -6238,7 +7795,10 @@ const characters = [
     "death": "Alive (Champion of The Other & Houston Defender)",
     "bgColor": "#880e4f",
     "fontFamily": "Spider-Man",
-    "id": 520
+    "id": 520,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Kaine Parker (Scarlet Spider) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Silk (Cindy Moon)",
@@ -6250,7 +7810,10 @@ const characters = [
     "death": "Alive (Spider-Army Champion & Web-Warrior)",
     "bgColor": "#880e4f",
     "fontFamily": "Spider-Man",
-    "id": 521
+    "id": 521,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Silk (Cindy Moon) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Spider-Ham (Peter Porker)",
@@ -6262,7 +7825,10 @@ const characters = [
     "death": "Alive (Multiversal Web-Warrior & Cartoon Avenger)",
     "bgColor": "#c2185b",
     "fontFamily": "Spider-Man",
-    "id": 522
+    "id": 522,
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Spider-Ham (Peter Porker) • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "name": "The Spot (Dr. Jonathan Ohnn)",
@@ -6274,7 +7840,10 @@ const characters = [
     "death": "Alive (Multiversal Singularity & Cosmic Threat)",
     "bgColor": "#212121",
     "fontFamily": "Spider-Man",
-    "id": 523
+    "id": 523,
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "The Spot (Dr. Jonathan Ohnn) • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "name": "Spider-Woman (Jessica Drew)",
@@ -6286,7 +7855,10 @@ const characters = [
     "death": "Alive (Senior Avenger & Master Spy)",
     "bgColor": "#b71c1c",
     "fontFamily": "Spider-Man",
-    "id": 524
+    "id": 524,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Spider-Woman (Jessica Drew) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Madame Web (Cassandra Webb)",
@@ -6298,7 +7870,10 @@ const characters = [
     "death": "Ascended (Guardian of the Web of Life)",
     "bgColor": "#004d40",
     "fontFamily": "Spider-Man",
-    "id": 525
+    "id": 525,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Madame Web (Cassandra Webb) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Agent Venom (Flash Thompson)",
@@ -6310,7 +7885,10 @@ const characters = [
     "death": "Alive (Agent Anti-Venom Hero)",
     "bgColor": "#212121",
     "fontFamily": "Spider-Man",
-    "id": 526
+    "id": 526,
+    "trailerId": "__2bjWbetsA",
+    "trailerTitle": "Agent Venom (Flash Thompson) • Venom: The Last Dance Official Trailer",
+    "trailerCategory": "Symbiotes & Lethal Protectors"
   },
   {
     "name": "Infinity (Entity)",
@@ -6322,7 +7900,10 @@ const characters = [
     "death": "Immortal Cosmic Abstract",
     "bgColor": "#4a148c",
     "fontFamily": "Doctor Strange",
-    "id": 527
+    "id": 527,
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Infinity (Entity) • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "name": "Death (Mistress Death)",
@@ -6334,7 +7915,10 @@ const characters = [
     "death": "Immortal Cosmic Abstract (Mistress of the Realm of Death)",
     "bgColor": "#212121",
     "fontFamily": "Thanos",
-    "id": 528
+    "id": 528,
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Death (Mistress Death) • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "name": "Oblivion",
@@ -6346,7 +7930,10 @@ const characters = [
     "death": "Immortal Void Abstract",
     "bgColor": "#000000",
     "fontFamily": "Doctor Strange",
-    "id": 529
+    "id": 529,
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Oblivion • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "name": "The One Above All",
@@ -6358,7 +7945,10 @@ const characters = [
     "death": "Supreme Creator of the Omniverse",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 530
+    "id": 530,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "The One Above All • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "The One Below All",
@@ -6370,7 +7960,10 @@ const characters = [
     "death": "Primordial Dark God",
     "bgColor": "#2e7d32",
     "fontFamily": "Hulk",
-    "id": 531
+    "id": 531,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "The One Below All • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "In-Betweener",
@@ -6382,7 +7975,10 @@ const characters = [
     "death": "Immortal Cosmic Entity",
     "bgColor": "#37474f",
     "fontFamily": "Doctor Strange",
-    "id": 532
+    "id": 532,
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "In-Betweener • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "name": "Lord Chaos",
@@ -6394,7 +7990,10 @@ const characters = [
     "death": "Immortal Cosmic Abstract",
     "bgColor": "#b71c1c",
     "fontFamily": "Doctor Strange",
-    "id": 533
+    "id": 533,
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Lord Chaos • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "name": "Master Order",
@@ -6406,7 +8005,10 @@ const characters = [
     "death": "Immortal Cosmic Abstract",
     "bgColor": "#1565c0",
     "fontFamily": "Doctor Strange",
-    "id": 534
+    "id": 534,
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Master Order • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "name": "Tiamut the Dreaming Celestial",
@@ -6418,7 +8020,10 @@ const characters = [
     "death": "Ascended / Transcendent Cosmic Entity",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 535
+    "id": 535,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Tiamut the Dreaming Celestial • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Jemiah the Analyzer",
@@ -6430,7 +8035,10 @@ const characters = [
     "death": "Immortal Celestial Scientist",
     "bgColor": "#00838f",
     "fontFamily": "Avengers",
-    "id": 536
+    "id": 536,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Jemiah the Analyzer • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Hargen the Measurer",
@@ -6442,7 +8050,10 @@ const characters = [
     "death": "Immortal Celestial Measurer",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 537
+    "id": 537,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Hargen the Measurer • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Nezarr the Calculator",
@@ -6454,7 +8065,10 @@ const characters = [
     "death": "Immortal Celestial Calculator",
     "bgColor": "#1565c0",
     "fontFamily": "Avengers",
-    "id": 538
+    "id": 538,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Nezarr the Calculator • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Oneg the Prober",
@@ -6466,7 +8080,10 @@ const characters = [
     "death": "Immortal Celestial Prober",
     "bgColor": "#78909c",
     "fontFamily": "Avengers",
-    "id": 539
+    "id": 539,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Oneg the Prober • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Tefral the Surveyor",
@@ -6478,7 +8095,10 @@ const characters = [
     "death": "Immortal Celestial Surveyor",
     "bgColor": "#4e342e",
     "fontFamily": "Avengers",
-    "id": 540
+    "id": 540,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Tefral the Surveyor • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Ziran the Tester",
@@ -6490,7 +8110,10 @@ const characters = [
     "death": "Immortal Celestial Tester",
     "bgColor": "#9c27b0",
     "fontFamily": "Avengers",
-    "id": 541
+    "id": 541,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Ziran the Tester • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Gammenon the Gatherer",
@@ -6502,7 +8125,10 @@ const characters = [
     "death": "Immortal Celestial Gatherer",
     "bgColor": "#fbc02d",
     "fontFamily": "Avengers",
-    "id": 542
+    "id": 542,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Gammenon the Gatherer • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Exitar the Executioner",
@@ -6514,7 +8140,10 @@ const characters = [
     "death": "Immortal Celestial Executioner",
     "bgColor": "#1a237e",
     "fontFamily": "Avengers",
-    "id": 543
+    "id": 543,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Exitar the Executioner • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Scathan the Approver",
@@ -6526,7 +8155,10 @@ const characters = [
     "death": "Immortal Cosmic Judge",
     "bgColor": "#546e7a",
     "fontFamily": "Avengers",
-    "id": 544
+    "id": 544,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Scathan the Approver • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Collector (Taneleer Tivan)",
@@ -6538,7 +8170,10 @@ const characters = [
     "death": "Immortal Elder of the Universe",
     "bgColor": "#7b1fa2",
     "fontFamily": "Guardians",
-    "id": 545
+    "id": 545,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Collector (Taneleer Tivan) • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "name": "Grandmaster (En Dwi Gast)",
@@ -6550,7 +8185,10 @@ const characters = [
     "death": "Immortal Elder of the Universe",
     "bgColor": "#0288d1",
     "fontFamily": "Thor",
-    "id": 546
+    "id": 546,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Grandmaster (En Dwi Gast) • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "name": "Champion of the Universe",
@@ -6562,7 +8200,10 @@ const characters = [
     "death": "Immortal Elder of the Universe",
     "bgColor": "#c62828",
     "fontFamily": "The Thing",
-    "id": 547
+    "id": 547,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Champion of the Universe • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Gardener (Ord Zyonz)",
@@ -6574,7 +8215,10 @@ const characters = [
     "death": "Immortal Elder of the Universe",
     "bgColor": "#2e7d32",
     "fontFamily": "Guardians",
-    "id": 548
+    "id": 548,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Gardener (Ord Zyonz) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Runner (Gilpetperdon)",
@@ -6586,7 +8230,10 @@ const characters = [
     "death": "Immortal Elder of the Universe",
     "bgColor": "#ffd600",
     "fontFamily": "Quicksilver",
-    "id": 549
+    "id": 549,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Runner (Gilpetperdon) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Cyttorak",
@@ -6598,7 +8245,10 @@ const characters = [
     "death": "Immortal Mystic Deity",
     "bgColor": "#b71c1c",
     "fontFamily": "Doctor Strange",
-    "id": 550
+    "id": 550,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Cyttorak • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Shuma-Gorath",
@@ -6610,7 +8260,10 @@ const characters = [
     "death": "Immortal Ancient God",
     "bgColor": "#2e7d32",
     "fontFamily": "Doctor Strange",
-    "id": 551
+    "id": 551,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Shuma-Gorath • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Chthon",
@@ -6622,7 +8275,10 @@ const characters = [
     "death": "Immortal Elder God (Lord of the Flickering Realms)",
     "bgColor": "#880e4f",
     "fontFamily": "Scarlet Witch",
-    "id": 552
+    "id": 552,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Chthon • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Set (The Serpent God)",
@@ -6634,7 +8290,10 @@ const characters = [
     "death": "Immortal Elder God (Lord of the Serpent Seas)",
     "bgColor": "#004d40",
     "fontFamily": "Doctor Strange",
-    "id": 553
+    "id": 553,
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Set (The Serpent God) • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "name": "Gaea",
@@ -6646,7 +8305,10 @@ const characters = [
     "death": "Immortal Elder Goddess (Protector of Midgard)",
     "bgColor": "#2e7d32",
     "fontFamily": "Thor",
-    "id": 554
+    "id": 554,
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Gaea • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "name": "Oshtur",
@@ -6658,7 +8320,10 @@ const characters = [
     "death": "Immortal Vishanti Goddess",
     "bgColor": "#0288d1",
     "fontFamily": "Doctor Strange",
-    "id": 555
+    "id": 555,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Oshtur • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Hoggoth",
@@ -6670,7 +8335,10 @@ const characters = [
     "death": "Immortal Vishanti Lord",
     "bgColor": "#ff6f00",
     "fontFamily": "Doctor Strange",
-    "id": 556
+    "id": 556,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Hoggoth • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Agamotto",
@@ -6682,7 +8350,10 @@ const characters = [
     "death": "Ascended Vishanti Lord",
     "bgColor": "#ffd600",
     "fontFamily": "Doctor Strange",
-    "id": 557
+    "id": 557,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Agamotto • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Nightmare",
@@ -6694,7 +8365,10 @@ const characters = [
     "death": "Immortal Fear Lord",
     "bgColor": "#2e7d32",
     "fontFamily": "Doctor Strange",
-    "id": 558
+    "id": 558,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Nightmare • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "D'Spayre",
@@ -6706,7 +8380,10 @@ const characters = [
     "death": "Immortal Fear Lord",
     "bgColor": "#212121",
     "fontFamily": "Doctor Strange",
-    "id": 559
+    "id": 559,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "D'Spayre • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Blackheart",
@@ -6718,7 +8395,10 @@ const characters = [
     "death": "Immortal Demon Prince",
     "bgColor": "#212121",
     "fontFamily": "Ghost Rider",
-    "id": 560
+    "id": 560,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Blackheart • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Satannish",
@@ -6730,7 +8410,10 @@ const characters = [
     "death": "Immortal Arch-Demon",
     "bgColor": "#b71c1c",
     "fontFamily": "Doctor Strange",
-    "id": 561
+    "id": 561,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Satannish • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Belasco",
@@ -6742,7 +8425,10 @@ const characters = [
     "death": "Alive (Dark Lord of Limbo)",
     "bgColor": "#b71c1c",
     "fontFamily": "Magik",
-    "id": 562
+    "id": 562,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Belasco • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Surtur",
@@ -6754,7 +8440,10 @@ const characters = [
     "death": "Immortal Fire Giant Lord",
     "bgColor": "#e65100",
     "fontFamily": "Thor",
-    "id": 563
+    "id": 563,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Surtur • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Ymir",
@@ -6766,7 +8455,10 @@ const characters = [
     "death": "Immortal Ancestor of Frost Giants",
     "bgColor": "#0288d1",
     "fontFamily": "Thor",
-    "id": 564
+    "id": 564,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Ymir • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Mangog",
@@ -6778,7 +8470,10 @@ const characters = [
     "death": "Immortal Engine of Hatred",
     "bgColor": "#bf360c",
     "fontFamily": "Thor",
-    "id": 565
+    "id": 565,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Mangog • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Malekith the Accursed",
@@ -6790,7 +8485,10 @@ const characters = [
     "death": "Deceased / Slain in the War of the Realms",
     "bgColor": "#4a148c",
     "fontFamily": "Thor",
-    "id": 566
+    "id": 566,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Malekith the Accursed • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Kurse (Algrim the Strong)",
@@ -6802,7 +8500,10 @@ const characters = [
     "death": "Alive (Guardian of Niffleheim)",
     "bgColor": "#880e4f",
     "fontFamily": "Thor",
-    "id": 567
+    "id": 567,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Kurse (Algrim the Strong) • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Kronos",
@@ -6814,7 +8515,10 @@ const characters = [
     "death": "Transcended into Living Chronal Energy",
     "bgColor": "#1565c0",
     "fontFamily": "Thanos",
-    "id": 568
+    "id": 568,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Kronos • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Richard Rider (Nova Prime)",
@@ -6826,7 +8530,10 @@ const characters = [
     "death": "Alive (Nova Prime & Galactic Defender)",
     "bgColor": "#ffd600",
     "fontFamily": "Guardians",
-    "id": 569
+    "id": 569,
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Richard Rider (Nova Prime) • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "name": "Martinex T'Naga",
@@ -6838,7 +8545,10 @@ const characters = [
     "death": "Alive (Original 31st Century Guardian)",
     "bgColor": "#0288d1",
     "fontFamily": "Guardians",
-    "id": 570
+    "id": 570,
+    "trailerId": "oZ6iiRrz1SY",
+    "trailerTitle": "Martinex T'Naga • Morbius Official Trailer",
+    "trailerCategory": "Living Vampires & Midnight Sons"
   },
   {
     "name": "Charlie-27",
@@ -6850,7 +8560,10 @@ const characters = [
     "death": "Alive (Original 31st Century Guardian)",
     "bgColor": "#1565c0",
     "fontFamily": "Guardians",
-    "id": 571
+    "id": 571,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Charlie-27 • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "name": "Vance Astro (Major Victory)",
@@ -6862,7 +8575,10 @@ const characters = [
     "death": "Alive (Major Victory & Guardian of the Galaxy)",
     "bgColor": "#0d47a1",
     "fontFamily": "American Captain",
-    "id": 572
+    "id": 572,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Vance Astro (Major Victory) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Nikki Gold",
@@ -6874,7 +8590,10 @@ const characters = [
     "death": "Alive (31st Century Guardian)",
     "bgColor": "#e65100",
     "fontFamily": "Guardians",
-    "id": 573
+    "id": 573,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Nikki Gold • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "name": "Starhawk (Stakar Ogord)",
@@ -6886,7 +8605,10 @@ const characters = [
     "death": "Alive across Timelines (The One Who Knows)",
     "bgColor": "#ffd600",
     "fontFamily": "Guardians",
-    "id": 574
+    "id": 574,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Starhawk (Stakar Ogord) • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "name": "Aleta Ogord",
@@ -6898,7 +8620,10 @@ const characters = [
     "death": "Alive (31st Century Guardian)",
     "bgColor": "#ffd600",
     "fontFamily": "Guardians",
-    "id": 575
+    "id": 575,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Aleta Ogord • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "name": "Gladiator (Kallark)",
@@ -6910,7 +8635,10 @@ const characters = [
     "death": "Alive (Majestor of the Shi'ar Empire & Imperial Guard)",
     "bgColor": "#9c27b0",
     "fontFamily": "Avengers",
-    "id": 576
+    "id": 576,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Gladiator (Kallark) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Smasher (Izzy Kane)",
@@ -6922,7 +8650,10 @@ const characters = [
     "death": "Alive (Shi'ar Imperial Guard & Avenger)",
     "bgColor": "#0288d1",
     "fontFamily": "Avengers",
-    "id": 577
+    "id": 577,
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Smasher (Izzy Kane) • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "name": "Oracle (Sybil)",
@@ -6934,7 +8665,10 @@ const characters = [
     "death": "Alive (Shi'ar Imperial Guard)",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 578
+    "id": 578,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Oracle (Sybil) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Manta",
@@ -6946,7 +8680,10 @@ const characters = [
     "death": "Alive (Shi'ar Imperial Guard)",
     "bgColor": "#00bcd4",
     "fontFamily": "Avengers",
-    "id": 579
+    "id": 579,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Manta • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Electron",
@@ -6958,7 +8695,10 @@ const characters = [
     "death": "Alive (Shi'ar Imperial Guard)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 580
+    "id": 580,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Electron • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Warstar (B'nee & C'cll)",
@@ -6970,7 +8710,10 @@ const characters = [
     "death": "Alive (Shi'ar Imperial Guard)",
     "bgColor": "#78909c",
     "fontFamily": "Iron Man",
-    "id": 581
+    "id": 581,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Warstar (B'nee & C'cll) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Super-Skrull (Kl'rt)",
@@ -6982,7 +8725,10 @@ const characters = [
     "death": "Alive (Emperor & Champion of the Skrull Empire)",
     "bgColor": "#2e7d32",
     "fontFamily": "Fantastic Four",
-    "id": 582
+    "id": 582,
+    "trailerId": "Tp_YZNqNBhw",
+    "trailerTitle": "Super-Skrull (Kl'rt) • Marvel Studios' Secret Invasion Official Trailer",
+    "trailerCategory": "Skrulls & Espionage"
   },
   {
     "name": "Paibok the Power Skrull",
@@ -6994,7 +8740,10 @@ const characters = [
     "death": "Alive (Power Skrull Commander)",
     "bgColor": "#00838f",
     "fontFamily": "Fantastic Four",
-    "id": 583
+    "id": 583,
+    "trailerId": "Tp_YZNqNBhw",
+    "trailerTitle": "Paibok the Power Skrull • Marvel Studios' Secret Invasion Official Trailer",
+    "trailerCategory": "Skrulls & Espionage"
   },
   {
     "name": "Lyja the Lazerfist",
@@ -7006,7 +8755,10 @@ const characters = [
     "death": "Alive (Fantastic Four Ally & Skrull Defender)",
     "bgColor": "#2e7d32",
     "fontFamily": "Fantastic Four",
-    "id": 584
+    "id": 584,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Lyja the Lazerfist • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Talos the Untamed",
@@ -7018,7 +8770,10 @@ const characters = [
     "death": "Alive (Skrull Diplomat & Espionage Leader)",
     "bgColor": "#558b2f",
     "fontFamily": "Avengers",
-    "id": 585
+    "id": 585,
+    "trailerId": "Tp_YZNqNBhw",
+    "trailerTitle": "Talos the Untamed • Marvel Studios' Secret Invasion Official Trailer",
+    "trailerCategory": "Skrulls & Espionage"
   },
   {
     "name": "Blastaar the Living Bomb-Burst",
@@ -7030,7 +8785,10 @@ const characters = [
     "death": "Alive (Negative Zone Tyrant)",
     "bgColor": "#795548",
     "fontFamily": "Fantastic Four",
-    "id": 586
+    "id": 586,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Blastaar the Living Bomb-Burst • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Cosmic Ghost Rider",
@@ -7042,7 +8800,10 @@ const characters = [
     "death": "Alive across Multiverse (Cosmic Vigilante)",
     "bgColor": "#212121",
     "fontFamily": "Ghost Rider",
-    "id": 587
+    "id": 587,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Cosmic Ghost Rider • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Cosmo the Spacedog",
@@ -7054,7 +8815,10 @@ const characters = [
     "death": "Alive (Chief of Security at Knowhere & Guardian)",
     "bgColor": "#ffd600",
     "fontFamily": "Guardians",
-    "id": 588
+    "id": 588,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Cosmo the Spacedog • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "name": "Korath the Pursuer",
@@ -7066,7 +8830,10 @@ const characters = [
     "death": "Deceased / Cybernetic Kree Pursuer",
     "bgColor": "#1a237e",
     "fontFamily": "Guardians",
-    "id": 589
+    "id": 589,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Korath the Pursuer • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Minn-Erva",
@@ -7078,7 +8845,10 @@ const characters = [
     "death": "Active Kree Starforce Operative",
     "bgColor": "#00838f",
     "fontFamily": "Captain Marvel",
-    "id": 590
+    "id": 590,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Minn-Erva • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Supreme Intelligence",
@@ -7090,7 +8860,10 @@ const characters = [
     "death": "Active Kree Central Intelligence",
     "bgColor": "#2e7d32",
     "fontFamily": "Captain Marvel",
-    "id": 591
+    "id": 591,
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Supreme Intelligence • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "name": "Starfox (Eros of Titan)",
@@ -7102,7 +8875,10 @@ const characters = [
     "death": "Alive (Avenger & Eternal Prince)",
     "bgColor": "#c2185b",
     "fontFamily": "Avengers",
-    "id": 592
+    "id": 592,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Starfox (Eros of Titan) • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Pip the Troll (Infinity Watch)",
@@ -7114,7 +8890,10 @@ const characters = [
     "death": "Alive (Infinity Watch)",
     "bgColor": "#8d6e63",
     "fontFamily": "Guardians",
-    "id": 593
+    "id": 593,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Pip the Troll (Infinity Watch) • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "name": "Kraglin Obfonteri",
@@ -7126,7 +8905,10 @@ const characters = [
     "death": "Alive (Ravager Captain & Guardian of the Galaxy)",
     "bgColor": "#5d4037",
     "fontFamily": "Guardians",
-    "id": 594
+    "id": 594,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Kraglin Obfonteri • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "name": "Cosmo the Dog",
@@ -7138,7 +8920,10 @@ const characters = [
     "death": "Alive (Chief of Knowhere & Guardian)",
     "bgColor": "#ffd600",
     "fontFamily": "Guardians",
-    "id": 595
+    "id": 595,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "Cosmo the Dog • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "name": "The Thing (Ben Grimm)",
@@ -7150,7 +8935,10 @@ const characters = [
     "death": "Alive (Fantastic Four & Yancy Street Legend)",
     "bgColor": "#e65100",
     "fontFamily": "The Thing",
-    "id": 596
+    "id": 596,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "The Thing (Ben Grimm) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Franklin Richards",
@@ -7162,7 +8950,10 @@ const characters = [
     "death": "Alive (Architect of the Multiverse)",
     "bgColor": "#1565c0",
     "fontFamily": "Fantastic Four",
-    "id": 597
+    "id": 597,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Franklin Richards • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Valeria Richards",
@@ -7174,7 +8965,10 @@ const characters = [
     "death": "Alive (Fantastic Four & Future Foundation Leader)",
     "bgColor": "#0288d1",
     "fontFamily": "Fantastic Four",
-    "id": 598
+    "id": 598,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Valeria Richards • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Kristoff Vernard",
@@ -7186,7 +8980,10 @@ const characters = [
     "death": "Alive (Prince of Latveria & Future Foundation Member)",
     "bgColor": "#2e7d32",
     "fontFamily": "Doctor Doom",
-    "id": 599
+    "id": 599,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Kristoff Vernard • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Alicia Masters",
@@ -7198,7 +8995,10 @@ const characters = [
     "death": "Alive (Beloved Wife of Ben Grimm & Artist)",
     "bgColor": "#e65100",
     "fontFamily": "Fantastic Four",
-    "id": 600
+    "id": 600,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Alicia Masters • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Wyatt Wingfoot",
@@ -7210,7 +9010,10 @@ const characters = [
     "death": "Alive (Fantastic Four Adventurer & Keewazi Leader)",
     "bgColor": "#5d4037",
     "fontFamily": "Fantastic Four",
-    "id": 601
+    "id": 601,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Wyatt Wingfoot • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Medusa",
@@ -7222,7 +9025,10 @@ const characters = [
     "death": "Alive (Queen of Attilan & Inhuman Diplomat)",
     "bgColor": "#880e4f",
     "fontFamily": "Avengers",
-    "id": 602
+    "id": 602,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Medusa • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Crystal",
@@ -7234,7 +9040,10 @@ const characters = [
     "death": "Alive (Inhuman Princess & Senior Avenger)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 603
+    "id": 603,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Crystal • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Karnak",
@@ -7246,7 +9055,10 @@ const characters = [
     "death": "Alive (Magister of the Tower of Wisdom)",
     "bgColor": "#2e7d32",
     "fontFamily": "Avengers",
-    "id": 604
+    "id": 604,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Karnak • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Gorgon",
@@ -7258,7 +9070,10 @@ const characters = [
     "death": "Alive (Commander of the Royal Guard of Attilan)",
     "bgColor": "#4e342e",
     "fontFamily": "Avengers",
-    "id": 605
+    "id": 605,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Gorgon • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Triton",
@@ -7270,7 +9085,10 @@ const characters = [
     "death": "Alive (Inhuman Royal Scout & Atlantean Envoy)",
     "bgColor": "#00695c",
     "fontFamily": "Avengers",
-    "id": 606
+    "id": 606,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Triton • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Lockjaw",
@@ -7282,7 +9100,10 @@ const characters = [
     "death": "Alive (Royal Escort & Beloved Pet of the Inhumans)",
     "bgColor": "#5d4037",
     "fontFamily": "Avengers",
-    "id": 607
+    "id": 607,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Lockjaw • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Maximus the Mad",
@@ -7294,7 +9115,10 @@ const characters = [
     "death": "Alive (Inhuman Mad Genius & Usurper)",
     "bgColor": "#2e7d32",
     "fontFamily": "Avengers",
-    "id": 608
+    "id": 608,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Maximus the Mad • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Inferno (Dante Pertuz)",
@@ -7306,7 +9130,10 @@ const characters = [
     "death": "Alive (NuHuman Champion & Inhuman Royal Guard)",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 609
+    "id": 609,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Inferno (Dante Pertuz) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Iso (Xiaoyi Chen)",
@@ -7318,7 +9145,10 @@ const characters = [
     "death": "Alive (Chancellor of New Attilan)",
     "bgColor": "#00838f",
     "fontFamily": "Avengers",
-    "id": 610
+    "id": 610,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Iso (Xiaoyi Chen) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Flint (Jason)",
@@ -7330,7 +9160,10 @@ const characters = [
     "death": "Alive (NuHuman Defender & Inhuman Diplomat)",
     "bgColor": "#795548",
     "fontFamily": "Avengers",
-    "id": 611
+    "id": 611,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Flint (Jason) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Reader",
@@ -7342,7 +9175,10 @@ const characters = [
     "death": "Alive (Inhuman Mercenary & Detective)",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 612
+    "id": 612,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Reader • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Frank McGee (Nur)",
@@ -7354,7 +9190,10 @@ const characters = [
     "death": "Alive (Head of Security of New Attilan)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 613
+    "id": 613,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Frank McGee (Nur) • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Mosaic (Morris Sackett)",
@@ -7366,7 +9205,10 @@ const characters = [
     "death": "Alive (NuHuman Anti-Hero)",
     "bgColor": "#0288d1",
     "fontFamily": "Avengers",
-    "id": 614
+    "id": 614,
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Mosaic (Morris Sackett) • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "name": "Kingo Sunen",
@@ -7378,7 +9220,10 @@ const characters = [
     "death": "Immortal Eternal & Movie Icon",
     "bgColor": "#9c27b0",
     "fontFamily": "Kingo",
-    "id": 615
+    "id": 615,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Kingo Sunen • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Zuras",
@@ -7390,7 +9235,10 @@ const characters = [
     "death": "Immortal Prime Eternal Patriarch",
     "bgColor": "#f57f17",
     "fontFamily": "Avengers",
-    "id": 616
+    "id": 616,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "Zuras • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Uranos the Undying",
@@ -7402,7 +9250,10 @@ const characters = [
     "death": "Imprisoned Eternal Terror",
     "bgColor": "#212121",
     "fontFamily": "Thanos",
-    "id": 617
+    "id": 617,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Uranos the Undying • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Karkas",
@@ -7414,7 +9265,10 @@ const characters = [
     "death": "Alive (Deviant Scholar & Ally of Olympia)",
     "bgColor": "#b71c1c",
     "fontFamily": "Avengers",
-    "id": 618
+    "id": 618,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Karkas • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Ransak the Reject",
@@ -7426,7 +9280,10 @@ const characters = [
     "death": "Alive (Gladiator & Ally of Olympia)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 619
+    "id": 619,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Ransak the Reject • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "General Kro",
@@ -7438,7 +9295,10 @@ const characters = [
     "death": "Alive (Warlord of Lemuria)",
     "bgColor": "#e65100",
     "fontFamily": "Thena",
-    "id": 620
+    "id": 620,
+    "trailerId": "0WVDKZJkGlY",
+    "trailerTitle": "General Kro • Marvel Studios' Eternals Official Trailer",
+    "trailerCategory": "Eternals & Celestials"
   },
   {
     "name": "Blade (Eric Brooks)",
@@ -7450,7 +9310,10 @@ const characters = [
     "death": "Alive (The Daywalker, Midnight Sun & Avenger)",
     "bgColor": "#b71c1c",
     "fontFamily": "Blade",
-    "id": 621
+    "id": 621,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Blade (Eric Brooks) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Ghost Rider (Johnny Blaze)",
@@ -7462,7 +9325,10 @@ const characters = [
     "death": "Alive (King of Hell & Legendary Spirit of Vengeance)",
     "bgColor": "#ff6f00",
     "fontFamily": "Ghost Rider",
-    "id": 622
+    "id": 622,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Ghost Rider (Johnny Blaze) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Hunter's Moon (Dr. Badr)",
@@ -7474,7 +9340,10 @@ const characters = [
     "death": "Alive (Fist of Khonshu & Midnight Mission Leader)",
     "bgColor": "#1565c0",
     "fontFamily": "Moon Knight",
-    "id": 623
+    "id": 623,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Hunter's Moon (Dr. Badr) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Brother Voodoo (Jericho Drumm)",
@@ -7486,7 +9355,10 @@ const characters = [
     "death": "Alive (Sorcerer Supreme & Midnight Sun)",
     "bgColor": "#2e7d32",
     "fontFamily": "Doctor Strange",
-    "id": 624
+    "id": 624,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Brother Voodoo (Jericho Drumm) • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "Satana Hellstrom",
@@ -7498,7 +9370,10 @@ const characters = [
     "death": "Alive (Succubus Sorceress & Midnight Sun)",
     "bgColor": "#880e4f",
     "fontFamily": "Ghost Rider",
-    "id": 625
+    "id": 625,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Satana Hellstrom • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Werewolf by Night (Jack Russell)",
@@ -7510,7 +9385,10 @@ const characters = [
     "death": "Alive (Midnight Sun & Supernatural Protector)",
     "bgColor": "#4e342e",
     "fontFamily": "Blade",
-    "id": 626
+    "id": 626,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Werewolf by Night (Jack Russell) • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Cullen Bloodstone",
@@ -7522,7 +9400,10 @@ const characters = [
     "death": "Alive (Avengers Undercover & Monster Hunter)",
     "bgColor": "#4a148c",
     "fontFamily": "Avengers",
-    "id": 627
+    "id": 627,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Cullen Bloodstone • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Count Dracula",
@@ -7534,7 +9415,10 @@ const characters = [
     "death": "Immortal Lord of Vampires",
     "bgColor": "#b71c1c",
     "fontFamily": "Blade",
-    "id": 628
+    "id": 628,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Count Dracula • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Morbius the Living Vampire",
@@ -7546,7 +9430,10 @@ const characters = [
     "death": "Alive (The Living Vampire & Midnight Sun)",
     "bgColor": "#1a237e",
     "fontFamily": "Spider-Man",
-    "id": 629
+    "id": 629,
+    "trailerId": "oZ6iiRrz1SY",
+    "trailerTitle": "Morbius the Living Vampire • Morbius Official Trailer",
+    "trailerCategory": "Living Vampires & Midnight Sons"
   },
   {
     "name": "Daredevil (Matt Murdock)",
@@ -7558,7 +9445,10 @@ const characters = [
     "death": "Alive (The Man Without Fear & Defender of Hell's Kitchen)",
     "bgColor": "#b71c1c",
     "fontFamily": "Daredevil",
-    "id": 630
+    "id": 630,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Daredevil (Matt Murdock) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Elektra Natchios",
@@ -7570,7 +9460,10 @@ const characters = [
     "death": "Alive (The Woman Without Fear & Leader of the Chaste)",
     "bgColor": "#b71c1c",
     "fontFamily": "Daredevil",
-    "id": 631
+    "id": 631,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Elektra Natchios • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Punisher (Frank Castle)",
@@ -7582,7 +9475,10 @@ const characters = [
     "death": "Alive (The Punisher & Vigilante Icon)",
     "bgColor": "#212121",
     "fontFamily": "Punisher",
-    "id": 632
+    "id": 632,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Punisher (Frank Castle) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Iron Fist (Danny Rand)",
@@ -7594,7 +9490,10 @@ const characters = [
     "death": "Alive (Immortal Iron Fist & Hero for Hire)",
     "bgColor": "#2e7d32",
     "fontFamily": "Shang-Chi",
-    "id": 633
+    "id": 633,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Iron Fist (Danny Rand) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Echo (Maya Lopez)",
@@ -7606,7 +9505,10 @@ const characters = [
     "death": "Alive (Avenger, Ronin Veteran & Phoenix Host)",
     "bgColor": "#d32f2f",
     "fontFamily": "Echo",
-    "id": 634
+    "id": 634,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Echo (Maya Lopez) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Blindspot (Samuel Chung)",
@@ -7618,7 +9520,10 @@ const characters = [
     "death": "Alive (Protector of Chinatown & Daredevil's Protege)",
     "bgColor": "#212121",
     "fontFamily": "Daredevil",
-    "id": 635
+    "id": 635,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Blindspot (Samuel Chung) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Kingpin (Wilson Fisk)",
@@ -7630,7 +9535,10 @@ const characters = [
     "death": "Alive (Mayor of New York City & Kingpin of Crime)",
     "bgColor": "#212121",
     "fontFamily": "Kingpin",
-    "id": 636
+    "id": 636,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Kingpin (Wilson Fisk) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Bushwacker (Carl Burbank)",
@@ -7642,7 +9550,10 @@ const characters = [
     "death": "Alive (Mercenary Assassin & Punisher Rival)",
     "bgColor": "#5d4037",
     "fontFamily": "Punisher",
-    "id": 637
+    "id": 637,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Bushwacker (Carl Burbank) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Gladiator (Melvin Potter)",
@@ -7654,7 +9565,10 @@ const characters = [
     "death": "Alive (Reformed Armorer & Daredevil's Ally)",
     "bgColor": "#ffd600",
     "fontFamily": "Daredevil",
-    "id": 638
+    "id": 638,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Gladiator (Melvin Potter) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Night Thrasher (Dwayne Taylor)",
@@ -7666,7 +9580,10 @@ const characters = [
     "death": "Alive (New Warriors Founder & Leader)",
     "bgColor": "#212121",
     "fontFamily": "Avengers",
-    "id": 639
+    "id": 639,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Night Thrasher (Dwayne Taylor) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Silhouette Chord",
@@ -7678,7 +9595,10 @@ const characters = [
     "death": "Alive (New Warriors Veteran)",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 640
+    "id": 640,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Silhouette Chord • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Speedball (Robbie Baldwin)",
@@ -7690,7 +9610,10 @@ const characters = [
     "death": "Alive (New Warriors & Thunderbolts Veteran)",
     "bgColor": "#fbc02d",
     "fontFamily": "Avengers",
-    "id": 641
+    "id": 641,
+    "trailerId": "sj9J2ecsSpo",
+    "trailerTitle": "Speedball (Robbie Baldwin) • Marvel Studios' WandaVision Official Trailer",
+    "trailerCategory": "Scarlet Witch & Vision"
   },
   {
     "name": "Slapstick (Steve Harmon)",
@@ -7702,7 +9625,10 @@ const characters = [
     "death": "Alive (Mercs for Money & New Warriors)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 642
+    "id": 642,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Slapstick (Steve Harmon) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Sleepwalker",
@@ -7714,7 +9640,10 @@ const characters = [
     "death": "Alive (Defender of the Mindscape & Midnight Sun)",
     "bgColor": "#2e7d32",
     "fontFamily": "Doctor Strange",
-    "id": 643
+    "id": 643,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Sleepwalker • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Terror Inc.",
@@ -7726,7 +9655,10 @@ const characters = [
     "death": "Alive (Mercenary Investigator & Anti-Hero)",
     "bgColor": "#4e342e",
     "fontFamily": "Punisher",
-    "id": 644
+    "id": 644,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Terror Inc. • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Baron Helmut Zemo",
@@ -7738,7 +9670,10 @@ const characters = [
     "death": "Alive (13th Baron Zemo & Masters of Evil Leader)",
     "bgColor": "#4a148c",
     "fontFamily": "Captain America",
-    "id": 645
+    "id": 645,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Baron Helmut Zemo • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Baron Heinrich Zemo",
@@ -7750,7 +9685,10 @@ const characters = [
     "death": "Deceased in Battle / Legendary WWII Threat",
     "bgColor": "#4a148c",
     "fontFamily": "Captain America",
-    "id": 646
+    "id": 646,
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Baron Heinrich Zemo • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "name": "Red Skull (Johann Schmidt)",
@@ -7762,7 +9700,10 @@ const characters = [
     "death": "Alive across Timelines (Supreme Leader of HYDRA)",
     "bgColor": "#b71c1c",
     "fontFamily": "Captain America",
-    "id": 647
+    "id": 647,
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Red Skull (Johann Schmidt) • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "name": "Crossbones (Brock Rumlow)",
@@ -7774,7 +9715,10 @@ const characters = [
     "death": "Alive (HYDRA Enforcer & Mercenary)",
     "bgColor": "#212121",
     "fontFamily": "Captain America",
-    "id": 648
+    "id": 648,
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Crossbones (Brock Rumlow) • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "name": "Sin (Sinthea Schmidt)",
@@ -7786,7 +9730,10 @@ const characters = [
     "death": "Alive (Leader of the Sisters of Sin)",
     "bgColor": "#b71c1c",
     "fontFamily": "Captain America",
-    "id": 649
+    "id": 649,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Sin (Sinthea Schmidt) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Batroc the Leaper",
@@ -7798,7 +9745,10 @@ const characters = [
     "death": "Alive (Leader of Batroc's Brigade & Mercenary)",
     "bgColor": "#880e4f",
     "fontFamily": "Captain America",
-    "id": 650
+    "id": 650,
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Batroc the Leaper • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "name": "Taskmaster (Tony Masters)",
@@ -7810,7 +9760,10 @@ const characters = [
     "death": "Alive (Mercenary Combat Instructor & Taskmaster)",
     "bgColor": "#37474f",
     "fontFamily": "Captain America",
-    "id": 651
+    "id": 651,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Taskmaster (Tony Masters) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Constrictor (Frank Payne)",
@@ -7822,7 +9775,10 @@ const characters = [
     "death": "Deceased / Legacy Mercenary",
     "bgColor": "#e65100",
     "fontFamily": "Captain America",
-    "id": 652
+    "id": 652,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Constrictor (Frank Payne) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Lady Bullseye (Maki Matsumoto)",
@@ -7834,7 +9790,10 @@ const characters = [
     "death": "Alive (Hand Assassin & Mercenary)",
     "bgColor": "#212121",
     "fontFamily": "Daredevil",
-    "id": 653
+    "id": 653,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Lady Bullseye (Maki Matsumoto) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Lady Deathstrike (Yuriko Oyama)",
@@ -7846,7 +9805,10 @@ const characters = [
     "death": "Alive (Leader of the Reavers & Wolverine Rival)",
     "bgColor": "#880e4f",
     "fontFamily": "Wolverine",
-    "id": 654
+    "id": 654,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Lady Deathstrike (Yuriko Oyama) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Silver Samurai (Keniuchio Harada)",
@@ -7858,7 +9820,10 @@ const characters = [
     "death": "Deceased / Resurrected on Krakoa",
     "bgColor": "#78909c",
     "fontFamily": "Wolverine",
-    "id": 655
+    "id": 655,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Silver Samurai (Keniuchio Harada) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Madame Hydra (Viper)",
@@ -7870,7 +9835,10 @@ const characters = [
     "death": "Alive (Ruler of Madripoor & Madame Hydra)",
     "bgColor": "#2e7d32",
     "fontFamily": "Captain America",
-    "id": 656
+    "id": 656,
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Madame Hydra (Viper) • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "name": "Count Nefaria (Luchino Nefaria)",
@@ -7882,7 +9850,10 @@ const characters = [
     "death": "Alive (Maggia Overlord & Ionic Titan)",
     "bgColor": "#880e4f",
     "fontFamily": "Avengers",
-    "id": 657
+    "id": 657,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Count Nefaria (Luchino Nefaria) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Madame Masque (Giulietta Nefaria)",
@@ -7894,7 +9865,10 @@ const characters = [
     "death": "Alive (Leader of the Maggia Underworld)",
     "bgColor": "#ffd600",
     "fontFamily": "Iron Man",
-    "id": 658
+    "id": 658,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Madame Masque (Giulietta Nefaria) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Grim Reaper (Eric Williams)",
@@ -7906,7 +9880,10 @@ const characters = [
     "death": "Alive / Undead Legionnaire (Masters of Evil)",
     "bgColor": "#311b92",
     "fontFamily": "Avengers",
-    "id": 659
+    "id": 659,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Grim Reaper (Eric Williams) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Graviton (Franklin Hall)",
@@ -7918,7 +9895,10 @@ const characters = [
     "death": "Alive (Omega-Level Gravitational Threat)",
     "bgColor": "#1565c0",
     "fontFamily": "Avengers",
-    "id": 660
+    "id": 660,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Graviton (Franklin Hall) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "The Leader (Samuel Sterns)",
@@ -7930,7 +9910,10 @@ const characters = [
     "death": "Alive (Gamma Super-Genius & Hulk's Arch-Rival)",
     "bgColor": "#2e7d32",
     "fontFamily": "Hulk",
-    "id": 661
+    "id": 661,
+    "trailerId": "1pHDWnXmK7Y",
+    "trailerTitle": "The Leader (Samuel Sterns) • Captain America: Brave New World Official Trailer",
+    "trailerCategory": "Captain America & Red Hulk"
   },
   {
     "name": "Abomination (Emil Blonsky)",
@@ -7942,7 +9925,10 @@ const characters = [
     "death": "Alive (Gamma Powerhouse & Masters of Evil)",
     "bgColor": "#33691e",
     "fontFamily": "Hulk",
-    "id": 662
+    "id": 662,
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Abomination (Emil Blonsky) • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "name": "The Maestro",
@@ -7954,7 +9940,10 @@ const characters = [
     "death": "Alive across Timelines (Tyrant of Dystopia)",
     "bgColor": "#2e7d32",
     "fontFamily": "Hulk",
-    "id": 663
+    "id": 663,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "The Maestro • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Red Hulk (Thaddeus Ross)",
@@ -7966,7 +9955,10 @@ const characters = [
     "death": "Alive (President of the United States & Red Hulk)",
     "bgColor": "#b71c1c",
     "fontFamily": "Hulk",
-    "id": 664
+    "id": 664,
+    "trailerId": "1pHDWnXmK7Y",
+    "trailerTitle": "Red Hulk (Thaddeus Ross) • Captain America: Brave New World Official Trailer",
+    "trailerCategory": "Captain America & Red Hulk"
   },
   {
     "name": "Red She-Hulk (Betty Ross)",
@@ -7978,7 +9970,10 @@ const characters = [
     "death": "Alive (Red She-Hulk & Defender)",
     "bgColor": "#c2185b",
     "fontFamily": "Hulk",
-    "id": 665
+    "id": 665,
+    "trailerId": "1pHDWnXmK7Y",
+    "trailerTitle": "Red She-Hulk (Betty Ross) • Captain America: Brave New World Official Trailer",
+    "trailerCategory": "Captain America & Red Hulk"
   },
   {
     "name": "A-Bomb (Rick Jones)",
@@ -7990,7 +9985,10 @@ const characters = [
     "death": "Alive (Avenger, Musician & A-Bomb Hero)",
     "bgColor": "#0288d1",
     "fontFamily": "Hulk",
-    "id": 666
+    "id": 666,
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "A-Bomb (Rick Jones) • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "name": "Skaar (Son of Hulk)",
@@ -8002,7 +10000,10 @@ const characters = [
     "death": "Alive (Champion of Sakaar & Avenger)",
     "bgColor": "#2e7d32",
     "fontFamily": "Hulk",
-    "id": 667
+    "id": 667,
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Skaar (Son of Hulk) • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "name": "Absorbing Man (Crusher Creel)",
@@ -8014,7 +10015,10 @@ const characters = [
     "death": "Alive (Masters of Evil Veteran & Gamma Flight)",
     "bgColor": "#5d4037",
     "fontFamily": "Thor",
-    "id": 668
+    "id": 668,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Absorbing Man (Crusher Creel) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Titania (Mary MacPherran)",
@@ -8026,7 +10030,10 @@ const characters = [
     "death": "Alive (Gamma Flight Operative & She-Hulk's Rival)",
     "bgColor": "#880e4f",
     "fontFamily": "She-Hulk",
-    "id": 669
+    "id": 669,
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Titania (Mary MacPherran) • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "name": "Wrecker (Dirk Garthwaite)",
@@ -8038,7 +10045,10 @@ const characters = [
     "death": "Alive (Leader of the Wrecking Crew)",
     "bgColor": "#e65100",
     "fontFamily": "Thor",
-    "id": 670
+    "id": 670,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Wrecker (Dirk Garthwaite) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Bulldozer (Henry Camp)",
@@ -8050,7 +10060,10 @@ const characters = [
     "death": "Alive (Wrecking Crew Powerhouse)",
     "bgColor": "#f57f17",
     "fontFamily": "Thor",
-    "id": 671
+    "id": 671,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Bulldozer (Henry Camp) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Piledriver (Brian Calusky)",
@@ -8062,7 +10075,10 @@ const characters = [
     "death": "Alive (Wrecking Crew Powerhouse)",
     "bgColor": "#0288d1",
     "fontFamily": "Thor",
-    "id": 672
+    "id": 672,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Piledriver (Brian Calusky) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Thunderball (Dr. Eliot Franklin)",
@@ -8074,7 +10090,10 @@ const characters = [
     "death": "Alive (Wrecking Crew Brains & Physicist)",
     "bgColor": "#ffd600",
     "fontFamily": "Thor",
-    "id": 673
+    "id": 673,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Thunderball (Dr. Eliot Franklin) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Whirlwind (David Cannon)",
@@ -8086,7 +10105,10 @@ const characters = [
     "death": "Alive (Masters of Evil & Wasp Rival)",
     "bgColor": "#2e7d32",
     "fontFamily": "Avengers",
-    "id": 674
+    "id": 674,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Whirlwind (David Cannon) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Grey Gargoyle (Paul Pierre Duval)",
@@ -8098,7 +10120,10 @@ const characters = [
     "death": "Alive (Masters of Evil Mercenary)",
     "bgColor": "#78909c",
     "fontFamily": "Iron Man",
-    "id": 675
+    "id": 675,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Grey Gargoyle (Paul Pierre Duval) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Radioactive Man (Chen Lu)",
@@ -8110,7 +10135,10 @@ const characters = [
     "death": "Alive (Thunderbolts Veteran & People's Defense League)",
     "bgColor": "#388e3c",
     "fontFamily": "Iron Man",
-    "id": 676
+    "id": 676,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Radioactive Man (Chen Lu) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Blizzard (Donnie Gill)",
@@ -8122,7 +10150,10 @@ const characters = [
     "death": "Alive (Thunderbolts Veteran)",
     "bgColor": "#0288d1",
     "fontFamily": "Iron Man",
-    "id": 677
+    "id": 677,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Blizzard (Donnie Gill) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Melter (Bruno Horgan)",
@@ -8134,7 +10165,10 @@ const characters = [
     "death": "Deceased / Legacy Weapons Inventor",
     "bgColor": "#bf360c",
     "fontFamily": "Iron Man",
-    "id": 678
+    "id": 678,
+    "trailerId": "m9EX0f6V11Y",
+    "trailerTitle": "Melter (Bruno Horgan) • Marvel Studios' Ms. Marvel Official Trailer",
+    "trailerCategory": "Champions & Young Avengers"
   },
   {
     "name": "Living Laser (Arthur Parks)",
@@ -8146,7 +10180,10 @@ const characters = [
     "death": "Alive (Living Energy Entity & Masters of Evil)",
     "bgColor": "#d32f2f",
     "fontFamily": "Iron Man",
-    "id": 679
+    "id": 679,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Living Laser (Arthur Parks) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Titanium Man (Boris Bullski)",
@@ -8158,7 +10195,10 @@ const characters = [
     "death": "Alive (Soviet Titanium Titan)",
     "bgColor": "#2e7d32",
     "fontFamily": "Iron Man",
-    "id": 680
+    "id": 680,
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Titanium Man (Boris Bullski) • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "name": "Crimson Dynamo (Anton Vanko)",
@@ -8170,7 +10210,10 @@ const characters = [
     "death": "Deceased / Pioneer of Soviet Armor",
     "bgColor": "#b71c1c",
     "fontFamily": "Iron Man",
-    "id": 681
+    "id": 681,
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Crimson Dynamo (Anton Vanko) • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "name": "Whiplash (Ivan Vanko / Mark Scarlotti)",
@@ -8182,7 +10225,10 @@ const characters = [
     "death": "Deceased in Battle / Weaponry Inventor",
     "bgColor": "#212121",
     "fontFamily": "Iron Man",
-    "id": 682
+    "id": 682,
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Whiplash (Ivan Vanko / Mark Scarlotti) • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "name": "Obadiah Stane (Iron Monger)",
@@ -8194,7 +10240,10 @@ const characters = [
     "death": "Deceased / Legacy Armor Threat",
     "bgColor": "#1565c0",
     "fontFamily": "Iron Man",
-    "id": 683
+    "id": 683,
+    "trailerId": "8ugaeA-nMTc",
+    "trailerTitle": "Obadiah Stane (Iron Monger) • Marvel Studios' Iron Man Official Trailer",
+    "trailerCategory": "Armored Avenger"
   },
   {
     "name": "Ezekiel Stane",
@@ -8206,7 +10255,10 @@ const characters = [
     "death": "Alive (Technological Extremist & Terrorist)",
     "bgColor": "#212121",
     "fontFamily": "Iron Man",
-    "id": 684
+    "id": 684,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Ezekiel Stane • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "MODOK",
@@ -8218,7 +10270,10 @@ const characters = [
     "death": "Alive (Supreme Scientist of A.I.M.)",
     "bgColor": "#f57f17",
     "fontFamily": "Iron Man",
-    "id": 685
+    "id": 685,
+    "trailerId": "ZlNFpri-Y40",
+    "trailerTitle": "MODOK • Ant-Man and the Wasp: Quantumania Official Trailer",
+    "trailerCategory": "Quantum Realm & Kang Dynasties"
   },
   {
     "name": "Scientist Supreme (Monica Rappaccini)",
@@ -8230,7 +10285,10 @@ const characters = [
     "death": "Alive (Scientist Supreme of A.I.M.)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 686
+    "id": 686,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Scientist Supreme (Monica Rappaccini) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Baron Wolfgang von Strucker",
@@ -8242,7 +10300,10 @@ const characters = [
     "death": "Deceased / Resurrected HYDRA Supreme Leader",
     "bgColor": "#37474f",
     "fontFamily": "Captain America",
-    "id": 687
+    "id": 687,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Baron Wolfgang von Strucker • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Gorgon (Tomi Shishido)",
@@ -8254,7 +10315,10 @@ const characters = [
     "death": "Alive (Supreme Leader of the Hand & HYDRA High Council)",
     "bgColor": "#b71c1c",
     "fontFamily": "Wolverine",
-    "id": 688
+    "id": 688,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Gorgon (Tomi Shishido) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Moonstone (Dr. Karla Sofen)",
@@ -8266,7 +10330,10 @@ const characters = [
     "death": "Alive (Dark Avengers & Thunderbolts Veteran)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 689
+    "id": 689,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Moonstone (Dr. Karla Sofen) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Songbird (Melissa Gold)",
@@ -8278,7 +10345,10 @@ const characters = [
     "death": "Alive (Thunderbolts Leader & Senior Avenger)",
     "bgColor": "#ec407a",
     "fontFamily": "Avengers",
-    "id": 690
+    "id": 690,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Songbird (Melissa Gold) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Mach-X (Abe Jenkins)",
@@ -8290,7 +10360,10 @@ const characters = [
     "death": "Alive (Thunderbolts Leader & Reformed Hero)",
     "bgColor": "#00838f",
     "fontFamily": "Iron Man",
-    "id": 691
+    "id": 691,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Mach-X (Abe Jenkins) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Atlas (Erik Josten)",
@@ -8302,7 +10375,10 @@ const characters = [
     "death": "Alive (Thunderbolts Veteran & Hero)",
     "bgColor": "#c62828",
     "fontFamily": "Avengers",
-    "id": 692
+    "id": 692,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Atlas (Erik Josten) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Jolt (Hallie Takahama)",
@@ -8314,7 +10390,10 @@ const characters = [
     "death": "Alive (Thunderbolts Moral Heart & Hero)",
     "bgColor": "#0288d1",
     "fontFamily": "Avengers",
-    "id": 693
+    "id": 693,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Jolt (Hallie Takahama) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Penance (Robbie Baldwin)",
@@ -8326,7 +10405,10 @@ const characters = [
     "death": "Reformed into Speedball (Thunderbolts Veteran)",
     "bgColor": "#212121",
     "fontFamily": "Avengers",
-    "id": 694
+    "id": 694,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Penance (Robbie Baldwin) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Volstagg the Voluminous",
@@ -8338,7 +10420,10 @@ const characters = [
     "death": "Alive (Warriors Three Hero)",
     "bgColor": "#e65100",
     "fontFamily": "Thor",
-    "id": 695
+    "id": 695,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Volstagg the Voluminous • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Hogun the Grim",
@@ -8350,7 +10435,10 @@ const characters = [
     "death": "Alive (Warriors Three Hero)",
     "bgColor": "#37474f",
     "fontFamily": "Thor",
-    "id": 696
+    "id": 696,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Hogun the Grim • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Fandral the Dashing",
@@ -8362,7 +10450,10 @@ const characters = [
     "death": "Alive (Warriors Three Hero)",
     "bgColor": "#fbc02d",
     "fontFamily": "Thor",
-    "id": 697
+    "id": 697,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Fandral the Dashing • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Brunnhilde the Valkyrie",
@@ -8374,7 +10465,10 @@ const characters = [
     "death": "Alive (Defender & Chooser of the Slain)",
     "bgColor": "#0288d1",
     "fontFamily": "Thor",
-    "id": 698
+    "id": 698,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Brunnhilde the Valkyrie • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Skurge the Executioner",
@@ -8386,7 +10480,10 @@ const characters = [
     "death": "Honored in Valhalla (Hero of Gjallerbru)",
     "bgColor": "#5d4037",
     "fontFamily": "Thor",
-    "id": 699
+    "id": 699,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Skurge the Executioner • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Enchantress (Amora)",
@@ -8398,7 +10495,10 @@ const characters = [
     "death": "Alive (Sorceress of Asgard)",
     "bgColor": "#2e7d32",
     "fontFamily": "Thor",
-    "id": 700
+    "id": 700,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Enchantress (Amora) • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Lorelei",
@@ -8410,7 +10510,10 @@ const characters = [
     "death": "Alive (Siren of Asgard)",
     "bgColor": "#ffd600",
     "fontFamily": "Thor",
-    "id": 701
+    "id": 701,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Lorelei • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Fenris Wolf",
@@ -8422,7 +10525,10 @@ const characters = [
     "death": "Immortal Asgardian Beast",
     "bgColor": "#212121",
     "fontFamily": "Thor",
-    "id": 702
+    "id": 702,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Fenris Wolf • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Midgard Serpent (Jormungandr)",
@@ -8434,7 +10540,10 @@ const characters = [
     "death": "Immortal Cosmic Serpent",
     "bgColor": "#004d40",
     "fontFamily": "Thor",
-    "id": 703
+    "id": 703,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Midgard Serpent (Jormungandr) • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Balder the Brave",
@@ -8446,7 +10555,10 @@ const characters = [
     "death": "Alive (King of Hel & Prince of Asgard)",
     "bgColor": "#fbc02d",
     "fontFamily": "Thor",
-    "id": 704
+    "id": 704,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Balder the Brave • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Tyr Odinson",
@@ -8458,7 +10570,10 @@ const characters = [
     "death": "Alive (God of War of Asgard)",
     "bgColor": "#795548",
     "fontFamily": "Thor",
-    "id": 705
+    "id": 705,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Tyr Odinson • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Angela (Aldrif Odinsdottir)",
@@ -8470,7 +10585,10 @@ const characters = [
     "death": "Alive (Queen of Hel & Guardian of the Galaxy)",
     "bgColor": "#b71c1c",
     "fontFamily": "Thor",
-    "id": 706
+    "id": 706,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Angela (Aldrif Odinsdottir) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Sera of Heven",
@@ -8482,7 +10600,10 @@ const characters = [
     "death": "Alive (Sorceress of Hel & Angela's Beloved)",
     "bgColor": "#9c27b0",
     "fontFamily": "Thor",
-    "id": 707
+    "id": 707,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Sera of Heven • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Kid Loki",
@@ -8494,7 +10615,10 @@ const characters = [
     "death": "Alive (Young Avenger & Agent of Asgard)",
     "bgColor": "#2e7d32",
     "fontFamily": "Loki",
-    "id": 708
+    "id": 708,
+    "trailerId": "dug56u8NN7g",
+    "trailerTitle": "Kid Loki • Marvel Studios' Loki Season 2 Official Trailer",
+    "trailerCategory": "TVA & Multiverse Timelines"
   },
   {
     "name": "Sylvie Laufeydottir",
@@ -8506,7 +10630,10 @@ const characters = [
     "death": "Alive across Multiverse (Champion of Free Will)",
     "bgColor": "#2e7d32",
     "fontFamily": "Loki",
-    "id": 709
+    "id": 709,
+    "trailerId": "dug56u8NN7g",
+    "trailerTitle": "Sylvie Laufeydottir • Marvel Studios' Loki Season 2 Official Trailer",
+    "trailerCategory": "TVA & Multiverse Timelines"
   },
   {
     "name": "He Who Remains",
@@ -8518,7 +10645,10 @@ const characters = [
     "death": "Deceased / Sacred Timeline Fractured",
     "bgColor": "#4a148c",
     "fontFamily": "Kang the Conqueror",
-    "id": 710
+    "id": 710,
+    "trailerId": "dug56u8NN7g",
+    "trailerTitle": "He Who Remains • Marvel Studios' Loki Season 2 Official Trailer",
+    "trailerCategory": "TVA & Multiverse Timelines"
   },
   {
     "name": "Victor Timely",
@@ -8530,7 +10660,10 @@ const characters = [
     "death": "Active across Timelines",
     "bgColor": "#5d4037",
     "fontFamily": "Kang the Conqueror",
-    "id": 711
+    "id": 711,
+    "trailerId": "dug56u8NN7g",
+    "trailerTitle": "Victor Timely • Marvel Studios' Loki Season 2 Official Trailer",
+    "trailerCategory": "TVA & Multiverse Timelines"
   },
   {
     "name": "Rama-Tut",
@@ -8542,7 +10675,10 @@ const characters = [
     "death": "Active across Timelines (Kang Variant)",
     "bgColor": "#ffd600",
     "fontFamily": "Kang the Conqueror",
-    "id": 712
+    "id": 712,
+    "trailerId": "dug56u8NN7g",
+    "trailerTitle": "Rama-Tut • Marvel Studios' Loki Season 2 Official Trailer",
+    "trailerCategory": "TVA & Multiverse Timelines"
   },
   {
     "name": "Immortus",
@@ -8554,7 +10690,10 @@ const characters = [
     "death": "Active across Timelines",
     "bgColor": "#1a237e",
     "fontFamily": "Kang the Conqueror",
-    "id": 713
+    "id": 713,
+    "trailerId": "dug56u8NN7g",
+    "trailerTitle": "Immortus • Marvel Studios' Loki Season 2 Official Trailer",
+    "trailerCategory": "TVA & Multiverse Timelines"
   },
   {
     "name": "Scarlet Centurion",
@@ -8566,7 +10705,10 @@ const characters = [
     "death": "Active across Timelines",
     "bgColor": "#b71c1c",
     "fontFamily": "Kang the Conqueror",
-    "id": 714
+    "id": 714,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Scarlet Centurion • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Ares (God of War)",
@@ -8578,7 +10720,10 @@ const characters = [
     "death": "Immortal Olympian God of War",
     "bgColor": "#b71c1c",
     "fontFamily": "Thor",
-    "id": 715
+    "id": 715,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Ares (God of War) • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Phobos (Alexander Aaron)",
@@ -8590,7 +10735,10 @@ const characters = [
     "death": "Alive (Secret Warriors Hero & God of Fear)",
     "bgColor": "#ffd600",
     "fontFamily": "Thor",
-    "id": 716
+    "id": 716,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Phobos (Alexander Aaron) • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Zeus Panhellenios",
@@ -8602,7 +10750,10 @@ const characters = [
     "death": "Immortal King of Olympus",
     "bgColor": "#ffd600",
     "fontFamily": "Thor",
-    "id": 717
+    "id": 717,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Zeus Panhellenios • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Khonshu",
@@ -8614,7 +10765,10 @@ const characters = [
     "death": "Immortal Egyptian Deity",
     "bgColor": "#eceff1",
     "fontFamily": "Moon Knight",
-    "id": 718
+    "id": 718,
+    "trailerId": "x7Krla_UxRg",
+    "trailerTitle": "Khonshu • Marvel Studios' Moon Knight Official Trailer",
+    "trailerCategory": "Egyptian Gods & Ennead"
   },
   {
     "name": "Taweret",
@@ -8626,7 +10780,10 @@ const characters = [
     "death": "Immortal Egyptian Goddess",
     "bgColor": "#00897b",
     "fontFamily": "Moon Knight",
-    "id": 719
+    "id": 719,
+    "trailerId": "x7Krla_UxRg",
+    "trailerTitle": "Taweret • Marvel Studios' Moon Knight Official Trailer",
+    "trailerCategory": "Egyptian Gods & Ennead"
   },
   {
     "name": "Ammit",
@@ -8638,7 +10795,10 @@ const characters = [
     "death": "Imprisoned / Immortal Egyptian Deity",
     "bgColor": "#2e7d32",
     "fontFamily": "Moon Knight",
-    "id": 720
+    "id": 720,
+    "trailerId": "x7Krla_UxRg",
+    "trailerTitle": "Ammit • Marvel Studios' Moon Knight Official Trailer",
+    "trailerCategory": "Egyptian Gods & Ennead"
   },
   {
     "name": "Bast (Panther Goddess)",
@@ -8650,7 +10810,10 @@ const characters = [
     "death": "Immortal Deity of Wakanda",
     "bgColor": "#9c27b0",
     "fontFamily": "Black Panther",
-    "id": 721
+    "id": 721,
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Bast (Panther Goddess) • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "name": "Sekhmet (Lion Goddess)",
@@ -8662,7 +10825,10 @@ const characters = [
     "death": "Immortal Egyptian Goddess of War",
     "bgColor": "#e65100",
     "fontFamily": "Black Panther",
-    "id": 722
+    "id": 722,
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Sekhmet (Lion Goddess) • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "name": "Quetzalcoatl",
@@ -8674,7 +10840,10 @@ const characters = [
     "death": "Immortal Aztec Skyfather",
     "bgColor": "#00838f",
     "fontFamily": "Thor",
-    "id": 723
+    "id": 723,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Quetzalcoatl • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Blink (Clarice Ferguson)",
@@ -8686,7 +10855,10 @@ const characters = [
     "death": "Alive across Multiverse (Leader of the Exiles)",
     "bgColor": "#d81b60",
     "fontFamily": "Avengers",
-    "id": 724
+    "id": 724,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Blink (Clarice Ferguson) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Nocturne (Talia Wagner)",
@@ -8698,7 +10870,10 @@ const characters = [
     "death": "Alive across Multiverse (Exiles Veteran)",
     "bgColor": "#1a237e",
     "fontFamily": "Scarlet Witch",
-    "id": 725
+    "id": 725,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Nocturne (Talia Wagner) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Morph (Kevin Sydney)",
@@ -8710,7 +10885,10 @@ const characters = [
     "death": "Alive across Multiverse (Exiles Member)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 726
+    "id": 726,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Morph (Kevin Sydney) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Spider-Man (Earth-1610)",
@@ -8722,7 +10900,10 @@ const characters = [
     "death": "Resurrected / Alive in Earth-1610",
     "bgColor": "#c62828",
     "fontFamily": "Spider-Man",
-    "id": 727
+    "id": 727,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Spider-Man (Earth-1610) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "The Maker (Ultimate Reed Richards)",
@@ -8734,7 +10915,10 @@ const characters = [
     "death": "Active Multiversal Threat (Creator of the City)",
     "bgColor": "#1565c0",
     "fontFamily": "Mister Fantastic",
-    "id": 728
+    "id": 728,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "The Maker (Ultimate Reed Richards) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Captain Carter (Peggy Carter)",
@@ -8746,7 +10930,10 @@ const characters = [
     "death": "Alive (Multiversal Guardian & Avenger)",
     "bgColor": "#0d47a1",
     "fontFamily": "American Captain",
-    "id": 729
+    "id": 729,
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Captain Carter (Peggy Carter) • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "name": "Doctor Strange Supreme",
@@ -8758,7 +10945,10 @@ const characters = [
     "death": "Alive (Guardian of the Multiversal Prison)",
     "bgColor": "#311b92",
     "fontFamily": "Doctor Strange",
-    "id": 730
+    "id": 730,
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Doctor Strange Supreme • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "name": "The Watcher (Uatu)",
@@ -8770,7 +10960,10 @@ const characters = [
     "death": "Immortal Cosmic Chronicler",
     "bgColor": "#1565c0",
     "fontFamily": "Avengers",
-    "id": 731
+    "id": 731,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "The Watcher (Uatu) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Hyperion (Marcus Milton)",
@@ -8782,7 +10975,10 @@ const characters = [
     "death": "Alive (Avenger & Squadron Supreme Leader)",
     "bgColor": "#fbc02d",
     "fontFamily": "Avengers",
-    "id": 732
+    "id": 732,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Hyperion (Marcus Milton) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Nighthawk (Kyle Richmond)",
@@ -8794,7 +10990,10 @@ const characters = [
     "death": "Alive (Squadron Supreme & Defender)",
     "bgColor": "#1a237e",
     "fontFamily": "Daredevil",
-    "id": 733
+    "id": 733,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Nighthawk (Kyle Richmond) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Power Princess (Zarda)",
@@ -8806,7 +11005,10 @@ const characters = [
     "death": "Alive (Squadron Supreme Champion)",
     "bgColor": "#b71c1c",
     "fontFamily": "Avengers",
-    "id": 734
+    "id": 734,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Power Princess (Zarda) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Doctor Spectrum (Joseph Ledger)",
@@ -8818,7 +11020,10 @@ const characters = [
     "death": "Alive (Squadron Supreme Core)",
     "bgColor": "#00bcd4",
     "fontFamily": "Avengers",
-    "id": 735
+    "id": 735,
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Doctor Spectrum (Joseph Ledger) • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "name": "Whiz Kid",
@@ -8830,7 +11035,10 @@ const characters = [
     "death": "Alive (Squadron Supreme Speedster)",
     "bgColor": "#ffd600",
     "fontFamily": "Quicksilver",
-    "id": 736
+    "id": 736,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Whiz Kid • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Amphibian (Kingsley Rice)",
@@ -8842,7 +11050,10 @@ const characters = [
     "death": "Alive (Squadron Supreme Aquatic Guardian)",
     "bgColor": "#00695c",
     "fontFamily": "Namor",
-    "id": 737
+    "id": 737,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Amphibian (Kingsley Rice) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Golden Archer (Wyatt McDonald)",
@@ -8854,7 +11065,10 @@ const characters = [
     "death": "Alive (Squadron Supreme Marksman)",
     "bgColor": "#fbc02d",
     "fontFamily": "Hawkeye",
-    "id": 738
+    "id": 738,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Golden Archer (Wyatt McDonald) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Lady Lark (Linda Lewis)",
@@ -8866,7 +11080,10 @@ const characters = [
     "death": "Alive (Squadron Supreme Member)",
     "bgColor": "#ec407a",
     "fontFamily": "Avengers",
-    "id": 739
+    "id": 739,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Lady Lark (Linda Lewis) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Tom Thumb (Thomas Thompson)",
@@ -8878,7 +11095,10 @@ const characters = [
     "death": "Deceased / Revered Squadron Inventor",
     "bgColor": "#5d4037",
     "fontFamily": "Iron Man",
-    "id": 740
+    "id": 740,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Tom Thumb (Thomas Thompson) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Blue Eagle (James Dore Jr.)",
@@ -8890,7 +11110,10 @@ const characters = [
     "death": "Deceased / Squadron Supreme Veteran",
     "bgColor": "#0288d1",
     "fontFamily": "Falcon",
-    "id": 741
+    "id": 741,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Blue Eagle (James Dore Jr.) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Arcanna Jones",
@@ -8902,7 +11125,10 @@ const characters = [
     "death": "Alive (Squadron Supreme Sorceress)",
     "bgColor": "#6a1b9a",
     "fontFamily": "Scarlet Witch",
-    "id": 742
+    "id": 742,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Arcanna Jones • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Moonglow (Melissa Hanover)",
@@ -8914,7 +11140,10 @@ const characters = [
     "death": "Alive (Squadron Supreme Operative)",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 743
+    "id": 743,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Moonglow (Melissa Hanover) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Shape",
@@ -8926,7 +11155,10 @@ const characters = [
     "death": "Alive (Squadron Supreme Powerhouse)",
     "bgColor": "#f57f17",
     "fontFamily": "Mister Fantastic",
-    "id": 744
+    "id": 744,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Shape • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Ka-Zar (Kevin Plunder)",
@@ -8938,7 +11170,10 @@ const characters = [
     "death": "Alive (Lord of the Savage Land & Hero)",
     "bgColor": "#fbc02d",
     "fontFamily": "Avengers",
-    "id": 745
+    "id": 745,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Ka-Zar (Kevin Plunder) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Shanna the She-Devil",
@@ -8950,7 +11185,10 @@ const characters = [
     "death": "Alive (Protector of the Savage Land)",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 746
+    "id": 746,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Shanna the She-Devil • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Zabu the Smilodon",
@@ -8962,7 +11200,10 @@ const characters = [
     "death": "Alive (Ka-Zar's Loyal Sabertooth Companion)",
     "bgColor": "#ff6f00",
     "fontFamily": "Avengers",
-    "id": 747
+    "id": 747,
+    "trailerId": "oZ6iiRrz1SY",
+    "trailerTitle": "Zabu the Smilodon • Morbius Official Trailer",
+    "trailerCategory": "Living Vampires & Midnight Sons"
   },
   {
     "name": "Sauron (Dr. Karl Lykos)",
@@ -8974,7 +11215,10 @@ const characters = [
     "death": "Alive (Savage Land Tyrant & X-Men Foe)",
     "bgColor": "#33691e",
     "fontFamily": "X-Men",
-    "id": 748
+    "id": 748,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Sauron (Dr. Karl Lykos) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Brainchild",
@@ -8986,7 +11230,10 @@ const characters = [
     "death": "Alive (Leader of the Savage Land Mutates)",
     "bgColor": "#558b2f",
     "fontFamily": "X-Men",
-    "id": 749
+    "id": 749,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Brainchild • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Vertigo",
@@ -8998,7 +11245,10 @@ const characters = [
     "death": "Alive (Marauder & Savage Land Mutate)",
     "bgColor": "#2e7d32",
     "fontFamily": "X-Men",
-    "id": 750
+    "id": 750,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Vertigo • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Barbarus",
@@ -9010,7 +11260,10 @@ const characters = [
     "death": "Alive (Savage Land Mutate Powerhouse)",
     "bgColor": "#bf360c",
     "fontFamily": "X-Men",
-    "id": 751
+    "id": 751,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Barbarus • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Amphibius",
@@ -9022,7 +11275,10 @@ const characters = [
     "death": "Alive (Savage Land Mutate)",
     "bgColor": "#558b2f",
     "fontFamily": "X-Men",
-    "id": 752
+    "id": 752,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Amphibius • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Lupo",
@@ -9034,7 +11290,10 @@ const characters = [
     "death": "Alive (Savage Land Mutate)",
     "bgColor": "#4e342e",
     "fontFamily": "X-Men",
-    "id": 753
+    "id": 753,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Lupo • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Whiteout",
@@ -9046,7 +11305,10 @@ const characters = [
     "death": "Alive (Savage Land Mutate)",
     "bgColor": "#eceff1",
     "fontFamily": "X-Men",
-    "id": 754
+    "id": 754,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Whiteout • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Fantomex",
@@ -9058,7 +11320,10 @@ const characters = [
     "death": "Alive (X-Force Infiltrator & Master Thief)",
     "bgColor": "#eceff1",
     "fontFamily": "Wolverine",
-    "id": 755
+    "id": 755,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Fantomex • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "E.V.A.",
@@ -9070,7 +11335,10 @@ const characters = [
     "death": "Alive (Sentient Techno-Organic Entity)",
     "bgColor": "#0288d1",
     "fontFamily": "Wolverine",
-    "id": 756
+    "id": 756,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "E.V.A. • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Maverick / Agent Zero",
@@ -9082,7 +11350,10 @@ const characters = [
     "death": "Alive (Weapon X Operative & Mercenary)",
     "bgColor": "#f57f17",
     "fontFamily": "Wolverine",
-    "id": 757
+    "id": 757,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Maverick / Agent Zero • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Silver Fox",
@@ -9094,7 +11365,10 @@ const characters = [
     "death": "Deceased / Weapon X Memory Matrix",
     "bgColor": "#5d4037",
     "fontFamily": "Wolverine",
-    "id": 758
+    "id": 758,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Silver Fox • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "John Wraith (Kestrel)",
@@ -9106,7 +11380,10 @@ const characters = [
     "death": "Deceased / Weapon X Veteran",
     "bgColor": "#37474f",
     "fontFamily": "Wolverine",
-    "id": 759
+    "id": 759,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "John Wraith (Kestrel) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Mastodon",
@@ -9118,7 +11395,10 @@ const characters = [
     "death": "Deceased from Cellular Degeneration",
     "bgColor": "#795548",
     "fontFamily": "Wolverine",
-    "id": 760
+    "id": 760,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Mastodon • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Wildside (Richard Gilcon)",
@@ -9130,7 +11410,10 @@ const characters = [
     "death": "Alive (MLF Operative & Krakoan Warrior)",
     "bgColor": "#c62828",
     "fontFamily": "Cable",
-    "id": 761
+    "id": 761,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Wildside (Richard Gilcon) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Forearm (Michael Collins)",
@@ -9142,7 +11425,10 @@ const characters = [
     "death": "Alive (MLF Veteran & Krakoan Gladiator)",
     "bgColor": "#ff6f00",
     "fontFamily": "Cable",
-    "id": 762
+    "id": 762,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Forearm (Michael Collins) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Dragoness (Tamara Rahn)",
@@ -9154,7 +11440,10 @@ const characters = [
     "death": "Alive (MLF Veteran & Krakoan Resident)",
     "bgColor": "#e65100",
     "fontFamily": "Cable",
-    "id": 763
+    "id": 763,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Dragoness (Tamara Rahn) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Zero (Mutant Hunter)",
@@ -9166,7 +11455,10 @@ const characters = [
     "death": "Active / Inactive Ancient Android",
     "bgColor": "#78909c",
     "fontFamily": "Cable",
-    "id": 764
+    "id": 764,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Zero (Mutant Hunter) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Emplate (Marius St. Croix)",
@@ -9178,7 +11470,10 @@ const characters = [
     "death": "Alive (Krakoan Resident & Mutant Vampire)",
     "bgColor": "#4a148c",
     "fontFamily": "X-Men",
-    "id": 765
+    "id": 765,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Emplate (Marius St. Croix) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Corsair (Major Christopher Summers)",
@@ -9190,7 +11485,10 @@ const characters = [
     "death": "Alive (Leader of the Starjammers)",
     "bgColor": "#b71c1c",
     "fontFamily": "Cyclops",
-    "id": 766
+    "id": 766,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Corsair (Major Christopher Summers) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Hepzibah",
@@ -9202,7 +11500,10 @@ const characters = [
     "death": "Alive (Starjammers First Mate & X-Men Ally)",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 767
+    "id": 767,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Hepzibah • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Ch'od",
@@ -9214,7 +11515,10 @@ const characters = [
     "death": "Alive (Starjammers Powerhouse)",
     "bgColor": "#2e7d32",
     "fontFamily": "Avengers",
-    "id": 768
+    "id": 768,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Ch'od • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Raza Longknife",
@@ -9226,7 +11530,10 @@ const characters = [
     "death": "Alive (Starjammers Weapons Master)",
     "bgColor": "#37474f",
     "fontFamily": "Avengers",
-    "id": 769
+    "id": 769,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Raza Longknife • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Lilandra Neramani",
@@ -9238,7 +11545,10 @@ const characters = [
     "death": "Deceased / Revered Empress of the Shi'ar",
     "bgColor": "#880e4f",
     "fontFamily": "Professor X",
-    "id": 770
+    "id": 770,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Lilandra Neramani • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Deathbird (Cal'syee Neramani)",
@@ -9250,7 +11560,10 @@ const characters = [
     "death": "Alive (Shi'ar Warlord & Vulcan's Consort)",
     "bgColor": "#1a237e",
     "fontFamily": "X-Men",
-    "id": 771
+    "id": 771,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Deathbird (Cal'syee Neramani) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "D'Ken Neramani",
@@ -9262,7 +11575,10 @@ const characters = [
     "death": "Deceased / Former Shi'ar Tyrant",
     "bgColor": "#4a148c",
     "fontFamily": "X-Men",
-    "id": 772
+    "id": 772,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "D'Ken Neramani • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Binary (Carol Danvers)",
@@ -9274,7 +11590,10 @@ const characters = [
     "death": "Alive (Cosmic Binary Form & Avenger)",
     "bgColor": "#ffd600",
     "fontFamily": "Captain Marvel",
-    "id": 773
+    "id": 773,
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Binary (Carol Danvers) • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "name": "Yo-Yo Rodriguez (Slingshot)",
@@ -9286,7 +11605,10 @@ const characters = [
     "death": "Alive (Secret Warriors Hero & S.H.I.E.L.D. Agent)",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 774
+    "id": 774,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Yo-Yo Rodriguez (Slingshot) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Hellfire (J.T. James)",
@@ -9298,7 +11620,10 @@ const characters = [
     "death": "Deceased in Battle (Secret Warriors)",
     "bgColor": "#ff6f00",
     "fontFamily": "Ghost Rider",
-    "id": 775
+    "id": 775,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Hellfire (J.T. James) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Stonewall (Jerry Sledge)",
@@ -9310,7 +11635,10 @@ const characters = [
     "death": "Alive (Secret Warriors Powerhouse)",
     "bgColor": "#795548",
     "fontFamily": "Avengers",
-    "id": 776
+    "id": 776,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Stonewall (Jerry Sledge) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Sebastian Druid",
@@ -9322,7 +11650,10 @@ const characters = [
     "death": "Alive (Secret Warriors Mystic)",
     "bgColor": "#2e7d32",
     "fontFamily": "Doctor Strange",
-    "id": 777
+    "id": 777,
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Sebastian Druid • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "name": "Manifold (Eden Fesi)",
@@ -9334,7 +11665,10 @@ const characters = [
     "death": "Alive (Avenger, Secret Warrior & Krakoan Leader)",
     "bgColor": "#5d4037",
     "fontFamily": "Avengers",
-    "id": 778
+    "id": 778,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Manifold (Eden Fesi) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Victoria Hand",
@@ -9346,7 +11680,10 @@ const characters = [
     "death": "Deceased / Honored S.H.I.E.L.D. Director",
     "bgColor": "#880e4f",
     "fontFamily": "Captain America",
-    "id": 779
+    "id": 779,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Victoria Hand • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Phil Coulson",
@@ -9358,7 +11695,10 @@ const characters = [
     "death": "Alive / Active S.H.I.E.L.D. Director",
     "bgColor": "#37474f",
     "fontFamily": "Captain America",
-    "id": 780
+    "id": 780,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Phil Coulson • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Melinda May (The Cavalry)",
@@ -9370,7 +11710,10 @@ const characters = [
     "death": "Alive (S.H.I.E.L.D. Legend & Academy Dean)",
     "bgColor": "#212121",
     "fontFamily": "Captain America",
-    "id": 781
+    "id": 781,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Melinda May (The Cavalry) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Grant Ward",
@@ -9382,7 +11725,10 @@ const characters = [
     "death": "Deceased / Former HYDRA Leader",
     "bgColor": "#263238",
     "fontFamily": "Captain America",
-    "id": 782
+    "id": 782,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Grant Ward • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Dum Dum Dugan",
@@ -9394,7 +11740,10 @@ const characters = [
     "death": "Alive as LMD Sentinel (S.H.I.E.L.D. Veteran)",
     "bgColor": "#558b2f",
     "fontFamily": "Captain America",
-    "id": 783
+    "id": 783,
+    "trailerId": "JerVrbLldXw",
+    "trailerTitle": "Dum Dum Dugan • Captain America: The First Avenger Official Trailer",
+    "trailerCategory": "Howling Commandos & Invaders"
   },
   {
     "name": "Sharon Carter (Agent 13)",
@@ -9406,7 +11755,10 @@ const characters = [
     "death": "Alive (Leader of the Daughters of Liberty)",
     "bgColor": "#0288d1",
     "fontFamily": "Captain America",
-    "id": 784
+    "id": 784,
+    "trailerId": "7SlILk2WMTI",
+    "trailerTitle": "Sharon Carter (Agent 13) • Captain America: The Winter Soldier Official Trailer",
+    "trailerCategory": "SHIELD & Black Ops"
   },
   {
     "name": "Kangaroo (Brian Hibbs)",
@@ -9418,7 +11770,10 @@ const characters = [
     "death": "Alive (Sinister Syndicate & Criminal Legend)",
     "bgColor": "#e65100",
     "fontFamily": "Spider-Man",
-    "id": 785
+    "id": 785,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Kangaroo (Brian Hibbs) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Gibbon (Martin Blank)",
@@ -9430,7 +11785,10 @@ const characters = [
     "death": "Deceased heroically / Remembered Hero",
     "bgColor": "#795548",
     "fontFamily": "Spider-Man",
-    "id": 786
+    "id": 786,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Gibbon (Martin Blank) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Grizzly (Maxwell Markham)",
@@ -9442,7 +11800,10 @@ const characters = [
     "death": "Alive (Ant-Man's Security Solutions Partner)",
     "bgColor": "#4e342e",
     "fontFamily": "Spider-Man",
-    "id": 787
+    "id": 787,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Grizzly (Maxwell Markham) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Mindworm (William Turner)",
@@ -9454,7 +11815,10 @@ const characters = [
     "death": "Deceased / Street Mutant",
     "bgColor": "#37474f",
     "fontFamily": "Spider-Man",
-    "id": 788
+    "id": 788,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Mindworm (William Turner) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Will o' the Wisp",
@@ -9466,7 +11830,10 @@ const characters = [
     "death": "Alive (Vigilante Scientist & Spider-Man Ally)",
     "bgColor": "#ffd600",
     "fontFamily": "Spider-Man",
-    "id": 789
+    "id": 789,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Will o' the Wisp • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Black Tarantula (Carlos LaMuerto)",
@@ -9478,7 +11845,10 @@ const characters = [
     "death": "Alive (Crime Lord & Anti-Hero)",
     "bgColor": "#212121",
     "fontFamily": "Daredevil",
-    "id": 790
+    "id": 790,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Black Tarantula (Carlos LaMuerto) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "The Rose (Richard Fisk)",
@@ -9490,7 +11860,10 @@ const characters = [
     "death": "Alive (Maggia Crime Lord)",
     "bgColor": "#880e4f",
     "fontFamily": "Kingpin",
-    "id": 791
+    "id": 791,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "The Rose (Richard Fisk) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Foreigner",
@@ -9502,7 +11875,10 @@ const characters = [
     "death": "Alive (Master Assassin & Silver Sable Rival)",
     "bgColor": "#5d4037",
     "fontFamily": "Spider-Man",
-    "id": 792
+    "id": 792,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Foreigner • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Hypno-Hustler (Antoine Delsoin)",
@@ -9514,7 +11890,10 @@ const characters = [
     "death": "Alive (Cult Legend & Spider-Man Villain)",
     "bgColor": "#9c27b0",
     "fontFamily": "Spider-Man",
-    "id": 793
+    "id": 793,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Hypno-Hustler (Antoine Delsoin) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Rocket Racer (Robert Farrell)",
@@ -9526,7 +11905,10 @@ const characters = [
     "death": "Alive (Avengers Academy Graduate & Hero)",
     "bgColor": "#1565c0",
     "fontFamily": "Spider-Man",
-    "id": 794
+    "id": 794,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Rocket Racer (Robert Farrell) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Ghost Rider 2099",
@@ -9538,7 +11920,10 @@ const characters = [
     "death": "Alive (Protector of Cyber-Suburbs 2099)",
     "bgColor": "#0288d1",
     "fontFamily": "Ghost Rider",
-    "id": 795
+    "id": 795,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Ghost Rider 2099 • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Doom 2099",
@@ -9550,7 +11935,10 @@ const characters = [
     "death": "Alive (President of the United States 2099)",
     "bgColor": "#2e7d32",
     "fontFamily": "Doctor Doom",
-    "id": 796
+    "id": 796,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Doom 2099 • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Punisher 2099",
@@ -9562,7 +11950,10 @@ const characters = [
     "death": "Alive (Punisher of 2099)",
     "bgColor": "#212121",
     "fontFamily": "Punisher",
-    "id": 797
+    "id": 797,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Punisher 2099 • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Hulk 2099",
@@ -9574,7 +11965,10 @@ const characters = [
     "death": "Alive (Defender of 2099)",
     "bgColor": "#388e3c",
     "fontFamily": "Hulk",
-    "id": 798
+    "id": 798,
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Hulk 2099 • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "name": "Ravage 2099",
@@ -9586,7 +11980,10 @@ const characters = [
     "death": "Alive (Wasteland Hero 2099)",
     "bgColor": "#bf360c",
     "fontFamily": "Avengers",
-    "id": 799
+    "id": 799,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Ravage 2099 • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Skullfire (Timothy Fitzgerald)",
@@ -9598,7 +11995,10 @@ const characters = [
     "death": "Alive (X-Men 2099 Leader)",
     "bgColor": "#76ff03",
     "fontFamily": "X-Men",
-    "id": 800
+    "id": 800,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Skullfire (Timothy Fitzgerald) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Meanstreak (Henri Huang)",
@@ -9610,7 +12010,10 @@ const characters = [
     "death": "Alive (X-Men 2099 Speedster)",
     "bgColor": "#ffd600",
     "fontFamily": "Quicksilver",
-    "id": 801
+    "id": 801,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Meanstreak (Henri Huang) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Bloodhawk (Lemuel Krug)",
@@ -9622,7 +12025,10 @@ const characters = [
     "death": "Alive (X-Men 2099 Scout)",
     "bgColor": "#b71c1c",
     "fontFamily": "X-Men",
-    "id": 802
+    "id": 802,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Bloodhawk (Lemuel Krug) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Cerebra (Shakti Haddad)",
@@ -9634,7 +12040,10 @@ const characters = [
     "death": "Alive (X-Men 2099 Founder)",
     "bgColor": "#9c27b0",
     "fontFamily": "X-Men",
-    "id": 803
+    "id": 803,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Cerebra (Shakti Haddad) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Metalhead (Eddie van Neil)",
@@ -9646,7 +12055,10 @@ const characters = [
     "death": "Alive (X-Men 2099 Powerhouse)",
     "bgColor": "#78909c",
     "fontFamily": "Colossus",
-    "id": 804
+    "id": 804,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Metalhead (Eddie van Neil) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Krystalin (Krystalin Ogilvie)",
@@ -9658,7 +12070,10 @@ const characters = [
     "death": "Alive (X-Men 2099 Member)",
     "bgColor": "#00e5ff",
     "fontFamily": "X-Men",
-    "id": 805
+    "id": 805,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Krystalin (Krystalin Ogilvie) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Xi'an Chi Xan",
@@ -9670,7 +12085,10 @@ const characters = [
     "death": "Alive (Founder of X-Men 2099)",
     "bgColor": "#212121",
     "fontFamily": "X-Men",
-    "id": 806
+    "id": 806,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Xi'an Chi Xan • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Junkpile",
@@ -9682,7 +12100,10 @@ const characters = [
     "death": "Alive (X-Men 2099 & Public Eye Mercenary)",
     "bgColor": "#4e342e",
     "fontFamily": "Iron Man",
-    "id": 807
+    "id": 807,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Junkpile • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Freyja (All-Mother)",
@@ -9694,7 +12115,10 @@ const characters = [
     "death": "Immortal All-Mother of Asgard",
     "bgColor": "#00897b",
     "fontFamily": "Thor",
-    "id": 808
+    "id": 808,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Freyja (All-Mother) • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Cul Borson (The Serpent)",
@@ -9706,7 +12130,10 @@ const characters = [
     "death": "Deceased / God of Fear",
     "bgColor": "#2e7d32",
     "fontFamily": "Thor",
-    "id": 809
+    "id": 809,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Cul Borson (The Serpent) • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Bor Burison",
@@ -9718,7 +12145,10 @@ const characters = [
     "death": "Deceased / Revered King of Asgard",
     "bgColor": "#5d4037",
     "fontFamily": "Thor",
-    "id": 810
+    "id": 810,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Bor Burison • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Buri (Tiwaz)",
@@ -9730,7 +12160,10 @@ const characters = [
     "death": "Immortal First God of Asgard",
     "bgColor": "#0288d1",
     "fontFamily": "Thor",
-    "id": 811
+    "id": 811,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Buri (Tiwaz) • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "King Laufey",
@@ -9742,7 +12175,10 @@ const characters = [
     "death": "Deceased in Battle / Former Giant King",
     "bgColor": "#0288d1",
     "fontFamily": "Loki",
-    "id": 812
+    "id": 812,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "King Laufey • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Angrboda",
@@ -9754,7 +12190,10 @@ const characters = [
     "death": "Immortal Giantess Sorceress",
     "bgColor": "#880e4f",
     "fontFamily": "Loki",
-    "id": 813
+    "id": 813,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Angrboda • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Hermod the Swift",
@@ -9766,7 +12205,10 @@ const characters = [
     "death": "Alive (Messenger of Asgard)",
     "bgColor": "#ffd600",
     "fontFamily": "Thor",
-    "id": 814
+    "id": 814,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Hermod the Swift • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Vidar the Strong",
@@ -9778,7 +12220,10 @@ const characters = [
     "death": "Immortal Asgardian Champion",
     "bgColor": "#2e7d32",
     "fontFamily": "Thor",
-    "id": 815
+    "id": 815,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Vidar the Strong • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Gwenpool",
@@ -9790,7 +12235,10 @@ const characters = [
     "death": "Alive (Multiversal Comic Phenomenon & West Coast Avenger)",
     "bgColor": "#ec407a",
     "fontFamily": "Deadpool",
-    "id": 816
+    "id": 816,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Gwenpool • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Jeff the Land Shark",
@@ -9802,7 +12250,10 @@ const characters = [
     "death": "Alive (Beloved Companion of the Avengers)",
     "bgColor": "#00bcd4",
     "fontFamily": "Avengers",
-    "id": 817
+    "id": 817,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Jeff the Land Shark • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Weapon H (Clayton Cortez)",
@@ -9814,7 +12265,10 @@ const characters = [
     "death": "Alive (The Hulkverine & Defender of Monsters)",
     "bgColor": "#37474f",
     "fontFamily": "Hulk",
-    "id": 818
+    "id": 818,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Weapon H (Clayton Cortez) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Throg (Frog of Thunder)",
@@ -9826,7 +12280,10 @@ const characters = [
     "death": "Alive (Frog of Thunder & Pet Avenger)",
     "bgColor": "#2e7d32",
     "fontFamily": "Thor",
-    "id": 819
+    "id": 819,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Throg (Frog of Thunder) • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "White Tiger (Hector Ayala)",
@@ -9838,7 +12295,10 @@ const characters = [
     "death": "Deceased / Legendary Pioneer Hero",
     "bgColor": "#263238",
     "fontFamily": "Daredevil",
-    "id": 820
+    "id": 820,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "White Tiger (Hector Ayala) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Paladin",
@@ -9850,7 +12310,10 @@ const characters = [
     "death": "Alive (Hero for Hire & Mercenary)",
     "bgColor": "#6a1b9a",
     "fontFamily": "Avengers",
-    "id": 821
+    "id": 821,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Paladin • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Solo (James Bourne)",
@@ -9862,7 +12325,10 @@ const characters = [
     "death": "Alive (Mercs for Money & Counter-Terrorist)",
     "bgColor": "#b71c1c",
     "fontFamily": "Punisher",
-    "id": 822
+    "id": 822,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Solo (James Bourne) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Foolkiller (Greg Salinger)",
@@ -9874,7 +12340,10 @@ const characters = [
     "death": "Alive (Mercs for Money & Counselor)",
     "bgColor": "#1b5e20",
     "fontFamily": "Punisher",
-    "id": 823
+    "id": 823,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Foolkiller (Greg Salinger) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Dominic Fortune",
@@ -9886,7 +12355,10 @@ const characters = [
     "death": "Alive in Modern Era (Vanguard Operative)",
     "bgColor": "#e65100",
     "fontFamily": "American Captain",
-    "id": 824
+    "id": 824,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Dominic Fortune • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Star Brand (Brandy Selby)",
@@ -9898,7 +12370,10 @@ const characters = [
     "death": "Alive (Cosmic Star Brand & Avenger)",
     "bgColor": "#e65100",
     "fontFamily": "Avengers",
-    "id": 825
+    "id": 825,
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Star Brand (Brandy Selby) • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "name": "Goliath (Bill Foster)",
@@ -9910,7 +12385,10 @@ const characters = [
     "death": "Deceased in Civil War / Revered Hero",
     "bgColor": "#0288d1",
     "fontFamily": "Ant-Man",
-    "id": 826
+    "id": 826,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Goliath (Bill Foster) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Goliath (Tom Foster)",
@@ -9922,7 +12400,10 @@ const characters = [
     "death": "Alive (Goliath Hero & Engineer)",
     "bgColor": "#0288d1",
     "fontFamily": "Ant-Man",
-    "id": 827
+    "id": 827,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Goliath (Tom Foster) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Giant-Man (Raz Malhotra)",
@@ -9934,7 +12415,10 @@ const characters = [
     "death": "Alive (Giant-Man & Agent of Atlas)",
     "bgColor": "#b71c1c",
     "fontFamily": "Ant-Man",
-    "id": 828
+    "id": 828,
+    "trailerId": "ZlNFpri-Y40",
+    "trailerTitle": "Giant-Man (Raz Malhotra) • Ant-Man and the Wasp: Quantumania Official Trailer",
+    "trailerCategory": "Quantum Realm & Kang Dynasties"
   },
   {
     "name": "Doctor Nemesis (James Bradley)",
@@ -9946,7 +12430,10 @@ const characters = [
     "death": "Alive (X-Club Chief Scientist on Krakoa)",
     "bgColor": "#37474f",
     "fontFamily": "X-Men",
-    "id": 829
+    "id": 829,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Doctor Nemesis (James Bradley) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Red Dagger (Kareem)",
@@ -9958,7 +12445,10 @@ const characters = [
     "death": "Alive (Protector of Karachi & Ms. Marvel Ally)",
     "bgColor": "#c62828",
     "fontFamily": "Ms. Marvel",
-    "id": 830
+    "id": 830,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Red Dagger (Kareem) • Marvel Studios' Street Legends & Defenders Official Showcase",
+    "trailerCategory": "Hell's Kitchen & Defenders"
   },
   {
     "name": "Kamran (ClanDestine)",
@@ -9970,7 +12460,10 @@ const characters = [
     "death": "Alive (ClanDestine Energy Conduit)",
     "bgColor": "#00e5ff",
     "fontFamily": "Ms. Marvel",
-    "id": 831
+    "id": 831,
+    "trailerId": "m9EX0f6V11Y",
+    "trailerTitle": "Kamran (ClanDestine) • Marvel Studios' Ms. Marvel Official Trailer",
+    "trailerCategory": "Champions & Young Avengers"
   },
   {
     "name": "Bruno Carrelli",
@@ -9982,7 +12475,10 @@ const characters = [
     "death": "Alive (Tech Advisor to Ms. Marvel)",
     "bgColor": "#f57f17",
     "fontFamily": "Ms. Marvel",
-    "id": 832
+    "id": 832,
+    "trailerId": "m9EX0f6V11Y",
+    "trailerTitle": "Bruno Carrelli • Marvel Studios' Ms. Marvel Official Trailer",
+    "trailerCategory": "Champions & Young Avengers"
   },
   {
     "name": "Ashema the Listener",
@@ -9994,7 +12490,10 @@ const characters = [
     "death": "Ascended Cosmic Celestial",
     "bgColor": "#ffd600",
     "fontFamily": "Avengers",
-    "id": 833
+    "id": 833,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Ashema the Listener • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Devos the Devastator",
@@ -10006,7 +12505,10 @@ const characters = [
     "death": "Active Galactic Threat",
     "bgColor": "#424242",
     "fontFamily": "Guardians",
-    "id": 834
+    "id": 834,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Devos the Devastator • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Blackwulf (Pelops)",
@@ -10018,7 +12520,10 @@ const characters = [
     "death": "Deceased / Legacy Rebel",
     "bgColor": "#212121",
     "fontFamily": "Avengers",
-    "id": 835
+    "id": 835,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Blackwulf (Pelops) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Praxagora",
@@ -10030,7 +12535,10 @@ const characters = [
     "death": "Deceased in Annihilation / Spaceknight Hero",
     "bgColor": "#ff6f00",
     "fontFamily": "Guardians",
-    "id": 836
+    "id": 836,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Praxagora • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Ikon the Spaceknight",
@@ -10042,7 +12550,10 @@ const characters = [
     "death": "Alive (Leader of the Spaceknights & Annihilator)",
     "bgColor": "#78909c",
     "fontFamily": "Guardians",
-    "id": 837
+    "id": 837,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Ikon the Spaceknight • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "ROM the Spaceknight",
@@ -10054,7 +12565,10 @@ const characters = [
     "death": "Alive (Legendary Spaceknight & Defender of Galador)",
     "bgColor": "#eceff1",
     "fontFamily": "Guardians",
-    "id": 838
+    "id": 838,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "ROM the Spaceknight • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Spider-Zero",
@@ -10066,7 +12580,10 @@ const characters = [
     "death": "Alive (Weaver of the Multiverse)",
     "bgColor": "#ab47bc",
     "fontFamily": "Spider-Man",
-    "id": 839
+    "id": 839,
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Spider-Zero • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "name": "Weapon H",
@@ -10078,7 +12595,10 @@ const characters = [
     "death": "Alive (The Hulkverine & Defender of Monsters)",
     "bgColor": "#37474f",
     "fontFamily": "Hulk",
-    "id": 840
+    "id": 840,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Weapon H • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Throg",
@@ -10090,7 +12610,10 @@ const characters = [
     "death": "Alive (Frog of Thunder & Pet Avenger)",
     "bgColor": "#2e7d32",
     "fontFamily": "Thor",
-    "id": 841
+    "id": 841,
+    "trailerId": "Go8nTmfrQd8",
+    "trailerTitle": "Throg • Marvel Studios' Thor: Love and Thunder Official Trailer",
+    "trailerCategory": "Asgardian Gods & Pantheons"
   },
   {
     "name": "Paladin (Mercenary)",
@@ -10102,7 +12625,10 @@ const characters = [
     "death": "Alive (Hero for Hire & Mercenary)",
     "bgColor": "#6a1b9a",
     "fontFamily": "Avengers",
-    "id": 842
+    "id": 842,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Paladin (Mercenary) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Solo",
@@ -10114,7 +12640,10 @@ const characters = [
     "death": "Alive (Mercs for Money & Counter-Terrorist)",
     "bgColor": "#b71c1c",
     "fontFamily": "Punisher",
-    "id": 843
+    "id": 843,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Solo • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Foolkiller",
@@ -10126,7 +12655,10 @@ const characters = [
     "death": "Alive (Mercs for Money & Counselor)",
     "bgColor": "#1b5e20",
     "fontFamily": "Punisher",
-    "id": 844
+    "id": 844,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Foolkiller • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Dominic Fortune (Adventurer)",
@@ -10138,7 +12670,10 @@ const characters = [
     "death": "Alive in Modern Era (Vanguard Operative)",
     "bgColor": "#e65100",
     "fontFamily": "American Captain",
-    "id": 845
+    "id": 845,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Dominic Fortune (Adventurer) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Kangaroo",
@@ -10150,7 +12685,10 @@ const characters = [
     "death": "Alive (Sinister Syndicate & Criminal Legend)",
     "bgColor": "#e65100",
     "fontFamily": "Spider-Man",
-    "id": 846
+    "id": 846,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Kangaroo • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Gibbon",
@@ -10162,7 +12700,10 @@ const characters = [
     "death": "Deceased heroically / Remembered Hero",
     "bgColor": "#795548",
     "fontFamily": "Spider-Man",
-    "id": 847
+    "id": 847,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Gibbon • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Grizzly",
@@ -10174,7 +12715,10 @@ const characters = [
     "death": "Alive (Ant-Man's Security Solutions Partner)",
     "bgColor": "#4e342e",
     "fontFamily": "Spider-Man",
-    "id": 848
+    "id": 848,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Grizzly • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Mindworm",
@@ -10186,7 +12730,10 @@ const characters = [
     "death": "Deceased / Street Mutant",
     "bgColor": "#37474f",
     "fontFamily": "Spider-Man",
-    "id": 849
+    "id": 849,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Mindworm • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Will o' the Wisp (Jackson)",
@@ -10198,7 +12745,10 @@ const characters = [
     "death": "Alive (Vigilante Scientist & Spider-Man Ally)",
     "bgColor": "#ffd600",
     "fontFamily": "Spider-Man",
-    "id": 850
+    "id": 850,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Will o' the Wisp (Jackson) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Daken (Akihiro)",
@@ -10210,7 +12760,10 @@ const characters = [
     "death": "Alive (Krakoan X-Factor & Marauders Champion)",
     "bgColor": "#263238",
     "fontFamily": "Wolverine",
-    "id": 851
+    "id": 851,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Daken (Akihiro) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Scout (Gabby Kinney)",
@@ -10222,7 +12775,10 @@ const characters = [
     "death": "Alive (New Mutants & Krakoan Hero)",
     "bgColor": "#ffd600",
     "fontFamily": "Wolverine",
-    "id": 852
+    "id": 852,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Scout (Gabby Kinney) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Bloodline (Brielle Brooks)",
@@ -10234,7 +12790,10 @@ const characters = [
     "death": "Alive (Next-Generation Daywalker & Hero)",
     "bgColor": "#b71c1c",
     "fontFamily": "Blade",
-    "id": 853
+    "id": 853,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Bloodline (Brielle Brooks) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Ghost Rider (Alejandra Jones)",
@@ -10246,7 +12805,10 @@ const characters = [
     "death": "Deceased / Remembered Spirit of Vengeance",
     "bgColor": "#e65100",
     "fontFamily": "Ghost Rider",
-    "id": 854
+    "id": 854,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Ghost Rider (Alejandra Jones) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Vengeance (Michael Badilino)",
@@ -10258,7 +12820,10 @@ const characters = [
     "death": "Alive (Spirit of Vengeance Ally & Midnight Sun)",
     "bgColor": "#424242",
     "fontFamily": "Ghost Rider",
-    "id": 855
+    "id": 855,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Vengeance (Michael Badilino) • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Black Cat (Felicia Hardy)",
@@ -10270,7 +12835,10 @@ const characters = [
     "death": "Alive (Master Burglar & Web-Warrior Ally)",
     "bgColor": "#37474f",
     "fontFamily": "Spider-Man",
-    "id": 856
+    "id": 856,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Black Cat (Felicia Hardy) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Silver Sable (Silver Sablinova)",
@@ -10282,7 +12850,10 @@ const characters = [
     "death": "Alive (Commander of the Wild Pack & CEO)",
     "bgColor": "#78909c",
     "fontFamily": "Spider-Man",
-    "id": 857
+    "id": 857,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Silver Sable (Silver Sablinova) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Prowler (Aaron Davis)",
@@ -10294,7 +12865,10 @@ const characters = [
     "death": "Alive across Multiverse (Spider-Man Ally)",
     "bgColor": "#6a1b9a",
     "fontFamily": "Spider-Man",
-    "id": 858
+    "id": 858,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Prowler (Aaron Davis) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Prowler (Hobie Brown)",
@@ -10306,7 +12880,10 @@ const characters = [
     "death": "Alive (CEO of Fair-App & Parker Industries Ally)",
     "bgColor": "#2e7d32",
     "fontFamily": "Spider-Man",
-    "id": 859
+    "id": 859,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Prowler (Hobie Brown) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Superior Octopus (Otto Octavius)",
@@ -10318,7 +12895,10 @@ const characters = [
     "death": "Alive (Reformed Superior Hero & Scientist)",
     "bgColor": "#2e7d32",
     "fontFamily": "Doctor Octopus",
-    "id": 860
+    "id": 860,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Superior Octopus (Otto Octavius) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Iron Spider (Amadeus Cho)",
@@ -10330,7 +12910,10 @@ const characters = [
     "death": "Alive (Champion & Iron Spider Pilot)",
     "bgColor": "#b71c1c",
     "fontFamily": "Spider-Man",
-    "id": 861
+    "id": 861,
+    "trailerId": "m9EX0f6V11Y",
+    "trailerTitle": "Iron Spider (Amadeus Cho) • Marvel Studios' Ms. Marvel Official Trailer",
+    "trailerCategory": "Champions & Young Avengers"
   },
   {
     "name": "Spider-Man (Aaron Aikman)",
@@ -10342,7 +12925,10 @@ const characters = [
     "death": "Alive across Multiverse (Web-Warrior)",
     "bgColor": "#1565c0",
     "fontFamily": "Spider-Man",
-    "id": 862
+    "id": 862,
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Spider-Man (Aaron Aikman) • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "name": "Spider-UK (Malala Windsor)",
@@ -10354,7 +12940,10 @@ const characters = [
     "death": "Alive (Spider-Army & Web-Warrior)",
     "bgColor": "#0d47a1",
     "fontFamily": "Spider-Man",
-    "id": 863
+    "id": 863,
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Spider-UK (Malala Windsor) • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "name": "Deathcry (Sharra Neramani)",
@@ -10366,7 +12955,10 @@ const characters = [
     "death": "Deceased / Honored Legendary Avenger",
     "bgColor": "#880e4f",
     "fontFamily": "Avengers",
-    "id": 864
+    "id": 864,
+    "trailerId": "6ZfuNTqbHE8",
+    "trailerTitle": "Deathcry (Sharra Neramani) • Avengers: Infinity War Official Trailer",
+    "trailerCategory": "Cosmic Dominance & Black Order"
   },
   {
     "name": "Swordsman (Andreas von Strucker)",
@@ -10378,7 +12970,10 @@ const characters = [
     "death": "Deceased / Former Thunderbolts Swordsman",
     "bgColor": "#37474f",
     "fontFamily": "Captain America",
-    "id": 865
+    "id": 865,
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Swordsman (Andreas von Strucker) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "name": "Andrea von Strucker (Fenris)",
@@ -10390,7 +12985,10 @@ const characters = [
     "death": "Deceased / Fenris Twin",
     "bgColor": "#4a148c",
     "fontFamily": "Captain America",
-    "id": 866
+    "id": 866,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Andrea von Strucker (Fenris) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Red Widow (Ava Orlova)",
@@ -10402,7 +13000,10 @@ const characters = [
     "death": "Alive (Winter Guard Premier Operative)",
     "bgColor": "#b71c1c",
     "fontFamily": "Black Widow",
-    "id": 867
+    "id": 867,
+    "trailerId": "ybji16u608U",
+    "trailerTitle": "Red Widow (Ava Orlova) • Marvel Studios' Black Widow Official Trailer",
+    "trailerCategory": "Red Room & Elite Spies"
   },
   {
     "name": "Ursa Major (Mikhail Uriokovitch)",
@@ -10414,7 +13015,10 @@ const characters = [
     "death": "Alive (Winter Guard Veteran & Russian Powerhouse)",
     "bgColor": "#5d4037",
     "fontFamily": "Avengers",
-    "id": 868
+    "id": 868,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Ursa Major (Mikhail Uriokovitch) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Darkstar (Laynia Petrovna)",
@@ -10426,7 +13030,10 @@ const characters = [
     "death": "Alive (Winter Guard & Champions of Los Angeles)",
     "bgColor": "#1a237e",
     "fontFamily": "Avengers",
-    "id": 869
+    "id": 869,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Darkstar (Laynia Petrovna) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Vanguard (Nikolai Krylenko)",
@@ -10438,7 +13045,10 @@ const characters = [
     "death": "Alive (Winter Guard Leader)",
     "bgColor": "#b71c1c",
     "fontFamily": "Avengers",
-    "id": 870
+    "id": 870,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Vanguard (Nikolai Krylenko) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Perun (Slavic God of Thunder)",
@@ -10450,7 +13060,10 @@ const characters = [
     "death": "Immortal Slavic God & Winter Guard Powerhouse",
     "bgColor": "#e65100",
     "fontFamily": "Thor",
-    "id": 871
+    "id": 871,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Perun (Slavic God of Thunder) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Chernobog (God of Darkness)",
@@ -10462,7 +13075,10 @@ const characters = [
     "death": "Immortal Slavic God of Darkness",
     "bgColor": "#212121",
     "fontFamily": "Thor",
-    "id": 872
+    "id": 872,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Chernobog (God of Darkness) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Living Mummy (N'Kantu)",
@@ -10474,7 +13090,10 @@ const characters = [
     "death": "Immortal (Legion of Monsters & Midnight Sun)",
     "bgColor": "#795548",
     "fontFamily": "Doctor Strange",
-    "id": 873
+    "id": 873,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Living Mummy (N'Kantu) • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Frankenstein's Monster (Adam)",
@@ -10486,7 +13105,10 @@ const characters = [
     "death": "Immortal (Legion of Monsters Member)",
     "bgColor": "#3e2723",
     "fontFamily": "Blade",
-    "id": 874
+    "id": 874,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Frankenstein's Monster (Adam) • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Simon Garth (The Zombie)",
@@ -10498,7 +13120,10 @@ const characters = [
     "death": "Immortal Undead (Midnight Sons Ally)",
     "bgColor": "#33691e",
     "fontFamily": "Blade",
-    "id": 875
+    "id": 875,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Simon Garth (The Zombie) • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Man-Phibian",
@@ -10510,7 +13135,10 @@ const characters = [
     "death": "Alive (Legion of Monsters Guardian)",
     "bgColor": "#00695c",
     "fontFamily": "Doctor Strange",
-    "id": 876
+    "id": 876,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Man-Phibian • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Werewolf by Night (Jake Gomez)",
@@ -10522,7 +13150,10 @@ const characters = [
     "death": "Alive (Protector of the Hopi & Hero)",
     "bgColor": "#4e342e",
     "fontFamily": "Blade",
-    "id": 877
+    "id": 877,
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Werewolf by Night (Jake Gomez) • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "name": "Gorilla-Man (Ken Hale)",
@@ -10534,7 +13165,10 @@ const characters = [
     "death": "Immortal (Agents of Atlas & Avengers Security)",
     "bgColor": "#263238",
     "fontFamily": "Avengers",
-    "id": 878
+    "id": 878,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Gorilla-Man (Ken Hale) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Aero (Lei Ling)",
@@ -10546,7 +13180,10 @@ const characters = [
     "death": "Alive (Agent of Atlas & Triumph Division)",
     "bgColor": "#00e5ff",
     "fontFamily": "Avengers",
-    "id": 879
+    "id": 879,
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Aero (Lei Ling) • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "name": "Wave (Pearl Pangan)",
@@ -10558,7 +13195,10 @@ const characters = [
     "death": "Alive (Leader of the Triumph Division & Agent of Atlas)",
     "bgColor": "#0288d1",
     "fontFamily": "Namor",
-    "id": 880
+    "id": 880,
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Wave (Pearl Pangan) • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "name": "Sword Master (Lin Lie)",
@@ -10570,7 +13210,10 @@ const characters = [
     "death": "Alive (The Immortal Iron Fist & Agent of Atlas)",
     "bgColor": "#2e7d32",
     "fontFamily": "Shang-Chi",
-    "id": 881
+    "id": 881,
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Sword Master (Lin Lie) • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "name": "Crescent & Io (Dan Bi)",
@@ -10582,7 +13225,10 @@ const characters = [
     "death": "Alive (Agent of Atlas & Tiger Division)",
     "bgColor": "#00bcd4",
     "fontFamily": "Avengers",
-    "id": 882
+    "id": 882,
+    "trailerId": "cqGjhVJWtEg",
+    "trailerTitle": "Crescent & Io (Dan Bi) • Spider-Man: Across the Spider-Verse Official Trailer",
+    "trailerCategory": "Spider-Verse & Web-Warriors"
   },
   {
     "name": "Luna Snow (Seol Hee)",
@@ -10594,7 +13240,10 @@ const characters = [
     "death": "Alive (K-Pop Sensation & Tiger Division Hero)",
     "bgColor": "#00e5ff",
     "fontFamily": "Avengers",
-    "id": 883
+    "id": 883,
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Luna Snow (Seol Hee) • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "name": "White Fox (Ami Han)",
@@ -10606,7 +13255,10 @@ const characters = [
     "death": "Alive (Director of Tiger Division & Agent of Atlas)",
     "bgColor": "#78909c",
     "fontFamily": "Avengers",
-    "id": 884
+    "id": 884,
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "White Fox (Ami Han) • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "name": "Brawn (Amadeus Cho - Atlas)",
@@ -10618,7 +13270,10 @@ const characters = [
     "death": "Alive (Leader of the Agents of Atlas & Champion)",
     "bgColor": "#388e3c",
     "fontFamily": "Hulk",
-    "id": 885
+    "id": 885,
+    "trailerId": "m9EX0f6V11Y",
+    "trailerTitle": "Brawn (Amadeus Cho - Atlas) • Marvel Studios' Ms. Marvel Official Trailer",
+    "trailerCategory": "Champions & Young Avengers"
   },
   {
     "name": "Red Locust (Fernanda - Atlas)",
@@ -10630,7 +13285,10 @@ const characters = [
     "death": "Alive (Champion & Aztec Hero)",
     "bgColor": "#c62828",
     "fontFamily": "Avengers",
-    "id": 886
+    "id": 886,
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Red Locust (Fernanda - Atlas) • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "name": "Vector (Simon Utrecht - U-Foes)",
@@ -10642,7 +13300,10 @@ const characters = [
     "death": "Alive (Leader of the U-Foes)",
     "bgColor": "#37474f",
     "fontFamily": "Hulk",
-    "id": 887
+    "id": 887,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Vector (Simon Utrecht - U-Foes) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Vapor (Ann Darnell - U-Foes)",
@@ -10654,7 +13315,10 @@ const characters = [
     "death": "Alive (U-Foes Member)",
     "bgColor": "#aed581",
     "fontFamily": "Hulk",
-    "id": 888
+    "id": 888,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Vapor (Ann Darnell - U-Foes) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "X-Ray (Jimmy Darnell - U-Foes)",
@@ -10666,7 +13330,10 @@ const characters = [
     "death": "Alive (U-Foes Member)",
     "bgColor": "#00e676",
     "fontFamily": "Hulk",
-    "id": 889
+    "id": 889,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "X-Ray (Jimmy Darnell - U-Foes) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Ironclad (Mike Steel - U-Foes)",
@@ -10678,7 +13345,10 @@ const characters = [
     "death": "Alive (U-Foes Powerhouse)",
     "bgColor": "#78909c",
     "fontFamily": "Hulk",
-    "id": 890
+    "id": 890,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Ironclad (Mike Steel - U-Foes) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Dragon Man (Future Foundation)",
@@ -10690,7 +13360,10 @@ const characters = [
     "death": "Alive (Future Foundation Professor & Hero)",
     "bgColor": "#4e342e",
     "fontFamily": "Fantastic Four",
-    "id": 891
+    "id": 891,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Dragon Man (Future Foundation) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Awesome Android (Andy - Paralegal)",
@@ -10702,7 +13375,10 @@ const characters = [
     "death": "Alive (GLK&H Law Firm Paralegal & Hero)",
     "bgColor": "#78909c",
     "fontFamily": "She-Hulk",
-    "id": 892
+    "id": 892,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Awesome Android (Andy - Paralegal) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Super-Adaptoid (Cosmic Cube)",
@@ -10714,7 +13390,10 @@ const characters = [
     "death": "Active Android Threat",
     "bgColor": "#2e7d32",
     "fontFamily": "Avengers",
-    "id": 893
+    "id": 893,
+    "trailerId": "tmeOjFno6Do",
+    "trailerTitle": "Super-Adaptoid (Cosmic Cube) • Avengers: Age of Ultron Official Trailer",
+    "trailerCategory": "Avengers / AI Threat"
   },
   {
     "name": "Bi-Beast (Avian Titan)",
@@ -10726,7 +13405,10 @@ const characters = [
     "death": "Active Synthetic Powerhouse",
     "bgColor": "#e65100",
     "fontFamily": "Hulk",
-    "id": 894
+    "id": 894,
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Bi-Beast (Avian Titan) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "name": "Madman (Philip Sterns - Gamma)",
@@ -10738,7 +13420,10 @@ const characters = [
     "death": "Alive (Psychopathic Gamma Villain)",
     "bgColor": "#880e4f",
     "fontFamily": "Hulk",
-    "id": 895
+    "id": 895,
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Madman (Philip Sterns - Gamma) • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "name": "Caiera the Oldstrong (Sakaar)",
@@ -10750,7 +13435,10 @@ const characters = [
     "death": "Honored Spirit of Sakaar (Wife of Hulk)",
     "bgColor": "#795548",
     "fontFamily": "Hulk",
-    "id": 896
+    "id": 896,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Caiera the Oldstrong (Sakaar) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Elloe Kaifi (Warbound)",
@@ -10762,7 +13450,10 @@ const characters = [
     "death": "Alive (Warbound Freedom Fighter)",
     "bgColor": "#b71c1c",
     "fontFamily": "Hulk",
-    "id": 897
+    "id": 897,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Elloe Kaifi (Warbound) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "Hiroim the Shamed (Warbound)",
@@ -10774,7 +13465,10 @@ const characters = [
     "death": "Honored Spirit (Warbound Priest)",
     "bgColor": "#5d4037",
     "fontFamily": "Hulk",
-    "id": 898
+    "id": 898,
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Hiroim the Shamed (Warbound) • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "name": "King Thor (All-Father of the Cosmos)",
@@ -10786,7 +13480,10 @@ const characters = [
     "death": "Immortal King of Asgard & Cosmic All-Father",
     "bgColor": "#9575cd",
     "fontFamily": "Thor",
-    "id": 899
+    "id": 899,
+    "trailerId": "u3V5KDHRQvk",
+    "trailerTitle": "King Thor (All-Father of the Cosmos) • Guardians of the Galaxy Vol. 3 Official Trailer",
+    "trailerCategory": "Guardians of the Galaxy"
   },
   {
     "id": 900,
@@ -10798,7 +13495,10 @@ const characters = [
     "birth": "Shelbyville, Indiana",
     "death": "Alive (Captain America Veteran & White Wolf)",
     "bgColor": "#0d47a1",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Captain America (Bucky Barnes) • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 901,
@@ -10810,7 +13510,10 @@ const characters = [
     "birth": "Unknown Orphanage World (Adopted by Thanos)",
     "death": "Active across Multiverse (Black Order Mind-Weaver)",
     "bgColor": "#1a237e",
-    "fontFamily": "Thanos"
+    "fontFamily": "Thanos",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Supergiant • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 902,
@@ -10822,7 +13525,10 @@ const characters = [
     "birth": "Earth-1365 (Library of Worlds)",
     "death": "Alive (Multiversal Incursion Survivor & Cabal Strategist)",
     "bgColor": "#212121",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Black Swan • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 903,
@@ -10834,7 +13540,10 @@ const characters = [
     "birth": "Brooklyn, New York City",
     "death": "Alive (Cosmic Omnipotent Multiverse Anchor)",
     "bgColor": "#4a148c",
-    "fontFamily": "Doctor Doom"
+    "fontFamily": "Doctor Doom",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Molecule Man • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 904,
@@ -10846,7 +13555,10 @@ const characters = [
     "birth": "Earth-691 (31st Century)",
     "death": "Reconstituted Across Timelines (Cosmic God Entity)",
     "bgColor": "#004d40",
-    "fontFamily": "Captain Marvel"
+    "fontFamily": "Captain Marvel",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Michael Korvac • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 905,
@@ -10858,7 +13570,10 @@ const characters = [
     "birth": "Cosmic Incubator / Mars Orbital Array",
     "death": "Sacrificed in the Great Incursion (Cosmic Architect)",
     "bgColor": "#e65100",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Ex Nihilo • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 906,
@@ -10870,7 +13585,10 @@ const characters = [
     "birth": "Cosmic Incubator / Gardeners Array",
     "death": "Sacrificed defending the Multiverse (Cosmic Martyr)",
     "bgColor": "#311b92",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Abyss • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 907,
@@ -10882,7 +13600,10 @@ const characters = [
     "birth": "Norway, Earth-616",
     "death": "Alive (New Avengers & AIM Planetary Defender)",
     "bgColor": "#006064",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Pod • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 908,
@@ -10894,7 +13615,10 @@ const characters = [
     "birth": "Earth-5555 / 82nd Century",
     "death": "Operational across Timelines (Freelance Peacekeeper)",
     "bgColor": "#37474f",
-    "fontFamily": "Deadpool"
+    "fontFamily": "Deadpool",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Death's Head • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 909,
@@ -10906,7 +13630,10 @@ const characters = [
     "birth": "AIM Lab, Earth-8410 (Year 2020)",
     "death": "Active across 21st & 31st Centuries (Cybernetic Hero)",
     "bgColor": "#263238",
-    "fontFamily": "War Machine"
+    "fontFamily": "War Machine",
+    "trailerId": "uwmDH12MAA4",
+    "trailerTitle": "Death's Head II • Marvel Studios' The Marvels Official Trailer",
+    "trailerCategory": "Cosmic Marvel Champions"
   },
   {
     "id": 910,
@@ -10918,7 +13645,10 @@ const characters = [
     "birth": "Otherplace (Limbo Realm)",
     "death": "Immortal Demonic Warlord of Limbo",
     "bgColor": "#b71c1c",
-    "fontFamily": "Magik"
+    "fontFamily": "Magik",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "S'ym • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 911,
@@ -10930,7 +13660,10 @@ const characters = [
     "birth": "Otherplace (Limbo Realm)",
     "death": "Demonic Entity of Limbo & Dark Sorcery",
     "bgColor": "#4a148c",
-    "fontFamily": "Scarlet Witch"
+    "fontFamily": "Scarlet Witch",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "N'astirh • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 912,
@@ -10942,7 +13675,10 @@ const characters = [
     "birth": "New York City, New York",
     "death": "Active (Ravencroft Inmate & Carnage Family)",
     "bgColor": "#ad1457",
-    "fontFamily": "Venom"
+    "fontFamily": "Venom",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Shriek • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 913,
@@ -10954,7 +13690,10 @@ const characters = [
     "birth": "Magus's Fractal Realm (Dimension of Reflections)",
     "death": "Active across NYC (Spider-Man Savage Foe)",
     "bgColor": "#c62828",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Spider-Doppelganger • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 914,
@@ -10966,7 +13705,10 @@ const characters = [
     "birth": "New York City, New York",
     "death": "Active (Master Geneticist & Clone Saga Architect)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "The Jackal • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 915,
@@ -10978,7 +13720,10 @@ const characters = [
     "birth": "Scarsdale, New York",
     "death": "Alive (Sewer Dweller & Tragic Foe)",
     "bgColor": "#4e342e",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "rze8QYwWGMs",
+    "trailerTitle": "Vermin • Kraven the Hunter Official Trailer",
+    "trailerCategory": "Spider-Man Rogues & Apex Hunters"
   },
   {
     "id": 916,
@@ -10990,7 +13735,10 @@ const characters = [
     "birth": "Empire State University Labs / Queens, NY",
     "death": "Resurgent Genetic Plague Entity",
     "bgColor": "#bf360c",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Carrion • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 917,
@@ -11002,7 +13750,10 @@ const characters = [
     "birth": "Sleepy Hollow, New York",
     "death": "Slain during Civil War / Resurrected Entity",
     "bgColor": "#e65100",
-    "fontFamily": "Green Goblin"
+    "fontFamily": "Green Goblin",
+    "trailerId": "JfVOs4VSpmA",
+    "trailerTitle": "Jack O'Lantern • Spider-Man: No Way Home Official Trailer",
+    "trailerCategory": "Spider-Man & Sinister Rogues"
   },
   {
     "id": 918,
@@ -11014,7 +13765,10 @@ const characters = [
     "birth": "AIM Research Complex, Earth-616",
     "death": "Alive (S.H.I.E.L.D. Operative & Independent Hero)",
     "bgColor": "#1b5e20",
-    "fontFamily": "Black Widow"
+    "fontFamily": "Black Widow",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Carmilla Black • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 919,
@@ -11026,7 +13780,10 @@ const characters = [
     "birth": "Fort Benning, Georgia",
     "death": "Alive (Cybernetic Freelance Soldier)",
     "bgColor": "#0d47a1",
-    "fontFamily": "War Machine"
+    "fontFamily": "War Machine",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Coldblood-7 • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 920,
@@ -11038,7 +13795,10 @@ const characters = [
     "birth": "Long Island, New York",
     "death": "Active (Frightful Four Leader & Scientific Mastermind)",
     "bgColor": "#4a148c",
-    "fontFamily": "Mister Fantastic"
+    "fontFamily": "Mister Fantastic",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "The Wizard • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 921,
@@ -11050,7 +13810,10 @@ const characters = [
     "birth": "Gary, Indiana",
     "death": "Active (Supervillain Chemist & Frightful Four)",
     "bgColor": "#827717",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Trapster • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 922,
@@ -11062,7 +13825,10 @@ const characters = [
     "birth": "Dragorin, Transia",
     "death": "Active (Mind Control Sculptor)",
     "bgColor": "#3e2723",
-    "fontFamily": "Doctor Doom"
+    "fontFamily": "Doctor Doom",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Puppet Master • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 923,
@@ -11074,7 +13840,10 @@ const characters = [
     "birth": "Zaragoza, Spain (9th Century)",
     "death": "Immortal Alchemical Sorcerer",
     "bgColor": "#311b92",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "TcMBFSGVi1c",
+    "trailerTitle": "Diablo • Avengers: Endgame Official HD Showcase",
+    "trailerCategory": "Avengers / Earth's Mightiest"
   },
   {
     "id": 924,
@@ -11086,7 +13855,10 @@ const characters = [
     "birth": "Moscow, Russia",
     "death": "Active (Cosmic Rogue Scientist)",
     "bgColor": "#c62828",
-    "fontFamily": "Mister Fantastic"
+    "fontFamily": "Mister Fantastic",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Red Ghost • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 925,
@@ -11098,7 +13870,10 @@ const characters = [
     "birth": "Dayton, Ohio",
     "death": "Active (Thunderbolts Technical Director)",
     "bgColor": "#00695c",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "The Fixer • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 926,
@@ -11110,7 +13885,10 @@ const characters = [
     "birth": "Ultron's Subterranean Foundry",
     "death": "Reconstructed Cybernetic AI Entity",
     "bgColor": "#b71c1c",
-    "fontFamily": "Ultron"
+    "fontFamily": "Ultron",
+    "trailerId": "tmeOjFno6Do",
+    "trailerTitle": "Alkhema the War Toy • Avengers: Age of Ultron Official Trailer",
+    "trailerCategory": "Avengers / AI Threat"
   },
   {
     "id": 927,
@@ -11122,7 +13900,10 @@ const characters = [
     "birth": "AIM Research Headquarters",
     "death": "Active (AIM Living Weapon & Avengers Foe)",
     "bgColor": "#004d40",
-    "fontFamily": "Captain America"
+    "fontFamily": "Captain America",
+    "trailerId": "tmeOjFno6Do",
+    "trailerTitle": "Super-Adaptoid • Avengers: Age of Ultron Official Trailer",
+    "trailerCategory": "Avengers / AI Threat"
   },
   {
     "id": 928,
@@ -11134,7 +13915,10 @@ const characters = [
     "birth": "Centerport, Long Island, New York",
     "death": "Alive (Senior X-Man & X-Force Co-Founder)",
     "bgColor": "#0d47a1",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Archangel • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 929,
@@ -11146,7 +13930,10 @@ const characters = [
     "birth": "London, England",
     "death": "Alive (Excalibur & Champion of Otherworld)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Captain Britain"
+    "fontFamily": "Captain Britain",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Meggan • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 930,
@@ -11158,7 +13945,10 @@ const characters = [
     "birth": "Maldon, Essex, England",
     "death": "Alive (Captain Britain & Leader of Excalibur)",
     "bgColor": "#880e4f",
-    "fontFamily": "Captain Britain"
+    "fontFamily": "Captain Britain",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Captain Britain (Betsy Braddock) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 931,
@@ -11170,7 +13960,10 @@ const characters = [
     "birth": "Okkarra (Ancient Pre-Cataclysm Era)",
     "death": "Immortal Great Ring Seat of Victory",
     "bgColor": "#c2185b",
-    "fontFamily": "Apocalypse"
+    "fontFamily": "Apocalypse",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Isca the Unbeaten • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 932,
@@ -11182,7 +13975,10 @@ const characters = [
     "birth": "Okkarra (Ancient Earth)",
     "death": "Alive (Matriarch of Arakko & Mutant Warlord)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Apocalypse"
+    "fontFamily": "Apocalypse",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Genesis • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 933,
@@ -11194,7 +13990,10 @@ const characters = [
     "birth": "Amenth / Arakko",
     "death": "Slain in Arakki Circle by Magneto (Former Great Ring Seat)",
     "bgColor": "#4a148c",
-    "fontFamily": "Magneto"
+    "fontFamily": "Magneto",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Tarn the Uncaring • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 934,
@@ -11206,7 +14005,10 @@ const characters = [
     "birth": "Sewers of Arakko",
     "death": "Alive (Arakki Duelist & Rogue Legend)",
     "bgColor": "#f57f17",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Solemn • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 935,
@@ -11218,7 +14020,10 @@ const characters = [
     "birth": "Arakko",
     "death": "Alive (Great Ring Champion & Wife of Doug Ramsey)",
     "bgColor": "#d81b60",
-    "fontFamily": "Colossus"
+    "fontFamily": "Colossus",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Bei the Blood-Moon • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 936,
@@ -11230,7 +14035,10 @@ const characters = [
     "birth": "Arakko",
     "death": "Alive (Speaker of Arakko)",
     "bgColor": "#1b5e20",
-    "fontFamily": "Storm"
+    "fontFamily": "Storm",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Redroot the Forest • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 937,
@@ -11242,7 +14050,10 @@ const characters = [
     "birth": "Wyoming, United States",
     "death": "Alive (Krakoan Hellions Veteran)",
     "bgColor": "#37474f",
-    "fontFamily": "Punisher"
+    "fontFamily": "Punisher",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Greycrow • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 938,
@@ -11254,7 +14065,10 @@ const characters = [
     "birth": "Vietnam War Veteran / USA",
     "death": "Active across Krakoa / Marauders",
     "bgColor": "#8e24aa",
-    "fontFamily": "Rogue"
+    "fontFamily": "Rogue",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Arclight • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 939,
@@ -11266,7 +14080,10 @@ const characters = [
     "birth": "Alaska, United States",
     "death": "Active (Marauder Assassin)",
     "bgColor": "#00838f",
-    "fontFamily": "Hawkeye"
+    "fontFamily": "Hawkeye",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Harpoon • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 940,
@@ -11278,7 +14095,10 @@ const characters = [
     "birth": "Western United States",
     "death": "Active (Marauder Cyclone Assassin)",
     "bgColor": "#0277bd",
-    "fontFamily": "Quicksilver"
+    "fontFamily": "Quicksilver",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Riptide • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 941,
@@ -11290,7 +14110,10 @@ const characters = [
     "birth": "United States",
     "death": "Resurrected across Krakoa (Marauder Heavy)",
     "bgColor": "#4e342e",
-    "fontFamily": "The Thing"
+    "fontFamily": "The Thing",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Blockbuster • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 942,
@@ -11302,7 +14125,10 @@ const characters = [
     "birth": "South Korea",
     "death": "Active (Marauder Nullifier)",
     "bgColor": "#f4511e",
-    "fontFamily": "Rogue"
+    "fontFamily": "Rogue",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Scrambler • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 943,
@@ -11314,7 +14140,10 @@ const characters = [
     "birth": "The Alley / Manhattan Morlock Tunnels, NY",
     "death": "Alive (Morlock Warlord & Krakoan Citizen)",
     "bgColor": "#e65100",
-    "fontFamily": "Cyclops"
+    "fontFamily": "Cyclops",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Erg • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 944,
@@ -11326,7 +14155,10 @@ const characters = [
     "birth": "Morlock Tunnels, New York City",
     "death": "Alive (Future Foundation & Krakoan Citizen)",
     "bgColor": "#558b2f",
-    "fontFamily": "Mister Fantastic"
+    "fontFamily": "Mister Fantastic",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Leech • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 945,
@@ -11338,7 +14170,10 @@ const characters = [
     "birth": "Long Island, New York",
     "death": "Alive (Generation X & Krakoan Citizen)",
     "bgColor": "#ad1457",
-    "fontFamily": "Professor X"
+    "fontFamily": "Professor X",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Artie Maddicks • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 946,
@@ -11350,7 +14185,10 @@ const characters = [
     "birth": "Australian Outback",
     "death": "Ascended Mystic Teleporter & Elder",
     "bgColor": "#bf360c",
-    "fontFamily": "Professor X"
+    "fontFamily": "Professor X",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Gateway • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 947,
@@ -11362,7 +14200,10 @@ const characters = [
     "birth": "Los Angeles, California",
     "death": "Alive (Mutant Activist & X-Men Veteran)",
     "bgColor": "#6a1b9a",
-    "fontFamily": "Emma Frost"
+    "fontFamily": "Emma Frost",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Stacy X • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 948,
@@ -11374,7 +14215,10 @@ const characters = [
     "birth": "Mumbai, India",
     "death": "Alive (Xavier Student & Krakoan Citizen)",
     "bgColor": "#1565c0",
-    "fontFamily": "Professor X"
+    "fontFamily": "Professor X",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Indra • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 949,
@@ -11386,7 +14230,10 @@ const characters = [
     "birth": "Maui, Hawaii",
     "death": "Alive (New X-Men & Krakoan Hero)",
     "bgColor": "#00838f",
-    "fontFamily": "Namor"
+    "fontFamily": "Namor",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Loa • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 950,
@@ -11398,7 +14245,10 @@ const characters = [
     "birth": "Chicago, Illinois",
     "death": "Alive (New X-Men & Krakoan Hero)",
     "bgColor": "#e65100",
-    "fontFamily": "Human Torch"
+    "fontFamily": "Human Torch",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Match • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 951,
@@ -11410,7 +14260,10 @@ const characters = [
     "birth": "Atlanta, Georgia",
     "death": "Alive (New X-Men & Champions Ally)",
     "bgColor": "#00acc1",
-    "fontFamily": "Emma Frost"
+    "fontFamily": "Emma Frost",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Bling! • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 952,
@@ -11422,7 +14275,10 @@ const characters = [
     "birth": "Bloomfield Hills, Michigan",
     "death": "Alive (New X-Men & Krakoan Citizen)",
     "bgColor": "#8e24aa",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Trance • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 953,
@@ -11434,7 +14290,10 @@ const characters = [
     "birth": "Graymalkin Estate, Westchester (18th Century)",
     "death": "Alive (Young X-Man & Historic Survivor)",
     "bgColor": "#212121",
-    "fontFamily": "Professor X"
+    "fontFamily": "Professor X",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Graymalkin • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 954,
@@ -11446,7 +14305,10 @@ const characters = [
     "birth": "Denver, Colorado",
     "death": "Fallen in Battle / Resurrected on Krakoa",
     "bgColor": "#37474f",
-    "fontFamily": "The Thing"
+    "fontFamily": "The Thing",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Onyxx • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 955,
@@ -11458,7 +14320,10 @@ const characters = [
     "birth": "Sleazeworld (Brood Hive World)",
     "death": "Alive (King of the Brood & Jean Grey School Valedictorian)",
     "bgColor": "#33691e",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Broo • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 956,
@@ -11470,7 +14335,10 @@ const characters = [
     "birth": "Strontia / Chandilar (Shi'ar Empire)",
     "death": "Alive (Prince of the Imperial Guard & Graduate)",
     "bgColor": "#c62828",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Kid Gladiator • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 957,
@@ -11482,7 +14350,10 @@ const characters = [
     "birth": "Philadelphia, Pennsylvania",
     "death": "Alive (X-Factor Investigator & Krakoan Hero)",
     "bgColor": "#f57f17",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Eye-Boy • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 958,
@@ -11494,7 +14365,10 @@ const characters = [
     "birth": "Beijing, China",
     "death": "Alive (Eco-Mutant Champion & Jean Grey Student)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Storm"
+    "fontFamily": "Storm",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Nature Girl • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 959,
@@ -11506,7 +14380,10 @@ const characters = [
     "birth": "United States",
     "death": "Active (Unsung Shadow Guardian of the X-Men)",
     "bgColor": "#757575",
-    "fontFamily": "Professor X"
+    "fontFamily": "Professor X",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "ForgetMeNot • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 960,
@@ -11518,7 +14395,10 @@ const characters = [
     "birth": "Recife, Brazil",
     "death": "Alive (Jean Grey School & Krakoan Champion)",
     "bgColor": "#006064",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Shark-Girl • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 961,
@@ -11530,7 +14410,10 @@ const characters = [
     "birth": "Brooklyn, New York",
     "death": "Alive (Uncanny X-Men Healer)",
     "bgColor": "#00897b",
-    "fontFamily": "Cyclops"
+    "fontFamily": "Cyclops",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Triage • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 962,
@@ -11542,7 +14425,10 @@ const characters = [
     "birth": "Austin, Texas",
     "death": "Alive (Uncanny X-Men & Krakoan Diplomat)",
     "bgColor": "#5e35b1",
-    "fontFamily": "Magneto"
+    "fontFamily": "Magneto",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Benjamin Deeds • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 963,
@@ -11554,7 +14440,10 @@ const characters = [
     "birth": "Miami, Florida",
     "death": "Alive (Uncanny X-Men & Krakoan Pilot)",
     "bgColor": "#1e88e5",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Hijack • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 964,
@@ -11566,7 +14455,10 @@ const characters = [
     "birth": "Shi'ar Empire Galaxy",
     "death": "Active (Shi'ar Imperial Guard Veteran)",
     "bgColor": "#e65100",
-    "fontFamily": "Captain Marvel"
+    "fontFamily": "Captain Marvel",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Starbolt • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 965,
@@ -11578,7 +14470,10 @@ const characters = [
     "birth": "Lupphoid Prime / Shi'ar Empire",
     "death": "Active (Imperial Guard Vanguard)",
     "bgColor": "#bf360c",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Fang • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 966,
@@ -11590,7 +14485,10 @@ const characters = [
     "birth": "Shi'ar Galaxy",
     "death": "Active (Shi'ar Shadow Elite)",
     "bgColor": "#311b92",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Nightside • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 967,
@@ -11602,7 +14500,10 @@ const characters = [
     "birth": "Shi'ar Galaxy",
     "death": "Active (Shi'ar Lightning Champion)",
     "bgColor": "#0288d1",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Flashfire • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 968,
@@ -11614,7 +14515,10 @@ const characters = [
     "birth": "Chandilar / Shi'ar Empire",
     "death": "Active (Supreme Imperial Strategist)",
     "bgColor": "#004d40",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Mentor • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 969,
@@ -11626,7 +14530,10 @@ const characters = [
     "birth": "Shi'ar Galaxy",
     "death": "Active (Imperial Infiltrator)",
     "bgColor": "#512da8",
-    "fontFamily": "Vision"
+    "fontFamily": "Vision",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Plutonia • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 970,
@@ -11638,7 +14545,10 @@ const characters = [
     "birth": "Shi'ar Border World",
     "death": "Active (Imperial Shock Troop)",
     "bgColor": "#5d4037",
-    "fontFamily": "The Thing"
+    "fontFamily": "The Thing",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Earthquake • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 971,
@@ -11650,7 +14560,10 @@ const characters = [
     "birth": "Shi'ar Galaxy",
     "death": "Active (Imperial Guard Cavalry)",
     "bgColor": "#c2185b",
-    "fontFamily": "Gamora"
+    "fontFamily": "Gamora",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Hussar • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 972,
@@ -11662,7 +14575,10 @@ const characters = [
     "birth": "Shi'ar Galaxy",
     "death": "Active (Imperial Scout)",
     "bgColor": "#1976d2",
-    "fontFamily": "Quicksilver"
+    "fontFamily": "Quicksilver",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Astra • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 973,
@@ -11674,7 +14590,10 @@ const characters = [
     "birth": "Shi'ar Galaxy",
     "death": "Active (Imperial Covert Striker)",
     "bgColor": "#7b1fa2",
-    "fontFamily": "Ant-Man"
+    "fontFamily": "Ant-Man",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Scintilla • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 974,
@@ -11686,7 +14605,10 @@ const characters = [
     "birth": "Morganton, North Carolina",
     "death": "Immortal Unbreakable Avenger",
     "bgColor": "#fbc02d",
-    "fontFamily": "American Captain"
+    "fontFamily": "American Captain",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Butterball • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 975,
@@ -11698,7 +14620,10 @@ const characters = [
     "birth": "Evanston, Illinois",
     "death": "Alive (Avengers Initiative Veteran & Hero)",
     "bgColor": "#0288d1",
-    "fontFamily": "Captain Marvel"
+    "fontFamily": "Captain Marvel",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Cloud 9 • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 976,
@@ -11710,7 +14635,10 @@ const characters = [
     "birth": "Los Angeles, California",
     "death": "Alive (Initiative / Shadow Initiative)",
     "bgColor": "#388e3c",
-    "fontFamily": "Iron Man"
+    "fontFamily": "Iron Man",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Hardball • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 977,
@@ -11722,7 +14650,10 @@ const characters = [
     "birth": "San Francisco, California",
     "death": "Alive (Camp Hammond Graduate & Doctor)",
     "bgColor": "#2e7d32",
-    "fontFamily": "Spider-Man"
+    "fontFamily": "Spider-Man",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Komodo • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 978,
@@ -11734,7 +14665,10 @@ const characters = [
     "birth": "Atlanta, Georgia",
     "death": "Alive (Master Sergeant & Avengers Instructor)",
     "bgColor": "#5d4037",
-    "fontFamily": "War Machine"
+    "fontFamily": "War Machine",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Gauntlet • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 979,
@@ -11746,7 +14680,10 @@ const characters = [
     "birth": "Camp Hammond / New York",
     "death": "Alive (Initiative Counselor & Mystic)",
     "bgColor": "#311b92",
-    "fontFamily": "Doctor Strange"
+    "fontFamily": "Doctor Strange",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Trauma • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 980,
@@ -11758,7 +14695,10 @@ const characters = [
     "birth": "Atlantis, Ocean Realm",
     "death": "Alive (Agents of Atlas Champion & Princess)",
     "bgColor": "#00695c",
-    "fontFamily": "Namor"
+    "fontFamily": "Namor",
+    "trailerId": "_Z3QKkl1WyM",
+    "trailerTitle": "Namora • Black Panther: Wakanda Forever Official Trailer",
+    "trailerCategory": "Wakanda & Talokan"
   },
   {
     "id": 981,
@@ -11770,7 +14710,10 @@ const characters = [
     "birth": "Mount Olympus / Mediterranean Ocean",
     "death": "Immortal Goddess of Atlas",
     "bgColor": "#ec407a",
-    "fontFamily": "Thor"
+    "fontFamily": "Thor",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Venus • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 982,
@@ -11782,7 +14725,10 @@ const characters = [
     "birth": "1950s Secret Robotics Lab",
     "death": "Operational (Agents of Atlas Vanguard)",
     "bgColor": "#455a64",
-    "fontFamily": "Vision"
+    "fontFamily": "Vision",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "M-11 • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 983,
@@ -11794,7 +14740,10 @@ const characters = [
     "birth": "Trenton, New Jersey (Raised on Uranus)",
     "death": "Alive (Agents of Atlas Cosmic Scout)",
     "bgColor": "#1565c0",
-    "fontFamily": "Captain Marvel"
+    "fontFamily": "Captain Marvel",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Uranian • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 984,
@@ -11806,7 +14755,10 @@ const characters = [
     "birth": "Western Pennsylvania",
     "death": "Heroic Fallen Thunderbolt / Restored in Timelines",
     "bgColor": "#d84315",
-    "fontFamily": "Hawkeye"
+    "fontFamily": "Hawkeye",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Charcoal • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 985,
@@ -11818,7 +14770,10 @@ const characters = [
     "birth": "Springdale, Connecticut",
     "death": "Rehabilitated (Returned to Speedball & New Warriors)",
     "bgColor": "#212121",
-    "fontFamily": "Daredevil"
+    "fontFamily": "Daredevil",
+    "trailerId": "v-94Snw-H4o",
+    "trailerTitle": "Penance • Marvel Studios' Thunderbolts* Official Trailer",
+    "trailerCategory": "Thunderbolts & Black Ops"
   },
   {
     "id": 986,
@@ -11830,7 +14785,10 @@ const characters = [
     "birth": "Ancient Demon Realm / Dawn of Humanity",
     "death": "Immortal Primordial Demon God",
     "bgColor": "#e65100",
-    "fontFamily": "Ghost Rider"
+    "fontFamily": "Ghost Rider",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Zarathos • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 987,
@@ -11842,7 +14800,10 @@ const characters = [
     "birth": "Previous Universe / Pre-Creation Realm",
     "death": "Immortal Cosmic Fear Lord",
     "bgColor": "#4a148c",
-    "fontFamily": "Shang-Chi"
+    "fontFamily": "Shang-Chi",
+    "trailerId": "giWIr7U1deA",
+    "trailerTitle": "Dweller-in-Darkness • Shang-Chi and the Legend of the Ten Rings Official Trailer",
+    "trailerCategory": "Ten Rings & Ta Lo"
   },
   {
     "id": 988,
@@ -11854,7 +14815,10 @@ const characters = [
     "birth": "Ancient Mediterranean Realm",
     "death": "Immortal Soulless Sorcerer",
     "bgColor": "#006064",
-    "fontFamily": "Ghost Rider"
+    "fontFamily": "Ghost Rider",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Centurious • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 989,
@@ -11866,7 +14830,10 @@ const characters = [
     "birth": "Flushing, Queens, New York",
     "death": "Active across Masters of Evil",
     "bgColor": "#212121",
-    "fontFamily": "Avengers"
+    "fontFamily": "Avengers",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Blackout • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 990,
@@ -11878,7 +14845,10 @@ const characters = [
     "birth": "Demon Realm / New York",
     "death": "Active (Lilin Clan Stalker)",
     "bgColor": "#37474f",
-    "fontFamily": "Ghost Rider"
+    "fontFamily": "Ghost Rider",
+    "trailerId": "bLEFqhS5WmI",
+    "trailerTitle": "Blackout (Lilin) • Marvel Studios' Werewolf by Night Official Trailer",
+    "trailerCategory": "Midnight Sons & Supernatural"
   },
   {
     "id": 991,
@@ -11890,7 +14860,10 @@ const characters = [
     "birth": "Kamar-Taj, Tibet (15th Century)",
     "death": "Immortal Grandmaster of Black Magic",
     "bgColor": "#311b92",
-    "fontFamily": "Ancient One"
+    "fontFamily": "Ancient One",
+    "trailerId": "aWzlQ2N6qqg",
+    "trailerTitle": "Kaluu • Doctor Strange in the Multiverse of Madness Official Trailer",
+    "trailerCategory": "Mystic Arts & Multiverse"
   },
   {
     "id": 992,
@@ -11902,7 +14875,10 @@ const characters = [
     "birth": "Milago / Earth-8009 (23rd Century)",
     "death": "Alive (A.R.M.O.R. Agent & Savage Avenger)",
     "bgColor": "#2e7d32",
-    "fontFamily": "She-Hulk"
+    "fontFamily": "She-Hulk",
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Lyra • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "id": 993,
@@ -11914,7 +14890,10 @@ const characters = [
     "birth": "Los Angeles, California",
     "death": "Alive (Immortal Hulk & Red Harpy Protector)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "1pHDWnXmK7Y",
+    "trailerTitle": "Harpy • Captain America: Brave New World Official Trailer",
+    "trailerCategory": "Captain America & Red Hulk"
   },
   {
     "id": 994,
@@ -11926,7 +14905,10 @@ const characters = [
     "birth": "Sakaar, Planet of Glories",
     "death": "Alive (King of Sakaar & Young Avenger Ally)",
     "bgColor": "#4e342e",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "xbqNb2PFKKA",
+    "trailerTitle": "Skaar (Oldstrong) • The Incredible Hulk Official Trailer",
+    "trailerCategory": "Gamma Powerhouses"
   },
   {
     "id": 995,
@@ -11938,7 +14920,10 @@ const characters = [
     "birth": "United States",
     "death": "Alive (Weapon H & Independent Defender)",
     "bgColor": "#37474f",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Clayton Cortez • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 996,
@@ -11950,7 +14935,10 @@ const characters = [
     "birth": "Floating Sky-City of the Avians",
     "death": "Active (Ancient Android Behemoth)",
     "bgColor": "#00695c",
-    "fontFamily": "Hulk"
+    "fontFamily": "Hulk",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Bi-Beast • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 997,
@@ -11962,7 +14950,10 @@ const characters = [
     "birth": "Camp Verde Apache Reservation, Arizona",
     "death": "Resurrected on Krakoa (Legendary Founding X-Man)",
     "bgColor": "#b71c1c",
-    "fontFamily": "Wolverine"
+    "fontFamily": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Thunderbird (John Proudstar) • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 998,
@@ -11974,7 +14965,10 @@ const characters = [
     "birth": "Krytin / Shi'ar Galaxy",
     "death": "Alive (Excalibur & Champion of Otherworld)",
     "bgColor": "#d81b60",
-    "fontFamily": "Captain Britain"
+    "fontFamily": "Captain Britain",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Cerise • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 999,
@@ -11986,7 +14980,10 @@ const characters = [
     "birth": "Edinburgh, Scotland (Aged in Ee'rath)",
     "death": "Alive (Excalibur & Krakoan Champion)",
     "bgColor": "#f57f17",
-    "fontFamily": "Captain Britain"
+    "fontFamily": "Captain Britain",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Kylun • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   },
   {
     "id": 1000,
@@ -11998,7 +14995,10 @@ const characters = [
     "birth": "Leeds, England",
     "death": "Alive (MI6 Special Operative & Excalibur Veteran)",
     "bgColor": "#1976d2",
-    "fontFamily": "Ant-Man"
+    "fontFamily": "Ant-Man",
+    "trailerId": "73_1biulkYk",
+    "trailerTitle": "Micromax • Deadpool & Wolverine Official Trailer",
+    "trailerCategory": "Mutants & Multiverse"
   }
 ];
 

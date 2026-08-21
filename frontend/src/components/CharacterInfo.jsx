@@ -49,7 +49,7 @@ const CharacterInfo = ({ character, onWatchTrailer }) => {
             )}
             <span className="bg-red-600/80 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border border-red-500/40 flex items-center gap-1 shadow-sm">
               <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
-              HD Trailer Ready
+              {character.trailerCategory || 'HD Trailer Ready'}
             </span>
           </div>
         </div>
@@ -111,8 +111,9 @@ const CharacterInfo = ({ character, onWatchTrailer }) => {
         <button
           type="button"
           onClick={() => onWatchTrailer && onWatchTrailer(character)}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-red-600 via-rose-600 to-red-700 text-white font-bold text-xs sm:text-sm uppercase tracking-wider hover:from-red-500 hover:to-rose-600 active:scale-95 transition-all shadow-lg hover:shadow-red-600/40 cursor-pointer border border-red-400/30 group"
+          className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-red-600 via-rose-600 to-red-700 text-white font-bold text-xs sm:text-sm uppercase tracking-wider hover:from-red-500 hover:to-rose-600 active:scale-95 transition-all shadow-lg hover:shadow-red-600/40 cursor-pointer border border-red-400/30 group"
           id="character-trailer-btn"
+          title="Watch Official HD Trailer (Press 'T')"
         >
           <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
             <svg className="w-3 h-3 text-white fill-current ml-0.5" viewBox="0 0 24 24">
@@ -120,6 +121,7 @@ const CharacterInfo = ({ character, onWatchTrailer }) => {
             </svg>
           </div>
           <span>Watch Official Trailer</span>
+          <span className="hidden sm:inline-block px-1.5 py-0.5 rounded bg-black/40 text-[10px] text-gray-300 font-mono">T</span>
         </button>
 
         {/* Jump to Timeline Action */}

@@ -217,7 +217,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
     document.body.scrollTop = 0;
   }, [characters.length, setCurrentCharacterIdx]);
 
-  // Keyboard navigation support (ArrowLeft / ArrowRight / Escape to close trailer)
+  // Keyboard navigation support (ArrowLeft / ArrowRight / T for trailer / Escape to close)
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === 'Escape' && activeTrailerChar) {
@@ -231,12 +231,14 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         handleNextCharacter();
       } else if (e.key === 'ArrowLeft') {
         handlePrevCharacter();
+      } else if ((e.key === 't' || e.key === 'T') && !activeTrailerChar && currentCharacter) {
+        setActiveTrailerChar(currentCharacter);
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleNextCharacter, handlePrevCharacter, activeTrailerChar]);
+  }, [handleNextCharacter, handlePrevCharacter, activeTrailerChar, currentCharacter]);
 
   // Body scroll lock during trailer modal
   useEffect(() => {
