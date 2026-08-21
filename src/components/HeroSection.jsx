@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import CharacterInfo from './CharacterInfo';
 import { useColorTheme } from '../ColorThemeContext';
 
-const getCategories = (count = 350) => [
+const getCategories = (count = 850) => [
   { id: 'all', label: `All Heroes (${count})` },
   { id: 'endgame', label: 'Endgame (Battle & Heist)' },
   { id: 'avengers', label: 'Avengers' },
@@ -265,6 +265,11 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
                   alt={currentCharacter.name}
                   decoding="async"
                   fetchPriority="high"
+                  onError={(e) => {
+                    if (e.target.src !== window.location.origin + '/marvel.png') {
+                      e.target.src = '/marvel.png';
+                    }
+                  }}
                   className="h-full w-auto max-h-full max-w-full object-contain filter drop-shadow-[0_20px_35px_rgba(0,0,0,0.7)] select-none transition-transform duration-300 hover:scale-[1.03]"
                 />
               </motion.div>
@@ -368,6 +373,11 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
                     alt={char.name}
                     loading="lazy"
                     decoding="async"
+                    onError={(e) => {
+                      if (e.target.src !== window.location.origin + '/marvel.png') {
+                        e.target.src = '/marvel.png';
+                      }
+                    }}
                     className="w-full h-full object-contain filter drop-shadow group-hover:scale-110 transition-transform"
                   />
                 </div>
