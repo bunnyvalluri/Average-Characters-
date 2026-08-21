@@ -3,7 +3,7 @@ import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { mcuMoviesCatalog } from '../assets/timelineData';
 import { useColorTheme } from '../ColorThemeContext';
 
-const PHASES = ['All', 'Phase 1', 'Phase 2', 'Phase 3', 'Phase 4', 'Phase 5'];
+const PHASES = ['All', 'Phase 1', 'Phase 2', 'Phase 3', 'Phase 4', 'Phase 5', 'Phase 6', 'Phase 7', 'Phase 8', 'Phase 9', 'Phase 10'];
 
 const Movies = () => {
   const [selectedPhase, setSelectedPhase] = useState('All');
@@ -69,7 +69,7 @@ const Movies = () => {
           Marvel Movies Vault
         </h2>
         <p className="text-sm sm:text-base text-gray-300 leading-relaxed max-w-xl mx-auto">
-          Explore blockbuster films across Phase 1 to Phase 5. Click on any movie card to watch its official HD trailer!
+          Explore blockbuster films and upcoming sagas across Phase 1 to Phase 10. Click on any movie card to watch its official HD trailer!
         </p>
       </div>
 
@@ -128,7 +128,7 @@ const Movies = () => {
                   alt={movie.title}
                   loading="lazy"
                   decoding="async"
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  onError={(e) => { if (e.target.src !== window.location.origin + "/marvel.png") e.target.src = "/marvel.png"; }} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 
                 {/* Year Badge */}

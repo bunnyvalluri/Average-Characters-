@@ -6452,33 +6452,666 @@ export const movieEvents = {
 };
 
 export const mcuMoviesCatalog = [
-  { id: 'im1', title: 'Iron Man', year: 2008, phase: 'Phase 1', poster: '/movies/iron-man.jpg', hero: 'Iron Man', trailerId: '8ugaeA-nMTc', description: 'Tony Stark builds an armored suit and becomes the superhero Iron Man.' },
-  { id: 'hulk08', title: 'The Incredible Hulk', year: 2008, phase: 'Phase 1', poster: '/movies/the-incredible-hulk.jpg', hero: 'Hulk', trailerId: 'xbqNb2PFKKA', description: 'Bruce Banner desperately seeks a cure for the gamma radiation that fuels the Hulk.' },
-  { id: 'im2', title: 'Iron Man 2', year: 2010, phase: 'Phase 1', poster: '/movies/iron-man-2.jpg', hero: 'Iron Man', trailerId: 'wKtcmiifycU', description: 'Tony Stark faces pressure from the government and a vengeful Ivan Vanko.' },
-  { id: 'thor1', title: 'Thor', year: 2011, phase: 'Phase 1', poster: '/movies/thor.jpg', hero: 'Thor', trailerId: 'JOddp-nlNvQ', description: 'The arrogant God of Thunder is cast out of Asgard to live among humans on Earth.' },
-  { id: 'ca1', title: 'Captain America: The First Avenger', year: 2011, phase: 'Phase 1', poster: '/movies/the-first-avenger.jpg', hero: 'Captain America', trailerId: 'JerVrbLldXw', description: 'Steve Rogers is transformed into Captain America to battle Red Skull and HYDRA.' },
-  { id: 'av1', title: 'The Avengers', year: 2012, phase: 'Phase 1', poster: '/movies/the-avengers.jpg', hero: 'Avengers', trailerId: 'eOrNdBpGMv8', description: 'Earth’s Mightiest Heroes team up to stop Loki and his alien army from invading Earth.' },
-  { id: 'im3', title: 'Iron Man 3', year: 2013, phase: 'Phase 2', poster: '/movies/iron-man-3.jpg', hero: 'Iron Man', trailerId: 'Ke1Y3P9D0Bc', description: 'Tony Stark confronts the enigmatic Mandarin and uncovers the Extremis conspiracy.' },
-  { id: 'thor2', title: 'Thor: The Dark World', year: 2013, phase: 'Phase 2', poster: '/movies/the-dark-world.jpg', hero: 'Thor', trailerId: 'npvJ9FTgZbM', description: 'Thor embarks on a perilous journey to defeat Malekith and the Dark Elves.' },
-  { id: 'ca2', title: 'Captain America: The Winter Soldier', year: 2014, phase: 'Phase 2', poster: '/movies/the-winter-soldier.jpg', hero: 'Captain America', trailerId: '7SlILk2WMTI', description: 'Steve Rogers teams with Black Widow and Falcon to uncover a conspiracy inside S.H.I.E.L.D.' },
-  { id: 'gotg1', title: 'Guardians of the Galaxy', year: 2014, phase: 'Phase 2', poster: '/movies/guardians-of-the-galaxy.jpg', hero: 'Guardians', trailerId: 'd96cjJhvlMA', description: 'A ragtag band of galactic outlaws must unite to stop Ronan from destroying Xandar.' },
-  { id: 'av2', title: 'Avengers: Age of Ultron', year: 2015, phase: 'Phase 2', poster: '/movies/age-of-ultron.jpg', hero: 'Avengers', trailerId: 'tmeOjFno6Do', description: 'The Avengers battle Ultron, a rogue AI hellbent on human extinction.' },
-  { id: 'ant1', title: 'Ant-Man', year: 2015, phase: 'Phase 2', poster: '/movies/ant-man.jpg', hero: 'Ant-Man', trailerId: 'pWdKf3MneyI', description: 'Master thief Scott Lang dons the Ant-Man suit to stage a high-stakes heist.' },
-  { id: 'ca3', title: 'Captain America: Civil War', year: 2016, phase: 'Phase 3', poster: '/movies/civil-war.jpg', hero: 'Avengers', trailerId: 'dKrVegVI0Us', description: 'Political pressure splinters the Avengers into opposing factions led by Cap and Iron Man.' },
-  { id: 'ds1', title: 'Doctor Strange', year: 2016, phase: 'Phase 3', poster: '/movies/dr-strange.jpg', hero: 'Doctor Strange', trailerId: 'HSzx-zryEgM', description: 'A neurosurgeon unlocks the Mystic Arts after a devastating car crash.' },
-  { id: 'gotg2', title: 'Guardians of the Galaxy Vol. 2', year: 2017, phase: 'Phase 3', poster: '/movies/guardians-of-the-galaxy-2.jpg', hero: 'Guardians', trailerId: 'dW1BIid8Osg', description: 'The Guardians unravel the mystery of Peter Quill’s true celestial parentage.' },
-  { id: 'sp1', title: 'Spider-Man: Homecoming', year: 2017, phase: 'Phase 3', poster: '/movies/spiderman-homecoming.jpg', hero: 'Spider-Man', trailerId: '39udgGPyYMg', description: 'Peter Parker navigates high school life while fighting the sinister Vulture.' },
-  { id: 'thor3', title: 'Thor: Ragnarok', year: 2017, phase: 'Phase 3', poster: '/movies/ragnarok.jpg', hero: 'Thor', trailerId: 'ue80QwXMRHg', description: 'Imprisoned on Sakaar, Thor must race against time to prevent Hela from destroying Asgard.' },
-  { id: 'bp1', title: 'Black Panther', year: 2018, phase: 'Phase 3', poster: '/movies/black-panther.jpg', hero: 'Black Panther', trailerId: 'xjDjIWPwcPU', description: 'T’Challa ascends as King of Wakanda and faces a fierce challenge from Killmonger.' },
-  { id: 'av3', title: 'Avengers: Infinity War', year: 2018, phase: 'Phase 3', poster: '/movies/infinity-war.jpg', hero: 'Avengers', trailerId: '6ZfuNTqbG8Y', description: 'The Avengers and Guardians unite in a desperate bid to stop Thanos from collecting all six Infinity Stones.' },
-  { id: 'ant2', title: 'Ant-Man and the Wasp', year: 2018, phase: 'Phase 3', poster: '/movies/ant-man-and-the-wasp.jpg', hero: 'Ant-Man', trailerId: '8_rTIAOohas', description: 'Scott Lang and Hope van Dyne venture into the Quantum Realm.' },
-  { id: 'cm1', title: 'Captain Marvel', year: 2019, phase: 'Phase 3', poster: '/movies/captain-marvel.jpg', hero: 'Captain Marvel', trailerId: 'Z1BCujX3pw8', description: 'Carol Danvers uncovers her past and becomes one of the universe’s most powerful champions.' },
-  { id: 'av4', title: 'Avengers: Endgame', year: 2019, phase: 'Phase 3', poster: '/movies/endgame.jpg', hero: 'Avengers', trailerId: 'TcMBFSGVi1c', description: 'The surviving Avengers execute a temporal heist to reverse Thanos’ catastrophic snap.' },
-  { id: 'sp2', title: 'Spider-Man: Far From Home', year: 2019, phase: 'Phase 3', poster: '/movies/far-from-home.jpg', hero: 'Spider-Man', trailerId: 'DYYtuKyMtY8', description: 'Peter Parker faces new elemental threats and Mysterio on a European school trip.' },
-  { id: 'bw1', title: 'Black Widow', year: 2021, phase: 'Phase 4', poster: '/movies/black-widow.jpg', hero: 'Black Widow', trailerId: 'ybji16u608U', description: 'Natasha Romanoff confronts the darkest parts of her ledger and the Red Room.' },
-  { id: 'sc1', title: 'Shang-Chi and the Legend of the Ten Rings', year: 2021, phase: 'Phase 4', poster: '/movies/shang-chi.jpg', hero: 'Shang-Chi', trailerId: '8YjFbMbfXaQ', description: 'Shang-Chi confronts his past and the clandestine Ten Rings organization.' },
-  { id: 'sp3', title: 'Spider-Man: No Way Home', year: 2021, phase: 'Phase 4', poster: '/movies/no-way-home.jpg', hero: 'Spider-Man', trailerId: 'JfVOs4VSpmA', description: 'Multiversal villains arrive in Peter Parker’s world after a spell goes awry.' },
-  { id: 'dp3', title: 'Deadpool & Wolverine', year: 2024, phase: 'Phase 5', poster: '/movies/deadpool-&-wolverine.jpg', hero: 'Deadpool', trailerId: '73_1biulkYk', description: 'Deadpool joins forces with a reluctant Wolverine to save the Multiverse.' }
+  {
+    "id": "im1",
+    "title": "Iron Man",
+    "year": 2008,
+    "phase": "Phase 1",
+    "poster": "/iron-man.png",
+    "hero": "Iron Man",
+    "trailerId": "8ugaeA-nMTc",
+    "description": "Tony Stark builds an armored suit and becomes the superhero Iron Man."
+  },
+  {
+    "id": "hulk08",
+    "title": "The Incredible Hulk",
+    "year": 2008,
+    "phase": "Phase 1",
+    "poster": "/hulk.png",
+    "hero": "Hulk",
+    "trailerId": "xbqNb2PFKKA",
+    "description": "Bruce Banner desperately seeks a cure for the gamma radiation that fuels the Hulk."
+  },
+  {
+    "id": "im2",
+    "title": "Iron Man 2",
+    "year": 2010,
+    "phase": "Phase 1",
+    "poster": "/iron-man.png",
+    "hero": "Iron Man",
+    "trailerId": "wKtcmiifycU",
+    "description": "Tony Stark faces pressure from the government and a vengeful Ivan Vanko."
+  },
+  {
+    "id": "thor1",
+    "title": "Thor",
+    "year": 2011,
+    "phase": "Phase 1",
+    "poster": "/thor.png",
+    "hero": "Thor",
+    "trailerId": "JOddp-nlNvQ",
+    "description": "The arrogant God of Thunder is cast out of Asgard to live among humans on Earth."
+  },
+  {
+    "id": "ca1",
+    "title": "Captain America: The First Avenger",
+    "year": 2011,
+    "phase": "Phase 1",
+    "poster": "/captain-america.png",
+    "hero": "Captain America",
+    "trailerId": "JerVrbLldXw",
+    "description": "Steve Rogers is transformed into Captain America to battle Red Skull and HYDRA."
+  },
+  {
+    "id": "av1",
+    "title": "The Avengers",
+    "year": 2012,
+    "phase": "Phase 1",
+    "poster": "/marvel.png",
+    "hero": "Avengers",
+    "trailerId": "eOrNdBpGMv8",
+    "description": "Earth’s Mightiest Heroes team up to stop Loki and his alien army from invading Earth."
+  },
+  {
+    "id": "im3",
+    "title": "Iron Man 3",
+    "year": 2013,
+    "phase": "Phase 2",
+    "poster": "/iron-man.png",
+    "hero": "Iron Man",
+    "trailerId": "Ke1Y3P9D0Bc",
+    "description": "Tony Stark confronts the enigmatic Mandarin and uncovers the Extremis conspiracy."
+  },
+  {
+    "id": "thor2",
+    "title": "Thor: The Dark World",
+    "year": 2013,
+    "phase": "Phase 2",
+    "poster": "/thor.png",
+    "hero": "Thor",
+    "trailerId": "npvJ9FTgZbM",
+    "description": "Thor embarks on a perilous journey to defeat Malekith and the Dark Elves."
+  },
+  {
+    "id": "ca2",
+    "title": "Captain America: The Winter Soldier",
+    "year": 2014,
+    "phase": "Phase 2",
+    "poster": "/winter-soldier.png",
+    "hero": "Captain America",
+    "trailerId": "7SlILk2WMTI",
+    "description": "Steve Rogers teams with Black Widow and Falcon to uncover a conspiracy inside S.H.I.E.L.D."
+  },
+  {
+    "id": "gotg1",
+    "title": "Guardians of the Galaxy",
+    "year": 2014,
+    "phase": "Phase 2",
+    "poster": "/star-lord.png",
+    "hero": "Guardians",
+    "trailerId": "d96cjJhvlMA",
+    "description": "A ragtag band of galactic outlaws must unite to stop Ronan from destroying Xandar."
+  },
+  {
+    "id": "av2",
+    "title": "Avengers: Age of Ultron",
+    "year": 2015,
+    "phase": "Phase 2",
+    "poster": "/ultron.png",
+    "hero": "Avengers",
+    "trailerId": "tmeOjFno6Do",
+    "description": "The Avengers battle Ultron, a rogue AI hellbent on human extinction."
+  },
+  {
+    "id": "ant1",
+    "title": "Ant-Man",
+    "year": 2015,
+    "phase": "Phase 2",
+    "poster": "/ant-man.png",
+    "hero": "Ant-Man",
+    "trailerId": "pWdKf3MneyI",
+    "description": "Master thief Scott Lang dons the Ant-Man suit to stage a high-stakes heist."
+  },
+  {
+    "id": "ca3",
+    "title": "Captain America: Civil War",
+    "year": 2016,
+    "phase": "Phase 3",
+    "poster": "/captain-america.png",
+    "hero": "Avengers",
+    "trailerId": "dKrVegVI0Us",
+    "description": "Political pressure splinters the Avengers into opposing factions led by Cap and Iron Man."
+  },
+  {
+    "id": "ds1",
+    "title": "Doctor Strange",
+    "year": 2016,
+    "phase": "Phase 3",
+    "poster": "/dr-strange.png",
+    "hero": "Doctor Strange",
+    "trailerId": "HSzx-zryEgM",
+    "description": "A neurosurgeon unlocks the Mystic Arts after a devastating car crash."
+  },
+  {
+    "id": "gotg2",
+    "title": "Guardians of the Galaxy Vol. 2",
+    "year": 2017,
+    "phase": "Phase 3",
+    "poster": "/gamora.png",
+    "hero": "Guardians",
+    "trailerId": "dW1BIid8Osg",
+    "description": "The Guardians unravel the mystery of Peter Quill’s true celestial parentage."
+  },
+  {
+    "id": "sp1",
+    "title": "Spider-Man: Homecoming",
+    "year": 2017,
+    "phase": "Phase 3",
+    "poster": "/spiderman.png",
+    "hero": "Spider-Man",
+    "trailerId": "39udgGPyYMg",
+    "description": "Peter Parker navigates high school life while fighting the sinister Vulture."
+  },
+  {
+    "id": "thor3",
+    "title": "Thor: Ragnarok",
+    "year": 2017,
+    "phase": "Phase 3",
+    "poster": "/hela.png",
+    "hero": "Thor",
+    "trailerId": "ue80QwXMRHg",
+    "description": "Imprisoned on Sakaar, Thor must race against time to prevent Hela from destroying Asgard."
+  },
+  {
+    "id": "bp1",
+    "title": "Black Panther",
+    "year": 2018,
+    "phase": "Phase 3",
+    "poster": "/black-panther.png",
+    "hero": "Black Panther",
+    "trailerId": "xjDjIWPwcPU",
+    "description": "T’Challa ascends as King of Wakanda and faces a fierce challenge from Killmonger."
+  },
+  {
+    "id": "av3",
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "phase": "Phase 3",
+    "poster": "/thanos.png",
+    "hero": "Avengers",
+    "trailerId": "6ZfuNTqbG8Y",
+    "description": "The Avengers and Guardians unite in a desperate bid to stop Thanos from collecting all six Infinity Stones."
+  },
+  {
+    "id": "ant2",
+    "title": "Ant-Man and the Wasp",
+    "year": 2018,
+    "phase": "Phase 3",
+    "poster": "/wasp.png",
+    "hero": "Ant-Man",
+    "trailerId": "8_rTIAOohas",
+    "description": "Scott Lang and Hope van Dyne venture into the Quantum Realm to rescue Janet."
+  },
+  {
+    "id": "cm1",
+    "title": "Captain Marvel",
+    "year": 2019,
+    "phase": "Phase 3",
+    "poster": "/captain-marvel.png",
+    "hero": "Captain Marvel",
+    "trailerId": "Z1BCujX3pw8",
+    "description": "Carol Danvers uncovers her past and becomes one of the universe’s most powerful champions."
+  },
+  {
+    "id": "av4",
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "phase": "Phase 3",
+    "poster": "/marvel.png",
+    "hero": "Avengers",
+    "trailerId": "TcMBFSGVi1c",
+    "description": "The surviving Avengers execute a temporal heist to reverse Thanos’ catastrophic snap."
+  },
+  {
+    "id": "sp2",
+    "title": "Spider-Man: Far From Home",
+    "year": 2019,
+    "phase": "Phase 3",
+    "poster": "/mysterio.png",
+    "hero": "Spider-Man",
+    "trailerId": "DYYtuKyMtY8",
+    "description": "Peter Parker faces new elemental threats and Mysterio on a European school trip."
+  },
+  {
+    "id": "bw1",
+    "title": "Black Widow",
+    "year": 2021,
+    "phase": "Phase 4",
+    "poster": "/black-widow.png",
+    "hero": "Black Widow",
+    "trailerId": "ybji16u608U",
+    "description": "Natasha Romanoff confronts the darkest parts of her ledger and the Red Room."
+  },
+  {
+    "id": "sc1",
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "year": 2021,
+    "phase": "Phase 4",
+    "poster": "/shang-chi.png",
+    "hero": "Shang-Chi",
+    "trailerId": "8YjFbMbfXaQ",
+    "description": "Shang-Chi confronts his past and the clandestine Ten Rings organization."
+  },
+  {
+    "id": "et1",
+    "title": "Eternals",
+    "year": 2021,
+    "phase": "Phase 4",
+    "poster": "/ikaris.png",
+    "hero": "Eternals",
+    "trailerId": "x_me3xsvDgk",
+    "description": "Ancient immortal beings emerge from hiding to protect Earth from the Deviants."
+  },
+  {
+    "id": "sp3",
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "phase": "Phase 4",
+    "poster": "/spiderman.png",
+    "hero": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "description": "Multiversal villains arrive in Peter Parker’s world after a spell goes awry."
+  },
+  {
+    "id": "ds2",
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "year": 2022,
+    "phase": "Phase 4",
+    "poster": "/scarlet-witch.png",
+    "hero": "Doctor Strange",
+    "trailerId": "aWzlQ2N6qqg",
+    "description": "Doctor Strange navigates dangerous alternate realities alongside America Chavez."
+  },
+  {
+    "id": "thor4",
+    "title": "Thor: Love and Thunder",
+    "year": 2022,
+    "phase": "Phase 4",
+    "poster": "/mighty-thor.png",
+    "hero": "Thor",
+    "trailerId": "Go8nTmfrQd8",
+    "description": "Thor teams with Mighty Thor (Jane Foster) and Valkyrie to battle Gorr the God Butcher."
+  },
+  {
+    "id": "bp2",
+    "title": "Black Panther: Wakanda Forever",
+    "year": 2022,
+    "phase": "Phase 4",
+    "poster": "/shuri.png",
+    "hero": "Black Panther",
+    "trailerId": "_Z3QKkl1WyM",
+    "description": "Wakanda defends its vibranium kingdom against Namor and the undersea empire of Talokan."
+  },
+  {
+    "id": "ant3",
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "year": 2023,
+    "phase": "Phase 5",
+    "poster": "/kang.png",
+    "hero": "Ant-Man",
+    "trailerId": "ZlNFpri-Y40",
+    "description": "Scott Lang and his family explore the Quantum Realm and face Kang the Conqueror."
+  },
+  {
+    "id": "gotg3",
+    "title": "Guardians of the Galaxy Vol. 3",
+    "year": 2023,
+    "phase": "Phase 5",
+    "poster": "/rocket.png",
+    "hero": "Guardians",
+    "trailerId": "u3V5KDHRQvk",
+    "description": "The Guardians embark on a mission to defend Rocket Raccoon and face the High Evolutionary."
+  },
+  {
+    "id": "marv2",
+    "title": "The Marvels",
+    "year": 2023,
+    "phase": "Phase 5",
+    "poster": "/ms-marvel.png",
+    "hero": "Captain Marvel",
+    "trailerId": "wS_qbD028EI",
+    "description": "Carol Danvers, Monica Rambeau, and Kamala Khan find their light-based powers entangled."
+  },
+  {
+    "id": "dp3",
+    "title": "Deadpool & Wolverine",
+    "year": 2024,
+    "phase": "Phase 5",
+    "poster": "/deadpool.png",
+    "hero": "Deadpool",
+    "trailerId": "73_1biulkYk",
+    "description": "Deadpool joins forces with a reluctant Wolverine to save the Multiverse from Cassandra Nova."
+  },
+  {
+    "id": "ca4",
+    "title": "Captain America: Brave New World",
+    "year": 2025,
+    "phase": "Phase 5",
+    "poster": "/falcon.png",
+    "hero": "Captain America",
+    "trailerId": "1pHDWnXmK7Y",
+    "description": "Sam Wilson investigates an international conspiracy involving President Ross (Red Hulk)."
+  },
+  {
+    "id": "tb1",
+    "title": "Thunderbolts*",
+    "year": 2025,
+    "phase": "Phase 5",
+    "poster": "/yelena-belova.png",
+    "hero": "Thunderbolts",
+    "trailerId": "v-b3q9kLwY8",
+    "description": "An irreverent team of antiheroes and assassins are sent on dangerous black-ops missions."
+  },
+  {
+    "id": "ff1",
+    "title": "The Fantastic Four: First Steps",
+    "year": 2025,
+    "phase": "Phase 6",
+    "poster": "/mister-fantastic.png",
+    "hero": "Fantastic Four",
+    "trailerId": "cz3p7fH4S7A",
+    "description": "Marvel’s First Family navigates a vibrant 1960s retro-futuristic world and battles Galactus."
+  },
+  {
+    "id": "bld1",
+    "title": "Blade: The Daywalker",
+    "year": 2025,
+    "phase": "Phase 6",
+    "poster": "/blade.png",
+    "hero": "Blade",
+    "trailerId": "0vf6Y_gqUuQ",
+    "description": "The half-mortal, half-immortal Daywalker stalks the supernatural underworld of vampires."
+  },
+  {
+    "id": "sp4",
+    "title": "Spider-Man: Brand New Day",
+    "year": 2026,
+    "phase": "Phase 6",
+    "poster": "/spiderman.png",
+    "hero": "Spider-Man",
+    "trailerId": "JfVOs4VSpmA",
+    "description": "Peter Parker navigates a clean slate street-level crusade against Kingpin alongside Daredevil."
+  },
+  {
+    "id": "av5",
+    "title": "Avengers: Doomsday",
+    "year": 2026,
+    "phase": "Phase 6",
+    "poster": "/doom-2099.png",
+    "hero": "Avengers",
+    "trailerId": "TcMBFSGVi1c",
+    "description": "Earth’s Mightiest Heroes confront the supreme sorcery and technological dominance of Doctor Doom."
+  },
+  {
+    "id": "aw1",
+    "title": "Armor Wars",
+    "year": 2026,
+    "phase": "Phase 6",
+    "poster": "/war-machine.png",
+    "hero": "War Machine",
+    "trailerId": "8ugaeA-nMTc",
+    "description": "James Rhodes must track down stolen Stark technology before rogue regimes weaponize it."
+  },
+  {
+    "id": "av6",
+    "title": "Avengers: Secret Wars",
+    "year": 2027,
+    "phase": "Phase 6",
+    "poster": "/marvel.png",
+    "hero": "Avengers",
+    "trailerId": "6ZfuNTqbG8Y",
+    "description": "The entire Multiverse collapses into Battleworld for the ultimate cosmic war of survival."
+  },
+  {
+    "id": "xm1",
+    "title": "X-Men: Mutants Uncanny",
+    "year": 2028,
+    "phase": "Phase 7",
+    "poster": "/cyclops.png",
+    "hero": "X-Men",
+    "trailerId": "Vn9msyQ1wO0",
+    "description": "Professor Xavier guides the newly assembled X-Men to defend a world that fears and hates them."
+  },
+  {
+    "id": "wvx",
+    "title": "Wolverine vs. Hulk: Weapon X",
+    "year": 2028,
+    "phase": "Phase 7",
+    "poster": "/wolverine.png",
+    "hero": "Wolverine",
+    "trailerId": "73_1biulkYk",
+    "description": "Logan’s Weapon X origins collide with the unstoppable rampaging fury of Bruce Banner’s Hulk."
+  },
+  {
+    "id": "dp4",
+    "title": "Deadpool 4: Mercs for Money",
+    "year": 2028,
+    "phase": "Phase 7",
+    "poster": "/deadpool.png",
+    "hero": "Deadpool",
+    "trailerId": "I0_cZ6jXpYs",
+    "description": "Wade Wilson launches his own ragtag mercenary syndicate for chaotic multiversal contracts."
+  },
+  {
+    "id": "ms1",
+    "title": "Midnight Sons: Damnation",
+    "year": 2029,
+    "phase": "Phase 7",
+    "poster": "/ghost-rider.png",
+    "hero": "Midnight Sons",
+    "trailerId": "aWzlQ2N6qqg",
+    "description": "Moon Knight, Blade, Ghost Rider, and Elsa Bloodstone unite to purge demonic underworld incursions."
+  },
+  {
+    "id": "mg1",
+    "title": "Magneto: House of M",
+    "year": 2029,
+    "phase": "Phase 7",
+    "poster": "/magneto.png",
+    "hero": "Magneto",
+    "trailerId": "u3v8aN34240",
+    "description": "Erik Lehnsherr establishes the sovereign mutant sanctuary of Genosha for mutantkind."
+  },
+  {
+    "id": "cab1",
+    "title": "Captain America & Bucky: New Order",
+    "year": 2029,
+    "phase": "Phase 7",
+    "poster": "/bucky-cap.png",
+    "hero": "Captain America",
+    "trailerId": "JerVrbLldXw",
+    "description": "Sam Wilson and Bucky Barnes combat global subterranean terror syndicates and Leviathan."
+  },
+  {
+    "id": "nv1",
+    "title": "Nova: Centurion of Xandar",
+    "year": 2030,
+    "phase": "Phase 8",
+    "poster": "/nova-richard.png",
+    "hero": "Nova",
+    "trailerId": "d96cjJhvlMA",
+    "description": "Richard Rider is imbued with the full Nova Force of the dying world of Xandar."
+  },
+  {
+    "id": "ss1",
+    "title": "Silver Surfer & Galactus: Herald of Doom",
+    "year": 2030,
+    "phase": "Phase 8",
+    "poster": "/silver-surfer.png",
+    "hero": "Silver Surfer",
+    "trailerId": "dW1BIid8Osg",
+    "description": "Norrin Radd traverses alien starways to save civilizations from the cosmic hunger of Galactus."
+  },
+  {
+    "id": "th5",
+    "title": "Thor: King of Asgard",
+    "year": 2031,
+    "phase": "Phase 8",
+    "poster": "/king-thor.png",
+    "hero": "Thor",
+    "trailerId": "JOddp-nlNvQ",
+    "description": "King Thor wields the full Odinforce to protect the Nine Realms from the primordial Midgard Serpent."
+  },
+  {
+    "id": "gotg4",
+    "title": "Guardians of the Galaxy: Annihilators",
+    "year": 2031,
+    "phase": "Phase 8",
+    "poster": "/quill-star-lord.png",
+    "hero": "Guardians",
+    "trailerId": "npvJ9FTgZbM",
+    "description": "Beta Ray Bill, Gladiator, Quasar, and Ronan form a galactic powerhouse strike force."
+  },
+  {
+    "id": "anh1",
+    "title": "Annihilation: Wave of Extinction",
+    "year": 2031,
+    "phase": "Phase 8",
+    "poster": "/annihilus.png",
+    "hero": "Cosmic Marvel",
+    "trailerId": "6ZfuNTqbG8Y",
+    "description": "The Arthrosian horde of Annihilus bursts from the Negative Zone to devour the known galaxy."
+  },
+  {
+    "id": "cmb1",
+    "title": "Captain Marvel: Binary Ascendant",
+    "year": 2032,
+    "phase": "Phase 8",
+    "poster": "/binary.png",
+    "hero": "Captain Marvel",
+    "trailerId": "Z1BCujX3pw8",
+    "description": "Carol Danvers unleashes her white-hole Binary transformation to defend the Shi’ar Throne."
+  },
+  {
+    "id": "ya1",
+    "title": "Young Avengers: Children's Crusade",
+    "year": 2032,
+    "phase": "Phase 9",
+    "poster": "/wiccan.png",
+    "hero": "Young Avengers",
+    "trailerId": "eOrNdBpGMv8",
+    "description": "Wiccan, Speed, Patriot, and Kate Bishop embark on a desperate journey to find Scarlet Witch."
+  },
+  {
+    "id": "ddsp",
+    "title": "Daredevil & Spider-Man: Shadowland",
+    "year": 2032,
+    "phase": "Phase 9",
+    "poster": "/daredevil.png",
+    "hero": "Daredevil",
+    "trailerId": "DYYtuKyMtY8",
+    "description": "Matt Murdock and Peter Parker battle Wilson Fisk’s corrupt martial grip over New York City."
+  },
+  {
+    "id": "chm1",
+    "title": "Champions: Outlawed Generation",
+    "year": 2033,
+    "phase": "Phase 9",
+    "poster": "/ms-marvel.png",
+    "hero": "Champions",
+    "trailerId": "8YjFbMbfXaQ",
+    "description": "Ms. Marvel, Miles Morales, Nova, and Viv Vision challenge draconian teen hero legislation."
+  },
+  {
+    "id": "gr1",
+    "title": "Ghost Rider: Spirits of Vengeance",
+    "year": 2033,
+    "phase": "Phase 9",
+    "poster": "/ghost-rider-robbie.png",
+    "hero": "Ghost Rider",
+    "trailerId": "aWzlQ2N6qqg",
+    "description": "Robbie Reyes, Johnny Blaze, and Danny Ketch ride together against Mephisto’s hell lords."
+  },
+  {
+    "id": "wwh1",
+    "title": "World War Hulk: Gamma War",
+    "year": 2033,
+    "phase": "Phase 9",
+    "poster": "/hulk.png",
+    "hero": "Hulk",
+    "trailerId": "xbqNb2PFKKA",
+    "description": "The Green Scar Hulk leads his Warbound armada to Earth to hold planetary leaders accountable."
+  },
+  {
+    "id": "ds3",
+    "title": "Doctor Strange: Triumph and Torment",
+    "year": 2034,
+    "phase": "Phase 9",
+    "poster": "/dr-strange.png",
+    "hero": "Doctor Strange",
+    "trailerId": "HSzx-zryEgM",
+    "description": "Doctor Strange and Doctor Doom descend into Mephisto’s realm to save Cynthia von Doom’s soul."
+  },
+  {
+    "id": "avx1",
+    "title": "Avengers vs. X-Men: Phoenix Reborn",
+    "year": 2034,
+    "phase": "Phase 10",
+    "poster": "/phoenix-force.png",
+    "hero": "Avengers & X-Men",
+    "trailerId": "TcMBFSGVi1c",
+    "description": "The cosmic Phoenix Force returns to Earth, igniting an all-out philosophical war of titans."
+  },
+  {
+    "id": "ddm1",
+    "title": "Doctor Doom: Emperor of Battleworld",
+    "year": 2035,
+    "phase": "Phase 10",
+    "poster": "/doom-2099.png",
+    "hero": "Doctor Doom",
+    "trailerId": "Ke1Y3P9D0Bc",
+    "description": "God Emperor Doom rules over the fragmented remnants of all shattered realities."
+  },
+  {
+    "id": "lt1",
+    "title": "The Living Tribunal: Cosmic Balance",
+    "year": 2035,
+    "phase": "Phase 10",
+    "poster": "/living-tribunal.png",
+    "hero": "Cosmic Abstracts",
+    "trailerId": "6ZfuNTqbG8Y",
+    "description": "The supreme overseer of universal balance arbitrates the rebirth of the Omniverse."
+  },
+  {
+    "id": "spv1",
+    "title": "Spider-Verse: Web of Destiny",
+    "year": 2035,
+    "phase": "Phase 10",
+    "poster": "/spider-man-2099.png",
+    "hero": "Spider-Army",
+    "trailerId": "cqGjhVJWtEg",
+    "description": "Every Spider-Totem from 1,000 dimensions unites to mend the Great Web of Life and Destiny."
+  },
+  {
+    "id": "ave1",
+    "title": "Avengers: Eternity Forever",
+    "year": 2036,
+    "phase": "Phase 10",
+    "poster": "/eternity.png",
+    "hero": "Avengers",
+    "trailerId": "tmeOjFno6Do",
+    "description": "The ultimate culmination of all generations of Earth’s Mightiest Heroes across all time."
+  },
+  {
+    "id": "ff2",
+    "title": "Fantastic Four: Council of Reeds",
+    "year": 2036,
+    "phase": "Phase 10",
+    "poster": "/mister-fantastic.png",
+    "hero": "Fantastic Four",
+    "trailerId": "cz3p7fH4S7A",
+    "description": "Reed Richards joins the interdimensional Council of Reeds to solve everything in the cosmos."
+  }
 ];
 
 export const movieTrailers = mcuMoviesCatalog.reduce((acc, movie) => {
