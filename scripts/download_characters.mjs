@@ -1,5 +1,15 @@
+/**
+ * Marvel Wikia Character Image Downloader
+ * Fetches character artwork from Marvel Fandom API and saves directly to frontend/public.
+ */
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const ROOT_DIR = path.resolve(__dirname, '..');
+const PUBLIC_DIR = path.resolve(ROOT_DIR, 'frontend/public');
 
 const characters = [
   { file: 'silk.png', queries: ['Cindy Moon (Earth-616)', 'Silk'] },
@@ -119,10 +129,21 @@ async function getImage(title) {
 }
 
 async function run() {
-  console.log('Starting download of ' + characters.length + ' characters...');
+  if (!fs.existsSync(PUBLIC_DIR)) {
+    fs.mkdirSync(PUBLIC_DIR, { recursive: true });
+  }
+
+  console.log(`Starting download of ${characters.length} characters to ${PUBLIC_DIR}...`);
   let successCount = 0;
   for (let i = 0; i < characters.length; i++) {
     const c = characters[i];
+    const targetFile = path.join(PUBLIC_DIR, c.file);
+    if (fs.existsSync(targetFile)) {
+      console.log(`[${i + 1}/${characters.length}] Exists: ${c.file}`);
+      successCount++;
+      continue;
+    }
+
     let found = null;
     for (const q of c.queries) {
       found = await getImage(q);
@@ -147,16 +168,17 @@ async function run() {
       try {
         const imgRes = await fetch(found);
         const buffer = await imgRes.arrayBuffer();
-        fs.writeFileSync(path.join('public', c.file), Buffer.from(buffer));
+        fs.writeFileSync(targetFile, Buffer.from(buffer));
         successCount++;
-        console.log('[' + (i + 1) + '/' + characters.length + '] Saved public/' + c.file + ' (' + buffer.byteLength + ' bytes)');
+        console.log(`[${i + 1}/${characters.length}] Saved ${c.file} (${buffer.byteLength} bytes)`);
       } catch (e) {
-        console.error('Error saving ' + c.file, e);
+        console.error(`Error saving ${c.file}:`, e);
       }
     } else {
-      console.log('[' + (i + 1) + '/' + characters.length + '] NOT FOUND: ' + c.file);
+      console.log(`[${i + 1}/${characters.length}] NOT FOUND: ${c.file}`);
     }
   }
-  console.log('Finished: ' + successCount + '/' + characters.length + ' images saved.');
+  console.log(`\nFinished: ${successCount}/${characters.length} images saved.`);
 }
+
 run();

@@ -1,5 +1,10 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const ROOT_DIR = path.resolve(__dirname, '..');
 
 export const newCharacters = [
   // 1. Spider-Verse & Rogues (15)
@@ -1231,8 +1236,8 @@ export const newCharacters = [
 
 // Helper to update files
 export async function applyAll() {
-  const charactersFile = path.resolve('src/assets/characters.js');
-  const timelineFile = path.resolve('src/assets/timelineData.js');
+  const charactersFile = path.resolve(ROOT_DIR, 'frontend/src/assets/characters.js');
+  const timelineFile = path.resolve(ROOT_DIR, 'frontend/src/assets/timelineData.js');
 
   // Read characters.js
   let charContent = fs.readFileSync(charactersFile, 'utf8');

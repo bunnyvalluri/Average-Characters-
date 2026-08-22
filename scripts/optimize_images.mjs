@@ -1,10 +1,33 @@
-// optimize_images.mjs
+/**
+ * Image Optimization Pipeline
+ * Compresses and resizes character PNGs and movie posters for high-performance delivery.
+ */
 import fs from 'fs';
 import path from 'path';
-import sharp from './frontend/node_modules/sharp/dist/index.mjs';
+import { fileURLToPath } from 'url';
 
-const PUBLIC_DIR = path.resolve('frontend/public');
-const MOVIES_DIR = path.resolve('frontend/public/movies');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const ROOT_DIR = path.resolve(__dirname, '..');
+
+// Dynamic import of sharp from frontend dependencies
+const sharpModulePath = path.resolve(ROOT_DIR, 'frontend/node_modules/sharp/dist/index.mjs');
+let sharp;
+try {
+  const mod = await import(`file://${sharpModulePath.replace(/\\/g, '/')}`);
+  sharp = mod.default || mod;
+} catch (e) {
+  try {
+    const mod = await import('sharp');
+    sharp = mod.default || mod;
+  } catch (err) {
+    console.error('Error loading sharp module. Please run "npm install --prefix frontend":', err.message);
+    process.exit(1);
+  }
+}
+
+const PUBLIC_DIR = path.resolve(ROOT_DIR, 'frontend/public');
+const MOVIES_DIR = path.resolve(ROOT_DIR, 'frontend/public/movies');
 
 async function optimizeDirectory(dir, isMovie = false) {
   if (!fs.existsSync(dir)) return;

@@ -3,6 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "scripts": {
     "dev": "npm --prefix frontend run dev",
     "build": "npm --prefix frontend run build",
@@ -10,6 +14,9 @@
     "dev:frontend": "npm --prefix frontend run dev",
     "dev:backend": "npm --prefix backend run dev",
     "start:backend": "npm --prefix backend start",
-    "install:all": "npm install --prefix frontend && npm install --prefix backend"
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "optimize:images": "node scripts/optimize_images.mjs",
+    "download:characters": "node scripts/download_characters.mjs",
+    "apply:data": "node scripts/apply_character_data.mjs"
   }
 }
