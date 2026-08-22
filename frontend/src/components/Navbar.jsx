@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import { useColorTheme } from '../ColorThemeContext';
 import characters from '../assets/characters';
+import MarvelImage from './MarvelImage';
 
 const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -204,7 +205,7 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
           <div ref={searchContainerRef} className="relative font-sans">
             <form
               onSubmit={handleSearchSubmit}
-              className="flex items-center bg-black/80 hover:bg-black/95 focus-within:bg-black px-4 py-2 rounded-full border-2 border-white/40 focus-within:border-white focus-within:ring-2 focus-within:ring-white/30 transition-all duration-200 w-64 lg:w-80 shadow-2xl"
+              className="flex items-center bg-black/80 hover:bg-black/95 focus-within:bg-black px-3.5 py-2 rounded-full border-2 border-white/40 focus-within:border-white focus-within:ring-2 focus-within:ring-white/30 transition-all duration-300 w-60 md:w-72 lg:w-84 xl:w-96 shadow-2xl"
             >
               <svg className="w-4 h-4 text-white mr-2.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -212,7 +213,7 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
               <input
                 ref={searchInputRef}
                 type="text"
-                placeholder="Search 1000 Marvel Heroes (Ctrl+K)..."
+                placeholder="Search heroes or powers..."
                 value={searchTerm}
                 onChange={(e) => {
                   setSearchTerm(e.target.value);
@@ -220,16 +221,20 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
                 }}
                 onFocus={() => setIsSearchOpen(true)}
                 onKeyDown={handleSearchKeyDown}
-                className="w-full bg-transparent text-white placeholder-gray-200 font-medium outline-none text-xs sm:text-sm"
+                className="w-full bg-transparent text-white placeholder-gray-300 font-medium outline-none text-xs sm:text-sm min-w-0"
               />
-              {searchTerm && (
+              {searchTerm ? (
                 <button
                   type="button"
                   onClick={() => { setSearchTerm(''); searchInputRef.current?.focus(); }}
-                  className="text-gray-300 hover:text-white text-xs p-1 focus:outline-none cursor-pointer"
+                  className="text-gray-300 hover:text-white text-xs p-1 focus:outline-none cursor-pointer flex-shrink-0"
                 >
                   ✕
                 </button>
+              ) : (
+                <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-white/10 border border-white/20 text-[10px] text-gray-300 font-mono select-none flex-shrink-0">
+                  Ctrl K
+                </kbd>
               )}
             </form>
 
@@ -252,15 +257,13 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
                           isHighlighted ? 'bg-white/20' : 'hover:bg-white/10'
                         }`}
                       >
-                        <img
+                        <MarvelImage
                           src={char.photo}
                           alt={char.name}
-                          className="w-10 h-10 object-contain rounded-lg bg-black/50 p-0.5 border border-white/15 flex-shrink-0"
-                          onError={(e) => {
-                            if (e.target.src !== window.location.origin + '/marvel.png') {
-                              e.target.src = '/marvel.png';
-                            }
-                          }}
+                          priority={index < 3}
+                          className="w-full h-full object-contain"
+                          containerClassName="w-10 h-10 rounded-lg bg-black/50 p-0.5 border border-white/15 flex-shrink-0"
+                          skeletonClassName="rounded-lg"
                         />
                         <div className="flex flex-col min-w-0 flex-1">
                           <div className="flex items-center gap-2">
@@ -343,15 +346,12 @@ const Navbar = ({ onHomeClick, onTimelineClick, onMoviesClick, onSearchCharacter
                       onClick={() => selectCharacter(char.name)}
                       className="flex items-center gap-3 p-3 border-b border-white/10 hover:bg-white/10 cursor-pointer"
                     >
-                      <img
+                      <MarvelImage
                         src={char.photo}
                         alt={char.name}
-                        className="w-8 h-8 object-contain rounded bg-black/40"
-                        onError={(e) => {
-                          if (e.target.src !== window.location.origin + '/marvel.png') {
-                            e.target.src = '/marvel.png';
-                          }
-                        }}
+                        className="w-full h-full object-contain"
+                        containerClassName="w-8 h-8 rounded bg-black/40 flex-shrink-0"
+                        skeletonClassName="rounded"
                       />
                       <span className="text-white text-sm font-semibold truncate flex-1">{char.name}</span>
                       <span className="text-xs text-red-400 font-bold">▶ Trailer</span>

@@ -1,6 +1,7 @@
 // src/components/Timeline.jsx
 import React, { memo, useState, useEffect, useCallback } from 'react';
 import { moviePosters, characterMovieTimeline, movieEvents, movieTrailers } from '../assets/timelineData';
+import MarvelImage from './MarvelImage';
 
 const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamily, onPlayTrailer, defaultTrailerId }) => {
   const posterSrc = moviePosters[movie.title] || '/avengers.png';
@@ -21,12 +22,13 @@ const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamil
                   trailerId ? 'cursor-pointer' : ''
                 }`}
               >
-                <img
+                <MarvelImage
                   src={posterSrc}
                   alt={movie.title}
-                  loading="lazy"
-                  decoding="async"
+                  priority={index < 4}
                   className="w-24 sm:w-28 md:w-32 h-auto max-h-44 object-cover"
+                  containerClassName="w-24 sm:w-28 md:w-32 h-36 sm:h-40 md:h-44"
+                  skeletonClassName="rounded-xl"
                 />
                 {trailerId && (
                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
@@ -97,12 +99,13 @@ const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamil
                   trailerId ? 'cursor-pointer' : ''
                 }`}
               >
-                <img
+                <MarvelImage
                   src={posterSrc}
                   alt={movie.title}
-                  loading="lazy"
-                  decoding="async"
+                  priority={index < 4}
                   className="w-24 sm:w-28 md:w-32 h-auto max-h-44 object-cover"
+                  containerClassName="w-24 sm:w-28 md:w-32 h-36 sm:h-40 md:h-44"
+                  skeletonClassName="rounded-xl"
                 />
                 {trailerId && (
                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
@@ -172,12 +175,13 @@ const TimelineCard = memo(({ movie, isLeft, index, sectionType, color, fontFamil
             onClick={() => trailerId && onPlayTrailer(movie.title, trailerId)}
             className="relative flex-shrink-0 cursor-pointer"
           >
-            <img
+            <MarvelImage
               src={posterSrc}
               alt={movie.title}
-              loading="lazy"
-              decoding="async"
+              priority={index < 3}
               className="w-16 sm:w-20 h-auto max-h-28 object-cover rounded-lg shadow-md border border-white/20"
+              containerClassName="w-16 sm:w-20 h-24 sm:h-28"
+              skeletonClassName="rounded-lg"
             />
             {trailerId && (
               <span className="absolute bottom-1 right-1 bg-red-600 text-white p-1 rounded-full shadow">
@@ -270,15 +274,15 @@ const Timeline = ({ character }) => {
   return (
     <section
       id="timeline-section"
-      className="w-full flex justify-center py-10 sm:py-16 px-3 sm:px-6 md:px-10 scroll-mt-20"
+      className="w-full flex justify-center py-12 sm:py-16 px-3 sm:px-6 md:px-10 scroll-mt-20 z-10"
     >
-      <div className="w-full max-w-4xl relative">
+      <div className="w-full max-w-4xl bg-[#0d0d14]/95 border border-white/15 rounded-3xl p-5 sm:p-8 md:p-10 shadow-[0_15px_35px_rgba(0,0,0,0.6)] relative">
         {/* Section Header */}
         <div className="flex flex-col items-center justify-center mb-8 sm:mb-12 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-xs font-semibold text-gray-300 mb-3 backdrop-blur-md">
-            <span>Filmography Timeline</span>
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
-            <span>{totalAppearances} Total {totalAppearances === 1 ? 'Movie' : 'Movies'}</span>
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-xs font-semibold text-gray-300 mb-3 backdrop-blur-md">
+            <span>Filmography Timeline Archive</span>
+            <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+            <span>{totalAppearances} {totalAppearances === 1 ? 'Movie' : 'Cinematic Appearances'}</span>
           </div>
 
           <h2
@@ -287,8 +291,8 @@ const Timeline = ({ character }) => {
           >
             {character.name} Timeline
           </h2>
-          <p className="text-gray-300 text-xs sm:text-sm md:text-base mt-2 max-w-lg">
-            Chronological cinematic journey and key pivotal events across Marvel sagas. Click any movie or trailer button to stream trailer.
+          <p className="text-gray-300 text-xs sm:text-sm mt-2 max-w-lg leading-relaxed">
+            Chronological cinematic journey and pivotal franchise events. Click any movie card or trailer button to stream official trailers.
           </p>
         </div>
 
@@ -296,18 +300,18 @@ const Timeline = ({ character }) => {
         <div className="relative flex flex-col items-center w-full min-h-[120px]">
           {/* Vertical Central Line on Desktop */}
           <div
-            className="hidden md:block absolute left-1/2 top-0 -translate-x-1/2 h-full w-1 bg-gradient-to-b from-white/30 via-white/20 to-transparent z-0"
+            className="hidden md:block absolute left-1/2 top-4 bottom-4 -translate-x-1/2 w-0.5 bg-gradient-to-b from-white/40 via-white/25 to-transparent z-0"
           />
 
           {/* Vertical Line on Mobile */}
           <div
-            className="md:hidden absolute left-3.5 top-0 h-full w-0.5 bg-gradient-to-b from-white/30 via-white/20 to-transparent z-0"
+            className="md:hidden absolute left-3.5 top-4 bottom-4 w-0.5 bg-gradient-to-b from-white/40 via-white/25 to-transparent z-0"
           />
 
           {/* Before MCU Section */}
           {beforeMCUMovies.length > 0 && (
             <div className="w-full flex flex-col items-center mb-8">
-              <div className="px-4 py-1.5 rounded-full bg-zinc-800 border border-white/20 text-xs sm:text-sm font-bold text-gray-300 mb-8 uppercase tracking-wider shadow-lg">
+              <div className="px-4 py-1.5 rounded-full bg-zinc-800/90 border border-white/20 text-xs sm:text-sm font-bold text-gray-200 mb-8 uppercase tracking-wider shadow-lg backdrop-blur-md">
                 Classic Era / Pre-MCU Appearances
               </div>
               <div className="w-full">
@@ -358,7 +362,7 @@ const Timeline = ({ character }) => {
               </div>
             </div>
           ) : beforeMCUMovies.length === 0 ? (
-            <div className="bg-black/30 border border-white/10 rounded-2xl p-8 text-center text-sm sm:text-base text-gray-300 max-w-md my-4">
+            <div className="bg-black/40 border border-white/10 rounded-2xl p-8 text-center text-sm text-gray-300 max-w-md my-4 backdrop-blur-md">
               <p>No cinematic appearances recorded for this character yet.</p>
             </div>
           ) : null}

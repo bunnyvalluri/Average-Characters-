@@ -73,23 +73,62 @@ function Home() {
         <div ref={moviesRef} />
         <Movies />
       </main>
-      <footer className="w-full text-center py-6 px-4 text-xs sm:text-sm text-gray-300 bg-black/60 backdrop-blur-md border-t border-white/10 mt-12">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-gray-400">
-            Marvel Characters & Cinematic Universe Explorer
-          </p>
-          <p className="text-gray-400">
-            Created with passion by{' '}
-            <a
-              href="https://valluri-rahul-portfolio.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline text-white font-semibold hover:text-cyan-300 transition-colors"
+      <footer className="w-full py-8 px-4 text-xs sm:text-sm text-gray-300 bg-black/70 backdrop-blur-xl border-t border-white/10 mt-16 z-20">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <img src="/avengers.png" alt="Avengers" className="h-6 w-auto opacity-70" />
+            <span className="font-[Avengers] text-base font-bold text-white tracking-wider">
+              Marvel Universe Explorer
+            </span>
+            <span className="text-gray-500 text-xs hidden sm:inline-block">|</span>
+            <span className="text-xs text-gray-400 hidden sm:inline-block">1,000 Characters Archive</span>
+          </div>
+
+          <div className="flex items-center gap-4 text-xs">
+            <button
+              onClick={scrollToTop}
+              className="text-gray-300 hover:text-white transition-colors cursor-pointer"
             >
-              VALLURI RAHUL
-            </a>
-            {' '}• 2026
-          </p>
+              Top Stage
+            </button>
+            <button
+              onClick={scrollToTimeline}
+              className="text-gray-300 hover:text-white transition-colors cursor-pointer"
+            >
+              Film Timeline
+            </button>
+            <button
+              onClick={scrollToMovies}
+              className="text-gray-300 hover:text-white transition-colors cursor-pointer"
+            >
+              Movies Vault
+            </button>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <p className="text-gray-400 text-xs">
+              Developed by{' '}
+              <a
+                href="https://valluri-rahul-portfolio.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline text-white font-semibold hover:text-cyan-300 transition-colors"
+              >
+                VALLURI RAHUL
+              </a>
+              {' '}• 2026
+            </p>
+            <button
+              onClick={scrollToTop}
+              className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all active:scale-90 border border-white/15 cursor-pointer ml-2"
+              aria-label="Back to top"
+              title="Back to Top"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+              </svg>
+            </button>
+          </div>
         </div>
       </footer>
     </div>
@@ -137,7 +176,7 @@ function Landing() {
         muted={muted}
         playsInline
         webkit-playsinline="true"
-        preload="auto"
+        preload="metadata"
         controls={false}
         disablePictureInPicture
         disableRemotePlayback

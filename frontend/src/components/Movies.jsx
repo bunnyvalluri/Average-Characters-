@@ -2,6 +2,7 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { mcuMoviesCatalog } from '../assets/timelineData';
 import { useColorTheme } from '../ColorThemeContext';
+import MarvelImage from './MarvelImage';
 
 const PHASES = ['All', 'Phase 1', 'Phase 2', 'Phase 3', 'Phase 4', 'Phase 5', 'Phase 6', 'Phase 7', 'Phase 8', 'Phase 9', 'Phase 10'];
 
@@ -53,141 +54,145 @@ const Movies = () => {
   return (
     <section
       id="movies-section"
-      className="w-full flex flex-col items-center py-12 sm:py-16 px-4 sm:px-8 max-w-7xl mx-auto scroll-mt-20"
+      className="w-full flex flex-col items-center py-14 sm:py-20 px-3 sm:px-6 md:px-10 max-w-7xl mx-auto scroll-mt-20 z-10"
     >
-      {/* Section Header */}
-      <div className="text-center max-w-3xl mb-8">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-xs font-semibold text-gray-300 mb-3 backdrop-blur-md">
-          <span>Marvel Cinematic Universe</span>
-          <span className="w-1.5 h-1.5 rounded-full bg-rose-500 animate-pulse"></span>
-          <span>Official HD Trailers Available</span>
-        </div>
-        <h2
-          className="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-3 tracking-wide drop-shadow-md"
-          style={{ fontFamily: 'Avengers' }}
-        >
-          Marvel Movies Vault
-        </h2>
-        <p className="text-sm sm:text-base text-gray-300 leading-relaxed max-w-xl mx-auto">
-          Explore blockbuster films and upcoming sagas across Phase 1 to Phase 10. Click on any movie card to watch its official HD trailer!
-        </p>
-      </div>
-
-      {/* Filter and Search Bar Controls */}
-      <div className="w-full flex flex-col md:flex-row items-center justify-between gap-4 mb-8">
-        {/* Phase Filter Buttons */}
-        <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto pb-1 max-w-full hide-scrollbar">
-          {PHASES.map((phase) => (
-            <button
-              key={phase}
-              onClick={() => setSelectedPhase(phase)}
-              className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all duration-200 border whitespace-nowrap cursor-pointer ${
-                selectedPhase === phase
-                  ? 'bg-white text-black border-white shadow-lg scale-105'
-                  : 'bg-black/30 hover:bg-white/10 text-gray-300 border-white/15'
-              }`}
-            >
-              {phase}
-            </button>
-          ))}
+      {/* Section Container with Frosted Glass HUD */}
+      <div className="w-full bg-[#0d0d14]/95 border border-white/15 rounded-3xl p-5 sm:p-8 md:p-10 shadow-[0_15px_35px_rgba(0,0,0,0.6)] flex flex-col items-center">
+        {/* Section Header */}
+        <div className="text-center max-w-3xl mb-8">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-xs font-semibold text-gray-300 mb-3">
+            <span>Marvel Cinematic Universe Vault</span>
+            <span className="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
+            <span>66 Blockbusters • Official HD Trailers</span>
+          </div>
+          <h2
+            className="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-3 tracking-wide drop-shadow-md"
+            style={{ fontFamily: 'Avengers' }}
+          >
+            Marvel Movies Vault
+          </h2>
+          <p className="text-xs sm:text-sm text-gray-300 leading-relaxed max-w-xl mx-auto">
+            Explore blockbuster films and upcoming sagas across Phase 1 to Phase 10. Click any film card to stream its official HD trailer instantly!
+          </p>
         </div>
 
-        {/* Live Movie Search */}
-        <div className="w-full md:w-72 relative">
-          <input
-            type="text"
-            placeholder="Search movie or hero..."
-            value={movieQuery}
-            onChange={(e) => setMovieQuery(e.target.value)}
-            className="w-full bg-black/80 border-2 border-white/40 focus:border-white text-white placeholder-gray-200 font-medium text-xs sm:text-sm rounded-full px-4 py-2 outline-none backdrop-blur-md transition-all shadow-xl"
-          />
-          {movieQuery && (
-            <button
-              onClick={() => setMovieQuery('')}
-              className="absolute right-3.5 top-1/2 -translate-y-1/2 text-gray-300 hover:text-white text-xs cursor-pointer"
-            >
-              ✕
-            </button>
-          )}
+        {/* Filter and Search Bar Controls */}
+        <div className="w-full flex flex-col md:flex-row items-center justify-between gap-4 mb-8 border-b border-white/10 pb-6">
+          {/* Phase Filter Buttons */}
+          <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto pb-1 max-w-full hide-scrollbar">
+            {PHASES.map((phase) => (
+              <button
+                key={phase}
+                onClick={() => setSelectedPhase(phase)}
+                className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all duration-200 border whitespace-nowrap cursor-pointer ${
+                  selectedPhase === phase
+                    ? 'bg-white text-black border-white shadow-lg scale-105'
+                    : 'bg-[#14141e] hover:bg-[#1e1e2c] text-gray-300 border-white/15'
+                }`}
+              >
+                {phase}
+              </button>
+            ))}
+          </div>
+
+          {/* Live Movie Search & Results Count */}
+          <div className="flex items-center gap-3 w-full md:w-auto">
+            <span className="text-xs text-gray-400 font-mono hidden lg:inline-block">
+              {filteredMovies.length} {filteredMovies.length === 1 ? 'film' : 'films'} found
+            </span>
+            <div className="w-full md:w-72 relative">
+              <input
+                type="text"
+                placeholder="Search movie or hero..."
+                value={movieQuery}
+                onChange={(e) => setMovieQuery(e.target.value)}
+                className="w-full bg-black/90 border-2 border-white/30 focus:border-white text-white placeholder-gray-400 font-medium text-xs sm:text-sm rounded-full px-4 py-2 outline-none transition-all shadow-xl"
+              />
+              {movieQuery && (
+                <button
+                  onClick={() => setMovieQuery('')}
+                  className="absolute right-3.5 top-1/2 -translate-y-1/2 text-gray-300 hover:text-white text-xs cursor-pointer"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+          </div>
         </div>
-      </div>
 
-      {/* Movies Grid with Trailer Action */}
-      {filteredMovies.length > 0 ? (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-5 w-full">
-          {filteredMovies.map((movie) => (
-            <div
-              key={movie.id}
-              onClick={() => openTrailer(movie)}
-              className="group bg-black/40 hover:bg-black/60 rounded-2xl p-3 flex flex-col justify-between border border-white/10 hover:border-white/35 transition-all duration-300 backdrop-blur-md shadow-xl hover:-translate-y-1.5 hover:shadow-2xl cursor-pointer select-none"
-            >
-              {/* Poster Container with Play Icon Overlay */}
-              <div className="w-full overflow-hidden rounded-xl bg-gradient-to-b from-black/80 via-black/60 to-black/90 aspect-[2/3] relative mb-2.5 flex items-center justify-center p-1.5 border border-white/10 shadow-inner">
-                <img
-                  src={movie.poster}
-                  alt={movie.title}
-                  loading="lazy"
-                  decoding="async"
-                  onError={(e) => {
-                    if (e.target.src !== window.location.origin + '/marvel.png') {
-                      e.target.src = '/marvel.png';
-                    }
-                  }}
-                  className="w-full h-full object-contain filter drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)] transition-transform duration-300 group-hover:scale-105"
-                />
-                
-                {/* Year Badge */}
-                <span className="absolute top-2 right-2 px-2 py-0.5 rounded-md bg-black/80 backdrop-blur-md text-[10px] font-bold text-white border border-white/20 z-10 shadow-md">
-                  {movie.year}
-                </span>
+        {/* Movies Grid with Trailer Action */}
+        {filteredMovies.length > 0 ? (
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3.5 sm:gap-5 w-full">
+            {filteredMovies.map((movie, index) => (
+              <div
+                key={movie.id}
+                onClick={() => openTrailer(movie)}
+                className="group bg-[#111118] hover:bg-[#1a1a24] rounded-2xl p-2.5 sm:p-3 flex flex-col justify-between border border-white/10 hover:border-white/40 transition-all duration-200 shadow-lg hover:-translate-y-1 hover:shadow-2xl cursor-pointer select-none"
+              >
+                {/* Poster Container with Play Icon Overlay */}
+                <div className="w-full overflow-hidden rounded-xl bg-black aspect-[2/3] relative mb-2.5 flex items-center justify-center p-1 border border-white/10">
+                  <MarvelImage
+                    src={movie.poster}
+                    alt={movie.title}
+                    priority={index < 6}
+                    className="w-full h-full object-contain transition-transform duration-200 group-hover:scale-105"
+                    containerClassName="w-full h-full"
+                    skeletonClassName="rounded-xl"
+                  />
+                  
+                  {/* Year Badge */}
+                  <span className="absolute top-2 right-2 px-2 py-0.5 rounded-md bg-black/90 text-[10px] font-bold text-white border border-white/20 z-10 shadow-md">
+                    {movie.year}
+                  </span>
 
-                {/* Hover Play Button Overlay */}
-                <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-center justify-center backdrop-blur-[2px] rounded-xl">
-                  <div className="w-12 h-12 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-2xl transform scale-75 group-hover:scale-100 transition-transform duration-200 border border-white/40">
-                    <svg className="w-6 h-6 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
+                  {/* Hover Play Button Overlay */}
+                  <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-150 flex items-center justify-center rounded-xl z-20">
+                    <div className="w-11 h-11 rounded-full bg-red-600 text-white flex items-center justify-center shadow-2xl transform scale-75 group-hover:scale-100 transition-transform duration-150 border border-white/40">
+                      <svg className="w-5 h-5 ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card Meta & Trailer Button */}
+                <div className="flex flex-col flex-1 justify-between">
+                  <div>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-amber-400 block mb-0.5">
+                      {movie.phase}
+                    </span>
+                    <h3 className="text-xs sm:text-sm font-bold text-white leading-tight line-clamp-2 group-hover:text-amber-300 transition-colors">
+                      {movie.title}
+                    </h3>
+                  </div>
+
+                  <div className="mt-2 pt-2 border-t border-white/10 flex items-center justify-between">
+                    <span className="text-[11px] text-gray-400 font-medium truncate max-w-[65%]">
+                      {movie.hero}
+                    </span>
+                    <span className="inline-flex items-center gap-1 text-[11px] text-red-400 font-semibold group-hover:text-red-300">
+                      <span>Trailer</span>
+                      <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </span>
                   </div>
                 </div>
               </div>
-
-              {/* Card Meta & Trailer Button */}
-              <div className="flex flex-col flex-1 justify-between">
-                <div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-amber-400 block mb-0.5">
-                    {movie.phase}
-                  </span>
-                  <h3 className="text-xs sm:text-sm font-bold text-white leading-tight line-clamp-2 group-hover:text-amber-300 transition-colors">
-                    {movie.title}
-                  </h3>
-                </div>
-
-                <div className="mt-2 pt-2 border-t border-white/10 flex items-center justify-between">
-                  <span className="text-[11px] text-gray-400 font-medium truncate">
-                    {movie.hero}
-                  </span>
-                  <span className="inline-flex items-center gap-1 text-[11px] text-red-400 font-semibold group-hover:text-red-300">
-                    <span>Trailer</span>
-                    <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      ) : (
-        <div className="py-12 text-center text-gray-400 bg-black/20 border border-white/10 rounded-2xl w-full max-w-md">
-          <p className="text-sm font-medium">No movies found matching "{movieQuery}".</p>
-          <button
-            onClick={() => { setMovieQuery(''); setSelectedPhase('All'); }}
-            className="mt-3 px-4 py-1.5 text-xs bg-white/10 hover:bg-white/20 text-white rounded-lg border border-white/20"
-          >
-            Clear Filters
-          </button>
-        </div>
-      )}
+            ))}
+          </div>
+        ) : (
+          <div className="py-12 text-center text-gray-400 bg-black/20 border border-white/10 rounded-2xl w-full max-w-md">
+            <p className="text-sm font-medium">No movies found matching "{movieQuery}".</p>
+            <button
+              onClick={() => { setMovieQuery(''); setSelectedPhase('All'); }}
+              className="mt-3 px-4 py-1.5 text-xs bg-white/10 hover:bg-white/20 text-white rounded-lg border border-white/20"
+            >
+              Clear Filters
+            </button>
+          </div>
+        )}
+      </div>
 
       {/* Official HD Trailer Modal */}
       {activeTrailerMovie && (

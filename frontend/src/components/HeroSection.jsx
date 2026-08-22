@@ -1,7 +1,8 @@
 // src/components/HeroSection.jsx
-import { useEffect, useCallback, useMemo, useState, useRef } from 'react';
-import { motion } from 'framer-motion';
+import { useEffect, useCallback, useMemo, useState, useRef, memo } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import CharacterInfo from './CharacterInfo';
+import MarvelImage from './MarvelImage';
 import { useColorTheme } from '../ColorThemeContext';
 import { getCharacterTrailer } from '../utils/characterTrailers';
 
@@ -43,7 +44,6 @@ const isEndgameCharacter = (char) => {
   );
 };
 
-// Helper to categorize characters by name/powers
 const getCategoryForCharacter = (char) => {
   const name = char.name.toLowerCase();
   const desc = (char.description || '').toLowerCase();
@@ -160,40 +160,85 @@ const getCategoryForCharacter = (char) => {
   return 'avengers';
 };
 
+// High-Performance Memoized Thumbnail Button
+const RosterThumbnail = memo(({ char, isActive, onSelect }) => {
+  return (
+    <button
+      data-active={isActive}
+      onClick={() => onSelect(char.id)}
+      className={`flex-shrink-0 flex flex-col items-center p-2 rounded-xl transition-transform duration-150 border cursor-pointer select-none group ${
+        isActive
+          ? 'bg-white/20 border-white shadow-lg scale-105 ring-2 ring-white/50'
+          : 'bg-[#101016] hover:bg-[#181824] border-white/10 hover:border-white/30 opacity-75 hover:opacity-100'
+      }`}
+      style={{ width: '84px', scrollSnapAlign: 'center' }}
+      title={char.name}
+    >
+      <div className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden mb-1.5 bg-black/50 relative">
+        <MarvelImage
+          src={char.photo}
+          alt={char.name}
+          priority={isActive}
+          className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+          containerClassName="w-full h-full"
+        />
+      </div>
+      <span className="text-[11px] font-medium text-white truncate w-full text-center leading-tight">
+        {char.name}
+      </span>
+    </button>
+  );
+});
+RosterThumbnail.displayName = 'RosterThumbnail';
+
 const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacterIdx, characters }) => {
   const { setColor } = useColorTheme();
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [activeTrailerChar, setActiveTrailerChar] = useState(null);
   const rosterRef = useRef(null);
   const stageRef = useRef(null);
+  const preloadTimeoutRef = useRef(null);
 
-  // Synchronize color theme on character change without heavy DOM re-renders
+  // Synchronize color theme on character change
   useEffect(() => {
     if (currentCharacter?.bgColor) {
       setColor(currentCharacter.bgColor);
     }
   }, [currentCharacter, setColor]);
 
-  // Intelligent Image Preload Cache: Preloads 10 characters (5 ahead, 5 behind)
+  // Senior UI/UX: Prioritized, debounced preloader for immediate adjacent heroes only (±1 and ±2)
   useEffect(() => {
     if (!characters || characters.length === 0) return;
-    const total = characters.length;
-    const preloadIndices = [];
-    for (let offset = 1; offset <= 5; offset++) {
-      preloadIndices.push((currentCharacterIdx + offset) % total);
-      preloadIndices.push((currentCharacterIdx - offset + total) % total);
+
+    if (preloadTimeoutRef.current) {
+      clearTimeout(preloadTimeoutRef.current);
     }
 
-    preloadIndices.forEach((idx) => {
-      const char = characters[idx];
-      if (char?.photo) {
-        const img = new Image();
-        img.src = char.photo;
-      }
-    });
+    // Delay background prefetch by 120ms so it never interferes with active character render
+    preloadTimeoutRef.current = setTimeout(() => {
+      const total = characters.length;
+      const immediateIndices = [
+        (currentCharacterIdx + 1) % total,
+        (currentCharacterIdx - 1 + total) % total,
+        (currentCharacterIdx + 2) % total,
+        (currentCharacterIdx - 2 + total) % total,
+      ];
+
+      immediateIndices.forEach((idx) => {
+        const char = characters[idx];
+        if (char?.photo) {
+          const img = new Image();
+          img.src = char.photo;
+        }
+      });
+    }, 120);
+
+    return () => {
+      if (preloadTimeoutRef.current) clearTimeout(preloadTimeoutRef.current);
+    };
   }, [currentCharacterIdx, characters]);
 
-  // Auto-scroll to top of hero stage immediately on character change
+  // Auto-scroll to top of hero stage on character change
   useEffect(() => {
     if (typeof window !== 'undefined') {
       window.scrollTo(0, 0);
@@ -202,22 +247,23 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
     }
   }, [currentCharacterIdx]);
 
-  // Navigation handlers with instant response & top lock
+  // Navigation handlers with instant response
   const handleNextCharacter = useCallback(() => {
     setCurrentCharacterIdx((prev) => (prev + 1) % characters.length);
-    window.scrollTo(0, 0);
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
   }, [characters.length, setCurrentCharacterIdx]);
 
   const handlePrevCharacter = useCallback(() => {
     setCurrentCharacterIdx((prev) => (prev - 1 + characters.length) % characters.length);
-    window.scrollTo(0, 0);
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
   }, [characters.length, setCurrentCharacterIdx]);
 
-  // Keyboard navigation support (ArrowLeft / ArrowRight / T for trailer / Escape to close)
+  const handleSelectCharacterById = useCallback((id) => {
+    const originalIndex = characters.findIndex((c) => c.id === id);
+    if (originalIndex !== -1) {
+      setCurrentCharacterIdx(originalIndex);
+    }
+  }, [characters, setCurrentCharacterIdx]);
+
+  // Keyboard navigation support
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === 'Escape' && activeTrailerChar) {
@@ -252,7 +298,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
     };
   }, [activeTrailerChar]);
 
-  // Filter characters by category for the quick-roster bar
+  // Filter characters by category
   const filteredRoster = useMemo(() => {
     if (selectedCategory === 'all') {
       return characters;
@@ -263,6 +309,20 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
     return characters.filter((c) => getCategoryForCharacter(c) === selectedCategory);
   }, [characters, selectedCategory]);
 
+  // High-Performance Windowing: If filtered roster is large (>60 items), render a sliding window around active item
+  const visibleRosterItems = useMemo(() => {
+    if (filteredRoster.length <= 60) {
+      return filteredRoster;
+    }
+    const currentActiveIndex = filteredRoster.findIndex((c) => c.id === currentCharacter.id);
+    const center = currentActiveIndex >= 0 ? currentActiveIndex : 0;
+    const windowSize = 45; // Render 45 items instead of 1000 for instant 60fps scrolling
+    const half = Math.floor(windowSize / 2);
+    const start = Math.max(0, Math.min(filteredRoster.length - windowSize, center - half));
+    const end = Math.min(filteredRoster.length, start + windowSize);
+    return filteredRoster.slice(start, end);
+  }, [filteredRoster, currentCharacter.id]);
+
   // Auto-scroll active hero into view in the roster bar
   useEffect(() => {
     if (rosterRef.current) {
@@ -271,7 +331,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         activeEl.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
       }
     }
-  }, [currentCharacterIdx]);
+  }, [currentCharacterIdx, visibleRosterItems]);
 
   // Prev and next character names for background aesthetics
   const prevChar = characters[(currentCharacterIdx - 1 + characters.length) % characters.length];
@@ -282,13 +342,13 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
   return (
     <div
       ref={stageRef}
-      className="relative flex flex-col items-center justify-center w-full max-w-7xl mx-auto px-3 sm:px-6 md:px-12 py-1 sm:py-3"
+      className="relative flex flex-col items-center justify-center w-full max-w-7xl mx-auto px-3 sm:px-6 md:px-12 py-2 sm:py-4"
     >
-      {/* Background Character Names Watermark (GPU accelerated) */}
-      <div className="hidden md:flex absolute top-10 inset-x-0 justify-between items-center text-white/10 text-4xl sm:text-6xl lg:text-8xl font-black uppercase pointer-events-none select-none z-0 px-6 overflow-hidden tracking-tighter">
-        <span className="w-1/3 truncate text-left opacity-30">{prevChar.name}</span>
-        <span className="w-1/3 truncate text-center opacity-40 font-extrabold">{currentCharacter.name}</span>
-        <span className="w-1/3 truncate text-right opacity-30">{nextChar.name}</span>
+      {/* Background Character Names Subtle Watermark */}
+      <div className="hidden md:flex absolute top-4 inset-x-0 justify-between items-center text-white/[0.04] text-5xl sm:text-7xl lg:text-9xl font-black uppercase pointer-events-none select-none z-0 px-6 overflow-hidden tracking-tighter">
+        <span className="w-1/3 truncate text-left">{prevChar?.name}</span>
+        <span className="w-1/3 truncate text-center font-extrabold">{currentCharacter?.name}</span>
+        <span className="w-1/3 truncate text-right">{nextChar?.name}</span>
       </div>
 
       {/* Main Character Stage Row */}
@@ -297,7 +357,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         <div className="hidden md:flex items-center justify-center flex-shrink-0">
           <button
             onClick={handlePrevCharacter}
-            className="group flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/10 hover:bg-white/20 active:scale-90 border border-white/20 text-white text-2xl transition-all duration-200 backdrop-blur-md shadow-2xl hover:border-white/40 cursor-pointer"
+            className="group flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-[#12121a] hover:bg-[#1c1c28] active:scale-90 border border-white/20 text-white text-2xl transition-all duration-150 shadow-xl hover:border-white/40 cursor-pointer"
             aria-label="Previous character"
             title="Previous (or press Left Arrow)"
           >
@@ -310,38 +370,40 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         {/* Character Image Display Stage */}
         <div className="relative flex flex-col items-center justify-center w-full md:w-1/2">
           {/* Hero Counter Badge */}
-          <div className="mb-2 flex items-center gap-2 bg-black/40 border border-white/15 px-3 py-1 rounded-full backdrop-blur-md shadow-md text-xs font-semibold text-gray-300">
+          <div className="mb-3 flex items-center gap-2 bg-[#101018] border border-white/15 px-3.5 py-1 rounded-full shadow-md text-xs font-semibold text-gray-300">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span>Character #{currentCharacter.id} of {characters.length}</span>
+            <span>Hero NO. {String(currentCharacter?.id).padStart(4, '0')} of {characters.length}</span>
           </div>
 
           <div className="relative flex justify-center items-center w-full h-[36vh] sm:h-[46vh] md:h-[50vh] lg:h-[58vh] max-h-[520px]">
-            <motion.div
-              key={currentCharacter.id}
-              initial={{ opacity: 0, scale: 0.96, y: 10 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              transition={{ duration: 0.22, ease: [0.25, 1, 0.5, 1] }}
-              className="relative h-full w-full flex items-center justify-center"
-            >
-              <img
-                src={currentCharacter.photo}
-                alt={currentCharacter.name}
-                decoding="async"
-                fetchPriority="high"
-                onError={(e) => {
-                  if (e.target.src !== window.location.origin + '/marvel.png') {
-                    e.target.src = '/marvel.png';
-                  }
-                }}
-                className="h-full w-auto max-h-full max-w-full object-contain filter drop-shadow-[0_20px_35px_rgba(0,0,0,0.7)] select-none transition-transform duration-300 hover:scale-[1.03]"
-              />
-            </motion.div>
+            {/* Holographic Glowing Pedestal at base of hero */}
+            <div
+              className="absolute bottom-2 inset-x-8 h-12 rounded-[100%] blur-xl opacity-60 pointer-events-none transition-colors duration-700"
+              style={{
+                backgroundColor: currentCharacter?.bgColor || '#b71c1c',
+              }}
+            />
+            <div className="absolute bottom-4 w-40 sm:w-56 h-3 rounded-[100%] bg-white/25 blur-sm pointer-events-none" />
 
-            {/* Mobile Touch Quick Arrows (hidden on desktop >= md) */}
+            <div
+              key={currentCharacter?.id}
+              className="relative h-full w-full flex items-center justify-center z-10"
+            >
+              <MarvelImage
+                src={currentCharacter?.photo}
+                alt={currentCharacter?.name}
+                priority={true}
+                className="h-full w-auto max-h-full max-w-full object-contain select-none transition-transform duration-200 hover:scale-[1.02]"
+                containerClassName="h-full w-full flex items-center justify-center"
+                skeletonClassName="rounded-3xl"
+              />
+            </div>
+
+            {/* Mobile Touch Quick Arrows */}
             <div className="md:hidden absolute inset-y-0 left-0 flex items-center pl-0 z-20 pointer-events-auto">
               <button
                 onClick={handlePrevCharacter}
-                className="p-2.5 bg-black/40 hover:bg-black/70 active:scale-90 text-white rounded-full backdrop-blur-md border border-white/20 transition-all shadow-lg cursor-pointer"
+                className="p-2.5 bg-[#12121a]/90 hover:bg-[#1a1a24] active:scale-90 text-white rounded-full border border-white/20 transition-all shadow-lg cursor-pointer"
                 aria-label="Previous character"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -352,7 +414,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
             <div className="md:hidden absolute inset-y-0 right-0 flex items-center pr-0 z-20 pointer-events-auto">
               <button
                 onClick={handleNextCharacter}
-                className="p-2.5 bg-black/40 hover:bg-black/70 active:scale-90 text-white rounded-full backdrop-blur-md border border-white/20 transition-all shadow-lg cursor-pointer"
+                className="p-2.5 bg-[#12121a]/90 hover:bg-[#1a1a24] active:scale-90 text-white rounded-full border border-white/20 transition-all shadow-lg cursor-pointer"
                 aria-label="Next character"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -375,7 +437,7 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
         <div className="hidden md:flex items-center justify-center flex-shrink-0">
           <button
             onClick={handleNextCharacter}
-            className="group flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-white/10 hover:bg-white/20 active:scale-90 border border-white/20 text-white text-2xl transition-all duration-200 backdrop-blur-md shadow-2xl hover:border-white/40 cursor-pointer"
+            className="group flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-black/40 hover:bg-white/20 active:scale-90 border border-white/20 text-white text-2xl transition-all duration-200 backdrop-blur-xl shadow-2xl hover:border-white/40 cursor-pointer"
             aria-label="Next character"
             title="Next (or press Right Arrow)"
           >
@@ -387,27 +449,51 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
       </div>
 
       {/* Quick Interactive Roster Selector Strip */}
-      <div className="w-full mt-8 pt-4 border-t border-white/10 z-20">
-        {/* Category Filter Pills */}
-        <div className="flex items-center justify-between flex-wrap gap-2 mb-3">
+      <div className="w-full mt-10 pt-6 border-t border-white/10 z-20">
+        {/* Category Filter Pills & Header */}
+        <div className="flex items-center justify-between flex-wrap gap-3 mb-4">
           <div className="flex items-center gap-2 overflow-x-auto pb-1 hide-scrollbar max-w-full">
             {getCategories(characters?.length || 1000).map((cat) => (
               <button
                 key={cat.id}
                 onClick={() => setSelectedCategory(cat.id)}
-                className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all duration-200 border cursor-pointer ${
+                className={`px-3.5 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all duration-200 border cursor-pointer ${
                   selectedCategory === cat.id
-                    ? 'bg-white text-black border-white shadow-md scale-105'
-                    : 'bg-white/5 hover:bg-white/15 text-gray-300 border-white/10'
+                    ? 'bg-white text-black border-white shadow-lg scale-105'
+                    : 'bg-black/40 hover:bg-white/15 text-gray-300 border-white/15 backdrop-blur-md'
                 }`}
               >
                 {cat.label}
               </button>
             ))}
           </div>
-          <span className="text-xs text-gray-400 font-medium hidden sm:inline-block">
-            Keyboard: Use <kbd className="px-1.5 py-0.5 bg-white/10 rounded border border-white/20 text-[10px]">←</kbd> <kbd className="px-1.5 py-0.5 bg-white/10 rounded border border-white/20 text-[10px]">→</kbd> to browse
-          </span>
+
+          <div className="flex items-center gap-2">
+            <span className="text-xs text-gray-400 font-medium hidden sm:inline-block">
+              Keyboard: <kbd className="px-1.5 py-0.5 bg-white/10 rounded border border-white/20 text-[10px]">←</kbd> <kbd className="px-1.5 py-0.5 bg-white/10 rounded border border-white/20 text-[10px]">→</kbd>
+            </span>
+            {/* Desktop Roster Carousel Arrow Controls */}
+            <button
+              onClick={() => rosterRef.current?.scrollBy({ left: -240, behavior: 'smooth' })}
+              className="hidden md:flex p-1.5 rounded-lg bg-black/40 hover:bg-white/20 border border-white/20 text-white transition-all cursor-pointer"
+              aria-label="Scroll heroes left"
+              title="Scroll left"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <button
+              onClick={() => rosterRef.current?.scrollBy({ left: 240, behavior: 'smooth' })}
+              className="hidden md:flex p-1.5 rounded-lg bg-black/40 hover:bg-white/20 border border-white/20 text-white transition-all cursor-pointer"
+              aria-label="Scroll heroes right"
+              title="Scroll right"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
         </div>
 
         {/* Horizontal Character Thumbnail Strip */}
@@ -416,46 +502,21 @@ const HeroSection = ({ currentCharacter, setCurrentCharacterIdx, currentCharacte
           className="flex items-center gap-3 overflow-x-auto pb-3 pt-1 hide-scrollbar scroll-smooth"
           style={{ scrollSnapType: 'x mandatory' }}
         >
-          {filteredRoster.map((char) => {
-            const isActive = char.id === currentCharacter.id;
-            const originalIndex = characters.findIndex((c) => c.id === char.id);
+          {visibleRosterItems.map((char) => {
+            const isActive = char.id === currentCharacter?.id;
             return (
-              <button
+              <RosterThumbnail
                 key={char.id}
-                data-active={isActive}
-                onClick={() => setCurrentCharacterIdx(originalIndex)}
-                className={`flex-shrink-0 flex flex-col items-center p-2 rounded-xl transition-all duration-200 border cursor-pointer select-none group ${
-                  isActive
-                    ? 'bg-white/20 border-white shadow-xl scale-105 ring-2 ring-white/50'
-                    : 'bg-black/30 hover:bg-white/10 border-white/10 hover:border-white/30 opacity-70 hover:opacity-100'
-                }`}
-                style={{ width: '84px', scrollSnapAlign: 'center' }}
-                title={char.name}
-              >
-                <div className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden mb-1.5 bg-black/40">
-                  <img
-                    src={char.photo}
-                    alt={char.name}
-                    loading="lazy"
-                    decoding="async"
-                    onError={(e) => {
-                      if (e.target.src !== window.location.origin + '/marvel.png') {
-                        e.target.src = '/marvel.png';
-                      }
-                    }}
-                    className="w-full h-full object-contain filter drop-shadow group-hover:scale-110 transition-transform"
-                  />
-                </div>
-                <span className="text-[11px] font-medium text-white truncate w-full text-center leading-tight">
-                  {char.name}
-                </span>
-              </button>
+                char={char}
+                isActive={isActive}
+                onSelect={handleSelectCharacterById}
+              />
             );
           })}
         </div>
       </div>
 
-      {/* Official HD Character Trailer Modal for All 1000 Characters */}
+      {/* Official HD Character Trailer Modal */}
       {activeTrailerChar && currentTrailer && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/85 backdrop-blur-xl animate-fadeIn"

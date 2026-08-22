@@ -1,6 +1,7 @@
 // src/components/CharacterInfo.jsx
 import { memo } from 'react';
 import { motion } from 'framer-motion';
+import MarvelImage from './MarvelImage';
 
 const CharacterInfo = ({ character, onWatchTrailer }) => {
   if (!character) return null;
@@ -13,105 +14,113 @@ const CharacterInfo = ({ character, onWatchTrailer }) => {
     }
   };
 
+  const isAlive = (character.death || '').toLowerCase().includes('alive');
+  const isRetired = (character.death || '').toLowerCase().includes('retired');
+
   return (
-    <motion.div
+    <div
       key={character.id}
-      initial={{ opacity: 0, x: 15 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.25, ease: [0.25, 1, 0.5, 1] }}
-      className="w-full max-w-xl space-y-3 sm:space-y-4 px-2 sm:px-4 text-center sm:text-left flex flex-col items-center sm:items-start"
+      className="w-full max-w-xl bg-[#0d0d14]/90 border border-white/15 rounded-3xl p-5 sm:p-7 shadow-[0_15px_35px_rgba(0,0,0,0.6)] flex flex-col items-center sm:items-start text-center sm:text-left gap-4 relative overflow-hidden"
     >
-      {/* Identity Badges & Hero Mini-Portrait */}
-      <div className="flex items-center gap-3 w-full justify-center sm:justify-start">
+      {/* Header Bar: Mini Emblem & Tactical Meta Badges */}
+      <div className="flex items-center gap-3 w-full justify-center sm:justify-start flex-wrap">
         {character.photo && (
-          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-black/40 border border-white/30 p-1 flex-shrink-0 shadow-lg flex items-center justify-center overflow-hidden">
-            <img
+          <div className="w-12 h-12 rounded-2xl bg-black/60 border border-white/20 p-1 flex-shrink-0 shadow-md flex items-center justify-center overflow-hidden">
+            <MarvelImage
               src={character.photo}
               alt={character.name}
-              className="w-full h-full object-contain filter drop-shadow"
-              onError={(e) => {
-                if (e.target.src !== window.location.origin + '/marvel.png') {
-                  e.target.src = '/marvel.png';
-                }
-              }}
+              priority={true}
+              className="w-full h-full object-contain"
+              containerClassName="w-full h-full"
+              skeletonClassName="rounded-xl"
             />
           </div>
         )}
         <div className="flex flex-col items-center sm:items-start gap-1">
-          <div className="flex items-center gap-1.5 flex-wrap justify-center sm:justify-start">
-            <span className="bg-white/10 text-white text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full border border-white/20">
+          <div className="flex items-center gap-2 flex-wrap justify-center sm:justify-start">
+            <span className="bg-white/10 text-white text-[10px] font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full border border-white/20">
               Marvel Character
             </span>
             {character.id && (
-              <span className="bg-black/40 text-gray-300 text-[10px] font-mono font-medium px-2 py-0.5 rounded-md border border-white/10">
-                ID #{String(character.id).padStart(4, '0')}
+              <span className="bg-black/60 text-gray-300 text-[10px] font-mono font-bold px-2.5 py-0.5 rounded-full border border-white/15">
+                NO. {String(character.id).padStart(4, '0')}
               </span>
             )}
-            <span className="bg-red-600/80 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border border-red-500/40 flex items-center gap-1 shadow-sm">
-              <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
-              {character.trailerCategory || 'HD Trailer Ready'}
+            <span className="bg-red-600/90 text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full border border-red-400/40 flex items-center gap-1.5 shadow-sm">
+              <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span>
+              {character.trailerCategory || 'HD Trailer'}
             </span>
           </div>
         </div>
       </div>
 
-      {/* Main Name */}
-      <h1
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black uppercase leading-tight tracking-wide break-words drop-shadow-lg"
-        style={{ fontFamily: character.fontFamily || 'Avengers' }}
-      >
-        {character.name}
-      </h1>
+      {/* Main Name & Alias */}
+      <div className="w-full">
+        <h1
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black uppercase leading-tight tracking-wide break-words text-white"
+          style={{ fontFamily: character.fontFamily || 'Avengers' }}
+        >
+          {character.name}
+        </h1>
 
-      {/* Real Name */}
-      {character.originalName && (
-        <h2 className="text-base sm:text-lg md:text-xl font-medium text-gray-200/90 -mt-1">
-          <span className="text-sm sm:text-base md:text-lg font-normal text-gray-300 block italic">
+        {character.originalName && (
+          <h2 className="text-sm sm:text-base md:text-lg font-medium text-gray-300 mt-0.5 italic">
             "{character.originalName}"
-          </span>
-        </h2>
-      )}
+          </h2>
+        )}
+      </div>
 
       {/* Description */}
-      <p className="text-gray-200 text-xs sm:text-sm md:text-base max-w-lg leading-relaxed font-normal backdrop-blur-xs">
+      <p className="text-gray-200 text-xs sm:text-sm leading-relaxed font-normal">
         {character.description}
       </p>
 
-      {/* Powers & Abilities */}
+      {/* Powers & Tactical Abilities Grid */}
       {character.powers && (
-        <div className="bg-black/30 border border-white/10 rounded-xl p-3 max-w-lg w-full text-left backdrop-blur-md">
-          <span className="text-xs uppercase font-bold tracking-wider text-white/70 block mb-1">
-            ⚡ Powers & Abilities
-          </span>
-          <p className="text-gray-200 text-xs sm:text-sm leading-relaxed">
+        <div className="bg-black/40 border border-white/15 rounded-2xl p-3.5 w-full text-left">
+          <div className="flex items-center gap-1.5 mb-1.5">
+            <span className="text-amber-400 text-xs">⚡</span>
+            <span className="text-[11px] uppercase font-bold tracking-wider text-amber-300">
+              Powers & Combat Capabilities
+            </span>
+          </div>
+          <p className="text-gray-300 text-xs leading-relaxed font-normal">
             {character.powers}
           </p>
         </div>
       )}
 
-      {/* Origin & Timeline Metadata */}
-      <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2 sm:gap-3 text-xs text-gray-300 mt-1">
+      {/* Origin & Operational Status Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 w-full text-xs text-gray-300">
         {character.birth && (
-          <div className="bg-white/10 px-3 py-1.5 rounded-lg border border-white/15 backdrop-blur-sm flex items-center gap-1.5 shadow-sm">
-            <span className="text-emerald-400">✦</span>
-            <span><strong className="text-white">Origin:</strong> {character.birth}</span>
+          <div className="bg-white/[0.05] hover:bg-white/[0.08] px-3.5 py-2 rounded-xl border border-white/15 flex items-center gap-2 transition-colors">
+            <span className="text-emerald-400 text-sm">✦</span>
+            <div className="flex flex-col min-w-0">
+              <span className="text-[10px] text-gray-400 uppercase font-semibold tracking-wider">Origin</span>
+              <span className="text-white font-medium text-xs truncate">{character.birth}</span>
+            </div>
           </div>
         )}
         {character.death && (
-          <div className="bg-white/10 px-3 py-1.5 rounded-lg border border-white/15 backdrop-blur-sm flex items-center gap-1.5 shadow-sm">
-            <span className="text-rose-400">✦</span>
-            <span><strong className="text-white">Status:</strong> {character.death}</span>
+          <div className="bg-white/[0.05] hover:bg-white/[0.08] px-3.5 py-2 rounded-xl border border-white/15 flex items-center gap-2 transition-colors">
+            <span className={`text-sm ${isAlive ? 'text-emerald-400' : isRetired ? 'text-cyan-400' : 'text-rose-400'}`}>
+              ●
+            </span>
+            <div className="flex flex-col min-w-0">
+              <span className="text-[10px] text-gray-400 uppercase font-semibold tracking-wider">Status</span>
+              <span className="text-white font-medium text-xs truncate">{character.death}</span>
+            </div>
           </div>
         )}
       </div>
 
       {/* Interactive Actions: Watch Trailer & View Film Timeline */}
-      <div className="pt-2 flex flex-wrap items-center justify-center sm:justify-start gap-3">
+      <div className="pt-2 flex flex-wrap items-center justify-center sm:justify-start gap-3 w-full border-t border-white/10 mt-1">
         {/* Watch Character Trailer Button */}
         <button
           type="button"
           onClick={() => onWatchTrailer && onWatchTrailer(character)}
-          className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-red-600 via-rose-600 to-red-700 text-white font-bold text-xs sm:text-sm uppercase tracking-wider hover:from-red-500 hover:to-rose-600 active:scale-95 transition-all shadow-lg hover:shadow-red-600/40 cursor-pointer border border-red-400/30 group"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-red-600 via-rose-600 to-red-700 text-white font-bold text-xs sm:text-sm uppercase tracking-wider hover:from-red-500 hover:to-rose-600 active:scale-95 transition-all shadow-[0_8px_20px_rgba(220,38,38,0.4)] cursor-pointer border border-red-400/40 group"
           id="character-trailer-btn"
           title="Watch Official HD Trailer (Press 'T')"
         >
@@ -128,15 +137,15 @@ const CharacterInfo = ({ character, onWatchTrailer }) => {
         <a
           href="#timeline-section"
           onClick={scrollToTimeline}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white font-semibold text-xs sm:text-sm uppercase tracking-wider active:scale-95 transition-all border border-white/20 shadow-md backdrop-blur-sm"
+          className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs sm:text-sm uppercase tracking-wider active:scale-95 transition-all border border-white/20 shadow-md backdrop-blur-sm"
         >
-          <span>View Film Timeline</span>
+          <span>Film Timeline</span>
           <svg className="w-4 h-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </a>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
